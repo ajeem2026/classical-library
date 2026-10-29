@@ -3,7 +3,7 @@ LIBRARY ?= $(HOME)/Music/Classical
 STAGING ?= staging
 PORT    ?= 8000
 
-.PHONY: setup plan download tag docs timings add serve publish
+.PHONY: setup plan download tag docs timings loudness add serve publish
 
 setup:            ## create the venv with mutagen
 	python3 -m venv .venv
@@ -27,7 +27,10 @@ docs:             ## regenerate LIBRARY.md and the player's library.json
 timings:          ## re-place the history notes' cues from your local recordings
 	$(PY) -I tools/note_timing.py $(LIBRARY)
 
-add: download tag docs   ## after editing tools/catalogue.py
+loudness:         ## measure each recording's loudness, for the listening page (new tracks only)
+	$(PY) -I tools/loudness.py $(LIBRARY)
+
+add: download tag loudness docs   ## after editing tools/catalogue.py
 
 serve:            ## run the player locally against your own files
 	$(PY) -I tools/serve.py web $(LIBRARY) $(PORT)

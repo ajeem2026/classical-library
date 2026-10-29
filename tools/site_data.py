@@ -94,6 +94,33 @@ def tempi(heading):
     return out
 
 
+# Tempo buckets for the listening page, slowest first. Each marking's leading word decides.
+PACE = ["Largo", "Adagio", "Andante", "Moderato", "Allegro", "Presto"]
+PACE_WORDS = {"Largo": 0, "Lento": 0, "Adagio": 1, "Sostenuto": 1, "Andante": 2, "Andantino": 2,
+              "Moto": 2, "Moderato": 3, "Allegretto": 3, "Allegro": 4, "Vivace": 4, "Giga": 4,
+              "Presto": 5, "Prestissimo": 5}
+
+
+def pace(marking):
+    """'Un poco sostenuto' -> 1 (Adagio); 'Allegro con brio' -> 4; unknown -> None."""
+    for word in marking.replace(",", " ").split():
+        if word.capitalize() in PACE_WORDS:
+            return PACE_WORDS[word.capitalize()]
+    return None
+
+
+# Loudness: each 10-second stretch marked q(uiet), m(iddle) or l(oud) against the whole
+# library's thirds, from data/loudness.json (tools/loudness.py).
+loud_path = os.path.join(ROOT, "data", "loudness.json")
+LOUD = json.load(open(loud_path)) if os.path.exists(loud_path) else {}
+levels = sorted(x for w in LOUD.values() for t in w.values() for x in t)
+QUIET_DB, LOUD_DB = (levels[len(levels) // 3], levels[2 * len(levels) // 3]) if levels else (0, 0)
+
+
+def marks(profile):
+    return "".join("q" if x < QUIET_DB else "l" if x >= LOUD_DB else "m" for x in profile)
+
+
 def movement_key(w, n, count):
     """The movement's key, when known: listed in MKEYS, or the home key for outer movements and variation sets."""
     known = MKEYS.get(album(w), {})
@@ -123,9 +150,14 @@ for t in tracks:
     count = len(w["mov"])
     entry["tempo"] = tempi(t["title"].split(": ", 1)[1] if ": " in t["title"] else "")
     entry["key"] = movement_key(w, t["n"], count)
+    entry["pace"] = [pace(x) for x in entry["tempo"]]
+    profile = LOUD.get(album(w), {}).get(str(t["n"]))
+    if profile:
+        entry["loud"] = marks(profile)
     works[key]["tracks"].append(entry)
 
-out = dict(source=ITEM_URL, works=list(works.values()))
+out = dict(source=ITEM_URL, pace=PACE, loud_step=10,
+           loud_db=dict(quiet_below=QUIET_DB, loud_from=LOUD_DB), works=list(works.values()))
 dest = os.path.join(ROOT, "web", "library.json")
 json.dump(out, open(dest, "w"), ensure_ascii=False, indent=1)
 print(f"wrote {dest}: {len(out['works'])} works, {len(tracks)} tracks")

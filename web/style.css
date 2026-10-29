@@ -43,6 +43,11 @@ a { color: inherit; }
   position: absolute; z-index: 2; top: var(--gutter); left: var(--gutter); margin: 0;
   font: 400 28px/1.1 var(--font-display); letter-spacing: -0.01em;
 }
+.stage-nav {
+  position: absolute; z-index: 2; top: calc(var(--gutter) + 6px); right: var(--gutter);
+  color: var(--ink-2); font: italic 400 17px/1.2 var(--font-display); text-underline-offset: 4px;
+}
+.stage-nav:hover { color: var(--ink); }
 .stage-canvas { position: absolute; inset: 0; display: grid; place-items: center; }
 .stage-canvas canvas { display: block; width: 100%; height: 100%; }
 .placeholder-head { height: min(72%, 640px); color: var(--ink); opacity: 0.55; }

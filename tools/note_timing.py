@@ -5,32 +5,12 @@ Decodes each track with ffmpeg into a one-second loudness curve, resolves each
 note's cue (see NOTES in catalogue.py) and writes data/note_timings.json. Every
 time resolved from a cue or fraction is a candidate, marked "check by ear".
 """
-import json, math, os, subprocess, sys
+import json, os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from catalogue import NOTES, WORKS, album
 from library import ROOT, listing, plan
-
-RATE = 4000  # Hz; plenty for loudness
-
-
-def loudness(path):
-    """Loudness in dB per second of audio."""
-    raw = subprocess.run(
-        ["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", str(RATE), "-f", "s16le", "-"],
-        check=True, capture_output=True).stdout
-    n = len(raw) // 2
-    samples = memoryview(raw).cast("h")
-    out = []
-    for s in range(0, n - RATE + 1, RATE):
-        acc = 0
-        for i in range(s, s + RATE, 4):  # every 4th sample is enough for RMS
-            v = samples[i]
-            acc += v * v
-        rms = math.sqrt(acc / (RATE / 4)) / 32768
-        out.append(20 * math.log10(rms + 1e-6))
-    return out
-
+from loudness import loudness
 
 def window(curve, size):
     """Mean over a centred window of `size` seconds."""

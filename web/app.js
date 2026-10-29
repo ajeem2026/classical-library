@@ -236,6 +236,38 @@ function noteAt(track, time) {
   return null;
 }
 
+// ---- Listening log: seconds actually heard, kept only in this browser ----
+// One entry per stretch of uninterrupted playback: { t: start (ms), k: album, n: movement,
+// a: start position (s), s: seconds heard }. Seeks, skips and pauses close the stretch, and
+// only small forward steps of the playhead count, so jumping around adds nothing.
+const LOG_KEY = "cl:listening";
+let stretch = null, lastPos = null;
+function closeStretch() {
+  if (stretch && stretch.s >= 1) {
+    stretch.s = Math.round(stretch.s * 10) / 10;
+    try {
+      const log = JSON.parse(localStorage.getItem(LOG_KEY) || "[]");
+      log.push(stretch);
+      localStorage.setItem(LOG_KEY, JSON.stringify(log));
+    } catch {}
+  }
+  stretch = null;
+}
+function heard() {
+  const pos = audio.currentTime;
+  const step = lastPos === null ? 0 : pos - lastPos;
+  lastPos = pos;
+  if (!state.current || audio.paused || step <= 0 || step > 1.5) return;
+  const { work, index } = state.current;
+  if (!stretch) stretch = { t: Date.now(), k: work.album, n: work.tracks[index].n, a: Math.round(pos - step), s: 0 };
+  stretch.s += step;
+  if (stretch.s >= 60) closeStretch();   // flush each minute, so a closed tab loses little
+}
+audio.addEventListener("seeking", () => { closeStretch(); lastPos = null; });
+audio.addEventListener("pause", closeStretch);
+audio.addEventListener("emptied", () => { closeStretch(); lastPos = null; });
+window.addEventListener("pagehide", closeStretch);
+
 // ---- Playback ----
 function play(work, index, startAt = 0) {
   const t = work.tracks[index];
@@ -303,6 +335,7 @@ audio.addEventListener("timeupdate", () => {
   if (!seeking && isFinite(dur)) $("seek").value = String((audio.currentTime / dur) * 1000);
   if (Date.now() - lastSaved > 5000) { lastSaved = Date.now(); save("position", audio.currentTime); }
   if (state.current) setNote(noteAt(state.current.work.tracks[state.current.index], audio.currentTime));
+  heard();
 });
 
 $("seek").addEventListener("input", () => (seeking = true));
