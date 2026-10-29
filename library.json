@@ -6,6 +6,7 @@
    "composer": "Ludwig van Beethoven",
    "surname": "Beethoven",
    "album": "Symphony No. 3 in E-flat major, Op. 55",
+   "work": "Symphony No. 3",
    "catalogue": "Op. 55",
    "key": "E-flat major",
    "performers": "Czech National Symphony Orchestra",
@@ -15,25 +16,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/beethoven.jpg",
-    "credit": "Portrait: Joseph Karl Stieler, 1820. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "You wrote Bonaparte’s name on the title page. What happened?"
-     },
-     {
-      "who": "them",
-      "text": "He made himself emperor. Now he will trample the rights of man. I tore the page in two."
-     },
-     {
-      "who": "me",
-      "text": "And the horn that comes in early?"
-     },
-     {
-      "who": "them",
-      "text": "At the first rehearsal Ries thought the player was wrong, and said so. He nearly had his ears boxed."
-     }
-    ]
+    "credit": "Portrait: Joseph Karl Stieler, 1820. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -60,7 +43,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro con brio"
+     ],
+     "key": "E-flat major"
     },
     {
      "n": 2,
@@ -75,7 +62,11 @@
        "text": "A funeral march in C minor: a ternary march, large and amply developed, its main theme returning like a refrain.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio assai"
+     ],
+     "key": "C minor"
     },
     {
      "n": 3,
@@ -91,7 +82,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro vivace"
+     ],
+     "key": "E-flat major"
     },
     {
      "n": 4,
@@ -106,7 +101,11 @@
        "text": "The finale’s theme comes from Beethoven’s own ballet The Creatures of Prometheus, about the Titan who brought fire to humankind.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro molto"
+     ],
+     "key": "E-flat major"
     }
    ]
   },
@@ -115,6 +114,7 @@
    "composer": "Johannes Brahms",
    "surname": "Brahms",
    "album": "Symphony No. 1 in C minor, Op. 68",
+   "work": "Symphony No. 1",
    "catalogue": "Op. 68",
    "key": "C minor",
    "performers": "Czech National Symphony Orchestra",
@@ -124,25 +124,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/brahms.jpg",
-    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Twenty-one years on one symphony?"
-     },
-     {
-      "who": "them",
-      "text": "After Beethoven, a symphony had to carry real weight. I was not going to hurry it."
-     },
-     {
-      "who": "me",
-      "text": "And the horn tune in the finale?"
-     },
-     {
-      "who": "them",
-      "text": "I sent it to Clara on a card in 1868. ‘Thus blew the shepherd’s horn today.’"
-     }
-    ]
+    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -163,7 +145,13 @@
        "text": "The introduction climbs and falls against a pounding low C in the timpani, Brahms announcing his symphony under Beethoven’s shadow.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Un poco sostenuto",
+      "Allegro",
+      "Meno allegro"
+     ],
+     "key": "C minor"
     },
     {
      "n": 2,
@@ -179,7 +167,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Andante sostenuto"
+     ],
+     "key": "E major"
     },
     {
      "n": 3,
@@ -194,7 +186,11 @@
        "text": "Instead of a Beethoven-style scherzo, a gentle intermezzo: ‘a little allegretto, graceful’.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Un poco allegretto e grazioso"
+     ],
+     "key": "A-flat major"
     },
     {
      "n": 4,
@@ -216,7 +212,14 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio",
+      "Più andante",
+      "Allegro non troppo, ma con brio",
+      "Più allegro"
+     ],
+     "key": "C minor"
     }
    ]
   },
@@ -225,6 +228,7 @@
    "composer": "Johannes Brahms",
    "surname": "Brahms",
    "album": "Symphony No. 2 in D major, Op. 73",
+   "work": "Symphony No. 2",
    "catalogue": "Op. 73",
    "key": "D major",
    "performers": "Czech National Symphony Orchestra",
@@ -234,17 +238,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/brahms.jpg",
-    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "You told your publisher this one was unbearably melancholy."
-     },
-     {
-      "who": "them",
-      "text": "I did. Then he heard it. A summer by the lake at Pörtschach does not make a sad symphony."
-     }
-    ]
+    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -271,7 +265,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro non troppo"
+     ],
+     "key": "D major"
     },
     {
      "n": 2,
@@ -286,7 +284,11 @@
        "text": "Adagio non troppo, in B major: the most searching movement, opening with a long, wandering cello melody.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio non troppo"
+     ],
+     "key": "B major"
     },
     {
      "n": 3,
@@ -301,7 +303,11 @@
        "text": "A gentle dance in G major led by the oboe, twice interrupted by quicker Presto episodes built from the same tune.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegretto grazioso (quasi andantino)"
+     ],
+     "key": "G major"
     },
     {
      "n": 4,
@@ -317,7 +323,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro con spirito"
+     ],
+     "key": "D major"
     }
    ]
   },
@@ -326,6 +336,7 @@
    "composer": "Johannes Brahms",
    "surname": "Brahms",
    "album": "Symphony No. 3 in F major, Op. 90",
+   "work": "Symphony No. 3",
    "catalogue": "Op. 90",
    "key": "F major",
    "performers": "Czech National Symphony Orchestra",
@@ -335,25 +346,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/brahms.jpg",
-    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "F, A, F. What does it mean?"
-     },
-     {
-      "who": "them",
-      "text": "Frei aber froh. Free, but happy. Joachim’s motto was ‘free but lonely’. At fifty, I chose mine."
-     },
-     {
-      "who": "me",
-      "text": "Why let it end so quietly?"
-     },
-     {
-      "who": "them",
-      "text": "Everyone expects thunder at the end of a symphony. I let the motto settle instead."
-     }
-    ]
+    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -374,7 +367,11 @@
        "text": "Listen for the motto F–A–F in the opening chords. It runs through the whole symphony, often read as Brahms’s ‘free but happy’.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro con brio"
+     ],
+     "key": "F major"
     },
     {
      "n": 2,
@@ -389,7 +386,11 @@
        "text": "A quiet Andante in C major, opening with clarinets and bassoons like a hymn.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante"
+     ],
+     "key": "C major"
     },
     {
      "n": 3,
@@ -404,7 +405,11 @@
        "text": "Poco allegretto in C minor: the cellos sing one of Brahms’s best-known melodies, later taken up by the horn.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Poco allegretto"
+     ],
+     "key": "C minor"
     },
     {
      "n": 4,
@@ -420,7 +425,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro"
+     ],
+     "key": "F major"
     }
    ]
   },
@@ -429,6 +438,7 @@
    "composer": "Johannes Brahms",
    "surname": "Brahms",
    "album": "Symphony No. 4 in E minor, Op. 98",
+   "work": "Symphony No. 4",
    "catalogue": "Op. 98",
    "key": "E minor",
    "performers": "Czech National Symphony Orchestra",
@@ -438,25 +448,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/brahms.jpg",
-    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "The finale goes back to Bach."
-     },
-     {
-      "who": "them",
-      "text": "A chaconne from his cantata ‘Nach dir, Herr, verlanget mich’. My last symphony ends on his ground."
-     },
-     {
-      "who": "me",
-      "text": "And the triangle?"
-     },
-     {
-      "who": "them",
-      "text": "Once, in four symphonies. Let it ring."
-     }
-    ]
+    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -477,7 +469,11 @@
        "text": "The violins open with a chain of falling thirds, sighing two notes at a time.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro non troppo"
+     ],
+     "key": "E minor"
     },
     {
      "n": 2,
@@ -492,7 +488,11 @@
        "text": "Horns announce the theme in the old Phrygian church mode before the strings warm it into E major.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante moderato"
+     ],
+     "key": "E major"
     },
     {
      "n": 3,
@@ -507,7 +507,11 @@
        "text": "The only scherzo-like movement in Brahms’s symphonies, and the only one with a triangle. Listen for it.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro giocoso"
+     ],
+     "key": "C major"
     },
     {
      "n": 4,
@@ -528,7 +532,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro energico e passionato"
+     ],
+     "key": "E minor"
     }
    ]
   },
@@ -537,6 +545,7 @@
    "composer": "Pyotr Ilyich Tchaikovsky",
    "surname": "Tchaikovsky",
    "album": "Symphony No. 6 in B minor, Op. 74",
+   "work": "Symphony No. 6",
    "catalogue": "Op. 74",
    "key": "B minor",
    "performers": "Czech National Symphony Orchestra",
@@ -546,25 +555,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/tchaikovsky.jpg",
-    "credit": "Portrait: Émile Reutlinger, 1888,[1] published 1904. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "You conducted this nine days before you died."
-     },
-     {
-      "who": "them",
-      "text": "I did not know that. I only wrote to my brother that I believed it the best of my works."
-     },
-     {
-      "who": "me",
-      "text": "Why end slowly?"
-     },
-     {
-      "who": "them",
-      "text": "Symphonies end in triumph. This one ends very quietly, in the low strings."
-     }
-    ]
+    "credit": "Portrait: Émile Reutlinger, 1888,[1] published 1904. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -591,7 +582,12 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio",
+      "Allegro non troppo"
+     ],
+     "key": "B minor"
     },
     {
      "n": 2,
@@ -606,7 +602,11 @@
        "text": "A waltz with five beats to the bar, described as ‘limping’: graceful, but never quite settling.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro con grazia"
+     ],
+     "key": "D major"
     },
     {
      "n": 3,
@@ -622,7 +622,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro molto vivace"
+     ],
+     "key": "G major"
     },
     {
      "n": 4,
@@ -638,7 +642,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio lamentoso"
+     ],
+     "key": "B minor"
     }
    ]
   },
@@ -647,6 +655,7 @@
    "composer": "Ludwig van Beethoven",
    "surname": "Beethoven",
    "album": "String Quartet No. 6 in B-flat major, Op. 18 No. 6",
+   "work": "String Quartet No. 6",
    "catalogue": "Op. 18 No. 6",
    "key": "B-flat major",
    "performers": "Musopen String Quartet",
@@ -656,25 +665,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/beethoven.jpg",
-    "credit": "Portrait: Joseph Karl Stieler, 1820. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Why call the last movement ‘melancholy’?"
-     },
-     {
-      "who": "them",
-      "text": "Because it is. I wrote that it must be played with the greatest delicacy."
-     },
-     {
-      "who": "me",
-      "text": "Then a dance breaks in."
-     },
-     {
-      "who": "them",
-      "text": "The dance tries to forget. The melancholy keeps coming back."
-     }
-    ]
+    "credit": "Portrait: Joseph Karl Stieler, 1820. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -695,7 +686,11 @@
        "text": "Allegro con brio: a quick, bright conversation tossed between first violin and cello.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro con brio"
+     ],
+     "key": "B-flat major"
     },
     {
      "n": 2,
@@ -710,7 +705,11 @@
        "text": "A gentle Adagio in E-flat major, the quartet’s quietest movement.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio ma non troppo"
+     ],
+     "key": "E-flat major"
     },
     {
      "n": 3,
@@ -725,7 +724,11 @@
        "text": "A ‘tour de force of syncopation’: listen for accents that keep landing where the beat isn’t.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro"
+     ],
+     "key": "B-flat major"
     },
     {
      "n": 4,
@@ -740,7 +743,12 @@
        "text": "‘La Malinconia’, melancholy. Beethoven marked it to be played ‘with the greatest delicacy’. It alternates with a carefree dance until the two collide.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio",
+      "Allegretto quasi allegro"
+     ],
+     "key": "B-flat major"
     }
    ]
   },
@@ -749,6 +757,7 @@
    "composer": "Alexander Borodin",
    "surname": "Borodin",
    "album": "String Quartet No. 1 in A major",
+   "work": "String Quartet No. 1",
    "catalogue": "",
    "key": "A major",
    "performers": "Musopen String Quartet",
@@ -758,25 +767,7 @@
    "note": "Scherzo abridged in this recording, per IMSLP",
    "dream": {
     "portrait": "assets/portraits/borodin.jpg",
-    "credit": "Portrait: Unknown, 1865. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Five years on one quartet?"
-     },
-     {
-      "who": "them",
-      "text": "1874 to 1879. I was a chemist first; music had to wait for my free hours."
-     },
-     {
-      "who": "me",
-      "text": "Why borrow from Beethoven?"
-     },
-     {
-      "who": "them",
-      "text": "A phrase from the finale of his Op. 130 stayed with me. My quartet answers it."
-     }
-    ]
+    "credit": "Portrait: Unknown, 1865. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -797,7 +788,12 @@
        "text": "Borodin was a professor of chemistry who composed in his spare time; this movement weaves in Beethoven’s theme.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Moderato",
+      "Allegro"
+     ],
+     "key": "A major"
     },
     {
      "n": 2,
@@ -812,7 +808,11 @@
        "text": "Andante con moto in F-sharp minor, with a fugato at its heart.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante con moto"
+     ],
+     "key": ""
     },
     {
      "n": 3,
@@ -827,7 +827,11 @@
        "text": "Scherzo: Prestissimo. This recording plays it abridged.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Prestissimo"
+     ],
+     "key": ""
     },
     {
      "n": 4,
@@ -842,7 +846,12 @@
        "text": "A slow Andante opening, then Allegro risoluto, returning to the Beethoven-derived material.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante",
+      "Allegro risoluto"
+     ],
+     "key": "A major"
     }
    ]
   },
@@ -851,6 +860,7 @@
    "composer": "Alexander Borodin",
    "surname": "Borodin",
    "album": "String Quartet No. 2 in D major",
+   "work": "String Quartet No. 2",
    "catalogue": "",
    "key": "D major",
    "performers": "Musopen String Quartet",
@@ -860,25 +870,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/borodin.jpg",
-    "credit": "Portrait: Unknown, 1865. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Who is this for?"
-     },
-     {
-      "who": "them",
-      "text": "For Ekaterina, my wife. Twenty years since we met in Heidelberg, some say."
-     },
-     {
-      "who": "me",
-      "text": "And the Notturno?"
-     },
-     {
-      "who": "them",
-      "text": "The cello sings first, then the violin answers. You may guess who is who."
-     }
-    ]
+    "credit": "Portrait: Unknown, 1865. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -891,7 +883,7 @@
      "notes": [
       {
        "at": 4,
-       "text": "Written in 1881 at a friend’s estate at Zhitovo and dedicated to his wife, Ekaterina Protopova. It may be a 20th-anniversary gift recalling how they met in Heidelberg.",
+       "text": "Written in 1881 at a friend’s estate at Zhitovo and dedicated to his wife, Ekaterina Protopopova. It may be a 20th-anniversary gift recalling how they met in Heidelberg.",
        "kind": "work"
       },
       {
@@ -899,7 +891,11 @@
        "text": "The cello opens with a lyrical melody high in its register.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro moderato"
+     ],
+     "key": "D major"
     },
     {
      "n": 2,
@@ -914,7 +910,11 @@
        "text": "Scherzo: Allegro, light and quick, a brief breath before the famous Notturno.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro"
+     ],
+     "key": "F major"
     },
     {
      "n": 3,
@@ -929,7 +929,11 @@
        "text": "The Notturno, the quartet’s most famous movement: the cello sings the long melody, later answered by the first violin.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante"
+     ],
+     "key": "A major"
     },
     {
      "n": 4,
@@ -944,7 +948,12 @@
        "text": "Finale: a slow question-and-answer opening, then off at a Vivace.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante",
+      "Vivace"
+     ],
+     "key": "D major"
     }
    ]
   },
@@ -953,6 +962,7 @@
    "composer": "Antonín Dvořák",
    "surname": "Dvořák",
    "album": "String Quartet No. 12 in F major, Op. 96",
+   "work": "String Quartet No. 12",
    "catalogue": "Op. 96",
    "key": "F major",
    "performers": "Musopen String Quartet",
@@ -962,25 +972,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/dvorak.jpg",
-    "credit": "Portrait: Unknown author, 1882. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "What did you hear in Spillville?"
-     },
-     {
-      "who": "them",
-      "text": "A bird, high in the trees. I wrote its song down and gave it to the first violin."
-     },
-     {
-      "who": "me",
-      "text": "People argue about which bird."
-     },
-     {
-      "who": "them",
-      "text": "A scarlet tanager, I thought. Perhaps a vireo. I wanted something simple, like dear Papa Haydn."
-     }
-    ]
+    "credit": "Portrait: Unknown author, 1882. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1001,7 +993,11 @@
        "text": "The viola opens with the main theme over shimmering violins. The pentatonic scale, used throughout, gives the quartet its open sound.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro ma non troppo"
+     ],
+     "key": "F major"
     },
     {
      "n": 2,
@@ -1016,7 +1012,11 @@
        "text": "Lento: a long, aching melody for the first violin, later taken by the cello.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Lento"
+     ],
+     "key": "D minor"
     },
     {
      "n": 3,
@@ -1032,7 +1032,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Molto vivace"
+     ],
+     "key": "F major"
     },
     {
      "n": 4,
@@ -1047,7 +1051,11 @@
        "text": "Finale: a steady, chugging rhythm drives it. Dvořák was a lifelong railway enthusiast.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Vivace ma non troppo"
+     ],
+     "key": "F major"
     }
    ]
   },
@@ -1056,6 +1064,7 @@
    "composer": "Antonín Dvořák",
    "surname": "Dvořák",
    "album": "String Quartet No. 10 in E-flat major, Op. 51",
+   "work": "String Quartet No. 10",
    "catalogue": "Op. 51",
    "key": "E-flat major",
    "performers": "Musopen String Quartet",
@@ -1065,17 +1074,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/dvorak.jpg",
-    "credit": "Portrait: Unknown author, 1882. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Becker asked you for something Slavonic?"
-     },
-     {
-      "who": "them",
-      "text": "After the Slavonic Dances, everyone did. So: a dumka in the middle, and a skočná to finish."
-     }
-    ]
+    "credit": "Portrait: Unknown author, 1882. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1096,7 +1095,11 @@
        "text": "Allegro ma non troppo: a relaxed opening with a rocking, dance-like lilt.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro ma non troppo"
+     ],
+     "key": "E-flat major"
     },
     {
      "n": 2,
@@ -1111,7 +1114,12 @@
        "text": "A dumka, the Slavonic lament that turns from sorrow to quick dance and back. It gives the quartet its Slavonic character.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante con moto",
+      "Vivace"
+     ],
+     "key": "G minor"
     },
     {
      "n": 3,
@@ -1126,7 +1134,11 @@
        "text": "Romanza: a warm, song-like slow movement.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante con moto"
+     ],
+     "key": "B-flat major"
     },
     {
      "n": 4,
@@ -1141,7 +1153,11 @@
        "text": "A stylisation of the Czech skočná, a fast leaping dance.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro assai"
+     ],
+     "key": "E-flat major"
     }
    ]
   },
@@ -1150,6 +1166,7 @@
    "composer": "Joseph Haydn",
    "surname": "Haydn",
    "album": "String Quartet in D major, Op. 64 No. 5, Hob. III:63",
+   "work": "String Quartet",
    "catalogue": "Op. 64 No. 5, Hob. III:63",
    "key": "D major",
    "performers": "Musopen String Quartet",
@@ -1159,25 +1176,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/haydn.jpg",
-    "credit": "Portrait: Thomas Hardy, 1791. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Who was Tost?"
-     },
-     {
-      "who": "them",
-      "text": "A violinist, later a merchant. He helped me find a publisher for these."
-     },
-     {
-      "who": "me",
-      "text": "Do you mind them calling it ‘The Lark’?"
-     },
-     {
-      "who": "them",
-      "text": "Others named it, not I. The first violin does fly high."
-     }
-    ]
+    "credit": "Portrait: Thomas Hardy, 1791. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1198,7 +1197,11 @@
        "text": "The nickname comes from the first violin’s melody, which soars high above the others like a lark.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro moderato"
+     ],
+     "key": "D major"
     },
     {
      "n": 2,
@@ -1213,7 +1216,11 @@
        "text": "Adagio cantabile, in A major: a simple, singing melody, ornamented by the first violin.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio cantabile"
+     ],
+     "key": "A major"
     },
     {
      "n": 3,
@@ -1228,7 +1235,11 @@
        "text": "Menuetto: Allegretto, a courtly dance with a darker trio.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegretto"
+     ],
+     "key": "D major"
     },
     {
      "n": 4,
@@ -1243,7 +1254,11 @@
        "text": "Finale: a perpetual motion of rapid notes, with a fugal passage in the middle.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Vivace"
+     ],
+     "key": "D major"
     }
    ]
   },
@@ -1252,6 +1267,7 @@
    "composer": "Felix Mendelssohn",
    "surname": "Mendelssohn",
    "album": "String Quartet No. 6 in F minor, Op. 80",
+   "work": "String Quartet No. 6",
    "catalogue": "Op. 80",
    "key": "F minor",
    "performers": "Musopen String Quartet",
@@ -1261,25 +1277,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/mendelssohn.jpg",
-    "credit": "Portrait: Eduard Magnus, 1833. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "This came after Fanny died."
-     },
-     {
-      "who": "them",
-      "text": "In May she was gone. I could not write anything gentle. This is what came."
-     },
-     {
-      "who": "me",
-      "text": "There is no turn to the major at the end."
-     },
-     {
-      "who": "them",
-      "text": "No. I could not find one."
-     }
-    ]
+    "credit": "Portrait: Eduard Magnus, 1833. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1300,7 +1298,11 @@
        "text": "Allegro vivace assai: tremolos and shuddering accents, grief without consolation.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro vivace assai"
+     ],
+     "key": "F minor"
     },
     {
      "n": 2,
@@ -1315,7 +1317,11 @@
        "text": "Allegro assai: an obsessive, syncopated scherzo that never relaxes.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro assai"
+     ],
+     "key": "F minor"
     },
     {
      "n": 3,
@@ -1330,7 +1336,11 @@
        "text": "Adagio: the one place of consolation in the quartet.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio"
+     ],
+     "key": "A-flat major"
     },
     {
      "n": 4,
@@ -1345,7 +1355,11 @@
        "text": "Finale: restless to the end, with no turn to the major.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro molto"
+     ],
+     "key": "F minor"
     }
    ]
   },
@@ -1354,6 +1368,7 @@
    "composer": "Wolfgang Amadeus Mozart",
    "surname": "Mozart",
    "album": "String Quartet No. 15 in D minor, K. 421",
+   "work": "String Quartet No. 15",
    "catalogue": "K. 421",
    "key": "D minor",
    "performers": "Musopen String Quartet",
@@ -1363,25 +1378,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/mozart.jpg",
-    "credit": "Portrait: Johann Nepomuk della Croce, circa 1780. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Is it true you wrote this while Constanze was in labour?"
-     },
-     {
-      "who": "them",
-      "text": "So it is told. Our first child, Raimund, in 1783. I was at my desk; she was in the next room."
-     },
-     {
-      "who": "me",
-      "text": "And it is for Haydn."
-     },
-     {
-      "who": "them",
-      "text": "Six quartets for the man who showed us all how quartets are written."
-     }
-    ]
+    "credit": "Portrait: Johann Nepomuk della Croce, circa 1780. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1394,7 +1391,7 @@
      "notes": [
       {
        "at": 4,
-       "text": "Completed in 1783, while his wife Constanze was in labour with their first child, Raimund. The only minor-key quartet in the set of six Mozart dedicated to Haydn.",
+       "text": "Completed in 1783. In 1829 Constanze told the Novellos he wrote it while she was in labour with their first child, Raimund. The only minor-key quartet of the six for Haydn.",
        "kind": "work"
       },
       {
@@ -1402,7 +1399,11 @@
        "text": "Allegro moderato: a quiet, troubled opening in D minor.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro moderato"
+     ],
+     "key": "D minor"
     },
     {
      "n": 2,
@@ -1417,7 +1418,11 @@
        "text": "Andante, in F major: calm, but broken by sudden sighing pauses.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante"
+     ],
+     "key": "F major"
     },
     {
      "n": 3,
@@ -1433,7 +1438,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegretto"
+     ],
+     "key": "D minor"
     },
     {
      "n": 4,
@@ -1449,7 +1458,12 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegretto ma non troppo",
+      "Più allegro"
+     ],
+     "key": "D minor"
     }
    ]
   },
@@ -1458,6 +1472,7 @@
    "composer": "Wolfgang Amadeus Mozart",
    "surname": "Mozart",
    "album": "String Quartet No. 19 in C major, K. 465",
+   "work": "String Quartet No. 19",
    "catalogue": "K. 465",
    "key": "C major",
    "performers": "Musopen String Quartet",
@@ -1467,25 +1482,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/mozart.jpg",
-    "credit": "Portrait: Johann Nepomuk della Croce, circa 1780. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Your opening sounds wrong on purpose."
-     },
-     {
-      "who": "them",
-      "text": "Twenty-two bars of fog before the sun comes out. A critic complained in print."
-     },
-     {
-      "who": "me",
-      "text": "Did it bother you?"
-     },
-     {
-      "who": "them",
-      "text": "I had dedicated it to Haydn. His ears were the ones I wrote for."
-     }
-    ]
+    "credit": "Portrait: Johann Nepomuk della Croce, circa 1780. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1512,7 +1509,12 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio",
+      "Allegro"
+     ],
+     "key": "C major"
     },
     {
      "n": 2,
@@ -1527,7 +1529,11 @@
        "text": "Andante cantabile, in F major: a singing, unhurried slow movement.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante cantabile"
+     ],
+     "key": "F major"
     },
     {
      "n": 3,
@@ -1543,7 +1549,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro"
+     ],
+     "key": "C major"
     },
     {
      "n": 4,
@@ -1558,7 +1568,11 @@
        "text": "Allegro molto: a quick-witted finale.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro molto"
+     ],
+     "key": "C major"
     }
    ]
   },
@@ -1567,6 +1581,7 @@
    "composer": "Josef Suk",
    "surname": "Suk",
    "album": "Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a",
+   "work": "Meditation on the Old Czech Chorale 'St. Wenceslas'",
    "catalogue": "Op. 35a",
    "key": "",
    "performers": "Musopen String Quartet",
@@ -1576,17 +1591,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/suk.jpg",
-    "credit": "Portrait: Unknown author. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Why the St Wenceslas chorale?"
-     },
-     {
-      "who": "them",
-      "text": "It is our oldest hymn to our patron saint. In 1914, people needed something to hold on to."
-     }
-    ]
+    "credit": "Portrait: Unknown author. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1599,16 +1604,18 @@
      "notes": [
       {
        "at": 4,
-       "text": "A meditation on the old Czech chorale ‘St Wenceslas’, for string quartet or string orchestra, first published in 1914 and dedicated to Ferdinand Pečírka.",
+       "text": "Written in 1914 as a patriotic piece on the old Czech chorale ‘St Wenceslas’, for string quartet or string orchestra. It became a wartime symbol of hope. Dedicated to Ferdinand Pečírka.",
        "kind": "work"
       },
       {
        "at": 290,
-       "text": "Published in the first year of the First World War, the chorale to the Czech patron saint here builds to its fullest sound.",
+       "text": "The chorale to the Czech patron saint builds to its fullest sound: in the war years, a hymn of hope.",
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [],
+     "key": ""
     }
    ]
   },
@@ -1617,6 +1624,7 @@
    "composer": "Franz Schubert",
    "surname": "Schubert",
    "album": "Piano Sonata in E-flat major, D. 568",
+   "work": "Piano Sonata",
    "catalogue": "D. 568",
    "key": "E-flat major",
    "performers": "Paul Pitman",
@@ -1626,17 +1634,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/schubert.jpg",
-    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "You began this in D-flat?"
-     },
-     {
-      "who": "them",
-      "text": "At twenty, in 1817. Later I moved it to E-flat and finished it. I never saw it printed."
-     }
-    ]
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1657,7 +1655,11 @@
        "text": "Allegro moderato: a gentle, singing opening theme, unhurried even when it develops.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro moderato"
+     ],
+     "key": "E-flat major"
     },
     {
      "n": 2,
@@ -1669,10 +1671,14 @@
      "notes": [
       {
        "at": 6,
-       "text": "Andante molto: a slow, sorrowful song in a minor key.",
+       "text": "Andante molto: a slow, sorrowful song in G minor.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante molto"
+     ],
+     "key": "G minor"
     },
     {
      "n": 3,
@@ -1687,7 +1693,11 @@
        "text": "Menuetto: a graceful dance with a contrasting trio.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegretto"
+     ],
+     "key": "E-flat major"
     },
     {
      "n": 4,
@@ -1702,7 +1712,11 @@
        "text": "Allegro moderato: a relaxed, flowing finale.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro moderato"
+     ],
+     "key": "E-flat major"
     }
    ]
   },
@@ -1711,6 +1725,7 @@
    "composer": "Franz Schubert",
    "surname": "Schubert",
    "album": "Piano Sonata in A major, D. 664",
+   "work": "Piano Sonata",
    "catalogue": "D. 664",
    "key": "A major",
    "performers": "Paul Pitman",
@@ -1720,17 +1735,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/schubert.jpg",
-    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Who was Josephine?"
-     },
-     {
-      "who": "them",
-      "text": "Josephine von Koller, in Steyr. Eighteen, very pretty, and a good pianist. The sonata is hers."
-     }
-    ]
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1751,7 +1756,11 @@
        "text": "Allegro moderato: one of Schubert’s most lyrical openings, a melody that seems to sing itself.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro moderato"
+     ],
+     "key": "A major"
     },
     {
      "n": 2,
@@ -1766,7 +1775,11 @@
        "text": "Andante, in D major: quiet and inward.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante"
+     ],
+     "key": "D major"
     },
     {
      "n": 3,
@@ -1781,7 +1794,11 @@
        "text": "Allegro: a light, dancing finale.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro"
+     ],
+     "key": "A major"
     }
    ]
   },
@@ -1790,6 +1807,7 @@
    "composer": "Franz Schubert",
    "surname": "Schubert",
    "album": "Piano Sonata in A minor, D. 784",
+   "work": "Piano Sonata",
    "catalogue": "D. 784",
    "key": "A minor",
    "performers": "Paul Pitman",
@@ -1799,17 +1817,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/schubert.jpg",
-    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "What happened the year before?"
-     },
-     {
-      "who": "them",
-      "text": "I was seriously ill. When I wrote this in February, I wanted nothing decorative. Bare octaves."
-     }
-    ]
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1830,7 +1838,11 @@
        "text": "Allegro giusto: bare octaves, stark and spacious, unlike the songful Schubert of earlier sonatas.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro giusto"
+     ],
+     "key": "A minor"
     },
     {
      "n": 2,
@@ -1845,7 +1857,11 @@
        "text": "Andante, in F major: a hushed hymn interrupted by murmuring figures.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante"
+     ],
+     "key": "F major"
     },
     {
      "n": 3,
@@ -1860,7 +1876,11 @@
        "text": "Allegro vivace: a fierce, driving finale.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro vivace"
+     ],
+     "key": "A minor"
     }
    ]
   },
@@ -1869,6 +1889,7 @@
    "composer": "Franz Schubert",
    "surname": "Schubert",
    "album": "Piano Sonata in A minor, D. 845",
+   "work": "Piano Sonata",
    "catalogue": "D. 845",
    "key": "A minor",
    "performers": "Paul Pitman",
@@ -1878,17 +1899,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/schubert.jpg",
-    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "This one was printed while you lived."
-     },
-     {
-      "who": "them",
-      "text": "My first grand sonata in print. Only three ever were, in my lifetime."
-     }
-    ]
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -1909,7 +1920,11 @@
        "text": "Moderato: it opens with a soft, questioning unison phrase.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Moderato"
+     ],
+     "key": "A minor"
     },
     {
      "n": 2,
@@ -1924,7 +1939,11 @@
        "text": "Five variations on a simple 32-bar theme.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Andante poco mosso"
+     ],
+     "key": "C major"
     },
     {
      "n": 3,
@@ -1939,7 +1958,12 @@
        "text": "Scherzo: Allegro vivace, with a slower trio, ‘un poco più lento’.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro vivace",
+      "Un poco più lento"
+     ],
+     "key": "A minor"
     },
     {
      "n": 4,
@@ -1954,7 +1978,11 @@
        "text": "Rondo: Allegro vivace, a restless finale.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro vivace"
+     ],
+     "key": "A minor"
     }
    ]
   },
@@ -1963,6 +1991,7 @@
    "composer": "Franz Schubert",
    "surname": "Schubert",
    "album": "Piano Sonata in D major, D. 850",
+   "work": "Piano Sonata",
    "catalogue": "D. 850",
    "key": "D major",
    "performers": "Paul Pitman",
@@ -1972,17 +2001,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/schubert.jpg",
-    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Gastein?"
-     },
-     {
-      "who": "them",
-      "text": "A spa in the mountains, August 1825. The mountain air made me write big chords."
-     }
-    ]
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -2003,7 +2022,11 @@
        "text": "Allegro vivace: big, bright chords that fill the piano.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro vivace"
+     ],
+     "key": "D major"
     },
     {
      "n": 2,
@@ -2018,7 +2041,11 @@
        "text": "Con moto: a long, slow-walking movement.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Con moto"
+     ],
+     "key": "A major"
     },
     {
      "n": 3,
@@ -2033,7 +2060,11 @@
        "text": "Scherzo: Allegro vivace, full of rhythmic energy.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro vivace"
+     ],
+     "key": "D major"
     },
     {
      "n": 4,
@@ -2048,7 +2079,11 @@
        "text": "A playful, march-like rondo theme, repeated with ever finer decoration and interrupted by stormier episodes.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro moderato"
+     ],
+     "key": "D major"
     }
    ]
   },
@@ -2057,6 +2092,7 @@
    "composer": "Franz Schubert",
    "surname": "Schubert",
    "album": "Piano Sonata in C minor, D. 958",
+   "work": "Piano Sonata",
    "catalogue": "D. 958",
    "key": "C minor",
    "performers": "Paul Pitman",
@@ -2066,25 +2102,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/schubert.jpg",
-    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "The opening sounds like Beethoven."
-     },
-     {
-      "who": "them",
-      "text": "His C minor Variations. I admired him more than anyone."
-     },
-     {
-      "who": "me",
-      "text": "You finished this in September 1828."
-     },
-     {
-      "who": "them",
-      "text": "And by November I was gone. I did not know there would be no time."
-     }
-    ]
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -2105,7 +2123,11 @@
        "text": "The opening bars quote the theme of Beethoven’s 32 Variations in C minor. Schubert deeply admired Beethoven.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro"
+     ],
+     "key": "C minor"
     },
     {
      "n": 2,
@@ -2120,7 +2142,11 @@
        "text": "Adagio, in A-flat major: two ideas alternate, five sections in all.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio"
+     ],
+     "key": "A-flat major"
     },
     {
      "n": 3,
@@ -2135,7 +2161,11 @@
        "text": "Instead of a scherzo, a subdued minuet.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro"
+     ],
+     "key": "C minor"
     },
     {
      "n": 4,
@@ -2150,7 +2180,11 @@
        "text": "A relentless tarantella, galloping with hand-crossings and leaps across the keyboard.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro"
+     ],
+     "key": "C minor"
     }
    ]
   },
@@ -2159,6 +2193,7 @@
    "composer": "Franz Schubert",
    "surname": "Schubert",
    "album": "Piano Sonata in A major, D. 959",
+   "work": "Piano Sonata",
    "catalogue": "D. 959",
    "key": "A major",
    "performers": "Paul Pitman",
@@ -2168,25 +2203,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/schubert.jpg",
-    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "What happens in the middle of the Andantino?"
-     },
-     {
-      "who": "them",
-      "text": "The song breaks. Everything I had kept quiet comes out at once, then the song returns."
-     },
-     {
-      "who": "me",
-      "text": "It is dedicated to Schumann."
-     },
-     {
-      "who": "them",
-      "text": "After my death, by the publisher. He loved my music, so it is right."
-     }
-    ]
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -2207,7 +2224,11 @@
        "text": "Allegro: a grand opening of full chords.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro"
+     ],
+     "key": "A major"
     },
     {
      "n": 2,
@@ -2228,7 +2249,11 @@
        "kind": "movement",
        "check": true
       }
-     ]
+     ],
+     "tempo": [
+      "Andantino"
+     ],
+     "key": "F-sharp minor"
     },
     {
      "n": 3,
@@ -2243,7 +2268,12 @@
        "text": "Scherzo: Allegro vivace, with a gentler trio.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegro vivace",
+      "Un poco più lento"
+     ],
+     "key": "A major"
     },
     {
      "n": 4,
@@ -2258,7 +2288,12 @@
        "text": "Rondo: Allegretto. The broad, singing theme returns again and again.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Allegretto",
+      "Presto"
+     ],
+     "key": "A major"
     }
    ]
   },
@@ -2267,6 +2302,7 @@
    "composer": "Johann Sebastian Bach",
    "surname": "Bach",
    "album": "Goldberg Variations in G major, BWV 988",
+   "work": "Goldberg Variations",
    "catalogue": "BWV 988",
    "key": "G major",
    "performers": "Shelley Katz",
@@ -2276,25 +2312,7 @@
    "note": "",
    "dream": {
     "portrait": "assets/portraits/bach.jpg",
-    "credit": "Portrait: Elias Gottlob Haussmann, 1748. Public domain, via Wikimedia Commons.",
-    "lines": [
-     {
-      "who": "me",
-      "text": "Did you really write this for a count who couldn’t sleep?"
-     },
-     {
-      "who": "them",
-      "text": "Forkel tells it so, sixty years later. I published it in 1741, as keyboard practice."
-     },
-     {
-      "who": "me",
-      "text": "Thirty variations on one tune?"
-     },
-     {
-      "who": "them",
-      "text": "On one bass. Every third a canon, each a step wider. And at the end, a joke: a quodlibet."
-     }
-    ]
+    "credit": "Portrait: Elias Gottlob Haussmann, 1748. Public domain, via Wikimedia Commons."
    },
    "tracks": [
     {
@@ -2315,7 +2333,9 @@
        "text": "The Aria also survives in the 1725 notebook for Anna Magdalena Bach. Its bass line, not its melody, carries all thirty variations.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 2,
@@ -2324,7 +2344,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%201.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/02 Variatio 1.mp3",
      "duration": 114,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 3,
@@ -2333,7 +2355,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%202.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/03 Variatio 2.mp3",
      "duration": 88,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 4,
@@ -2348,7 +2372,9 @@
        "text": "Every third variation is a canon, the interval widening each time. This first one is at the unison.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 5,
@@ -2357,7 +2383,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%204.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/05 Variatio 4.mp3",
      "duration": 54,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 6,
@@ -2366,7 +2394,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%205.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/06 Variatio 5.mp3",
      "duration": 78,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 7,
@@ -2375,7 +2405,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%206.%20Canon%20on%20the%20second.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/07 Variatio 6. Canone alla Seconda.mp3",
      "duration": 62,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 8,
@@ -2384,7 +2416,11 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%207.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/08 Variatio 7. Al tempo di Giga.mp3",
      "duration": 175,
-     "notes": []
+     "notes": [],
+     "tempo": [
+      "Al tempo di Giga"
+     ],
+     "key": "G major"
     },
     {
      "n": 9,
@@ -2393,7 +2429,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%208.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/09 Variatio 8.mp3",
      "duration": 104,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 10,
@@ -2402,7 +2440,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%209.%20Canon%20on%20the%20third.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/10 Variatio 9. Canone alla Terza.mp3",
      "duration": 100,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 11,
@@ -2411,7 +2451,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2010.%20Fughetta.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/11 Variatio 10. Fughetta.mp3",
      "duration": 87,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 12,
@@ -2420,7 +2462,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2011.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/12 Variatio 11.mp3",
      "duration": 95,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 13,
@@ -2429,7 +2473,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2012.%20Canon%20on%20the%20fourth.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/13 Variatio 12. Canone alla Quarta in moto contrario.mp3",
      "duration": 153,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 14,
@@ -2438,7 +2484,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2013.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/14 Variatio 13.mp3",
      "duration": 339,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 15,
@@ -2447,7 +2495,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2014.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/15 Variatio 14.mp3",
      "duration": 122,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 16,
@@ -2456,7 +2506,11 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2015.%20Canon%20on%20the%20fifth.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/16 Variatio 15. Canone alla Quinta - Andante.mp3",
      "duration": 287,
-     "notes": []
+     "notes": [],
+     "tempo": [
+      "Andante"
+     ],
+     "key": "G minor"
     },
     {
      "n": 17,
@@ -2471,7 +2525,9 @@
        "text": "Halfway through, Variation 16 begins the second half as a French overture.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 18,
@@ -2480,7 +2536,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2017.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/18 Variatio 17.mp3",
      "duration": 95,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 19,
@@ -2489,7 +2547,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2018.%20Canon%20on%20the%20sixth.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/19 Variatio 18. Canone alla Sesta.mp3",
      "duration": 89,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 20,
@@ -2498,7 +2558,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2019.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/20 Variatio 19.mp3",
      "duration": 72,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 21,
@@ -2507,7 +2569,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2020.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/21 Variatio 20.mp3",
      "duration": 107,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 22,
@@ -2516,7 +2580,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2021.%20Canon%20on%20the%20seventh.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/22 Variatio 21. Canone alla Settima.mp3",
      "duration": 98,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G minor"
     },
     {
      "n": 23,
@@ -2525,7 +2591,11 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2022.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/23 Variatio 22. Alla breve.mp3",
      "duration": 137,
-     "notes": []
+     "notes": [],
+     "tempo": [
+      "Alla breve"
+     ],
+     "key": "G major"
     },
     {
      "n": 24,
@@ -2534,7 +2604,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2023.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/24 Variatio 23.mp3",
      "duration": 125,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 25,
@@ -2543,7 +2615,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2024.%20Canon%20on%20the%20octave.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/25 Variatio 24. Canone all'Ottava.mp3",
      "duration": 165,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 26,
@@ -2558,7 +2632,11 @@
        "text": "Wanda Landowska called this slow G-minor variation ‘the black pearl’ of the set.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [
+      "Adagio"
+     ],
+     "key": "G minor"
     },
     {
      "n": 27,
@@ -2567,7 +2645,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2026.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/27 Variatio 26.mp3",
      "duration": 110,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 28,
@@ -2576,7 +2656,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2027.%20Canon%20on%20the%20ninth.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/28 Variatio 27. Canone alla Nona.mp3",
      "duration": 94,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 29,
@@ -2585,7 +2667,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2028.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/29 Variatio 28.mp3",
      "duration": 137,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 30,
@@ -2594,7 +2678,9 @@
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2029.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/30 Variatio 29.mp3",
      "duration": 119,
-     "notes": []
+     "notes": [],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 31,
@@ -2609,7 +2695,9 @@
        "text": "Instead of a canon at the tenth, a quodlibet: popular tunes woven together over the bass.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [],
+     "key": "G major"
     },
     {
      "n": 32,
@@ -2624,7 +2712,9 @@
        "text": "The Aria returns unchanged, but it sounds different after everything in between.",
        "kind": "movement"
       }
-     ]
+     ],
+     "tempo": [],
+     "key": "G major"
     }
    ]
   }

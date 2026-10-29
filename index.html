@@ -7,7 +7,9 @@
   <meta name="description" content="A personal classical music player: public-domain Musopen recordings, heard inside my head.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Clefs, fermata and accidentals for the engraved fragments, subset to just those glyphs. -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Music&text=%F0%9D%84%9E%F0%9D%84%A2%F0%9D%84%90%E2%99%AF%E2%99%AD&display=block" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="config.js"></script>
 </head>
@@ -41,12 +43,16 @@
     </section>
 
     <aside class="library" aria-label="Library">
-      <div class="library-head">
-        <input id="search" type="search" placeholder="Search the library" aria-label="Search the library" autocomplete="off">
-        <button id="fav-filter" class="fav-filter" aria-pressed="false">Favourites</button>
+      <div class="drawer" role="search">
+        <div class="drawer-label"><span>Card catalogue</span> <span id="drawer-count"></span></div>
+        <div class="drawer-card">
+          <input id="search" type="search" placeholder="Composer, work or movement" aria-label="Search the library" autocomplete="off">
+          <button id="fav-filter" class="fav-filter" aria-pressed="false">Favourites</button>
+        </div>
+        <span class="drawer-pull" aria-hidden="true"></span>
       </div>
       <p id="status" class="status">Loading library…</p>
-      <div id="works" class="works"></div>
+      <div id="works" class="shelves"></div>
       <p class="credit">Recordings: Musopen, <a href="https://archive.org/details/MusopenKickstarterRecordings" target="_blank" rel="noopener">CC0 via archive.org</a>.</p>
     </aside>
 

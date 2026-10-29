@@ -5,6 +5,7 @@ import { engrave } from "./head.js";
 import { createFlow } from "./flow.js";
 import { createAnalysis } from "./analysis.js";
 import { createDream } from "./dream.js";
+import { createAmbient } from "./ambient.js";
 
 const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
 const phone = matchMedia("(max-width: 760px)");
@@ -94,7 +95,27 @@ export async function createStage(host) {
   const audio = document.getElementById("audio");
   playing = !audio.paused;
   const bands = createAnalysis(audio);
-  const dream = createDream({ scene, audio, still: reducedMotion.matches });
+  // The head's outline on the stage, in CSS px, for placing bubbles and fragments around it.
+  let headBox = null;
+  // The head's own bounds (taken before the staves were added), in the model's space.
+  const corner = new THREE.Vector3(), bounds = box.clone();
+  const measureHead = () => {
+    // Project the box on its mid-depth plane, which follows the silhouette rather than the nearest corners.
+    let l = Infinity, r = -Infinity, t = Infinity, b = -Infinity;
+    const z = (bounds.min.z + bounds.max.z) / 2;
+    for (let i = 0; i < 4; i++) {
+      corner.set(i & 1 ? bounds.max.x : bounds.min.x, i & 2 ? bounds.max.y : bounds.min.y, z)
+        .applyMatrix4(model.matrixWorld).project(camera);
+      const x = (corner.x + 1) / 2 * host.clientWidth, y = (1 - corner.y) / 2 * host.clientHeight;
+      l = Math.min(l, x); r = Math.max(r, x); t = Math.min(t, y); b = Math.max(b, y);
+    }
+    // Trim the ears and the neck lathe toward the face.
+    const w = r - l;
+    headBox = { left: l + w * 0.06, top: t, width: w * 0.88, height: b - t };
+  };
+  const headRect = () => headBox;
+  const dream = createDream({ scene, camera, host, audio, still: reducedMotion.matches, headRect });
+  const ambient = reducedMotion.matches ? null : createAmbient({ stage: host.parentElement, bands, headRect });
   if (window.__playerTrack) window.dispatchEvent(new CustomEvent("player:track", { detail: window.__playerTrack }));
 
   // ---- Loop ----
@@ -128,6 +149,8 @@ export async function createStage(host) {
     uniforms.uLevel.value += (level - uniforms.uLevel.value) * (1 - Math.exp(-dt / 0.6));
     dream.level = uniforms.uLevel.value;
     head.updateMatrixWorld(true);
+    measureHead();
+    ambient?.update(dt, playing, dream.dreaming);
     uniforms.uHead.value.copy(model.matrixWorld);
     uniforms.uHeadInverse.value.copy(model.matrixWorld).invert();
     renderer.render(scene, camera);
