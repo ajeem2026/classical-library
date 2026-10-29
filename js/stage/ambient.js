@@ -142,7 +142,7 @@ export function createAmbient({ stage, bands, headRect }) {
 
   function place(w, h) {
     const W = stage.clientWidth, H = stage.clientHeight, s = stage.getBoundingClientRect();
-    const avoid = [".wordmark", ".caption", ".dream", ".bubble"]
+    const avoid = [".wordmark", ".stage-nav", ".caption", ".dream", ".bubble"]
       .flatMap((q) => [...stage.querySelectorAll(q)])
       .map((n) => n.getBoundingClientRect())
       .filter((r) => r.width)

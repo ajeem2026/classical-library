@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The listening ledger · Inside Jeem’s head</title>
+  <meta name="description" content="What I have listened to, kept only in this browser.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="listening.css">
+</head>
+<body class="ledger-page">
+  <main class="ledger">
+    <header class="ledger-head">
+      <a class="back" href="./">← Inside Jeem’s head</a>
+      <h1>The listening ledger</h1>
+      <p class="privacy">Your listening stays in this browser. Nothing is sent anywhere.</p>
+      <div class="ledger-actions">
+        <button type="button" id="export">Export my listening</button>
+        <button type="button" id="clear">Clear my listening</button>
+        <span id="clear-confirm" class="clear-confirm" hidden>
+          Clear every entry? This can’t be undone.
+          <button type="button" id="clear-yes">Clear it</button>
+          <button type="button" id="clear-no">Keep it</button>
+        </span>
+      </div>
+    </header>
+
+    <p id="empty" class="empty" hidden>Nothing entered yet. Play something on the <a href="./">main page</a> and it will be written here.</p>
+
+    <section class="totals" aria-label="Totals">
+      <div><span class="label">Today</span><span class="figure" id="t-today">0</span><span class="unit">minutes</span></div>
+      <div><span class="label">This week</span><span class="figure" id="t-week">0</span><span class="unit">minutes</span></div>
+      <div><span class="label">All time</span><span class="figure" id="t-all">0</span><span class="unit">minutes</span></div>
+      <div><span class="label">Current streak</span><span class="figure" id="t-streak">0</span><span class="unit">days</span></div>
+      <div><span class="label">Longest streak</span><span class="figure" id="t-longest">0</span><span class="unit">days</span></div>
+    </section>
+
+    <section class="entry" aria-labelledby="h-days">
+      <h2 id="h-days">Daily entries <span>the last fourteen days, in minutes</span></h2>
+      <figure id="days" class="chart"></figure>
+    </section>
+
+    <div class="pair">
+      <section class="entry" aria-labelledby="h-composers">
+        <h2 id="h-composers">Composers <span>all time</span></h2>
+        <ol id="composers" class="ranks"></ol>
+      </section>
+      <section class="entry" aria-labelledby="h-works">
+        <h2 id="h-works">Works <span>all time</span></h2>
+        <ol id="works" class="ranks"></ol>
+      </section>
+    </div>
+
+    <div class="pair">
+      <section class="entry" aria-labelledby="h-clock">
+        <h2 id="h-clock">The hours <span>when the music plays, all time</span></h2>
+        <figure id="clock" class="chart clock"></figure>
+      </section>
+      <section class="entry" aria-labelledby="h-mood">
+        <h2 id="h-mood">From the music <span>this week</span></h2>
+        <div id="reflection" class="reflection"></div>
+        <dl id="measures" class="measures"></dl>
+      </section>
+    </div>
+
+    <section class="entry" aria-labelledby="h-trends">
+      <h2 id="h-trends">Weekly trends <span>the last eight weeks, as shares of listening time</span></h2>
+      <div id="trends" class="trends"></div>
+    </section>
+
+    <footer class="method">
+      <h2>How this is reckoned</h2>
+      <p>Only seconds actually heard are entered; seeking, skipping and pausing add nothing. The mood is read from the music, not from you:
+        <em>minor</em> and <em>major</em> come from each movement’s key in the catalogue;
+        <em>slow</em> means a tempo marking of Andante or slower, <em>fast</em> Allegro or quicker (compound markings are spread evenly across the movement);
+        <em>quiet</em> and <em>loud</em> are the softest and loudest thirds of the library, measured from the recordings in ten-second stretches;
+        <em>late night</em> is 11 pm to 4 am. Movements without a key or tempo marking are left out of those shares.</p>
+      <p class="privacy">Your listening stays in this browser. Nothing is sent anywhere.</p>
+    </footer>
+  </main>
+
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+    <defs>
+      <pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(-40)">
+        <line x1="0" y1="0" x2="0" y2="4" stroke="#e8e1d4" stroke-width="1.1"/>
+      </pattern>
+      <pattern id="hatch-amber" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(-40)">
+        <line x1="0" y1="0" x2="0" y2="4" stroke="#d9a441" stroke-width="1.3"/>
+      </pattern>
+      <pattern id="hatch-light" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-40)">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#a89f91" stroke-width="0.8"/>
+      </pattern>
+    </defs>
+  </svg>
+  <script src="listening.js"></script>
+</body>
+</html>

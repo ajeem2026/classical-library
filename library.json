@@ -1,5 +1,18 @@
 {
  "source": "https://archive.org/details/MusopenKickstarterRecordings",
+ "pace": [
+  "Largo",
+  "Adagio",
+  "Andante",
+  "Moderato",
+  "Allegro",
+  "Presto"
+ ],
+ "loud_step": 10,
+ "loud_db": {
+  "quiet_below": -30.5,
+  "loud_from": -25.8
+ },
  "works": [
   {
    "id": "w1",
@@ -47,7 +60,11 @@
      "tempo": [
       "Allegro con brio"
      ],
-     "key": "E-flat major"
+     "key": "E-flat major",
+     "pace": [
+      4
+     ],
+     "loud": "qqqllmqmllmqqqlllmlqqqqqlmmqmqqqlllllqmlllmqqmllqqqqqqqmllmqmmlmqqqlllmmmlqqqmqqqmmqllllmllq"
     },
     {
      "n": 2,
@@ -66,7 +83,11 @@
      "tempo": [
       "Adagio assai"
      ],
-     "key": "C minor"
+     "key": "C minor",
+     "pace": [
+      1
+     ],
+     "loud": "qqqqqqqqqqqqqqqmqmqqmqqqqmqqqlmmqqqmllmqqqqqmqmmllllllllmqqlllqqmmqmmqqmmqqllqqqqqqlqqqqqqqqq"
     },
     {
      "n": 3,
@@ -86,7 +107,11 @@
      "tempo": [
       "Allegro vivace"
      ],
-     "key": "E-flat major"
+     "key": "E-flat major",
+     "pace": [
+      4
+     ],
+     "loud": "qqqqqlmqmqqqlmqlmmqqqqqmqqqqqqlmqml"
     },
     {
      "n": 4,
@@ -105,7 +130,11 @@
      "tempo": [
       "Allegro molto"
      ],
-     "key": "E-flat major"
+     "key": "E-flat major",
+     "pace": [
+      4
+     ],
+     "loud": "lqqqqqqqqqqqlmlqqqmllmqmlllllqqqqmllllqqqqmmqqmqmlllllqqqqqllqqqmlllllq"
     }
    ]
   },
@@ -151,7 +180,13 @@
       "Allegro",
       "Meno allegro"
      ],
-     "key": "C minor"
+     "key": "C minor",
+     "pace": [
+      1,
+      4,
+      4
+     ],
+     "loud": "llllqqqqqqqllqqqqqmmmlmlllqqqqmqqqqqmllllqqqqqlllllmqqqqqmlllllllmlqqqqqqqqqqlllllqmqqmqlqq"
     },
     {
      "n": 2,
@@ -171,7 +206,11 @@
      "tempo": [
       "Andante sostenuto"
      ],
-     "key": "E major"
+     "key": "E major",
+     "pace": [
+      2
+     ],
+     "loud": "qqlqqqqqmqqqqmmqqqqmmllqqqmmllqqqqqmmlqmmqqqmqmqmqqq"
     },
     {
      "n": 3,
@@ -190,7 +229,11 @@
      "tempo": [
       "Un poco allegretto e grazioso"
      ],
-     "key": "A-flat major"
+     "key": "A-flat major",
+     "pace": [
+      3
+     ],
+     "loud": "qmqqmqqmqmmmllllllllqqmmmmqqmq"
     },
     {
      "n": 4,
@@ -219,7 +262,14 @@
       "Allegro non troppo, ma con brio",
       "Più allegro"
      ],
-     "key": "C minor"
+     "key": "C minor",
+     "pace": [
+      1,
+      2,
+      4,
+      4
+     ],
+     "loud": "mqqqqlqqqlmmlmmmmmllmqqmllqqmmmmmlllllmmmmqllmqlllmllmmlmllllmmllllllllmlllmqqmmmmlllmlllmllllllllllll"
     }
    ]
   },
@@ -269,7 +319,11 @@
      "tempo": [
       "Allegro non troppo"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      4
+     ],
+     "loud": "qmmqqqqqqmllmqqmmmmmmllllllllmmmqmmmmlllllllllmlmmmllllmmmmqmmqqmmmmmmlllllllllmmmqlmmllmmmlllqqqmqq"
     },
     {
      "n": 2,
@@ -288,7 +342,11 @@
      "tempo": [
       "Adagio non troppo"
      ],
-     "key": "B major"
+     "key": "B major",
+     "pace": [
+      1
+     ],
+     "loud": "lmmqlmllqqmlmmllmqqmmlqlllllmmlqmmlqlmqllmqllllllmqmmqqq"
     },
     {
      "n": 3,
@@ -307,7 +365,11 @@
      "tempo": [
       "Allegretto grazioso (quasi andantino)"
      ],
-     "key": "G major"
+     "key": "G major",
+     "pace": [
+      3
+     ],
+     "loud": "qqmmqqqlqqqqqllmqlqqmmqlmqmmqqq"
     },
     {
      "n": 4,
@@ -327,7 +389,11 @@
      "tempo": [
       "Allegro con spirito"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      4
+     ],
+     "loud": "qmqlllllmmmlllllqmlmqmqmlllqqqmmqqqmllllllllmmllllllllllllq"
     }
    ]
   },
@@ -371,7 +437,11 @@
      "tempo": [
       "Allegro con brio"
      ],
-     "key": "F major"
+     "key": "F major",
+     "pace": [
+      4
+     ],
+     "loud": "lllmlmqqqqqqqqqmlllllmlmqqmmqqmmllllqqqqqqqqlqllllllllqqqmlqq"
     },
     {
      "n": 2,
@@ -390,7 +460,11 @@
      "tempo": [
       "Andante"
      ],
-     "key": "C major"
+     "key": "C major",
+     "pace": [
+      2
+     ],
+     "loud": "qqqqqqqqqmllqqqqqqqqqqqqmmmqmllmmqqmqqqqqmlmqqqqqqqqq"
     },
     {
      "n": 3,
@@ -409,7 +483,11 @@
      "tempo": [
       "Poco allegretto"
      ],
-     "key": "C minor"
+     "key": "C minor",
+     "pace": [
+      3
+     ],
+     "loud": "qqqqqqqqqmmqqqqmqqqqqqqqqqqqqqqmmqmqq"
     },
     {
      "n": 4,
@@ -429,7 +507,11 @@
      "tempo": [
       "Allegro"
      ],
-     "key": "F major"
+     "key": "F major",
+     "pace": [
+      4
+     ],
+     "loud": "qqqqmmlllmmlllllllqqqqqqlllllllllmmllllllqqqmmmqqqmqlqmqqmq"
     }
    ]
   },
@@ -473,7 +555,11 @@
      "tempo": [
       "Allegro non troppo"
      ],
-     "key": "E minor"
+     "key": "E minor",
+     "pace": [
+      4
+     ],
+     "loud": "qmmmllllllllllmlmmmllllmqmmmllllqmmlllmmmqqmmllmllllllllmlmmmmllllllllllllll"
     },
     {
      "n": 2,
@@ -492,7 +578,11 @@
      "tempo": [
       "Andante moderato"
      ],
-     "key": "E major"
+     "key": "E major",
+     "pace": [
+      2
+     ],
+     "loud": "mmqqqqqmmlmqqqqqmllllqqqmqqqqmmqqmmmmmqqllllllllmlllmmllmmqqmqqmllmq"
     },
     {
      "n": 3,
@@ -511,7 +601,11 @@
      "tempo": [
       "Allegro giocoso"
      ],
-     "key": "C major"
+     "key": "C major",
+     "pace": [
+      4
+     ],
+     "loud": "llllmmmqmlllllllqqmlmlllllmlllmlllllll"
     },
     {
      "n": 4,
@@ -536,7 +630,11 @@
      "tempo": [
       "Allegro energico e passionato"
      ],
-     "key": "E minor"
+     "key": "E minor",
+     "pace": [
+      4
+     ],
+     "loud": "llqqllllllllllllmqqmqqqqqqqqqqqqmmqqmlmllllllqmllllllmmmmllllllllll"
     }
    ]
   },
@@ -587,7 +685,12 @@
       "Adagio",
       "Allegro non troppo"
      ],
-     "key": "B minor"
+     "key": "B minor",
+     "pace": [
+      1,
+      4
+     ],
+     "loud": "qqqqqqqqqqqqqqqqqqqqmlmqqqqqqqqqqqqqqmmqqqlmmmqqqqqqqqmmmmmllqmlmqqqmllmlllmllllllqqqmmmlmqqqqqqqqqqqqqqqq"
     },
     {
      "n": 2,
@@ -606,7 +709,11 @@
      "tempo": [
       "Allegro con grazia"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      4
+     ],
+     "loud": "qqqqqqqmqqqqqmlqqqqqqmqmqmmmqqqqqqqqqqqmlqqqqqqqqq"
     },
     {
      "n": 3,
@@ -626,7 +733,11 @@
      "tempo": [
       "Allegro molto vivace"
      ],
-     "key": "G major"
+     "key": "G major",
+     "pace": [
+      4
+     ],
+     "loud": "qqqqqqqqmqmmqqqlmqqqqqlqqqqqqqqmlqqllmmlllllmllllllllllllllq"
     },
     {
      "n": 4,
@@ -646,7 +757,11 @@
      "tempo": [
       "Adagio lamentoso"
      ],
-     "key": "B minor"
+     "key": "B minor",
+     "pace": [
+      1
+     ],
+     "loud": "qqqqqqqqqqqqqqqqqqqqmmmmmmllqqqqqqqqqqqqlllllmmqqqqqqqqqqqqqqq"
     }
    ]
   },
@@ -690,7 +805,11 @@
      "tempo": [
       "Allegro con brio"
      ],
-     "key": "B-flat major"
+     "key": "B-flat major",
+     "pace": [
+      4
+     ],
+     "loud": "mmmlmmmmllmmmlmqmqqmmllmqlmmq"
     },
     {
      "n": 2,
@@ -709,7 +828,11 @@
      "tempo": [
       "Adagio ma non troppo"
      ],
-     "key": "E-flat major"
+     "key": "E-flat major",
+     "pace": [
+      1
+     ],
+     "loud": "mqmmqmqmqqqqmlqlqqmqmqqqqmmqmqmqmqqqqmqqqqq"
     },
     {
      "n": 3,
@@ -728,7 +851,11 @@
      "tempo": [
       "Allegro"
      ],
-     "key": "B-flat major"
+     "key": "B-flat major",
+     "pace": [
+      4
+     ],
+     "loud": "mmmmlmmmlmqmmmlmmmlqqmmmlq"
     },
     {
      "n": 4,
@@ -748,7 +875,12 @@
       "Adagio",
       "Allegretto quasi allegro"
      ],
-     "key": "B-flat major"
+     "key": "B-flat major",
+     "pace": [
+      1,
+      3
+     ],
+     "loud": "qqqqqqqqmmqqqqmmmqqqlmqmmmmmmmmmmllqqqqqqqmllmqqlq"
     }
    ]
   },
@@ -793,7 +925,12 @@
       "Moderato",
       "Allegro"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      3,
+      4
+     ],
+     "loud": "mllqlllllmlqmmmlllmmmlmllllllmqqqllmlllmlllllllllmmllllllllqlmmmmlmmmmmlllllqqlmllmllmlmq"
     },
     {
      "n": 2,
@@ -812,7 +949,11 @@
      "tempo": [
       "Andante con moto"
      ],
-     "key": ""
+     "key": "",
+     "pace": [
+      2
+     ],
+     "loud": "qqmlllmllmmlllmlllmqmlllmmllllmmmqqlmmmmmlllllmlmmmq"
     },
     {
      "n": 3,
@@ -831,7 +972,11 @@
      "tempo": [
       "Prestissimo"
      ],
-     "key": ""
+     "key": "",
+     "pace": [
+      5
+     ],
+     "loud": "qmmmmmmmmlmq"
     },
     {
      "n": 4,
@@ -851,7 +996,12 @@
       "Andante",
       "Allegro risoluto"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      2,
+      4
+     ],
+     "loud": "qqqqqmmqqmqmmlllmmlllllmllllllmlllmmlllqllllllllmllllq"
     }
    ]
   },
@@ -895,7 +1045,11 @@
      "tempo": [
       "Allegro moderato"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      4
+     ],
+     "loud": "mlllllllmmllllllllmlllllllllllmmlllllllllmllllllllmlmqq"
     },
     {
      "n": 2,
@@ -914,7 +1068,11 @@
      "tempo": [
       "Allegro"
      ],
-     "key": "F major"
+     "key": "F major",
+     "pace": [
+      4
+     ],
+     "loud": "mllmllllllmlmllmmlmmlmmlllllmlllmq"
     },
     {
      "n": 3,
@@ -933,7 +1091,11 @@
      "tempo": [
       "Andante"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      2
+     ],
+     "loud": "mmmmmlmmmmmmllmmlllllmmqllllllmqmlmmmmlmlmmmlmqmmmmmmmq"
     },
     {
      "n": 4,
@@ -953,7 +1115,12 @@
       "Andante",
       "Vivace"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      2,
+      4
+     ],
+     "loud": "qqqqqmllmlllllqqqqlllllllqqmqmllmlllllmllllq"
     }
    ]
   },
@@ -997,7 +1164,11 @@
      "tempo": [
       "Allegro ma non troppo"
      ],
-     "key": "F major"
+     "key": "F major",
+     "pace": [
+      4
+     ],
+     "loud": "qmlmmmmmlqqqqllmqmlmmmqllqlmqqmmlllqmmlmqmmlmqlq"
     },
     {
      "n": 2,
@@ -1016,7 +1187,11 @@
      "tempo": [
       "Lento"
      ],
-     "key": "D minor"
+     "key": "D minor",
+     "pace": [
+      0
+     ],
+     "loud": "qqqmqqqmqqmmmqmmmmlqmmqqmmqqqmmqqllmqqqqqqqqmqqq"
     },
     {
      "n": 3,
@@ -1036,7 +1211,11 @@
      "tempo": [
       "Molto vivace"
      ],
-     "key": "F major"
+     "key": "F major",
+     "pace": [
+      4
+     ],
+     "loud": "mqmmqqmqmmqlmmqmlqlqmqlmq"
     },
     {
      "n": 4,
@@ -1055,7 +1234,11 @@
      "tempo": [
       "Vivace ma non troppo"
      ],
-     "key": "F major"
+     "key": "F major",
+     "pace": [
+      4
+     ],
+     "loud": "qmqmmmmmmlmlqmqmmqmmmmmqlmqmmmlllllq"
     }
    ]
   },
@@ -1099,7 +1282,11 @@
      "tempo": [
       "Allegro ma non troppo"
      ],
-     "key": "E-flat major"
+     "key": "E-flat major",
+     "pace": [
+      4
+     ],
+     "loud": "mmlqmlmllmmmlmqlmmmlmmlmllmllmmmmqmmmlqmmmllmlmmllllllmlmlmqmlmmqqqq"
     },
     {
      "n": 2,
@@ -1119,7 +1306,12 @@
       "Andante con moto",
       "Vivace"
      ],
-     "key": "G minor"
+     "key": "G minor",
+     "pace": [
+      2,
+      4
+     ],
+     "loud": "qmmmlqmmlqlmlmmlqmlmmllmllmlmmqmmlmmmlmllmmlmqq"
     },
     {
      "n": 3,
@@ -1138,7 +1330,11 @@
      "tempo": [
       "Andante con moto"
      ],
-     "key": "B-flat major"
+     "key": "B-flat major",
+     "pace": [
+      2
+     ],
+     "loud": "qqmqqqlmqmmmlqmllmmmmmqlmlqmmqmqmmmqq"
     },
     {
      "n": 4,
@@ -1157,7 +1353,11 @@
      "tempo": [
       "Allegro assai"
      ],
-     "key": "E-flat major"
+     "key": "E-flat major",
+     "pace": [
+      4
+     ],
+     "loud": "mlmllqmlmlmmmmmlllmqqmlllqqqmmllllmqlmmllmlq"
     }
    ]
   },
@@ -1201,7 +1401,11 @@
      "tempo": [
       "Allegro moderato"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      4
+     ],
+     "loud": "qqqlmlmqmqqqlmlmqmmmlmmmmqqllmmmmlmmqq"
     },
     {
      "n": 2,
@@ -1220,7 +1424,11 @@
      "tempo": [
       "Adagio cantabile"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      1
+     ],
+     "loud": "mqqqmqmqqqmqqmmmmqqqqmmmmqqqqq"
     },
     {
      "n": 3,
@@ -1239,7 +1447,11 @@
      "tempo": [
       "Allegretto"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      3
+     ],
+     "loud": "mmmmqmmmqmqqqmmqmmmqmmq"
     },
     {
      "n": 4,
@@ -1258,7 +1470,11 @@
      "tempo": [
       "Vivace"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      4
+     ],
+     "loud": "mmllqmmmmq"
     }
    ]
   },
@@ -1302,7 +1518,11 @@
      "tempo": [
       "Allegro vivace assai"
      ],
-     "key": "F minor"
+     "key": "F minor",
+     "pace": [
+      4
+     ],
+     "loud": "mlllmllllllllmmlllmlllllllllllllllmmmmmlllllllq"
     },
     {
      "n": 2,
@@ -1321,7 +1541,11 @@
      "tempo": [
       "Allegro assai"
      ],
-     "key": "F minor"
+     "key": "F minor",
+     "pace": [
+      4
+     ],
+     "loud": "lllllllqlllmqmlllllmllllllqllq"
     },
     {
      "n": 3,
@@ -1340,7 +1564,11 @@
      "tempo": [
       "Adagio"
      ],
-     "key": "A-flat major"
+     "key": "A-flat major",
+     "pace": [
+      1
+     ],
+     "loud": "qmmmlmmqmmlllmmmllmlmllllllllllqlllmmmllllmqmmmqq"
     },
     {
      "n": 4,
@@ -1359,7 +1587,11 @@
      "tempo": [
       "Allegro molto"
      ],
-     "key": "F minor"
+     "key": "F minor",
+     "pace": [
+      4
+     ],
+     "loud": "lllmllllmmllmlllmmmmmlllllmlmlllllllll"
     }
    ]
   },
@@ -1403,7 +1635,11 @@
      "tempo": [
       "Allegro moderato"
      ],
-     "key": "D minor"
+     "key": "D minor",
+     "pace": [
+      4
+     ],
+     "loud": "qmmmmmmqmmqmmmmmmmmqmqqmmqmqmmmmmmmmmmlmmlmmlm"
     },
     {
      "n": 2,
@@ -1422,7 +1658,11 @@
      "tempo": [
       "Andante"
      ],
-     "key": "F major"
+     "key": "F major",
+     "pace": [
+      2
+     ],
+     "loud": "qmqqmqqqmqmqqqmmqqqmmmqqqmmmqqqq"
     },
     {
      "n": 3,
@@ -1442,7 +1682,11 @@
      "tempo": [
       "Allegretto"
      ],
-     "key": "D minor"
+     "key": "D minor",
+     "pace": [
+      3
+     ],
+     "loud": "mmmmmmmmmmqqqqqqqqqmqmmqml"
     },
     {
      "n": 4,
@@ -1463,7 +1707,12 @@
       "Allegretto ma non troppo",
       "Più allegro"
      ],
-     "key": "D minor"
+     "key": "D minor",
+     "pace": [
+      3,
+      4
+     ],
+     "loud": "qqmmmmqmqmmmmqmmmmmmmmqmqmqmqmqmmmqmqmqq"
     }
    ]
   },
@@ -1514,7 +1763,12 @@
       "Adagio",
       "Allegro"
      ],
-     "key": "C major"
+     "key": "C major",
+     "pace": [
+      1,
+      4
+     ],
+     "loud": "qlmmmmllmmmqmlmlmmllmlllllmlllllllqmlmmmlmlllmlmllqq"
     },
     {
      "n": 2,
@@ -1533,7 +1787,11 @@
      "tempo": [
       "Andante cantabile"
      ],
-     "key": "F major"
+     "key": "F major",
+     "pace": [
+      2
+     ],
+     "loud": "mmmlmmmlmqmlqlmmlmmmmllmqmlmmqqmmqmllmlmmmlmmqq"
     },
     {
      "n": 3,
@@ -1553,7 +1811,11 @@
      "tempo": [
       "Allegro"
      ],
-     "key": "C major"
+     "key": "C major",
+     "pace": [
+      4
+     ],
+     "loud": "qmqmmmmlmlmmmmmmmmlllmmlqlmlmlmmq"
     },
     {
      "n": 4,
@@ -1572,7 +1834,11 @@
      "tempo": [
       "Allegro molto"
      ],
-     "key": "C major"
+     "key": "C major",
+     "pace": [
+      4
+     ],
+     "loud": "mmmlqllmllmmmllmqmlmlmllqlllmmqmllmq"
     }
    ]
   },
@@ -1615,7 +1881,9 @@
       }
      ],
      "tempo": [],
-     "key": ""
+     "key": "",
+     "pace": [],
+     "loud": "qqmqmlmqqmmmlllmmqmmmqqmlmlllllllllmmmqqq"
     }
    ]
   },
@@ -1659,7 +1927,11 @@
      "tempo": [
       "Allegro moderato"
      ],
-     "key": "E-flat major"
+     "key": "E-flat major",
+     "pace": [
+      4
+     ],
+     "loud": "qqqqqlmmmmmlmlmllmmqqqqmlmmmmmlmlmllmmqlmmlmllqmqqqmmmmllllmmmmqq"
     },
     {
      "n": 2,
@@ -1678,7 +1950,11 @@
      "tempo": [
       "Andante molto"
      ],
-     "key": "G minor"
+     "key": "G minor",
+     "pace": [
+      2
+     ],
+     "loud": "qqmqmqqqqqqmqqmlmmmmmqqmqmqqmqqllmqmqqqqqq"
     },
     {
      "n": 3,
@@ -1697,7 +1973,11 @@
      "tempo": [
       "Allegretto"
      ],
-     "key": "E-flat major"
+     "key": "E-flat major",
+     "pace": [
+      3
+     ],
+     "loud": "qqqqqmqqqmqqqqqqqmqqqqqqqqmqqqq"
     },
     {
      "n": 4,
@@ -1716,7 +1996,11 @@
      "tempo": [
       "Allegro moderato"
      ],
-     "key": "E-flat major"
+     "key": "E-flat major",
+     "pace": [
+      4
+     ],
+     "loud": "qqmmmllmmqmmmmmmmmqmmmqmmlllmqmmmllmllmqmlmmmmmmmq"
     }
    ]
   },
@@ -1760,7 +2044,11 @@
      "tempo": [
       "Allegro moderato"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      4
+     ],
+     "loud": "qlllllllllllmlllllllllllmllllmmlllllllllllmmmmq"
     },
     {
      "n": 2,
@@ -1779,7 +2067,11 @@
      "tempo": [
       "Andante"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      2
+     ],
+     "loud": "qmmmlmmlmmqmmlllmmmmlmmllmmmq"
     },
     {
      "n": 3,
@@ -1798,7 +2090,11 @@
      "tempo": [
       "Allegro"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      4
+     ],
+     "loud": "qllllmlllllllllllllmllllmllllllllll"
     }
    ]
   },
@@ -1842,7 +2138,11 @@
      "tempo": [
       "Allegro giusto"
      ],
-     "key": "A minor"
+     "key": "A minor",
+     "pace": [
+      4
+     ],
+     "loud": "qmmlllllmlmmlmlllmqllllllllllqmmllllllmmlllllmqmllmqq"
     },
     {
      "n": 2,
@@ -1861,7 +2161,11 @@
      "tempo": [
       "Andante"
      ],
-     "key": "F major"
+     "key": "F major",
+     "pace": [
+      2
+     ],
+     "loud": "qmmlmmllllmlmlmmmmlmmmq"
     },
     {
      "n": 3,
@@ -1880,7 +2184,11 @@
      "tempo": [
       "Allegro vivace"
      ],
-     "key": "A minor"
+     "key": "A minor",
+     "pace": [
+      4
+     ],
+     "loud": "qlllllmllllllllllmmlllmmmllllllllllllq"
     }
    ]
   },
@@ -1924,7 +2232,11 @@
      "tempo": [
       "Moderato"
      ],
-     "key": "A minor"
+     "key": "A minor",
+     "pace": [
+      3
+     ],
+     "loud": "qqqllmmmmqqqqqmqqqmlmmmmmqqmqmqqmqqmmlllqqqmmllmmllmqqmqmqqqlmqmlllllq"
     },
     {
      "n": 2,
@@ -1943,7 +2255,11 @@
      "tempo": [
       "Andante poco mosso"
      ],
-     "key": "C major"
+     "key": "C major",
+     "pace": [
+      2
+     ],
+     "loud": "qqqqqqqqqqqqmqmmmmqmqmmmmmmmmmmqmmqlllqqmllqmqmmmmmmmmmlmqmqmqmmlmqmlmmqqqmqqqq"
     },
     {
      "n": 3,
@@ -1963,7 +2279,12 @@
       "Allegro vivace",
       "Un poco più lento"
      ],
-     "key": "A minor"
+     "key": "A minor",
+     "pace": [
+      4,
+      0
+     ],
+     "loud": "qmmmmmmmmmmmmlmmmmmmmmmqqqqqqmqqqqqqmmmmmmmmmmlq"
     },
     {
      "n": 4,
@@ -1982,7 +2303,11 @@
      "tempo": [
       "Allegro vivace"
      ],
-     "key": "A minor"
+     "key": "A minor",
+     "pace": [
+      4
+     ],
+     "loud": "qmmlllmllmqllqmmmmmmmllmllmllmmllmlqq"
     }
    ]
   },
@@ -2026,7 +2351,11 @@
      "tempo": [
       "Allegro vivace"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      4
+     ],
+     "loud": "qmlllmqlmmmmmmllmlmlmqllmmmmmllllmllllmmlmmlmqmlmmllmllllq"
     },
     {
      "n": 2,
@@ -2045,7 +2374,11 @@
      "tempo": [
       "Con moto"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      2
+     ],
+     "loud": "qqqqqqqqqqmqqqqqqqmllqqqqqllmqqqqqqqmmmmqqqqqqqqqqmllqqqmlllqqqlmmqqqqqqq"
     },
     {
      "n": 3,
@@ -2064,7 +2397,11 @@
      "tempo": [
       "Allegro vivace"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      4
+     ],
+     "loud": "qmmmmlmmlmlmmmlmmmmmlmlqmmqmmqllqqqmqllqqqmqqqlqlmlmmmlmlmlqqqq"
     },
     {
      "n": 4,
@@ -2083,7 +2420,11 @@
      "tempo": [
       "Allegro moderato"
      ],
-     "key": "D major"
+     "key": "D major",
+     "pace": [
+      4
+     ],
+     "loud": "qqqqqqqmmmmlmlmqmqqqqqqqmmqmmlmmllmqmmmmqqqmqqmmqqmqqqqq"
     }
    ]
   },
@@ -2127,7 +2468,11 @@
      "tempo": [
       "Allegro"
      ],
-     "key": "C minor"
+     "key": "C minor",
+     "pace": [
+      4
+     ],
+     "loud": "qlllmmlqmmmmmlllmmqllllmmmmmmmmmllmmmmlllmmmlmmmlllllqmmmmmmllmmqqmlmqq"
     },
     {
      "n": 2,
@@ -2146,7 +2491,11 @@
      "tempo": [
       "Adagio"
      ],
-     "key": "A-flat major"
+     "key": "A-flat major",
+     "pace": [
+      1
+     ],
+     "loud": "qqqqqqqqmqmmllmlmmqqqqqqqlllmmmlmllqqmmqqqqmqqq"
     },
     {
      "n": 3,
@@ -2165,7 +2514,11 @@
      "tempo": [
       "Allegro"
      ],
-     "key": "C minor"
+     "key": "C minor",
+     "pace": [
+      4
+     ],
+     "loud": "qllmllmmmmmqmmqmlmmq"
     },
     {
      "n": 4,
@@ -2184,7 +2537,11 @@
      "tempo": [
       "Allegro"
      ],
-     "key": "C minor"
+     "key": "C minor",
+     "pace": [
+      4
+     ],
+     "loud": "qmmllmmmllmmmllllllmmmqmmmmmmmlllllllmqmmmmllmlmlllllmmmmqqmmlllmq"
     }
    ]
   },
@@ -2228,7 +2585,11 @@
      "tempo": [
       "Allegro"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      4
+     ],
+     "loud": "qlllllllllmmlllllllllmmllllllllllllllllllllllllmmmllllllllqmlqlmlmqmq"
     },
     {
      "n": 2,
@@ -2253,7 +2614,11 @@
      "tempo": [
       "Andantino"
      ],
-     "key": "F-sharp minor"
+     "key": "F-sharp minor",
+     "pace": [
+      2
+     ],
+     "loud": "qmqmqqmmqqmqmqqmmqqmllllllllllmlmmmqqmmmmmmmlmmmlmqmmqq"
     },
     {
      "n": 3,
@@ -2273,7 +2638,12 @@
       "Allegro vivace",
       "Un poco più lento"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      4,
+      0
+     ],
+     "loud": "qllllmlllllllllmmllmmllmqlllllllq"
     },
     {
      "n": 4,
@@ -2293,7 +2663,12 @@
       "Allegretto",
       "Presto"
      ],
-     "key": "A major"
+     "key": "A major",
+     "pace": [
+      3,
+      5
+     ],
+     "loud": "qlllllllllllllllllllllllllllllllllllllllmmmllllllllllllllllllqmmqmlllllq"
     }
    ]
   },
@@ -2335,7 +2710,9 @@
       }
      ],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qqqqqqqqqqmqmqqqqqqqqqmqmqmmqq"
     },
     {
      "n": 2,
@@ -2346,7 +2723,9 @@
      "duration": 114,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qmmmmmmmmmmq"
     },
     {
      "n": 3,
@@ -2357,7 +2736,9 @@
      "duration": 88,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qmqmmmmmm"
     },
     {
      "n": 4,
@@ -2374,7 +2755,9 @@
       }
      ],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qmmmmqmmqmmq"
     },
     {
      "n": 5,
@@ -2385,7 +2768,9 @@
      "duration": 54,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "mlmmmq"
     },
     {
      "n": 6,
@@ -2396,7 +2781,9 @@
      "duration": 78,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "mmlllllm"
     },
     {
      "n": 7,
@@ -2407,7 +2794,9 @@
      "duration": 62,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qmmmmmq"
     },
     {
      "n": 8,
@@ -2420,7 +2809,11 @@
      "tempo": [
       "Al tempo di Giga"
      ],
-     "key": "G major"
+     "key": "G major",
+     "pace": [
+      4
+     ],
+     "loud": "qqqqqqqqqqqqqqqqqq"
     },
     {
      "n": 9,
@@ -2431,7 +2824,9 @@
      "duration": 104,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "mlmmlmmllml"
     },
     {
      "n": 10,
@@ -2442,7 +2837,9 @@
      "duration": 100,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qqqqqmlmlq"
     },
     {
      "n": 11,
@@ -2453,7 +2850,9 @@
      "duration": 87,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "mlllllllm"
     },
     {
      "n": 12,
@@ -2464,7 +2863,9 @@
      "duration": 95,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "mmmmllmlmm"
     },
     {
      "n": 13,
@@ -2475,7 +2876,9 @@
      "duration": 153,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qmmmmmmqmmmqmmmq"
     },
     {
      "n": 14,
@@ -2486,7 +2889,9 @@
      "duration": 339,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qqqqqqmqqqqqqqqqqqqmqqqqqqqqqqqmqq"
     },
     {
      "n": 15,
@@ -2497,7 +2902,9 @@
      "duration": 122,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "llllllllllllq"
     },
     {
      "n": 16,
@@ -2510,7 +2917,11 @@
      "tempo": [
       "Andante"
      ],
-     "key": "G minor"
+     "key": "G minor",
+     "pace": [
+      2
+     ],
+     "loud": "qqqqqqqqqqqqqqqqmmqqqqqqqmqqq"
     },
     {
      "n": 17,
@@ -2527,7 +2938,9 @@
       }
      ],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "lmlllmmmllq"
     },
     {
      "n": 18,
@@ -2538,7 +2951,9 @@
      "duration": 95,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "mlmlmmlmlq"
     },
     {
      "n": 19,
@@ -2549,7 +2964,9 @@
      "duration": 89,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qmqqqqqmq"
     },
     {
      "n": 20,
@@ -2560,7 +2977,9 @@
      "duration": 72,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qmmmmmmm"
     },
     {
      "n": 21,
@@ -2571,7 +2990,9 @@
      "duration": 107,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "llllllllllq"
     },
     {
      "n": 22,
@@ -2582,7 +3003,9 @@
      "duration": 98,
      "notes": [],
      "tempo": [],
-     "key": "G minor"
+     "key": "G minor",
+     "pace": [],
+     "loud": "qmmmqmmlmm"
     },
     {
      "n": 23,
@@ -2595,7 +3018,11 @@
      "tempo": [
       "Alla breve"
      ],
-     "key": "G major"
+     "key": "G major",
+     "pace": [
+      null
+     ],
+     "loud": "qqqqqqqqqqqqqq"
     },
     {
      "n": 24,
@@ -2606,7 +3033,9 @@
      "duration": 125,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qqqqmmlmllllm"
     },
     {
      "n": 25,
@@ -2617,7 +3046,9 @@
      "duration": 165,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qmmmqmmmmmmmmmmmq"
     },
     {
      "n": 26,
@@ -2636,7 +3067,11 @@
      "tempo": [
       "Adagio"
      ],
-     "key": "G minor"
+     "key": "G minor",
+     "pace": [
+      1
+     ],
+     "loud": "qqqqqqqmqqqqqqqqqqqqqqqqqqqqqqqqqqqmllqqq"
     },
     {
      "n": 27,
@@ -2647,7 +3082,9 @@
      "duration": 110,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "lllllllllll"
     },
     {
      "n": 28,
@@ -2658,7 +3095,9 @@
      "duration": 94,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "llmmmmmlll"
     },
     {
      "n": 29,
@@ -2669,7 +3108,9 @@
      "duration": 137,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "mlmmlmmlmmqmmq"
     },
     {
      "n": 30,
@@ -2680,7 +3121,9 @@
      "duration": 119,
      "notes": [],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "llllllllllll"
     },
     {
      "n": 31,
@@ -2697,7 +3140,9 @@
       }
      ],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "llllllmmqqq"
     },
     {
      "n": 32,
@@ -2714,7 +3159,9 @@
       }
      ],
      "tempo": [],
-     "key": "G major"
+     "key": "G major",
+     "pace": [],
+     "loud": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
     }
    ]
   }
