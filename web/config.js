@@ -1,7 +1,6 @@
 // Personalise the player here. Colours and fonts live at the top of style.css.
 window.PLAYER_CONFIG = {
-  title: "Classical Library",
-  tagline: "Public-domain recordings from Musopen",
+  title: "Inside Jeem’s head",
 
   // Where audio comes from:
   //   "auto"    – your local files when served by `make serve`, otherwise archive.org

@@ -1,0 +1,79 @@
+{
+ "bach": {
+  "artist": "Elias Gottlob Haussmann",
+  "date": "1748",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg",
+  "file": "Johann_Sebastian_Bach.jpg"
+ },
+ "beethoven": {
+  "artist": "Joseph Karl Stieler",
+  "date": "1820",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+  "file": "Joseph_Karl_Stieler's_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
+ },
+ "borodin": {
+  "artist": "Unknown",
+  "date": "1865",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Borodin.jpg",
+  "file": "Borodin.jpg"
+ },
+ "brahms": {
+  "artist": "C. Brasch, Berlin",
+  "date": "1889",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:JohannesBrahms_(cropped).jpg",
+  "file": "JohannesBrahms_(cropped).jpg"
+ },
+ "dvorak": {
+  "artist": "Unknown author",
+  "date": "1882",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Dvorak.jpg",
+  "file": "Dvorak.jpg"
+ },
+ "haydn": {
+  "artist": "Thomas Hardy",
+  "date": "1791",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Joseph_Haydn.jpg",
+  "file": "Joseph_Haydn.jpg"
+ },
+ "mendelssohn": {
+  "artist": "Eduard Magnus",
+  "date": "1833",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg",
+  "file": "Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg"
+ },
+ "mozart": {
+  "artist": "Johann Nepomuk della Croce",
+  "date": "circa 1780",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+  "file": "The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
+ },
+ "schubert": {
+  "artist": "Wilhelm August Rieder",
+  "date": "1875",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg",
+  "file": "Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg"
+ },
+ "suk": {
+  "artist": "Unknown author",
+  "date": "",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Josef_Suk(1).jpg",
+  "file": "Josef_Suk(1).jpg"
+ },
+ "tchaikovsky": {
+  "artist": "Émile Reutlinger",
+  "date": "1888,[1] published 1904",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg",
+  "file": "Tchaikovsky_by_Reutlinger_(cropped).jpg"
+ }
+}

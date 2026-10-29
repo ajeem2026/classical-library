@@ -53,6 +53,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         except (BrokenPipeError, ConnectionResetError):
             pass  # browser cancelled the range request while seeking
 
+    def end_headers(self):
+        # Local preview: never let the browser serve a stale module after an edit.
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
+
     def log_message(self, *args):
         pass
 

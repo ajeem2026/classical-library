@@ -13,6 +13,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/beethoven.jpg",
+    "credit": "Portrait: Joseph Karl Stieler, 1820. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "You wrote Bonaparte’s name on the title page. What happened?"
+     },
+     {
+      "who": "them",
+      "text": "He made himself emperor. Now he will trample the rights of man. I tore the page in two."
+     },
+     {
+      "who": "me",
+      "text": "And the horn that comes in early?"
+     },
+     {
+      "who": "them",
+      "text": "At the first rehearsal Ries thought the player was wrong, and said so. He nearly had his ears boxed."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -20,7 +42,25 @@
      "label": "I. Allegro con brio",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBeethoven%20-%20Symphony%20No%203%20Eroica%2FSymphony%20No.%203%20in%20E%20Flat%20Major%20Eroica%2C%20Op.%2055%20-%20I.%20Allegro%20con%20brio.mp3",
      "local": "media/Beethoven/Symphony No. 3 in E-flat major, Op. 55/01 Allegro con brio.mp3",
-     "duration": 912
+     "duration": 912,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Composed mainly in 1803–04 with Napoleon in mind. When Napoleon crowned himself emperor in 1804, Beethoven reportedly tore the title page in half. It was published in 1806 as Sinfonia eroica.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Two sharp chords, then the cellos give out the theme. This vast movement grows from that plain rising arpeggio.",
+       "kind": "movement"
+      },
+      {
+       "at": 510,
+       "text": "Near the end of the development a horn seems to come in early with the main theme under the violins: a famous ‘mistake’ that Beethoven meant.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 2,
@@ -28,7 +68,14 @@
      "label": "II. Marcia funebre: Adagio assai",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBeethoven%20-%20Symphony%20No%203%20Eroica%2FSymphony%20No.%203%20in%20E%20Flat%20Major%20Eroica%2C%20Op.%2055%20-%20II.%20Marcia%20funebre%20Adagio%20assai.mp3",
      "local": "media/Beethoven/Symphony No. 3 in E-flat major, Op. 55/02 Marcia funebre - Adagio assai.mp3",
-     "duration": 929
+     "duration": 929,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A funeral march in C minor: a ternary march, large and amply developed, its main theme returning like a refrain.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -36,7 +83,15 @@
      "label": "III. Scherzo: Allegro vivace",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBeethoven%20-%20Symphony%20No%203%20Eroica%2FSymphony%20No.%203%20in%20E%20Flat%20Major%20Eroica%2C%20Op.%2055%20-%20III.%20Scherzo%20Allegro%20vivace.mp3",
      "local": "media/Beethoven/Symphony No. 3 in E-flat major, Op. 55/03 Scherzo - Allegro vivace.mp3",
-     "duration": 349
+     "duration": 349,
+     "notes": [
+      {
+       "at": 157,
+       "text": "A lively scherzo. In the trio, listen for three horns: the first time a symphony had used three.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 4,
@@ -44,7 +99,14 @@
      "label": "IV. Finale: Allegro molto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBeethoven%20-%20Symphony%20No%203%20Eroica%2FSymphony%20No.%203%20in%20E%20Flat%20Major%20Eroica%2C%20Op.%2055%20-%20IV.%20Finale%20Allegro%20molto.mp3",
      "local": "media/Beethoven/Symphony No. 3 in E-flat major, Op. 55/04 Finale - Allegro molto.mp3",
-     "duration": 705
+     "duration": 705,
+     "notes": [
+      {
+       "at": 6,
+       "text": "The finale’s theme comes from Beethoven’s own ballet The Creatures of Prometheus, about the Titan who brought fire to humankind.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -60,6 +122,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._1_(Brahms)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/brahms.jpg",
+    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Twenty-one years on one symphony?"
+     },
+     {
+      "who": "them",
+      "text": "After Beethoven, a symphony had to carry real weight. I was not going to hurry it."
+     },
+     {
+      "who": "me",
+      "text": "And the horn tune in the finale?"
+     },
+     {
+      "who": "them",
+      "text": "I sent it to Clara on a card in 1868. ‘Thus blew the shepherd’s horn today.’"
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -67,7 +151,19 @@
      "label": "I. Un poco sostenuto – Allegro – Meno allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%201%20in%20C%20Major%2FSymphony%20No.%201%20in%20C%20Minor%2C%20Op.%2068%20-%20I.%20Un%20poco%20sostenuto%20-%20Allegro.mp3",
      "local": "media/Brahms/Symphony No. 1 in C minor, Op. 68/01 Un poco sostenuto – Allegro – Meno allegro.mp3",
-     "duration": 909
+     "duration": 909,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Brahms worked on this symphony for about 21 years, from sketches in 1855 to the premiere in Karlsruhe on 4 November 1876. Hans von Bülow called it ‘Beethoven’s Tenth’.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "The introduction climbs and falls against a pounding low C in the timpani, Brahms announcing his symphony under Beethoven’s shadow.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -75,7 +171,15 @@
      "label": "II. Andante sostenuto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%201%20in%20C%20Major%2FSymphony%20No.%201%20in%20C%20Minor%2C%20Op.%2068%20-%20II.%20Andante%20sostenuto.mp3",
      "local": "media/Brahms/Symphony No. 1 in C minor, Op. 68/02 Andante sostenuto.mp3",
-     "duration": 517
+     "duration": 517,
+     "notes": [
+      {
+       "at": 457,
+       "text": "A tender Andante in E major, far from C minor. Near the end a long violin solo recalls Beethoven’s late quartets and Missa Solemnis.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 3,
@@ -83,7 +187,14 @@
      "label": "III. Un poco allegretto e grazioso",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%201%20in%20C%20Major%2FSymphony%20No.%201%20in%20C%20Minor%2C%20Op.%2068%20-%20III.%20Un%20poco%20allegretto%20e%20grazioso.mp3",
      "local": "media/Brahms/Symphony No. 1 in C minor, Op. 68/03 Un poco allegretto e grazioso.mp3",
-     "duration": 295
+     "duration": 295,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Instead of a Beethoven-style scherzo, a gentle intermezzo: ‘a little allegretto, graceful’.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -91,7 +202,21 @@
      "label": "IV. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%201%20in%20C%20Major%2FSymphony%20No.%201%20in%20C%20Minor%2C%20Op.%2068%20-%20IV.%20Adagio%20-%20Piu%CC%80%20andante%20-%20Allegro%20non%20troppo%2C%20ma%20con%20brio.mp3",
      "local": "media/Brahms/Symphony No. 1 in C minor, Op. 68/04 Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro.mp3",
-     "duration": 1017
+     "duration": 1017,
+     "notes": [
+      {
+       "at": 172,
+       "text": "The horn call: in September 1868 Brahms sent this alphorn tune to Clara Schumann on a card. ‘Thus blew the shepherd’s horn today!’",
+       "kind": "movement",
+       "check": true
+      },
+      {
+       "at": 304,
+       "text": "Then the broad string tune of the Allegro. Its kinship with Beethoven’s ‘Ode to Joy’ is part of why it was called ‘Beethoven’s Tenth’.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     }
    ]
   },
@@ -107,6 +232,20 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._2_(Brahms)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/brahms.jpg",
+    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "You told your publisher this one was unbearably melancholy."
+     },
+     {
+      "who": "them",
+      "text": "I did. Then he heard it. A summer by the lake at Pörtschach does not make a sad symphony."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -114,7 +253,25 @@
      "label": "I. Allegro non troppo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No2%20in%20D%20major%2FSymphon%20No.%202%20in%20D%20Major%2C%20Op.%2073%20-%20I.%20Allegro%20non%20troppo.mp3",
      "local": "media/Brahms/Symphony No. 2 in D major, Op. 73/01 Allegro non troppo.mp3",
-     "duration": 1000
+     "duration": 1000,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written in summer 1877 at Pörtschach on the Wörthersee. Brahms told his publisher it was ‘so melancholy that you will not be able to bear it’. It is among his sunniest works.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "It opens with a three-note turn in the low strings, answered by horns. Much of the symphony grows from it.",
+       "kind": "movement"
+      },
+      {
+       "at": 120,
+       "text": "Violas and cellos now sing a second theme close to Brahms’s famous Lullaby.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 2,
@@ -122,7 +279,14 @@
      "label": "II. Adagio non troppo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No2%20in%20D%20major%2FSymphon%20No.%202%20in%20D%20Major%2C%20Op.%2073%20-%20II.%20Adagio%20non%20toppo.mp3",
      "local": "media/Brahms/Symphony No. 2 in D major, Op. 73/02 Adagio non troppo.mp3",
-     "duration": 556
+     "duration": 556,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Adagio non troppo, in B major: the most searching movement, opening with a long, wandering cello melody.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -130,7 +294,14 @@
      "label": "III. Allegretto grazioso (quasi andantino)",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No2%20in%20D%20major%2FSymphon%20No.%202%20in%20D%20Major%2C%20Op.%2073%20-%20III.%20Allegretto%20Grazioso%20%28take%201%29.mp3",
      "local": "media/Brahms/Symphony No. 2 in D major, Op. 73/03 Allegretto grazioso (quasi andantino).mp3",
-     "duration": 303
+     "duration": 303,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A gentle dance in G major led by the oboe, twice interrupted by quicker Presto episodes built from the same tune.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -138,7 +309,15 @@
      "label": "IV. Allegro con spirito",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No2%20in%20D%20major%2FSymphon%20No.%202%20in%20D%20Major%2C%20Op.%2073%20-%20IV.%20Allegro%20Con%20Spirito.mp3",
      "local": "media/Brahms/Symphony No. 2 in D major, Op. 73/04 Allegro con spirito.mp3",
-     "duration": 585
+     "duration": 585,
+     "notes": [
+      {
+       "at": 525,
+       "text": "Allegro con spirito: it builds to a jubilant D-major ending, trombones and tuba blazing.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     }
    ]
   },
@@ -154,6 +333,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._3_(Brahms)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/brahms.jpg",
+    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "F, A, F. What does it mean?"
+     },
+     {
+      "who": "them",
+      "text": "Frei aber froh. Free, but happy. Joachim’s motto was ‘free but lonely’. At fifty, I chose mine."
+     },
+     {
+      "who": "me",
+      "text": "Why let it end so quietly?"
+     },
+     {
+      "who": "them",
+      "text": "Everyone expects thunder at the end of a symphony. I let the motto settle instead."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -161,7 +362,19 @@
      "label": "I. Allegro con brio",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%203%2FSymphony%20No.%203%20in%20F%20Major%2C%20Op.%2090%20-%20I.%20Allegro%20con%20brio.mp3",
      "local": "media/Brahms/Symphony No. 3 in F major, Op. 90/01 Allegro con brio.mp3",
-     "duration": 605
+     "duration": 605,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written in summer 1883 at Wiesbaden. Brahms, 50 and a bachelor, called himself ‘Frei aber froh’, free but happy. Hans Richter premiered it in Vienna on 2 December 1883.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Listen for the motto F–A–F in the opening chords. It runs through the whole symphony, often read as Brahms’s ‘free but happy’.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -169,7 +382,14 @@
      "label": "II. Andante",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%203%2FSymphony%20No.%203%20in%20F%20Major%2C%20Op.%2090%20-%20II.%20Andante.mp3",
      "local": "media/Brahms/Symphony No. 3 in F major, Op. 90/02 Andante.mp3",
-     "duration": 529
+     "duration": 529,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A quiet Andante in C major, opening with clarinets and bassoons like a hymn.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -177,7 +397,14 @@
      "label": "III. Poco allegretto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%203%2FSymphony%20No.%203%20in%20F%20Major%2C%20Op.%2090%20-%20III.%20Poco%20allegretto.mp3",
      "local": "media/Brahms/Symphony No. 3 in F major, Op. 90/03 Poco allegretto.mp3",
-     "duration": 370
+     "duration": 370,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Poco allegretto in C minor: the cellos sing one of Brahms’s best-known melodies, later taken up by the horn.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -185,7 +412,15 @@
      "label": "IV. Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%203%2FSymphony%20No.%203%20in%20F%20Major%2C%20Op.%2090%20-%20IV.%20Allegro.mp3",
      "local": "media/Brahms/Symphony No. 3 in F major, Op. 90/04 Allegro.mp3",
-     "duration": 586
+     "duration": 586,
+     "notes": [
+      {
+       "at": 526,
+       "text": "The finale storms in F minor, then dissolves: the symphony ends quietly, the motto settling into F major.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     }
    ]
   },
@@ -201,6 +436,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/brahms.jpg",
+    "credit": "Portrait: C. Brasch, Berlin, 1889. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "The finale goes back to Bach."
+     },
+     {
+      "who": "them",
+      "text": "A chaconne from his cantata ‘Nach dir, Herr, verlanget mich’. My last symphony ends on his ground."
+     },
+     {
+      "who": "me",
+      "text": "And the triangle?"
+     },
+     {
+      "who": "them",
+      "text": "Once, in four symphonies. Let it ring."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -208,7 +465,19 @@
      "label": "I. Allegro non troppo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%204%20in%20E%20minor%2FSymphony%20No.%204%20in%20E%20Minor%2C%20Op.%2098%20-%20I.%20Allegro%20Non%20Troppo.mp3",
      "local": "media/Brahms/Symphony No. 4 in E minor, Op. 98/01 Allegro non troppo.mp3",
-     "duration": 761
+     "duration": 761,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Begun in 1884 at Mürzzuschlag in the Austrian Alps. Brahms conducted the premiere in Meiningen on 25 October 1885. It was his last symphony.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "The violins open with a chain of falling thirds, sighing two notes at a time.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -216,7 +485,14 @@
      "label": "II. Andante moderato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%204%20in%20E%20minor%2FSymphony%20No.%204%20in%20E%20Minor%2C%20Op.%2098%20-%20II.%20Andante%20Moderato.mp3",
      "local": "media/Brahms/Symphony No. 4 in E minor, Op. 98/02 Andante moderato.mp3",
-     "duration": 674
+     "duration": 674,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Horns announce the theme in the old Phrygian church mode before the strings warm it into E major.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -224,7 +500,14 @@
      "label": "III. Allegro giocoso",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%204%20in%20E%20minor%2FSymphony%20No.%204%20in%20E%20Minor%2C%20Op.%2098%20-%20III.%20Allegro%20Giocoso.mp3",
      "local": "media/Brahms/Symphony No. 4 in E minor, Op. 98/03 Allegro giocoso.mp3",
-     "duration": 379
+     "duration": 379,
+     "notes": [
+      {
+       "at": 6,
+       "text": "The only scherzo-like movement in Brahms’s symphonies, and the only one with a triangle. Listen for it.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -232,7 +515,20 @@
      "label": "IV. Allegro energico e passionato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%204%20in%20E%20minor%2FSymphony%20No.%204%20in%20E%20Minor%2C%20Op.%2098%20-%20IV.%20Allegro%20Energico%20e%20Passionato.mp3",
      "local": "media/Brahms/Symphony No. 4 in E minor, Op. 98/04 Allegro energico e passionato.mp3",
-     "duration": 668
+     "duration": 668,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A passacaglia: variations over a repeating theme that Brahms adapted from the closing chaconne of Bach’s cantata BWV 150.",
+       "kind": "movement"
+      },
+      {
+       "at": 368,
+       "text": "The variations gather to their climax: the Baroque form carrying Brahms’s darkest symphonic ending.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     }
    ]
   },
@@ -248,6 +544,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/tchaikovsky.jpg",
+    "credit": "Portrait: Émile Reutlinger, 1888,[1] published 1904. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "You conducted this nine days before you died."
+     },
+     {
+      "who": "them",
+      "text": "I did not know that. I only wrote to my brother that I believed it the best of my works."
+     },
+     {
+      "who": "me",
+      "text": "Why end slowly?"
+     },
+     {
+      "who": "them",
+      "text": "Symphonies end in triumph. This one ends very quietly, in the low strings."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -255,7 +573,25 @@
      "label": "I. Adagio – Allegro non troppo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FTchaikovsky%20-%20Symphony%20Pathetique%2FSymphony%20No.%206%20In%20B%20Minor%2C%20Op.%2074%2C%20%27Pathetique%27%20-%20I.%20Adagio%2C%20Allegro%20Non%20Troppo.mp3",
      "local": "media/Tchaikovsky/Symphony No. 6 in B minor, Op. 74/01 Adagio – Allegro non troppo.mp3",
-     "duration": 1051
+     "duration": 1051,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written between February and August 1893 in a small house in Klin. Tchaikovsky conducted the premiere in Saint Petersburg nine days before he died.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "It begins in near darkness: a lone bassoon, low, over divided double basses.",
+       "kind": "movement"
+      },
+      {
+       "at": 538,
+       "text": "After the second theme fades almost to nothing, the full orchestra crashes in: one of the most startling entries in the symphonic repertoire.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 2,
@@ -263,7 +599,14 @@
      "label": "II. Allegro con grazia",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FTchaikovsky%20-%20Symphony%20Pathetique%2FSymphony%20No.%206%20in%20B%20minor%2C%20Op.%2074%2C%20%27Pathetique%27%20-%20II.%20Allegro%20con%20gracia.mp3",
      "local": "media/Tchaikovsky/Symphony No. 6 in B minor, Op. 74/02 Allegro con grazia.mp3",
-     "duration": 496
+     "duration": 496,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A waltz with five beats to the bar, described as ‘limping’: graceful, but never quite settling.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -271,7 +614,15 @@
      "label": "III. Allegro molto vivace",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FTchaikovsky%20-%20Symphony%20Pathetique%2FSymphony%20No.%206%20in%20B%20minor%2C%20Op.%2074%2C%20%27Pathetique%27%20-%20III.%20Allegro%20molto%20vivace.mp3",
      "local": "media/Tchaikovsky/Symphony No. 6 in B minor, Op. 74/03 Allegro molto vivace.mp3",
-     "duration": 593
+     "duration": 593,
+     "notes": [
+      {
+       "at": 355,
+       "text": "A playful scherzo that turns into a march and drives to a triumphant close.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 4,
@@ -279,7 +630,15 @@
      "label": "IV. Finale: Adagio lamentoso",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FTchaikovsky%20-%20Symphony%20Pathetique%2FSymphony%20No.%206%20in%20B%20minor%2C%20Op.%2074%2C%20%27Pathetique%27%20-%20IV.%20Finale%20Adagio%20lamentoso.mp3",
      "local": "media/Tchaikovsky/Symphony No. 6 in B minor, Op. 74/04 Finale - Adagio lamentoso.mp3",
-     "duration": 619
+     "duration": 619,
+     "notes": [
+      {
+       "at": 558,
+       "text": "Instead of a fast finale, an Adagio lamentoso. The symphony ends very quietly, sinking into the low strings.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     }
    ]
   },
@@ -295,6 +654,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._6_(Beethoven)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/beethoven.jpg",
+    "credit": "Portrait: Joseph Karl Stieler, 1820. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Why call the last movement ‘melancholy’?"
+     },
+     {
+      "who": "them",
+      "text": "Because it is. I wrote that it must be played with the greatest delicacy."
+     },
+     {
+      "who": "me",
+      "text": "Then a dance breaks in."
+     },
+     {
+      "who": "them",
+      "text": "The dance tries to forget. The melancholy keeps coming back."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -302,7 +683,19 @@
      "label": "I. Allegro con brio",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBeethoven%20String%20Quartet%20in%20B%20flat%20Major%20Op%2018%2FString%20Quartet%20No.%206%20in%20B%20Flat%20Major%2C%20Op.%2018%2C%20No.%206%20-%20I.%20Allegro%20con%20brio.mp3",
      "local": "media/Beethoven/String Quartet No. 6 in B-flat major, Op. 18 No. 6/01 Allegro con brio.mp3",
-     "duration": 281
+     "duration": 281,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written 1798–1800 on a commission from Prince Lobkowitz and published in 1801: the last of Beethoven’s first six quartets, composed in his late twenties in Vienna.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Allegro con brio: a quick, bright conversation tossed between first violin and cello.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -310,7 +703,14 @@
      "label": "II. Adagio ma non troppo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBeethoven%20String%20Quartet%20in%20B%20flat%20Major%20Op%2018%2FString%20Quartet%20No.%206%20in%20B%20Flat%20Major%2C%20Op.%2018%2C%20No.%206%20-%20II.%20Adagio%20ma%20non%20troppo.mp3",
      "local": "media/Beethoven/String Quartet No. 6 in B-flat major, Op. 18 No. 6/02 Adagio ma non troppo.mp3",
-     "duration": 422
+     "duration": 422,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A gentle Adagio in E-flat major, the quartet’s quietest movement.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -318,7 +718,14 @@
      "label": "III. Scherzo: Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBeethoven%20String%20Quartet%20in%20B%20flat%20Major%20Op%2018%2FString%20Quartet%20No.%206%20in%20B%20Flat%20Major%2C%20Op.%2018%2C%20No.%206%20-%20III.%20Scherzo%20Allegro.mp3",
      "local": "media/Beethoven/String Quartet No. 6 in B-flat major, Op. 18 No. 6/03 Scherzo - Allegro.mp3",
-     "duration": 253
+     "duration": 253,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A ‘tour de force of syncopation’: listen for accents that keep landing where the beat isn’t.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -326,7 +733,14 @@
      "label": "IV. La malinconia: Adagio – Allegretto quasi allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBeethoven%20String%20Quartet%20in%20B%20flat%20Major%20Op%2018%2FString%20Quartet%20No.%206%20in%20B%20Flat%20Major%2C%20Op.%2018%2C%20No.%206%20-%20IV.%20%28Adagio%29%20La%20Malinconia.mp3",
      "local": "media/Beethoven/String Quartet No. 6 in B-flat major, Op. 18 No. 6/04 La malinconia - Adagio – Allegretto quasi allegro.mp3",
-     "duration": 493
+     "duration": 493,
+     "notes": [
+      {
+       "at": 6,
+       "text": "‘La Malinconia’, melancholy. Beethoven marked it to be played ‘with the greatest delicacy’. It alternates with a carefree dance until the two collide.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -342,6 +756,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://imslp.org/wiki/String_Quartet_No.1_(Borodin,_Aleksandr)",
    "note": "Scherzo abridged in this recording, per IMSLP",
+   "dream": {
+    "portrait": "assets/portraits/borodin.jpg",
+    "credit": "Portrait: Unknown, 1865. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Five years on one quartet?"
+     },
+     {
+      "who": "them",
+      "text": "1874 to 1879. I was a chemist first; music had to wait for my free hours."
+     },
+     {
+      "who": "me",
+      "text": "Why borrow from Beethoven?"
+     },
+     {
+      "who": "them",
+      "text": "A phrase from the finale of his Op. 130 stayed with me. My quartet answers it."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -349,7 +785,19 @@
      "label": "I. Moderato – Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%201%2FString%20Quartet%20No.%201%20in%20A%20Major%20-%20I.%20Moderato%20-%20Allegro.mp3",
      "local": "media/Borodin/String Quartet No. 1 in A major/01 Moderato – Allegro.mp3",
-     "duration": 887
+     "duration": 887,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Composed 1874–79 and first played in Saint Petersburg on 30 December 1880. Its subtitle, ‘On a theme of Beethoven’, comes from borrowings from the finale of Beethoven’s Op. 130.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Borodin was a professor of chemistry who composed in his spare time; this movement weaves in Beethoven’s theme.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -357,7 +805,14 @@
      "label": "II. Andante con moto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%201%2FString%20Quartet%20No.%201%20in%20A%20Major%20-%20II.%20Andante%20con%20moto.mp3",
      "local": "media/Borodin/String Quartet No. 1 in A major/02 Andante con moto.mp3",
-     "duration": 518
+     "duration": 518,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Andante con moto in F-sharp minor, with a fugato at its heart.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -365,7 +820,14 @@
      "label": "III. Scherzo: Prestissimo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%201%2FString%20Quartet%20No.%201%20in%20A%20Major%20-%20III.%20Scherzo%20Prestissimo.mp3",
      "local": "media/Borodin/String Quartet No. 1 in A major/03 Scherzo - Prestissimo.mp3",
-     "duration": 115
+     "duration": 115,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Scherzo: Prestissimo. This recording plays it abridged.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -373,7 +835,14 @@
      "label": "IV. Andante – Allegro risoluto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%201%2FString%20Quartet%20No.%201%20in%20A%20Major%20-%20IV.%20Andante%20-%20Allegro%20risoluto.mp3",
      "local": "media/Borodin/String Quartet No. 1 in A major/04 Andante – Allegro risoluto.mp3",
-     "duration": 534
+     "duration": 534,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A slow Andante opening, then Allegro risoluto, returning to the Beethoven-derived material.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -389,6 +858,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._2_(Borodin)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/borodin.jpg",
+    "credit": "Portrait: Unknown, 1865. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Who is this for?"
+     },
+     {
+      "who": "them",
+      "text": "For Ekaterina, my wife. Twenty years since we met in Heidelberg, some say."
+     },
+     {
+      "who": "me",
+      "text": "And the Notturno?"
+     },
+     {
+      "who": "them",
+      "text": "The cello sings first, then the violin answers. You may guess who is who."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -396,7 +887,19 @@
      "label": "I. Allegro moderato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%202%2FString%20Quartet%20No.%202%20in%20D%20Major%20-%20I.%20Allegro%20moderato.mp3",
      "local": "media/Borodin/String Quartet No. 2 in D major/01 Allegro moderato.mp3",
-     "duration": 541
+     "duration": 541,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written in 1881 at a friend’s estate at Zhitovo and dedicated to his wife, Ekaterina Protopova. It may be a 20th-anniversary gift recalling how they met in Heidelberg.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "The cello opens with a lyrical melody high in its register.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -404,7 +907,14 @@
      "label": "II. Scherzo: Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%202%2FString%20Quartet%20No.%202%20in%20D%20Major%20-%20II.%20Scherzo%20Allegro.mp3",
      "local": "media/Borodin/String Quartet No. 2 in D major/02 Scherzo - Allegro.mp3",
-     "duration": 337
+     "duration": 337,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Scherzo: Allegro, light and quick, a brief breath before the famous Notturno.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -412,7 +922,14 @@
      "label": "III. Notturno: Andante",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%202%2FString%20Quartet%20No.%202%20in%20D%20Major%20-%20III.%20Nocturne%20Andante.mp3",
      "local": "media/Borodin/String Quartet No. 2 in D major/03 Notturno - Andante.mp3",
-     "duration": 547
+     "duration": 547,
+     "notes": [
+      {
+       "at": 6,
+       "text": "The Notturno, the quartet’s most famous movement: the cello sings the long melody, later answered by the first violin.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -420,7 +937,14 @@
      "label": "IV. Finale: Andante – Vivace",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%202%2FString%20Quartet%20No.%202%20in%20D%20Major%20-%20IV.%20Finale%20Andante%20-%20Vivace.mp3",
      "local": "media/Borodin/String Quartet No. 2 in D major/04 Finale - Andante – Vivace.mp3",
-     "duration": 434
+     "duration": 434,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Finale: a slow question-and-answer opening, then off at a Vivace.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -436,6 +960,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._12_(Dvo%C5%99%C3%A1k)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/dvorak.jpg",
+    "credit": "Portrait: Unknown author, 1882. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "What did you hear in Spillville?"
+     },
+     {
+      "who": "them",
+      "text": "A bird, high in the trees. I wrote its song down and gave it to the first violin."
+     },
+     {
+      "who": "me",
+      "text": "People argue about which bird."
+     },
+     {
+      "who": "them",
+      "text": "A scarlet tanager, I thought. Perhaps a vireo. I wanted something simple, like dear Papa Haydn."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -443,7 +989,19 @@
      "label": "I. Allegro ma non troppo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20-%20American%20in%20F%20major%2FString%20Quartet%20No.%2012%20in%20F%20Major%2C%20Op.%2096%2C%20American%20-%20I.%20Allegro%20ma%20non%20troppo.mp3",
      "local": "media/Dvořák/String Quartet No. 12 in F major, Op. 96/01 Allegro ma non troppo.mp3",
-     "duration": 476
+     "duration": 476,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written in 1893 in Spillville, a Czech community in Iowa, on a summer break from New York. ‘Dear Papa Haydn kept appearing before my eyes,’ Dvořák said, ‘so it turned out so simple.’",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "The viola opens with the main theme over shimmering violins. The pentatonic scale, used throughout, gives the quartet its open sound.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -451,7 +1009,14 @@
      "label": "II. Lento",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20-%20American%20in%20F%20major%2FString%20Quartet%20No.%2012%20in%20F%20Major%2C%20Op.%2096%2C%20American%20-%20II.%20Lento.mp3",
      "local": "media/Dvořák/String Quartet No. 12 in F major, Op. 96/02 Lento.mp3",
-     "duration": 471
+     "duration": 471,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Lento: a long, aching melody for the first violin, later taken by the cello.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -459,7 +1024,15 @@
      "label": "III. Molto vivace",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20-%20American%20in%20F%20major%2FString%20Quartet%20No.%2012%20in%20F%20Major%2C%20Op.%2096%2C%20American%20-%20III.%20Molto%20Vivace.mp3",
      "local": "media/Dvořák/String Quartet No. 12 in F major, Op. 96/03 Molto vivace.mp3",
-     "duration": 250
+     "duration": 250,
+     "notes": [
+      {
+       "at": 100,
+       "text": "Listen for a high, interrupting strain in the first violin: a bird Dvořák heard in Spillville. He thought it a scarlet tanager; it may have been a vireo.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 4,
@@ -467,7 +1040,14 @@
      "label": "IV. Finale: Vivace ma non troppo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20-%20American%20in%20F%20major%2FString%20Quartet%20No.%2012%20in%20F%20Major%2C%20Op.%2096%2C%20American%20-%20IV.%20Finale%20-%20Vivace%20ma%20non%20troppo.mp3",
      "local": "media/Dvořák/String Quartet No. 12 in F major, Op. 96/04 Finale - Vivace ma non troppo.mp3",
-     "duration": 352
+     "duration": 352,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Finale: a steady, chugging rhythm drives it. Dvořák was a lifelong railway enthusiast.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -483,6 +1063,20 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._10_(Dvo%C5%99%C3%A1k)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/dvorak.jpg",
+    "credit": "Portrait: Unknown author, 1882. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Becker asked you for something Slavonic?"
+     },
+     {
+      "who": "them",
+      "text": "After the Slavonic Dances, everyone did. So: a dumka in the middle, and a skočná to finish."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -490,7 +1084,19 @@
      "label": "I. Allegro ma non troppo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20Quartet%20in%20F%20Major%20Op%2051%2FString%20Quartet%20No.%2010%20In%20E%20Flat%2C%20Op.%2051%20-%20I.%20Allegro%20Ma%20Non%20Troppo.mp3",
      "local": "media/Dvořák/String Quartet No. 10 in E-flat major, Op. 51/01 Allegro ma non troppo.mp3",
-     "duration": 675
+     "duration": 675,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written in 1879 for Jean Becker of the Florentine Quartet, who asked for a ‘Slavonic’ quartet after the success of the Slavonic Dances. The Joachim Quartet first played it in Berlin.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Allegro ma non troppo: a relaxed opening with a rocking, dance-like lilt.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -498,7 +1104,14 @@
      "label": "II. Dumka: Andante con moto – Vivace",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20Quartet%20in%20F%20Major%20Op%2051%2FString%20Quartet%20No.%2010%20In%20E%20Flat%2C%20Op.%2051%20-%20II.%20Dumka.mp3",
      "local": "media/Dvořák/String Quartet No. 10 in E-flat major, Op. 51/02 Dumka - Andante con moto – Vivace.mp3",
-     "duration": 466
+     "duration": 466,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A dumka, the Slavonic lament that turns from sorrow to quick dance and back. It gives the quartet its Slavonic character.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -506,7 +1119,14 @@
      "label": "III. Romanza: Andante con moto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20Quartet%20in%20F%20Major%20Op%2051%2FString%20Quartet%20No.%2010%20In%20E%20Flat%2C%20Op.%2051%20-%20III.%20Romanza.mp3",
      "local": "media/Dvořák/String Quartet No. 10 in E-flat major, Op. 51/03 Romanza - Andante con moto.mp3",
-     "duration": 367
+     "duration": 367,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Romanza: a warm, song-like slow movement.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -514,7 +1134,14 @@
      "label": "IV. Finale: Allegro assai",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20Quartet%20in%20F%20Major%20Op%2051%2FString%20Quartet%20No.%2010%20In%20E%20Flat%2C%20Op.%2051%20-%20IV.%20Finale%20Allegro%20Assai.mp3",
      "local": "media/Dvořák/String Quartet No. 10 in E-flat major, Op. 51/04 Finale - Allegro assai.mp3",
-     "duration": 434
+     "duration": 434,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A stylisation of the Czech skočná, a fast leaping dance.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -530,6 +1157,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/String_Quartets,_Op._64_(Haydn)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/haydn.jpg",
+    "credit": "Portrait: Thomas Hardy, 1791. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Who was Tost?"
+     },
+     {
+      "who": "them",
+      "text": "A violinist, later a merchant. He helped me find a publisher for these."
+     },
+     {
+      "who": "me",
+      "text": "Do you mind them calling it ‘The Lark’?"
+     },
+     {
+      "who": "them",
+      "text": "Others named it, not I. The first violin does fly high."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -537,7 +1186,19 @@
      "label": "I. Allegro moderato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FHaydn%20Quartet%20in%20D%20Major%20Op.64%2FString%20Quartet%20In%20D%2C%20Op.%20645%2C%20H%20363%2C%20Lark%20-%20I.%20Allegro%20Moderato.mp3",
      "local": "media/Haydn/String Quartet in D major, Op. 64 No. 5, Hob. III-63/01 Allegro moderato.mp3",
-     "duration": 372
+     "duration": 372,
+     "notes": [
+      {
+       "at": 4,
+       "text": "One of six quartets composed in 1790, known as the Tost quartets after the violinist Johann Tost, who helped Haydn find a publisher.",
+       "kind": "work"
+      },
+      {
+       "at": 12,
+       "text": "The nickname comes from the first violin’s melody, which soars high above the others like a lark.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -545,7 +1206,14 @@
      "label": "II. Adagio cantabile",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FHaydn%20Quartet%20in%20D%20Major%20Op.64%2FString%20Quartet%20In%20D%2C%20Op.%20645%2C%20H%20363%2C%20Lark%20-%20II.%20Adagio%2C%20Cantabile.mp3",
      "local": "media/Haydn/String Quartet in D major, Op. 64 No. 5, Hob. III-63/02 Adagio cantabile.mp3",
-     "duration": 292
+     "duration": 292,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Adagio cantabile, in A major: a simple, singing melody, ornamented by the first violin.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -553,7 +1221,14 @@
      "label": "III. Menuetto: Allegretto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FHaydn%20Quartet%20in%20D%20Major%20Op.64%2FString%20Quartet%20In%20D%2C%20Op.%20645%2C%20H%20363%2C%20Lark%20-%20III.%20Menuetto%20Allegretto.mp3",
      "local": "media/Haydn/String Quartet in D major, Op. 64 No. 5, Hob. III-63/03 Menuetto - Allegretto.mp3",
-     "duration": 227
+     "duration": 227,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Menuetto: Allegretto, a courtly dance with a darker trio.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -561,7 +1236,14 @@
      "label": "IV. Finale: Vivace",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FHaydn%20Quartet%20in%20D%20Major%20Op.64%2FString%20Quartet%20In%20D%2C%20Op.%20645%2C%20H%20363%2C%20Lark%20-%20IV.%20Finale%20Vivace.mp3",
      "local": "media/Haydn/String Quartet in D major, Op. 64 No. 5, Hob. III-63/04 Finale - Vivace.mp3",
-     "duration": 91
+     "duration": 91,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Finale: a perpetual motion of rapid notes, with a fugal passage in the middle.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -577,6 +1259,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._6_(Mendelssohn)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/mendelssohn.jpg",
+    "credit": "Portrait: Eduard Magnus, 1833. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "This came after Fanny died."
+     },
+     {
+      "who": "them",
+      "text": "In May she was gone. I could not write anything gentle. This is what came."
+     },
+     {
+      "who": "me",
+      "text": "There is no turn to the major at the end."
+     },
+     {
+      "who": "them",
+      "text": "No. I could not find one."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -584,7 +1288,19 @@
      "label": "I. Allegro vivace assai",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMendelssohn%20Quartet%20in%20F%20Minor%20Op%2080%2FString%20Quartet%20No.%206%20in%20F%20minor%2C%20Op.%2080%20-%20I.%20Allegro%20vivace%20assai.mp3",
      "local": "media/Mendelssohn/String Quartet No. 6 in F minor, Op. 80/01 Allegro vivace assai.mp3",
-     "duration": 462
+     "duration": 462,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Composed in 1847 after his sister Fanny died on 14 May, as a homage to her. It was the last major work he completed. He died two months later, on 4 November.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Allegro vivace assai: tremolos and shuddering accents, grief without consolation.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -592,7 +1308,14 @@
      "label": "II. Allegro assai",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMendelssohn%20Quartet%20in%20F%20Minor%20Op%2080%2FString%20Quartet%20No.%206%20in%20F%20minor%2C%20Op.%2080%20-%20II.%20Allegro%20assai.mp3",
      "local": "media/Mendelssohn/String Quartet No. 6 in F minor, Op. 80/02 Allegro assai.mp3",
-     "duration": 299
+     "duration": 299,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Allegro assai: an obsessive, syncopated scherzo that never relaxes.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -600,7 +1323,14 @@
      "label": "III. Adagio",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMendelssohn%20Quartet%20in%20F%20Minor%20Op%2080%2FString%20Quartet%20No.%206%20in%20F%20minor%2C%20Op.%2080%20-%20III.%20Adagio.mp3",
      "local": "media/Mendelssohn/String Quartet No. 6 in F minor, Op. 80/03 Adagio.mp3",
-     "duration": 486
+     "duration": 486,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Adagio: the one place of consolation in the quartet.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -608,7 +1338,14 @@
      "label": "IV. Finale: Allegro molto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMendelssohn%20Quartet%20in%20F%20Minor%20Op%2080%2FString%20Quartet%20No.%206%20in%20F%20minor%2C%20Op.%2080%20-%20IV.%20Fuga.mp3",
      "local": "media/Mendelssohn/String Quartet No. 6 in F minor, Op. 80/04 Finale - Allegro molto.mp3",
-     "duration": 375
+     "duration": 375,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Finale: restless to the end, with no turn to the major.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -624,6 +1361,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._15_(Mozart)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/mozart.jpg",
+    "credit": "Portrait: Johann Nepomuk della Croce, circa 1780. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Is it true you wrote this while Constanze was in labour?"
+     },
+     {
+      "who": "them",
+      "text": "So it is told. Our first child, Raimund, in 1783. I was at my desk; she was in the next room."
+     },
+     {
+      "who": "me",
+      "text": "And it is for Haydn."
+     },
+     {
+      "who": "them",
+      "text": "Six quartets for the man who showed us all how quartets are written."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -631,7 +1390,19 @@
      "label": "I. Allegro moderato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20D%20Minor%20K421%2FString%20Quartet%20No.%2015%20In%20D%20Minor%2C%20K%20421%20-%20I.%20Allegro%20Moderato.mp3",
      "local": "media/Mozart/String Quartet No. 15 in D minor, K. 421/01 Allegro moderato.mp3",
-     "duration": 461
+     "duration": 461,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Completed in 1783, while his wife Constanze was in labour with their first child, Raimund. The only minor-key quartet in the set of six Mozart dedicated to Haydn.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Allegro moderato: a quiet, troubled opening in D minor.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -639,7 +1410,14 @@
      "label": "II. Andante",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20D%20Minor%20K421%2FString%20Quartet%20No.%2015%20In%20D%20Minor%2C%20K%20421%20-%20II.%20Andante.mp3",
      "local": "media/Mozart/String Quartet No. 15 in D minor, K. 421/02 Andante.mp3",
-     "duration": 315
+     "duration": 315,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Andante, in F major: calm, but broken by sudden sighing pauses.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -647,7 +1425,15 @@
      "label": "III. Menuetto: Allegretto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20D%20Minor%20K421%2FString%20Quartet%20No.%2015%20In%20D%20Minor%2C%20K%20421%20-%20III.%20Minuetto.mp3",
      "local": "media/Mozart/String Quartet No. 15 in D minor, K. 421/03 Menuetto - Allegretto.mp3",
-     "duration": 253
+     "duration": 253,
+     "notes": [
+      {
+       "at": 113,
+       "text": "A dark Menuetto. Its major-key trio is almost lightweight, ‘a wonderful foil’ to the minuet.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 4,
@@ -655,7 +1441,15 @@
      "label": "IV. Allegretto ma non troppo – Più allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20D%20Minor%20K421%2FString%20Quartet%20No.%2015%20In%20D%20Minor%2C%20K%20421%20-%20IV.%20Allegro%20Ma%20Non%20Troppo.mp3",
      "local": "media/Mozart/String Quartet No. 15 in D minor, K. 421/04 Allegretto ma non troppo – Più allegro.mp3",
-     "duration": 398
+     "duration": 398,
+     "notes": [
+      {
+       "at": 337,
+       "text": "A set of variations, ending on a Picardy third: a final D-major chord after a D-minor journey.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     }
    ]
   },
@@ -671,6 +1465,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._19_(Mozart)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/mozart.jpg",
+    "credit": "Portrait: Johann Nepomuk della Croce, circa 1780. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Your opening sounds wrong on purpose."
+     },
+     {
+      "who": "them",
+      "text": "Twenty-two bars of fog before the sun comes out. A critic complained in print."
+     },
+     {
+      "who": "me",
+      "text": "Did it bother you?"
+     },
+     {
+      "who": "them",
+      "text": "I had dedicated it to Haydn. His ears were the ones I wrote for."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -678,7 +1494,25 @@
      "label": "I. Adagio – Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20in%20C%20Major%20K%20465%20%2FAdagio%20Allegro%201st%20Mov.mp3",
      "local": "media/Mozart/String Quartet No. 19 in C major, K. 465/01 Adagio – Allegro.mp3",
-     "duration": 513
+     "duration": 513,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Completed on 14 January 1785, the last of the six quartets Mozart dedicated to Joseph Haydn.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "The 22-bar slow introduction gave the ‘Dissonance’ its name: quiet repeated Cs in the cello, then harmonies strange enough that a critic complained in print in 1787.",
+       "kind": "movement"
+      },
+      {
+       "at": 112,
+       "text": "Then the Allegro breaks into clear C major.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 2,
@@ -686,7 +1520,14 @@
      "label": "II. Andante cantabile",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20in%20C%20Major%20K%20465%20%2F2nd%20Mov%20Andante%20Cantabile.mp3",
      "local": "media/Mozart/String Quartet No. 19 in C major, K. 465/02 Andante cantabile.mp3",
-     "duration": 461
+     "duration": 461,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Andante cantabile, in F major: a singing, unhurried slow movement.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -694,7 +1535,15 @@
      "label": "III. Menuetto: Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20in%20C%20Major%20K%20465%20%2F3rd%20Mov%20Minuetto%20Allegretto.mp3",
      "local": "media/Mozart/String Quartet No. 19 in C major, K. 465/03 Menuetto - Allegro.mp3",
-     "duration": 324
+     "duration": 324,
+     "notes": [
+      {
+       "at": 161,
+       "text": "Menuetto: Allegro. Its trio turns to C minor.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 4,
@@ -702,7 +1551,14 @@
      "label": "IV. Allegro molto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20in%20C%20Major%20K%20465%20%2F4th%20Mov%20Allegro%20Volto%20ok.mp3",
      "local": "media/Mozart/String Quartet No. 19 in C major, K. 465/04 Allegro molto.mp3",
-     "duration": 351
+     "duration": 351,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Allegro molto: a quick-witted finale.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -718,6 +1574,20 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://imslp.org/wiki/Meditation_on_the_Old_Czech_Chorale_'St._Wenceslas',_Op.35a_(Suk,_Josef)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/suk.jpg",
+    "credit": "Portrait: Unknown author. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Why the St Wenceslas chorale?"
+     },
+     {
+      "who": "them",
+      "text": "It is our oldest hymn to our patron saint. In 1914, people needed something to hold on to."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -725,7 +1595,20 @@
      "label": "Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FSuk%20-Meditation%2FMeditation.mp3",
      "local": "media/Suk/Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a/01 Meditation on the Old Czech Chorale 'St. Wenceslas'.mp3",
-     "duration": 405
+     "duration": 405,
+     "notes": [
+      {
+       "at": 4,
+       "text": "A meditation on the old Czech chorale ‘St Wenceslas’, for string quartet or string orchestra, first published in 1914 and dedicated to Ferdinand Pečírka.",
+       "kind": "work"
+      },
+      {
+       "at": 290,
+       "text": "Published in the first year of the First World War, the chorale to the Czech patron saint here builds to its fullest sound.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     }
    ]
   },
@@ -741,6 +1624,20 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_E-flat_major,_D_568_(Schubert)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/schubert.jpg",
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "You began this in D-flat?"
+     },
+     {
+      "who": "them",
+      "text": "At twenty, in 1817. Later I moved it to E-flat and finished it. I never saw it printed."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -748,7 +1645,19 @@
      "label": "I. Allegro moderato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20E%20Flat%20Major%2C%20D.%20568%20-%20I.%20Allegro%20moderato.mp3",
      "local": "media/Schubert/Piano Sonata in E-flat major, D. 568/01 Allegro moderato.mp3",
-     "duration": 647
+     "duration": 647,
+     "notes": [
+      {
+       "at": 4,
+       "text": "First drafted in D-flat major in June 1817, when Schubert was 20. He revised and finished it in E-flat; it was published in 1829, the year after his death.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Allegro moderato: a gentle, singing opening theme, unhurried even when it develops.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -756,7 +1665,14 @@
      "label": "II. Andante molto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20E%20Flat%20Major%2C%20D.%20568%20-%20II.%20Andante%20molto.mp3",
      "local": "media/Schubert/Piano Sonata in E-flat major, D. 568/02 Andante molto.mp3",
-     "duration": 417
+     "duration": 417,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Andante molto: a slow, sorrowful song in a minor key.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -764,7 +1680,14 @@
      "label": "III. Menuetto: Allegretto – Trio",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20E%20Flat%20Major%2C%20D.%20568%20-%20III.%20Menuetto%20Allegretto.mp3",
      "local": "media/Schubert/Piano Sonata in E-flat major, D. 568/03 Menuetto - Allegretto – Trio.mp3",
-     "duration": 307
+     "duration": 307,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Menuetto: a graceful dance with a contrasting trio.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -772,7 +1695,14 @@
      "label": "IV. Allegro moderato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20E%20Flat%20Major%2C%20D.%20568%20-%20IV.%20Allegro%20moderato.mp3",
      "local": "media/Schubert/Piano Sonata in E-flat major, D. 568/04 Allegro moderato.mp3",
-     "duration": 500
+     "duration": 500,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Allegro moderato: a relaxed, flowing finale.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -788,6 +1718,20 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_major,_D_664_(Schubert)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/schubert.jpg",
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Who was Josephine?"
+     },
+     {
+      "who": "them",
+      "text": "Josephine von Koller, in Steyr. Eighteen, very pretty, and a good pianist. The sonata is hers."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -795,7 +1739,19 @@
      "label": "I. Allegro moderato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20A%20Major%2C%20D.%20664%20-%20I.%20Allegro%20moderato.mp3",
      "local": "media/Schubert/Piano Sonata in A major, D. 664/01 Allegro moderato.mp3",
-     "duration": 466
+     "duration": 466,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written in summer 1819 in Steyr, Upper Austria, and dedicated to 18-year-old Josephine von Koller, whom Schubert thought ‘very pretty’ and ‘a good pianist’.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Allegro moderato: one of Schubert’s most lyrical openings, a melody that seems to sing itself.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -803,7 +1759,14 @@
      "label": "II. Andante",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20A%20Major%2C%20D.%20664%20-%20II.%20Andante.mp3",
      "local": "media/Schubert/Piano Sonata in A major, D. 664/02 Andante.mp3",
-     "duration": 291
+     "duration": 291,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Andante, in D major: quiet and inward.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -811,7 +1774,14 @@
      "label": "III. Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20A%20Major%2C%20D.%20664%20-%20III.%20Allegro.mp3",
      "local": "media/Schubert/Piano Sonata in A major, D. 664/03 Allegro.mp3",
-     "duration": 348
+     "duration": 348,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Allegro: a light, dancing finale.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -827,6 +1797,20 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_minor,_D_784_(Schubert)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/schubert.jpg",
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "What happened the year before?"
+     },
+     {
+      "who": "them",
+      "text": "I was seriously ill. When I wrote this in February, I wanted nothing decorative. Bare octaves."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -834,7 +1818,19 @@
      "label": "I. Allegro giusto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20784%20-%20I.%20Allegro%20giusto.mp3",
      "local": "media/Schubert/Piano Sonata in A minor, D. 784/01 Allegro giusto.mp3",
-     "duration": 529
+     "duration": 529,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Composed in February 1823, perhaps in response to the serious illness of the year before. It was not published until 1839, eleven years after his death.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Allegro giusto: bare octaves, stark and spacious, unlike the songful Schubert of earlier sonatas.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -842,7 +1838,14 @@
      "label": "II. Andante",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20784%20-%20II.%20Andante.mp3",
      "local": "media/Schubert/Piano Sonata in A minor, D. 784/02 Andante.mp3",
-     "duration": 230
+     "duration": 230,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Andante, in F major: a hushed hymn interrupted by murmuring figures.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -850,7 +1853,14 @@
      "label": "III. Allegro vivace",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20784%20-%20III.%20Allegro%20vivace.mp3",
      "local": "media/Schubert/Piano Sonata in A minor, D. 784/03 Allegro vivace.mp3",
-     "duration": 371
+     "duration": 371,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Allegro vivace: a fierce, driving finale.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -866,6 +1876,20 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_minor,_D_845_(Schubert)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/schubert.jpg",
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "This one was printed while you lived."
+     },
+     {
+      "who": "them",
+      "text": "My first grand sonata in print. Only three ever were, in my lifetime."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -873,7 +1897,19 @@
      "label": "I. Moderato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20845%20-%20I.%20Moderato.mp3",
      "local": "media/Schubert/Piano Sonata in A minor, D. 845/01 Moderato.mp3",
-     "duration": 696
+     "duration": 696,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Composed in May 1825 and published as his ‘Première Grande Sonate’, the first of only three Schubert sonatas printed in his lifetime.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Moderato: it opens with a soft, questioning unison phrase.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -881,7 +1917,14 @@
      "label": "II. Andante poco mosso",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20845%20-%20II.%20Andante%20poco%20mosso.mp3",
      "local": "media/Schubert/Piano Sonata in A minor, D. 845/02 Andante poco mosso.mp3",
-     "duration": 784
+     "duration": 784,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Five variations on a simple 32-bar theme.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -889,7 +1932,14 @@
      "label": "III. Scherzo: Allegro vivace – Trio: Un poco più lento",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20845%20-%20III.%20Scherzo.%20Allegro%20vivace%20-%20Trio.%20Un%20poco%20piu%20lento.mp3",
      "local": "media/Schubert/Piano Sonata in A minor, D. 845/03 Scherzo - Allegro vivace – Trio - Un poco più lento.mp3",
-     "duration": 476
+     "duration": 476,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Scherzo: Allegro vivace, with a slower trio, ‘un poco più lento’.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -897,7 +1947,14 @@
      "label": "IV. Rondo: Allegro vivace",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20845%20-%20IV.%20Rondo.%20Allegro%20vivace.mp3",
      "local": "media/Schubert/Piano Sonata in A minor, D. 845/04 Rondo - Allegro vivace.mp3",
-     "duration": 363
+     "duration": 363,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Rondo: Allegro vivace, a restless finale.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -913,6 +1970,20 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_D_major,_D_850_(Schubert)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/schubert.jpg",
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Gastein?"
+     },
+     {
+      "who": "them",
+      "text": "A spa in the mountains, August 1825. The mountain air made me write big chords."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -920,7 +1991,19 @@
      "label": "I. Allegro vivace",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20D%20Major%2C%20D.%20850%20-%20I.%20Allegro%20vivace.mp3",
      "local": "media/Schubert/Piano Sonata in D major, D. 850/01 Allegro vivace.mp3",
-     "duration": 578
+     "duration": 578,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written in August 1825 at the spa town of Bad Gastein, hence its nickname, the ‘Gasteiner’.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Allegro vivace: big, bright chords that fill the piano.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -928,7 +2011,14 @@
      "label": "II. Con moto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20D%20Major%2C%20D.%20850%20-%20II.%20Con%20moto.mp3",
      "local": "media/Schubert/Piano Sonata in D major, D. 850/02 Con moto.mp3",
-     "duration": 726
+     "duration": 726,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Con moto: a long, slow-walking movement.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -936,7 +2026,14 @@
      "label": "III. Scherzo: Allegro vivace – Trio",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20D%20Major%2C%20D.%20850%20-%20III.%20Scherzo.%20Allegro%20vivace.mp3",
      "local": "media/Schubert/Piano Sonata in D major, D. 850/03 Scherzo - Allegro vivace – Trio.mp3",
-     "duration": 629
+     "duration": 629,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Scherzo: Allegro vivace, full of rhythmic energy.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -944,7 +2041,14 @@
      "label": "IV. Rondo: Allegro moderato",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20D%20Major%2C%20D.%20850%20-%20V.%20Rondo.%20Allegro%20moderato.mp3",
      "local": "media/Schubert/Piano Sonata in D major, D. 850/04 Rondo - Allegro moderato.mp3",
-     "duration": 556
+     "duration": 556,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A playful, march-like rondo theme, repeated with ever finer decoration and interrupted by stormier episodes.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -960,6 +2064,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_C_minor,_D_958_(Schubert)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/schubert.jpg",
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "The opening sounds like Beethoven."
+     },
+     {
+      "who": "them",
+      "text": "His C minor Variations. I admired him more than anyone."
+     },
+     {
+      "who": "me",
+      "text": "You finished this in September 1828."
+     },
+     {
+      "who": "them",
+      "text": "And by November I was gone. I did not know there would be no time."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -967,7 +2093,19 @@
      "label": "I. Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20C%20Minor%2C%20D.%20958%20-%20I.%20Allegro.mp3",
      "local": "media/Schubert/Piano Sonata in C minor, D. 958/01 Allegro.mp3",
-     "duration": 711
+     "duration": 711,
+     "notes": [
+      {
+       "at": 4,
+       "text": "One of three sonatas written in the last months of Schubert’s life, finished in September 1828. He died that November, at 31.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "The opening bars quote the theme of Beethoven’s 32 Variations in C minor. Schubert deeply admired Beethoven.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -975,7 +2113,14 @@
      "label": "II. Adagio",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20C%20Minor%2C%20D.%20958%20-%20II.%20Adagio.mp3",
      "local": "media/Schubert/Piano Sonata in C minor, D. 958/02 Adagio.mp3",
-     "duration": 468
+     "duration": 468,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Adagio, in A-flat major: two ideas alternate, five sections in all.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 3,
@@ -983,7 +2128,14 @@
      "label": "III. Menuetto: Allegro – Trio",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20C%20Minor%2C%20D.%20958%20-%20III.%20Menuetto%20Allegro.mp3",
      "local": "media/Schubert/Piano Sonata in C minor, D. 958/03 Menuetto - Allegro – Trio.mp3",
-     "duration": 195
+     "duration": 195,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Instead of a scherzo, a subdued minuet.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -991,7 +2143,14 @@
      "label": "IV. Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20C%20Minor%2C%20D.%20958%20-%20IV.%20Allegro.mp3",
      "local": "media/Schubert/Piano Sonata in C minor, D. 958/04 Allegro.mp3",
-     "duration": 656
+     "duration": 656,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A relentless tarantella, galloping with hand-crossings and leaps across the keyboard.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -1007,6 +2166,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_major,_D_959_(Schubert)",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/schubert.jpg",
+    "credit": "Portrait: Wilhelm August Rieder, 1875. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "What happens in the middle of the Andantino?"
+     },
+     {
+      "who": "them",
+      "text": "The song breaks. Everything I had kept quiet comes out at once, then the song returns."
+     },
+     {
+      "who": "me",
+      "text": "It is dedicated to Schumann."
+     },
+     {
+      "who": "them",
+      "text": "After my death, by the publisher. He loved my music, so it is right."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -1014,7 +2195,19 @@
      "label": "I. Allegro",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20959%20-%20I.%20Allegro.mp3",
      "local": "media/Schubert/Piano Sonata in A major, D. 959/01 Allegro.mp3",
-     "duration": 690
+     "duration": 690,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Written in 1828, the last year of Schubert’s life. When it was finally published in 1839, the dedication went to Robert Schumann, who had championed his music.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Allegro: a grand opening of full chords.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -1022,7 +2215,20 @@
      "label": "II. Andantino",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20959%20-%20II.%20Andantino.mp3",
      "local": "media/Schubert/Piano Sonata in A major, D. 959/02 Andantino.mp3",
-     "duration": 546
+     "duration": 546,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Andantino, in F-sharp minor: a quiet, rocking song.",
+       "kind": "movement"
+      },
+      {
+       "at": 271,
+       "text": "The middle section erupts: improvisatory, with harsh modulations, peaking in fortissimo chords.",
+       "kind": "movement",
+       "check": true
+      }
+     ]
     },
     {
      "n": 3,
@@ -1030,7 +2236,14 @@
      "label": "III. Scherzo: Allegro vivace – Trio: Un poco più lento",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20959%20-%20III.%20Scherzo.%20Allegro%20vivace.mp3",
      "local": "media/Schubert/Piano Sonata in A major, D. 959/03 Scherzo - Allegro vivace – Trio - Un poco più lento.mp3",
-     "duration": 326
+     "duration": 326,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Scherzo: Allegro vivace, with a gentler trio.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 4,
@@ -1038,7 +2251,14 @@
      "label": "IV. Rondo: Allegretto – Presto",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20959%20-%20IV.%20Rondo.%20Allegretto.mp3",
      "local": "media/Schubert/Piano Sonata in A major, D. 959/04 Rondo - Allegretto – Presto.mp3",
-     "duration": 715
+     "duration": 715,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Rondo: Allegretto. The broad, singing theme returns again and again.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   },
@@ -1054,6 +2274,28 @@
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
    "reference": "https://en.wikipedia.org/wiki/Goldberg_Variations",
    "note": "",
+   "dream": {
+    "portrait": "assets/portraits/bach.jpg",
+    "credit": "Portrait: Elias Gottlob Haussmann, 1748. Public domain, via Wikimedia Commons.",
+    "lines": [
+     {
+      "who": "me",
+      "text": "Did you really write this for a count who couldn’t sleep?"
+     },
+     {
+      "who": "them",
+      "text": "Forkel tells it so, sixty years later. I published it in 1741, as keyboard practice."
+     },
+     {
+      "who": "me",
+      "text": "Thirty variations on one tune?"
+     },
+     {
+      "who": "them",
+      "text": "On one bass. Every third a canon, each a step wider. And at the end, a joke: a quodlibet."
+     }
+    ]
+   },
    "tracks": [
     {
      "n": 1,
@@ -1061,7 +2303,19 @@
      "label": "Aria",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV%20988%20-%20Aria.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/01 Aria.mp3",
-     "duration": 292
+     "duration": 292,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Published in 1741. Forkel’s 1802 biography says Bach wrote it for Count Kaiserling, whose insomnia young Goldberg soothed from an antechamber. Historians question the story.",
+       "kind": "work"
+      },
+      {
+       "at": 20,
+       "text": "The Aria also survives in the 1725 notebook for Anna Magdalena Bach. Its bass line, not its melody, carries all thirty variations.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 2,
@@ -1069,7 +2323,8 @@
      "label": "Variatio 1",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%201.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/02 Variatio 1.mp3",
-     "duration": 114
+     "duration": 114,
+     "notes": []
     },
     {
      "n": 3,
@@ -1077,7 +2332,8 @@
      "label": "Variatio 2",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%202.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/03 Variatio 2.mp3",
-     "duration": 88
+     "duration": 88,
+     "notes": []
     },
     {
      "n": 4,
@@ -1085,7 +2341,14 @@
      "label": "Variatio 3. Canone all'Unisono",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%203.%20Canon%20on%20the%20unison.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/04 Variatio 3. Canone all'Unisono.mp3",
-     "duration": 113
+     "duration": 113,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Every third variation is a canon, the interval widening each time. This first one is at the unison.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 5,
@@ -1093,7 +2356,8 @@
      "label": "Variatio 4",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%204.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/05 Variatio 4.mp3",
-     "duration": 54
+     "duration": 54,
+     "notes": []
     },
     {
      "n": 6,
@@ -1101,7 +2365,8 @@
      "label": "Variatio 5",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%205.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/06 Variatio 5.mp3",
-     "duration": 78
+     "duration": 78,
+     "notes": []
     },
     {
      "n": 7,
@@ -1109,7 +2374,8 @@
      "label": "Variatio 6. Canone alla Seconda",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%206.%20Canon%20on%20the%20second.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/07 Variatio 6. Canone alla Seconda.mp3",
-     "duration": 62
+     "duration": 62,
+     "notes": []
     },
     {
      "n": 8,
@@ -1117,7 +2383,8 @@
      "label": "Variatio 7. Al tempo di Giga",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%207.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/08 Variatio 7. Al tempo di Giga.mp3",
-     "duration": 175
+     "duration": 175,
+     "notes": []
     },
     {
      "n": 9,
@@ -1125,7 +2392,8 @@
      "label": "Variatio 8",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%208.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/09 Variatio 8.mp3",
-     "duration": 104
+     "duration": 104,
+     "notes": []
     },
     {
      "n": 10,
@@ -1133,7 +2401,8 @@
      "label": "Variatio 9. Canone alla Terza",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%209.%20Canon%20on%20the%20third.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/10 Variatio 9. Canone alla Terza.mp3",
-     "duration": 100
+     "duration": 100,
+     "notes": []
     },
     {
      "n": 11,
@@ -1141,7 +2410,8 @@
      "label": "Variatio 10. Fughetta",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2010.%20Fughetta.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/11 Variatio 10. Fughetta.mp3",
-     "duration": 87
+     "duration": 87,
+     "notes": []
     },
     {
      "n": 12,
@@ -1149,7 +2419,8 @@
      "label": "Variatio 11",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2011.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/12 Variatio 11.mp3",
-     "duration": 95
+     "duration": 95,
+     "notes": []
     },
     {
      "n": 13,
@@ -1157,7 +2428,8 @@
      "label": "Variatio 12. Canone alla Quarta in moto contrario",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2012.%20Canon%20on%20the%20fourth.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/13 Variatio 12. Canone alla Quarta in moto contrario.mp3",
-     "duration": 153
+     "duration": 153,
+     "notes": []
     },
     {
      "n": 14,
@@ -1165,7 +2437,8 @@
      "label": "Variatio 13",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2013.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/14 Variatio 13.mp3",
-     "duration": 339
+     "duration": 339,
+     "notes": []
     },
     {
      "n": 15,
@@ -1173,7 +2446,8 @@
      "label": "Variatio 14",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2014.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/15 Variatio 14.mp3",
-     "duration": 122
+     "duration": 122,
+     "notes": []
     },
     {
      "n": 16,
@@ -1181,7 +2455,8 @@
      "label": "Variatio 15. Canone alla Quinta: Andante",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2015.%20Canon%20on%20the%20fifth.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/16 Variatio 15. Canone alla Quinta - Andante.mp3",
-     "duration": 287
+     "duration": 287,
+     "notes": []
     },
     {
      "n": 17,
@@ -1189,7 +2464,14 @@
      "label": "Variatio 16. Ouverture",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2016.%20Overture.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/17 Variatio 16. Ouverture.mp3",
-     "duration": 106
+     "duration": 106,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Halfway through, Variation 16 begins the second half as a French overture.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 18,
@@ -1197,7 +2479,8 @@
      "label": "Variatio 17",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2017.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/18 Variatio 17.mp3",
-     "duration": 95
+     "duration": 95,
+     "notes": []
     },
     {
      "n": 19,
@@ -1205,7 +2488,8 @@
      "label": "Variatio 18. Canone alla Sesta",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2018.%20Canon%20on%20the%20sixth.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/19 Variatio 18. Canone alla Sesta.mp3",
-     "duration": 89
+     "duration": 89,
+     "notes": []
     },
     {
      "n": 20,
@@ -1213,7 +2497,8 @@
      "label": "Variatio 19",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2019.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/20 Variatio 19.mp3",
-     "duration": 72
+     "duration": 72,
+     "notes": []
     },
     {
      "n": 21,
@@ -1221,7 +2506,8 @@
      "label": "Variatio 20",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2020.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/21 Variatio 20.mp3",
-     "duration": 107
+     "duration": 107,
+     "notes": []
     },
     {
      "n": 22,
@@ -1229,7 +2515,8 @@
      "label": "Variatio 21. Canone alla Settima",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2021.%20Canon%20on%20the%20seventh.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/22 Variatio 21. Canone alla Settima.mp3",
-     "duration": 98
+     "duration": 98,
+     "notes": []
     },
     {
      "n": 23,
@@ -1237,7 +2524,8 @@
      "label": "Variatio 22. Alla breve",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2022.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/23 Variatio 22. Alla breve.mp3",
-     "duration": 137
+     "duration": 137,
+     "notes": []
     },
     {
      "n": 24,
@@ -1245,7 +2533,8 @@
      "label": "Variatio 23",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2023.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/24 Variatio 23.mp3",
-     "duration": 125
+     "duration": 125,
+     "notes": []
     },
     {
      "n": 25,
@@ -1253,7 +2542,8 @@
      "label": "Variatio 24. Canone all'Ottava",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2024.%20Canon%20on%20the%20octave.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/25 Variatio 24. Canone all'Ottava.mp3",
-     "duration": 165
+     "duration": 165,
+     "notes": []
     },
     {
      "n": 26,
@@ -1261,7 +2551,14 @@
      "label": "Variatio 25. Adagio",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2025.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/26 Variatio 25. Adagio.mp3",
-     "duration": 411
+     "duration": 411,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Wanda Landowska called this slow G-minor variation ‘the black pearl’ of the set.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 27,
@@ -1269,7 +2566,8 @@
      "label": "Variatio 26",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2026.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/27 Variatio 26.mp3",
-     "duration": 110
+     "duration": 110,
+     "notes": []
     },
     {
      "n": 28,
@@ -1277,7 +2575,8 @@
      "label": "Variatio 27. Canone alla Nona",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2027.%20Canon%20on%20the%20ninth.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/28 Variatio 27. Canone alla Nona.mp3",
-     "duration": 94
+     "duration": 94,
+     "notes": []
     },
     {
      "n": 29,
@@ -1285,7 +2584,8 @@
      "label": "Variatio 28",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2028.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/29 Variatio 28.mp3",
-     "duration": 137
+     "duration": 137,
+     "notes": []
     },
     {
      "n": 30,
@@ -1293,7 +2593,8 @@
      "label": "Variatio 29",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2029.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/30 Variatio 29.mp3",
-     "duration": 119
+     "duration": 119,
+     "notes": []
     },
     {
      "n": 31,
@@ -1301,7 +2602,14 @@
      "label": "Variatio 30. Quodlibet",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2030.%20Quodlibet.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/31 Variatio 30. Quodlibet.mp3",
-     "duration": 103
+     "duration": 103,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Instead of a canon at the tenth, a quodlibet: popular tunes woven together over the bass.",
+       "kind": "movement"
+      }
+     ]
     },
     {
      "n": 32,
@@ -1309,7 +2617,14 @@
      "label": "Aria da capo",
      "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV%20988%20-%20Aria%20Da%20Capo.mp3",
      "local": "media/Bach/Goldberg Variations in G major, BWV 988/32 Aria da capo.mp3",
-     "duration": 340
+     "duration": 340,
+     "notes": [
+      {
+       "at": 6,
+       "text": "The Aria returns unchanged, but it sounds different after everything in between.",
+       "kind": "movement"
+      }
+     ]
     }
    ]
   }

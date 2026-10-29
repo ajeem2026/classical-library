@@ -3,7 +3,7 @@ LIBRARY ?= $(HOME)/Music/Classical
 STAGING ?= staging
 PORT    ?= 8000
 
-.PHONY: setup plan download tag docs add serve publish
+.PHONY: setup plan download tag docs timings add serve publish
 
 setup:            ## create the venv with mutagen
 	python3 -m venv .venv
@@ -22,6 +22,10 @@ docs:             ## regenerate LIBRARY.md and the player's library.json
 	$(PY) -I tools/library_md.py $(LIBRARY) > /dev/null
 	$(PY) -I tools/library_md.py . > /dev/null
 	$(PY) -I tools/site_data.py $(LIBRARY)
+	$(PY) -I tools/notes_review.py
+
+timings:          ## re-place the history notes' cues from your local recordings
+	$(PY) -I tools/note_timing.py $(LIBRARY)
 
 add: download tag docs   ## after editing tools/catalogue.py
 

@@ -56,5 +56,17 @@ out += [
     "**Not available from Musopen on archive.org:** Dvořák symphonies, anything by Sibelius, and Beethoven symphonies other than No. 3.",
     "",
 ]
+# Composer portraits used in the dream scenes.
+import json
+from library import ROOT
+portraits = json.load(open(os.path.join(ROOT, "web", "assets", "portraits", "credits.json")))
+out += ["## Portraits", "",
+        "The dream scenes use these public-domain portraits from Wikimedia Commons, cropped and redrawn as engravings.", "",
+        "| Composer | Portrait | Licence | Source |", "|---|---|---|---|"]
+for key, c in sorted(portraits.items()):
+    out.append(f"| {key.capitalize() if key != 'dvorak' else 'Dvořák'} | {c['artist']}{', ' + c['date'] if c['date'] else ''} "
+               f"| {c['licence']} | [Commons]({c['source']}) |")
+out += ["", "The conversations in the dream scenes are imagined. Each line is grounded in a sourced fact about "
+        "the piece; lines that go beyond the sources are listed in `data/notes_to_check.md`.", ""]
 open(os.path.join(sys.argv[1], "LIBRARY.md"), "w").write("\n".join(out))
 print("\n".join(out))

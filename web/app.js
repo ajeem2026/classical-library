@@ -1,14 +1,18 @@
 const config = Object.assign(
-  { title: "Classical Library", tagline: "", source: "auto", continuous: true, seekStep: 10 },
+  { title: "Inside Jeem’s head", tagline: "", source: "auto", continuous: true, seekStep: 10 },
   window.PLAYER_CONFIG || {}
 );
 
 const $ = (id) => document.getElementById(id);
 const audio = $("audio");
+// The stage analyses the audio with Web Audio, which needs CORS (archive.org sends it).
+audio.crossOrigin = "anonymous";
+let corsRetried = false;
 const state = {
   works: [],
-  filter: "all",      // "all", "favourites" or a composer name
+  favouritesOnly: false,
   query: "",
+  open: null,         // id of the expanded work in the list
   current: null,      // { work, index }
   useLocal: false,
   favourites: new Set(load("favourites", [])),
@@ -49,84 +53,128 @@ function toast(msg) {
 }
 const trackUrl = (t) => (state.useLocal ? encodeURI(t.local) : t.url);
 
-// ---- Filtering and rendering ----
-function visibleWorks() {
-  const q = state.query.toLowerCase();
-  return state.works.filter((w) => {
-    if (state.filter === "favourites" && !state.favourites.has(w.id)) return false;
-    if (state.filter !== "all" && state.filter !== "favourites" && w.composer !== state.filter) return false;
-    if (!q) return true;
-    return [w.composer, w.album, w.performers, ...w.tracks.map((t) => t.label)]
-      .some((s) => s.toLowerCase().includes(q));
-  });
+// The stage (3D head, notes, dreams) listens to these; the player never depends on it.
+function emit(type, detail) {
+  if (type === "track") window.__playerTrack = detail;   // for listeners that load later (the stage)
+  window.dispatchEvent(new CustomEvent("player:" + type, { detail }));
 }
 
-function renderComposers() {
-  const counts = {};
-  for (const w of state.works) counts[w.composer] = (counts[w.composer] || 0) + 1;
-  const surname = (name) => state.works.find((w) => w.composer === name).surname;
-  const names = Object.keys(counts).sort((a, b) => surname(a).localeCompare(surname(b)));
-  const item = (value, label, count) =>
-    el("li", {}, el("button", {
-      "aria-pressed": String(state.filter === value),
-      onclick: () => { state.filter = value; save("filter", value); render(); },
-    }, el("span", {}, label), el("span", { class: "count" }, String(count))));
-  $("composer-list").replaceChildren(
-    item("all", "All works", state.works.length),
-    item("favourites", "★ Favourites", state.favourites.size),
-    el("li", { class: "sep" }),
-    ...names.map((n) => item(n, n, counts[n]))
-  );
+// ---- Filtering and rendering ----
+function matches(w, q) {
+  return [w.composer, w.album, w.performers, ...w.tracks.map((t) => t.label)]
+    .some((s) => s.toLowerCase().includes(q));
+}
+function visibleWorks() {
+  const q = state.query.toLowerCase();
+  return state.works.filter((w) =>
+    (!state.favouritesOnly || state.favourites.has(w.id)) && (!q || matches(w, q)));
 }
 
 function renderWorks() {
   const works = visibleWorks();
-  $("status").textContent = works.length ? "" : "No works match.";
-  $("works").replaceChildren(...works.map((w) => {
-    const fav = state.favourites.has(w.id);
-    return el("article", { class: "work" },
-      el("header", {},
-        el("div", {},
-          el("div", { class: "composer" }, w.composer),
-          el("h2", {}, w.album)),
-        el("button", {
-          class: "fav", "aria-pressed": String(fav), "aria-label": "Favourite", title: "Favourite",
-          onclick: () => toggleFavourite(w.id),
-        }, fav ? "★" : "☆")),
-      el("p", { class: "perf" }, w.performers),
-      ...(w.note ? [el("p", { class: "note" }, w.note)] : []),
-      el("ul", { class: "tracks" }, ...w.tracks.map((t, i) => {
-        const playing = state.current && state.current.work === w && state.current.index === i;
+  $("status").textContent = works.length ? ""
+    : state.favouritesOnly && !state.favourites.size ? "No favourites yet. Mark a work with ☆."
+    : "No works match.";
+  const searching = state.query.length > 1;
+
+  // Group by composer, ordered by surname.
+  const groups = new Map();
+  for (const w of [...works].sort((a, b) => a.surname.localeCompare(b.surname))) {
+    if (!groups.has(w.composer)) groups.set(w.composer, []);
+    groups.get(w.composer).push(w);
+  }
+
+  $("works").replaceChildren(...[...groups].map(([composer, list]) =>
+    el("section", { class: "composer-group" },
+      el("h3", { class: "composer-name" }, composer),
+      ...list.map((w) => renderWork(w, searching)))));
+}
+
+function renderWork(w, searching) {
+  const playingWork = state.current && state.current.work === w;
+  const open = state.open === w.id || (searching && matches(w, state.query.toLowerCase()));
+  const fav = state.favourites.has(w.id);
+  const listId = "tracks-" + w.id;
+  return el("article", { class: "work" + (open ? " open" : "") + (playingWork ? " playing" : "") },
+    el("div", { class: "work-row" },
+      el("button", {
+        class: "work-toggle", "aria-expanded": String(open), "aria-controls": listId,
+        onclick: () => { state.open = state.open === w.id ? null : w.id; renderWorks(); },
+      },
+        el("span", { class: "work-title" }, w.album),
+        el("span", { class: "work-perf" }, `${w.performers} · `,
+          el("span", { class: "nowrap" }, w.tracks.length === 1 ? "1 movement" : w.tracks.length + " movements"))),
+      el("button", {
+        class: "fav", "aria-pressed": String(fav), "aria-label": `Favourite ${w.album}`, title: "Favourite",
+        onclick: () => toggleFavourite(w.id),
+      }, fav ? "★" : "☆")),
+    el("ol", { class: "tracks", id: listId },
+      ...w.tracks.map((t, i) => {
+        const playing = playingWork && state.current.index === i;
         return el("li", {}, el("button", {
           class: "track" + (playing ? " playing" : ""), onclick: () => play(w, i),
+          "aria-current": playing ? "true" : "false",
         },
           el("span", { class: "n" }, String(t.n)),
           el("span", {}, t.label),
           el("span", { class: "dur" }, t.duration ? fmt(t.duration) : "")));
-      })),
-      el("div", { class: "links" },
+      }),
+      ...(w.note ? [el("li", { class: "note" }, w.note)] : []),
+      el("li", { class: "work-links" },
         el("a", { href: w.licence_url, target: "_blank", rel: "noopener" }, w.licence), " · ",
-        el("a", { href: w.reference, target: "_blank", rel: "noopener" }, "About this work")));
-  }));
+        el("a", { href: w.reference, target: "_blank", rel: "noopener" }, "About this work"))));
 }
-
-function render() { renderComposers(); renderWorks(); }
 
 function toggleFavourite(id) {
   state.favourites.has(id) ? state.favourites.delete(id) : state.favourites.add(id);
   save("favourites", [...state.favourites]);
-  render();
+  renderWorks();
+}
+
+// ---- Caption: what is playing (history notes join it in phase d) ----
+function showNowPlaying(work, t) {
+  $("now-title").textContent = t.label;
+  $("now-sub").textContent = `${work.composer} — ${work.album} · ${work.performers}`;
+  $("caption-composer").textContent = work.composer;
+  $("caption-work").textContent = work.album;
+  $("caption-move").textContent = work.tracks.length > 1 ? `${t.label} · ${work.performers}` : work.performers;
+  shownNote = undefined;
+  setNote(null);
+}
+
+// ---- History notes: each appears at its moment and gives way to the next ----
+const NOTE_SECS = 28;
+let shownNote;
+let noteTimer;
+function setNote(note) {
+  if (note === shownNote) return;
+  shownNote = note;
+  const el = $("caption-note");
+  el.classList.add("fading");
+  clearTimeout(noteTimer);
+  noteTimer = setTimeout(() => {
+    el.textContent = note ? note.text : "";
+    el.classList.remove("fading");
+  }, el.textContent ? 600 : 0);
+}
+function noteAt(track, time) {
+  const notes = track.notes || [];
+  for (let i = notes.length - 1; i >= 0; i--) {
+    const n = notes[i];
+    if (time >= n.at) return time < n.at + NOTE_SECS ? n : null;
+  }
+  return null;
 }
 
 // ---- Playback ----
 function play(work, index, startAt = 0) {
   const t = work.tracks[index];
   state.current = { work, index };
+  state.open = work.id;
   audio.src = trackUrl(t);
   if (startAt) audio.addEventListener("loadedmetadata", () => (audio.currentTime = startAt), { once: true });
   audio.play().catch(() => {});
-  $("now-title").textContent = t.label;
-  $("now-sub").textContent = `${work.composer} — ${work.album} · ${work.performers}`;
+  showNowPlaying(work, t);
   document.title = `${t.label} · ${config.title}`;
   save("last", { work: work.id, index });
   if ("mediaSession" in navigator) {
@@ -134,6 +182,7 @@ function play(work, index, startAt = 0) {
       title: t.title, artist: work.performers, album: work.album,
     });
   }
+  emit("track", { work, track: t, index });
   renderWorks();
 }
 
@@ -157,23 +206,35 @@ function togglePlay() {
   audio.paused ? audio.play().catch(() => {}) : audio.pause();
 }
 
-audio.addEventListener("play", () => { $("play").textContent = "⏸"; $("play").setAttribute("aria-label", "Pause"); });
-audio.addEventListener("pause", () => { $("play").textContent = "▶"; $("play").setAttribute("aria-label", "Play"); });
+audio.addEventListener("play", () => { $("play").textContent = "⏸"; $("play").setAttribute("aria-label", "Pause"); emit("play"); });
+audio.addEventListener("pause", () => { $("play").textContent = "▶"; $("play").setAttribute("aria-label", "Play"); emit("pause"); });
 audio.addEventListener("ended", () => step(1));
 audio.addEventListener("error", () => {
   if (!audio.src) return;
+  // If a stream ever refuses CORS, play it without analysis rather than not at all.
+  // (Not possible once Web Audio owns the element: it would play silence.)
+  if (audio.crossOrigin && !window.__audioGraph && !corsRetried && !state.useLocal) {
+    corsRetried = true;
+    const src = audio.src, at = audio.currentTime;
+    audio.removeAttribute("crossorigin");
+    audio.src = src;
+    audio.addEventListener("loadedmetadata", () => (audio.currentTime = at), { once: true });
+    audio.play().catch(() => {});
+    return;
+  }
   toast(state.useLocal ? "Couldn't open the local file." : "archive.org didn't respond — try again in a moment.");
 });
 let lastSaved = 0;
+let seeking = false;
 audio.addEventListener("timeupdate", () => {
   const dur = audio.duration;
   $("time-cur").textContent = fmt(audio.currentTime);
   $("time-dur").textContent = fmt(isFinite(dur) ? dur : state.current?.work.tracks[state.current.index].duration);
   if (!seeking && isFinite(dur)) $("seek").value = String((audio.currentTime / dur) * 1000);
   if (Date.now() - lastSaved > 5000) { lastSaved = Date.now(); save("position", audio.currentTime); }
+  if (state.current) setNote(noteAt(state.current.work.tracks[state.current.index], audio.currentTime));
 });
 
-let seeking = false;
 $("seek").addEventListener("input", () => (seeking = true));
 $("seek").addEventListener("change", () => {
   seeking = false;
@@ -186,12 +247,18 @@ $("play").addEventListener("click", togglePlay);
 $("prev").addEventListener("click", () => (audio.currentTime > 3 ? (audio.currentTime = 0) : step(-1)));
 $("next").addEventListener("click", () => step(1));
 $("search").addEventListener("input", (e) => { state.query = e.target.value; renderWorks(); });
+$("fav-filter").addEventListener("click", () => {
+  state.favouritesOnly = !state.favouritesOnly;
+  $("fav-filter").setAttribute("aria-pressed", String(state.favouritesOnly));
+  save("favouritesOnly", state.favouritesOnly);
+  renderWorks();
+});
 
 document.addEventListener("keydown", (e) => {
   if (e.target.matches("input[type=search]")) return;
-  if (e.code === "Space") { e.preventDefault(); togglePlay(); }
-  else if (e.code === "ArrowRight") audio.currentTime += config.seekStep;
-  else if (e.code === "ArrowLeft") audio.currentTime -= config.seekStep;
+  if (e.code === "Space" && !e.target.matches("button, a")) { e.preventDefault(); togglePlay(); }
+  else if (e.code === "ArrowRight" && !e.target.matches("input[type=range]")) audio.currentTime += config.seekStep;
+  else if (e.code === "ArrowLeft" && !e.target.matches("input[type=range]")) audio.currentTime -= config.seekStep;
   else if (e.key === "/") { e.preventDefault(); $("search").focus(); }
 });
 
@@ -214,7 +281,6 @@ async function chooseSource(sample) {
 
 async function init() {
   $("site-title").textContent = config.title;
-  $("site-tagline").textContent = config.tagline;
   document.title = config.title;
   try {
     const data = await (await fetch("library.json")).json();
@@ -224,10 +290,9 @@ async function init() {
     return;
   }
   state.useLocal = await chooseSource(state.works[0].tracks[0]);
-  $("source-badge").textContent = state.useLocal ? "Playing local files" : "Streaming from archive.org";
-  const filter = load("filter", "all");
-  state.filter = filter === "all" || filter === "favourites" || state.works.some((w) => w.composer === filter) ? filter : "all";
-  render();
+  $("source-badge").textContent = state.useLocal ? "Local files" : "Streaming from archive.org";
+  state.favouritesOnly = !!load("favouritesOnly", false);
+  $("fav-filter").setAttribute("aria-pressed", String(state.favouritesOnly));
 
   // Restore the last track, paused, at the saved position.
   const last = load("last", null);
@@ -235,12 +300,13 @@ async function init() {
   if (work && work.tracks[last.index]) {
     const t = work.tracks[last.index];
     state.current = { work, index: last.index };
+    state.open = work.id;
     audio.src = trackUrl(t);
     const pos = load("position", 0);
     audio.addEventListener("loadedmetadata", () => (audio.currentTime = pos), { once: true });
-    $("now-title").textContent = t.label;
-    $("now-sub").textContent = `${work.composer} — ${work.album} · ${work.performers}`;
-    renderWorks();
+    showNowPlaying(work, t);
+    emit("track", { work, track: t, index: last.index });
   }
+  renderWorks();
 }
 init();

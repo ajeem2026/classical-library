@@ -55,3 +55,23 @@ Starter set built from Musopen's public-domain Kickstarter recordings on the Int
 | Rest of the DVD (CC0): overtures, Mendelssohn Symphonies 3 & 4, Mozart Symphony 40, Grieg, Smetana, Borodin *Steppes* | Outside the starter scope. They can be added later from the same item. |
 
 **Not available from Musopen on archive.org:** Dvořák symphonies, anything by Sibelius, and Beethoven symphonies other than No. 3.
+
+## Portraits
+
+The dream scenes use these public-domain portraits from Wikimedia Commons, cropped and redrawn as engravings.
+
+| Composer | Portrait | Licence | Source |
+|---|---|---|---|
+| Bach | Elias Gottlob Haussmann, 1748 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg) |
+| Beethoven | Joseph Karl Stieler, 1820 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg) |
+| Borodin | Unknown, 1865 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Borodin.jpg) |
+| Brahms | C. Brasch, Berlin, 1889 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:JohannesBrahms_(cropped).jpg) |
+| Dvořák | Unknown author, 1882 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Dvorak.jpg) |
+| Haydn | Thomas Hardy, 1791 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Joseph_Haydn.jpg) |
+| Mendelssohn | Eduard Magnus, 1833 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg) |
+| Mozart | Johann Nepomuk della Croce, circa 1780 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg) |
+| Schubert | Wilhelm August Rieder, 1875 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg) |
+| Suk | Unknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Josef_Suk(1).jpg) |
+| Tchaikovsky | Émile Reutlinger, 1888,[1] published 1904 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg) |
+
+The conversations in the dream scenes are imagined. Each line is grounded in a sourced fact about the piece; lines that go beyond the sources are listed in `data/notes_to_check.md`.

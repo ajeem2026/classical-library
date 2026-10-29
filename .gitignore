@@ -3,3 +3,4 @@ staging/
 __pycache__/
 web/media
 .DS_Store
+assets/face/

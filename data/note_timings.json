@@ -1,0 +1,79 @@
+{
+ "Symphony No. 3 in E-flat major, Op. 55": {
+  "1": {
+   "1": 510
+  },
+  "3": {
+   "0": 157
+  }
+ },
+ "Symphony No. 1 in C minor, Op. 68": {
+  "2": {
+   "0": 457
+  },
+  "4": {
+   "0": 172,
+   "1": 304
+  }
+ },
+ "Symphony No. 2 in D major, Op. 73": {
+  "1": {
+   "1": 120
+  },
+  "4": {
+   "0": 525
+  }
+ },
+ "Symphony No. 3 in F major, Op. 90": {
+  "4": {
+   "0": 526
+  }
+ },
+ "Symphony No. 4 in E minor, Op. 98": {
+  "4": {
+   "1": 368
+  }
+ },
+ "Symphony No. 6 in B minor, Op. 74": {
+  "1": {
+   "1": 538
+  },
+  "3": {
+   "0": 355
+  },
+  "4": {
+   "0": 558
+  }
+ },
+ "String Quartet No. 12 in F major, Op. 96": {
+  "3": {
+   "0": 100
+  }
+ },
+ "String Quartet No. 15 in D minor, K. 421": {
+  "3": {
+   "0": 113
+  },
+  "4": {
+   "0": 337
+  }
+ },
+ "String Quartet No. 19 in C major, K. 465": {
+  "1": {
+   "1": 112
+  },
+  "3": {
+   "0": 161
+  }
+ },
+ "Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a": {
+  "1": {
+   "0": 290
+  }
+ },
+ "Piano Sonata in A major, D. 959": {
+  "2": {
+   "1": 271
+  }
+ }
+}
