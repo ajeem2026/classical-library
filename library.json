@@ -1,0 +1,1317 @@
+{
+ "source": "https://archive.org/details/MusopenKickstarterRecordings",
+ "works": [
+  {
+   "id": "w1",
+   "composer": "Ludwig van Beethoven",
+   "surname": "Beethoven",
+   "album": "Symphony No. 3 in E-flat major, Op. 55",
+   "catalogue": "Op. 55",
+   "key": "E-flat major",
+   "performers": "Czech National Symphony Orchestra",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Symphony No. 3 in E-flat major, Op. 55: I. Allegro con brio",
+     "label": "I. Allegro con brio",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBeethoven%20-%20Symphony%20No%203%20Eroica%2FSymphony%20No.%203%20in%20E%20Flat%20Major%20Eroica%2C%20Op.%2055%20-%20I.%20Allegro%20con%20brio.mp3",
+     "local": "media/Beethoven/Symphony No. 3 in E-flat major, Op. 55/01 Allegro con brio.mp3",
+     "duration": 912
+    },
+    {
+     "n": 2,
+     "title": "Symphony No. 3 in E-flat major, Op. 55: II. Marcia funebre: Adagio assai",
+     "label": "II. Marcia funebre: Adagio assai",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBeethoven%20-%20Symphony%20No%203%20Eroica%2FSymphony%20No.%203%20in%20E%20Flat%20Major%20Eroica%2C%20Op.%2055%20-%20II.%20Marcia%20funebre%20Adagio%20assai.mp3",
+     "local": "media/Beethoven/Symphony No. 3 in E-flat major, Op. 55/02 Marcia funebre - Adagio assai.mp3",
+     "duration": 929
+    },
+    {
+     "n": 3,
+     "title": "Symphony No. 3 in E-flat major, Op. 55: III. Scherzo: Allegro vivace",
+     "label": "III. Scherzo: Allegro vivace",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBeethoven%20-%20Symphony%20No%203%20Eroica%2FSymphony%20No.%203%20in%20E%20Flat%20Major%20Eroica%2C%20Op.%2055%20-%20III.%20Scherzo%20Allegro%20vivace.mp3",
+     "local": "media/Beethoven/Symphony No. 3 in E-flat major, Op. 55/03 Scherzo - Allegro vivace.mp3",
+     "duration": 349
+    },
+    {
+     "n": 4,
+     "title": "Symphony No. 3 in E-flat major, Op. 55: IV. Finale: Allegro molto",
+     "label": "IV. Finale: Allegro molto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBeethoven%20-%20Symphony%20No%203%20Eroica%2FSymphony%20No.%203%20in%20E%20Flat%20Major%20Eroica%2C%20Op.%2055%20-%20IV.%20Finale%20Allegro%20molto.mp3",
+     "local": "media/Beethoven/Symphony No. 3 in E-flat major, Op. 55/04 Finale - Allegro molto.mp3",
+     "duration": 705
+    }
+   ]
+  },
+  {
+   "id": "w2",
+   "composer": "Johannes Brahms",
+   "surname": "Brahms",
+   "album": "Symphony No. 1 in C minor, Op. 68",
+   "catalogue": "Op. 68",
+   "key": "C minor",
+   "performers": "Czech National Symphony Orchestra",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Symphony_No._1_(Brahms)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Symphony No. 1 in C minor, Op. 68: I. Un poco sostenuto – Allegro – Meno allegro",
+     "label": "I. Un poco sostenuto – Allegro – Meno allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%201%20in%20C%20Major%2FSymphony%20No.%201%20in%20C%20Minor%2C%20Op.%2068%20-%20I.%20Un%20poco%20sostenuto%20-%20Allegro.mp3",
+     "local": "media/Brahms/Symphony No. 1 in C minor, Op. 68/01 Un poco sostenuto – Allegro – Meno allegro.mp3",
+     "duration": 909
+    },
+    {
+     "n": 2,
+     "title": "Symphony No. 1 in C minor, Op. 68: II. Andante sostenuto",
+     "label": "II. Andante sostenuto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%201%20in%20C%20Major%2FSymphony%20No.%201%20in%20C%20Minor%2C%20Op.%2068%20-%20II.%20Andante%20sostenuto.mp3",
+     "local": "media/Brahms/Symphony No. 1 in C minor, Op. 68/02 Andante sostenuto.mp3",
+     "duration": 517
+    },
+    {
+     "n": 3,
+     "title": "Symphony No. 1 in C minor, Op. 68: III. Un poco allegretto e grazioso",
+     "label": "III. Un poco allegretto e grazioso",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%201%20in%20C%20Major%2FSymphony%20No.%201%20in%20C%20Minor%2C%20Op.%2068%20-%20III.%20Un%20poco%20allegretto%20e%20grazioso.mp3",
+     "local": "media/Brahms/Symphony No. 1 in C minor, Op. 68/03 Un poco allegretto e grazioso.mp3",
+     "duration": 295
+    },
+    {
+     "n": 4,
+     "title": "Symphony No. 1 in C minor, Op. 68: IV. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro",
+     "label": "IV. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%201%20in%20C%20Major%2FSymphony%20No.%201%20in%20C%20Minor%2C%20Op.%2068%20-%20IV.%20Adagio%20-%20Piu%CC%80%20andante%20-%20Allegro%20non%20troppo%2C%20ma%20con%20brio.mp3",
+     "local": "media/Brahms/Symphony No. 1 in C minor, Op. 68/04 Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro.mp3",
+     "duration": 1017
+    }
+   ]
+  },
+  {
+   "id": "w3",
+   "composer": "Johannes Brahms",
+   "surname": "Brahms",
+   "album": "Symphony No. 2 in D major, Op. 73",
+   "catalogue": "Op. 73",
+   "key": "D major",
+   "performers": "Czech National Symphony Orchestra",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Symphony_No._2_(Brahms)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Symphony No. 2 in D major, Op. 73: I. Allegro non troppo",
+     "label": "I. Allegro non troppo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No2%20in%20D%20major%2FSymphon%20No.%202%20in%20D%20Major%2C%20Op.%2073%20-%20I.%20Allegro%20non%20troppo.mp3",
+     "local": "media/Brahms/Symphony No. 2 in D major, Op. 73/01 Allegro non troppo.mp3",
+     "duration": 1000
+    },
+    {
+     "n": 2,
+     "title": "Symphony No. 2 in D major, Op. 73: II. Adagio non troppo",
+     "label": "II. Adagio non troppo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No2%20in%20D%20major%2FSymphon%20No.%202%20in%20D%20Major%2C%20Op.%2073%20-%20II.%20Adagio%20non%20toppo.mp3",
+     "local": "media/Brahms/Symphony No. 2 in D major, Op. 73/02 Adagio non troppo.mp3",
+     "duration": 556
+    },
+    {
+     "n": 3,
+     "title": "Symphony No. 2 in D major, Op. 73: III. Allegretto grazioso (quasi andantino)",
+     "label": "III. Allegretto grazioso (quasi andantino)",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No2%20in%20D%20major%2FSymphon%20No.%202%20in%20D%20Major%2C%20Op.%2073%20-%20III.%20Allegretto%20Grazioso%20%28take%201%29.mp3",
+     "local": "media/Brahms/Symphony No. 2 in D major, Op. 73/03 Allegretto grazioso (quasi andantino).mp3",
+     "duration": 303
+    },
+    {
+     "n": 4,
+     "title": "Symphony No. 2 in D major, Op. 73: IV. Allegro con spirito",
+     "label": "IV. Allegro con spirito",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No2%20in%20D%20major%2FSymphon%20No.%202%20in%20D%20Major%2C%20Op.%2073%20-%20IV.%20Allegro%20Con%20Spirito.mp3",
+     "local": "media/Brahms/Symphony No. 2 in D major, Op. 73/04 Allegro con spirito.mp3",
+     "duration": 585
+    }
+   ]
+  },
+  {
+   "id": "w4",
+   "composer": "Johannes Brahms",
+   "surname": "Brahms",
+   "album": "Symphony No. 3 in F major, Op. 90",
+   "catalogue": "Op. 90",
+   "key": "F major",
+   "performers": "Czech National Symphony Orchestra",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Symphony_No._3_(Brahms)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Symphony No. 3 in F major, Op. 90: I. Allegro con brio",
+     "label": "I. Allegro con brio",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%203%2FSymphony%20No.%203%20in%20F%20Major%2C%20Op.%2090%20-%20I.%20Allegro%20con%20brio.mp3",
+     "local": "media/Brahms/Symphony No. 3 in F major, Op. 90/01 Allegro con brio.mp3",
+     "duration": 605
+    },
+    {
+     "n": 2,
+     "title": "Symphony No. 3 in F major, Op. 90: II. Andante",
+     "label": "II. Andante",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%203%2FSymphony%20No.%203%20in%20F%20Major%2C%20Op.%2090%20-%20II.%20Andante.mp3",
+     "local": "media/Brahms/Symphony No. 3 in F major, Op. 90/02 Andante.mp3",
+     "duration": 529
+    },
+    {
+     "n": 3,
+     "title": "Symphony No. 3 in F major, Op. 90: III. Poco allegretto",
+     "label": "III. Poco allegretto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%203%2FSymphony%20No.%203%20in%20F%20Major%2C%20Op.%2090%20-%20III.%20Poco%20allegretto.mp3",
+     "local": "media/Brahms/Symphony No. 3 in F major, Op. 90/03 Poco allegretto.mp3",
+     "duration": 370
+    },
+    {
+     "n": 4,
+     "title": "Symphony No. 3 in F major, Op. 90: IV. Allegro",
+     "label": "IV. Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%203%2FSymphony%20No.%203%20in%20F%20Major%2C%20Op.%2090%20-%20IV.%20Allegro.mp3",
+     "local": "media/Brahms/Symphony No. 3 in F major, Op. 90/04 Allegro.mp3",
+     "duration": 586
+    }
+   ]
+  },
+  {
+   "id": "w5",
+   "composer": "Johannes Brahms",
+   "surname": "Brahms",
+   "album": "Symphony No. 4 in E minor, Op. 98",
+   "catalogue": "Op. 98",
+   "key": "E minor",
+   "performers": "Czech National Symphony Orchestra",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Symphony No. 4 in E minor, Op. 98: I. Allegro non troppo",
+     "label": "I. Allegro non troppo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%204%20in%20E%20minor%2FSymphony%20No.%204%20in%20E%20Minor%2C%20Op.%2098%20-%20I.%20Allegro%20Non%20Troppo.mp3",
+     "local": "media/Brahms/Symphony No. 4 in E minor, Op. 98/01 Allegro non troppo.mp3",
+     "duration": 761
+    },
+    {
+     "n": 2,
+     "title": "Symphony No. 4 in E minor, Op. 98: II. Andante moderato",
+     "label": "II. Andante moderato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%204%20in%20E%20minor%2FSymphony%20No.%204%20in%20E%20Minor%2C%20Op.%2098%20-%20II.%20Andante%20Moderato.mp3",
+     "local": "media/Brahms/Symphony No. 4 in E minor, Op. 98/02 Andante moderato.mp3",
+     "duration": 674
+    },
+    {
+     "n": 3,
+     "title": "Symphony No. 4 in E minor, Op. 98: III. Allegro giocoso",
+     "label": "III. Allegro giocoso",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%204%20in%20E%20minor%2FSymphony%20No.%204%20in%20E%20Minor%2C%20Op.%2098%20-%20III.%20Allegro%20Giocoso.mp3",
+     "local": "media/Brahms/Symphony No. 4 in E minor, Op. 98/03 Allegro giocoso.mp3",
+     "duration": 379
+    },
+    {
+     "n": 4,
+     "title": "Symphony No. 4 in E minor, Op. 98: IV. Allegro energico e passionato",
+     "label": "IV. Allegro energico e passionato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FBrahms%20-%20Symphony%20No%204%20in%20E%20minor%2FSymphony%20No.%204%20in%20E%20Minor%2C%20Op.%2098%20-%20IV.%20Allegro%20Energico%20e%20Passionato.mp3",
+     "local": "media/Brahms/Symphony No. 4 in E minor, Op. 98/04 Allegro energico e passionato.mp3",
+     "duration": 668
+    }
+   ]
+  },
+  {
+   "id": "w6",
+   "composer": "Pyotr Ilyich Tchaikovsky",
+   "surname": "Tchaikovsky",
+   "album": "Symphony No. 6 in B minor, Op. 74",
+   "catalogue": "Op. 74",
+   "key": "B minor",
+   "performers": "Czech National Symphony Orchestra",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Symphony No. 6 in B minor, Op. 74: I. Adagio – Allegro non troppo",
+     "label": "I. Adagio – Allegro non troppo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FTchaikovsky%20-%20Symphony%20Pathetique%2FSymphony%20No.%206%20In%20B%20Minor%2C%20Op.%2074%2C%20%27Pathetique%27%20-%20I.%20Adagio%2C%20Allegro%20Non%20Troppo.mp3",
+     "local": "media/Tchaikovsky/Symphony No. 6 in B minor, Op. 74/01 Adagio – Allegro non troppo.mp3",
+     "duration": 1051
+    },
+    {
+     "n": 2,
+     "title": "Symphony No. 6 in B minor, Op. 74: II. Allegro con grazia",
+     "label": "II. Allegro con grazia",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FTchaikovsky%20-%20Symphony%20Pathetique%2FSymphony%20No.%206%20in%20B%20minor%2C%20Op.%2074%2C%20%27Pathetique%27%20-%20II.%20Allegro%20con%20gracia.mp3",
+     "local": "media/Tchaikovsky/Symphony No. 6 in B minor, Op. 74/02 Allegro con grazia.mp3",
+     "duration": 496
+    },
+    {
+     "n": 3,
+     "title": "Symphony No. 6 in B minor, Op. 74: III. Allegro molto vivace",
+     "label": "III. Allegro molto vivace",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FTchaikovsky%20-%20Symphony%20Pathetique%2FSymphony%20No.%206%20in%20B%20minor%2C%20Op.%2074%2C%20%27Pathetique%27%20-%20III.%20Allegro%20molto%20vivace.mp3",
+     "local": "media/Tchaikovsky/Symphony No. 6 in B minor, Op. 74/03 Allegro molto vivace.mp3",
+     "duration": 593
+    },
+    {
+     "n": 4,
+     "title": "Symphony No. 6 in B minor, Op. 74: IV. Finale: Adagio lamentoso",
+     "label": "IV. Finale: Adagio lamentoso",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FTchaikovsky%20-%20Symphony%20Pathetique%2FSymphony%20No.%206%20in%20B%20minor%2C%20Op.%2074%2C%20%27Pathetique%27%20-%20IV.%20Finale%20Adagio%20lamentoso.mp3",
+     "local": "media/Tchaikovsky/Symphony No. 6 in B minor, Op. 74/04 Finale - Adagio lamentoso.mp3",
+     "duration": 619
+    }
+   ]
+  },
+  {
+   "id": "w7",
+   "composer": "Ludwig van Beethoven",
+   "surname": "Beethoven",
+   "album": "String Quartet No. 6 in B-flat major, Op. 18 No. 6",
+   "catalogue": "Op. 18 No. 6",
+   "key": "B-flat major",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._6_(Beethoven)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "String Quartet No. 6 in B-flat major, Op. 18 No. 6: I. Allegro con brio",
+     "label": "I. Allegro con brio",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBeethoven%20String%20Quartet%20in%20B%20flat%20Major%20Op%2018%2FString%20Quartet%20No.%206%20in%20B%20Flat%20Major%2C%20Op.%2018%2C%20No.%206%20-%20I.%20Allegro%20con%20brio.mp3",
+     "local": "media/Beethoven/String Quartet No. 6 in B-flat major, Op. 18 No. 6/01 Allegro con brio.mp3",
+     "duration": 281
+    },
+    {
+     "n": 2,
+     "title": "String Quartet No. 6 in B-flat major, Op. 18 No. 6: II. Adagio ma non troppo",
+     "label": "II. Adagio ma non troppo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBeethoven%20String%20Quartet%20in%20B%20flat%20Major%20Op%2018%2FString%20Quartet%20No.%206%20in%20B%20Flat%20Major%2C%20Op.%2018%2C%20No.%206%20-%20II.%20Adagio%20ma%20non%20troppo.mp3",
+     "local": "media/Beethoven/String Quartet No. 6 in B-flat major, Op. 18 No. 6/02 Adagio ma non troppo.mp3",
+     "duration": 422
+    },
+    {
+     "n": 3,
+     "title": "String Quartet No. 6 in B-flat major, Op. 18 No. 6: III. Scherzo: Allegro",
+     "label": "III. Scherzo: Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBeethoven%20String%20Quartet%20in%20B%20flat%20Major%20Op%2018%2FString%20Quartet%20No.%206%20in%20B%20Flat%20Major%2C%20Op.%2018%2C%20No.%206%20-%20III.%20Scherzo%20Allegro.mp3",
+     "local": "media/Beethoven/String Quartet No. 6 in B-flat major, Op. 18 No. 6/03 Scherzo - Allegro.mp3",
+     "duration": 253
+    },
+    {
+     "n": 4,
+     "title": "String Quartet No. 6 in B-flat major, Op. 18 No. 6: IV. La malinconia: Adagio – Allegretto quasi allegro",
+     "label": "IV. La malinconia: Adagio – Allegretto quasi allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBeethoven%20String%20Quartet%20in%20B%20flat%20Major%20Op%2018%2FString%20Quartet%20No.%206%20in%20B%20Flat%20Major%2C%20Op.%2018%2C%20No.%206%20-%20IV.%20%28Adagio%29%20La%20Malinconia.mp3",
+     "local": "media/Beethoven/String Quartet No. 6 in B-flat major, Op. 18 No. 6/04 La malinconia - Adagio – Allegretto quasi allegro.mp3",
+     "duration": 493
+    }
+   ]
+  },
+  {
+   "id": "w8",
+   "composer": "Alexander Borodin",
+   "surname": "Borodin",
+   "album": "String Quartet No. 1 in A major",
+   "catalogue": "",
+   "key": "A major",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://imslp.org/wiki/String_Quartet_No.1_(Borodin,_Aleksandr)",
+   "note": "Scherzo abridged in this recording, per IMSLP",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "String Quartet No. 1 in A major: I. Moderato – Allegro",
+     "label": "I. Moderato – Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%201%2FString%20Quartet%20No.%201%20in%20A%20Major%20-%20I.%20Moderato%20-%20Allegro.mp3",
+     "local": "media/Borodin/String Quartet No. 1 in A major/01 Moderato – Allegro.mp3",
+     "duration": 887
+    },
+    {
+     "n": 2,
+     "title": "String Quartet No. 1 in A major: II. Andante con moto",
+     "label": "II. Andante con moto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%201%2FString%20Quartet%20No.%201%20in%20A%20Major%20-%20II.%20Andante%20con%20moto.mp3",
+     "local": "media/Borodin/String Quartet No. 1 in A major/02 Andante con moto.mp3",
+     "duration": 518
+    },
+    {
+     "n": 3,
+     "title": "String Quartet No. 1 in A major: III. Scherzo: Prestissimo",
+     "label": "III. Scherzo: Prestissimo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%201%2FString%20Quartet%20No.%201%20in%20A%20Major%20-%20III.%20Scherzo%20Prestissimo.mp3",
+     "local": "media/Borodin/String Quartet No. 1 in A major/03 Scherzo - Prestissimo.mp3",
+     "duration": 115
+    },
+    {
+     "n": 4,
+     "title": "String Quartet No. 1 in A major: IV. Andante – Allegro risoluto",
+     "label": "IV. Andante – Allegro risoluto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%201%2FString%20Quartet%20No.%201%20in%20A%20Major%20-%20IV.%20Andante%20-%20Allegro%20risoluto.mp3",
+     "local": "media/Borodin/String Quartet No. 1 in A major/04 Andante – Allegro risoluto.mp3",
+     "duration": 534
+    }
+   ]
+  },
+  {
+   "id": "w9",
+   "composer": "Alexander Borodin",
+   "surname": "Borodin",
+   "album": "String Quartet No. 2 in D major",
+   "catalogue": "",
+   "key": "D major",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._2_(Borodin)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "String Quartet No. 2 in D major: I. Allegro moderato",
+     "label": "I. Allegro moderato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%202%2FString%20Quartet%20No.%202%20in%20D%20Major%20-%20I.%20Allegro%20moderato.mp3",
+     "local": "media/Borodin/String Quartet No. 2 in D major/01 Allegro moderato.mp3",
+     "duration": 541
+    },
+    {
+     "n": 2,
+     "title": "String Quartet No. 2 in D major: II. Scherzo: Allegro",
+     "label": "II. Scherzo: Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%202%2FString%20Quartet%20No.%202%20in%20D%20Major%20-%20II.%20Scherzo%20Allegro.mp3",
+     "local": "media/Borodin/String Quartet No. 2 in D major/02 Scherzo - Allegro.mp3",
+     "duration": 337
+    },
+    {
+     "n": 3,
+     "title": "String Quartet No. 2 in D major: III. Notturno: Andante",
+     "label": "III. Notturno: Andante",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%202%2FString%20Quartet%20No.%202%20in%20D%20Major%20-%20III.%20Nocturne%20Andante.mp3",
+     "local": "media/Borodin/String Quartet No. 2 in D major/03 Notturno - Andante.mp3",
+     "duration": 547
+    },
+    {
+     "n": 4,
+     "title": "String Quartet No. 2 in D major: IV. Finale: Andante – Vivace",
+     "label": "IV. Finale: Andante – Vivace",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FBorodin%20String%20Quartet%20No%202%2FString%20Quartet%20No.%202%20in%20D%20Major%20-%20IV.%20Finale%20Andante%20-%20Vivace.mp3",
+     "local": "media/Borodin/String Quartet No. 2 in D major/04 Finale - Andante – Vivace.mp3",
+     "duration": 434
+    }
+   ]
+  },
+  {
+   "id": "w10",
+   "composer": "Antonín Dvořák",
+   "surname": "Dvořák",
+   "album": "String Quartet No. 12 in F major, Op. 96",
+   "catalogue": "Op. 96",
+   "key": "F major",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._12_(Dvo%C5%99%C3%A1k)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "String Quartet No. 12 in F major, Op. 96: I. Allegro ma non troppo",
+     "label": "I. Allegro ma non troppo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20-%20American%20in%20F%20major%2FString%20Quartet%20No.%2012%20in%20F%20Major%2C%20Op.%2096%2C%20American%20-%20I.%20Allegro%20ma%20non%20troppo.mp3",
+     "local": "media/Dvořák/String Quartet No. 12 in F major, Op. 96/01 Allegro ma non troppo.mp3",
+     "duration": 476
+    },
+    {
+     "n": 2,
+     "title": "String Quartet No. 12 in F major, Op. 96: II. Lento",
+     "label": "II. Lento",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20-%20American%20in%20F%20major%2FString%20Quartet%20No.%2012%20in%20F%20Major%2C%20Op.%2096%2C%20American%20-%20II.%20Lento.mp3",
+     "local": "media/Dvořák/String Quartet No. 12 in F major, Op. 96/02 Lento.mp3",
+     "duration": 471
+    },
+    {
+     "n": 3,
+     "title": "String Quartet No. 12 in F major, Op. 96: III. Molto vivace",
+     "label": "III. Molto vivace",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20-%20American%20in%20F%20major%2FString%20Quartet%20No.%2012%20in%20F%20Major%2C%20Op.%2096%2C%20American%20-%20III.%20Molto%20Vivace.mp3",
+     "local": "media/Dvořák/String Quartet No. 12 in F major, Op. 96/03 Molto vivace.mp3",
+     "duration": 250
+    },
+    {
+     "n": 4,
+     "title": "String Quartet No. 12 in F major, Op. 96: IV. Finale: Vivace ma non troppo",
+     "label": "IV. Finale: Vivace ma non troppo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20-%20American%20in%20F%20major%2FString%20Quartet%20No.%2012%20in%20F%20Major%2C%20Op.%2096%2C%20American%20-%20IV.%20Finale%20-%20Vivace%20ma%20non%20troppo.mp3",
+     "local": "media/Dvořák/String Quartet No. 12 in F major, Op. 96/04 Finale - Vivace ma non troppo.mp3",
+     "duration": 352
+    }
+   ]
+  },
+  {
+   "id": "w11",
+   "composer": "Antonín Dvořák",
+   "surname": "Dvořák",
+   "album": "String Quartet No. 10 in E-flat major, Op. 51",
+   "catalogue": "Op. 51",
+   "key": "E-flat major",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._10_(Dvo%C5%99%C3%A1k)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "String Quartet No. 10 in E-flat major, Op. 51: I. Allegro ma non troppo",
+     "label": "I. Allegro ma non troppo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20Quartet%20in%20F%20Major%20Op%2051%2FString%20Quartet%20No.%2010%20In%20E%20Flat%2C%20Op.%2051%20-%20I.%20Allegro%20Ma%20Non%20Troppo.mp3",
+     "local": "media/Dvořák/String Quartet No. 10 in E-flat major, Op. 51/01 Allegro ma non troppo.mp3",
+     "duration": 675
+    },
+    {
+     "n": 2,
+     "title": "String Quartet No. 10 in E-flat major, Op. 51: II. Dumka: Andante con moto – Vivace",
+     "label": "II. Dumka: Andante con moto – Vivace",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20Quartet%20in%20F%20Major%20Op%2051%2FString%20Quartet%20No.%2010%20In%20E%20Flat%2C%20Op.%2051%20-%20II.%20Dumka.mp3",
+     "local": "media/Dvořák/String Quartet No. 10 in E-flat major, Op. 51/02 Dumka - Andante con moto – Vivace.mp3",
+     "duration": 466
+    },
+    {
+     "n": 3,
+     "title": "String Quartet No. 10 in E-flat major, Op. 51: III. Romanza: Andante con moto",
+     "label": "III. Romanza: Andante con moto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20Quartet%20in%20F%20Major%20Op%2051%2FString%20Quartet%20No.%2010%20In%20E%20Flat%2C%20Op.%2051%20-%20III.%20Romanza.mp3",
+     "local": "media/Dvořák/String Quartet No. 10 in E-flat major, Op. 51/03 Romanza - Andante con moto.mp3",
+     "duration": 367
+    },
+    {
+     "n": 4,
+     "title": "String Quartet No. 10 in E-flat major, Op. 51: IV. Finale: Allegro assai",
+     "label": "IV. Finale: Allegro assai",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FDvorak%20Quartet%20in%20F%20Major%20Op%2051%2FString%20Quartet%20No.%2010%20In%20E%20Flat%2C%20Op.%2051%20-%20IV.%20Finale%20Allegro%20Assai.mp3",
+     "local": "media/Dvořák/String Quartet No. 10 in E-flat major, Op. 51/04 Finale - Allegro assai.mp3",
+     "duration": 434
+    }
+   ]
+  },
+  {
+   "id": "w12",
+   "composer": "Joseph Haydn",
+   "surname": "Haydn",
+   "album": "String Quartet in D major, Op. 64 No. 5, Hob. III:63",
+   "catalogue": "Op. 64 No. 5, Hob. III:63",
+   "key": "D major",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/String_Quartets,_Op._64_(Haydn)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "String Quartet in D major, Op. 64 No. 5, Hob. III:63: I. Allegro moderato",
+     "label": "I. Allegro moderato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FHaydn%20Quartet%20in%20D%20Major%20Op.64%2FString%20Quartet%20In%20D%2C%20Op.%20645%2C%20H%20363%2C%20Lark%20-%20I.%20Allegro%20Moderato.mp3",
+     "local": "media/Haydn/String Quartet in D major, Op. 64 No. 5, Hob. III-63/01 Allegro moderato.mp3",
+     "duration": 372
+    },
+    {
+     "n": 2,
+     "title": "String Quartet in D major, Op. 64 No. 5, Hob. III:63: II. Adagio cantabile",
+     "label": "II. Adagio cantabile",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FHaydn%20Quartet%20in%20D%20Major%20Op.64%2FString%20Quartet%20In%20D%2C%20Op.%20645%2C%20H%20363%2C%20Lark%20-%20II.%20Adagio%2C%20Cantabile.mp3",
+     "local": "media/Haydn/String Quartet in D major, Op. 64 No. 5, Hob. III-63/02 Adagio cantabile.mp3",
+     "duration": 292
+    },
+    {
+     "n": 3,
+     "title": "String Quartet in D major, Op. 64 No. 5, Hob. III:63: III. Menuetto: Allegretto",
+     "label": "III. Menuetto: Allegretto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FHaydn%20Quartet%20in%20D%20Major%20Op.64%2FString%20Quartet%20In%20D%2C%20Op.%20645%2C%20H%20363%2C%20Lark%20-%20III.%20Menuetto%20Allegretto.mp3",
+     "local": "media/Haydn/String Quartet in D major, Op. 64 No. 5, Hob. III-63/03 Menuetto - Allegretto.mp3",
+     "duration": 227
+    },
+    {
+     "n": 4,
+     "title": "String Quartet in D major, Op. 64 No. 5, Hob. III:63: IV. Finale: Vivace",
+     "label": "IV. Finale: Vivace",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FHaydn%20Quartet%20in%20D%20Major%20Op.64%2FString%20Quartet%20In%20D%2C%20Op.%20645%2C%20H%20363%2C%20Lark%20-%20IV.%20Finale%20Vivace.mp3",
+     "local": "media/Haydn/String Quartet in D major, Op. 64 No. 5, Hob. III-63/04 Finale - Vivace.mp3",
+     "duration": 91
+    }
+   ]
+  },
+  {
+   "id": "w13",
+   "composer": "Felix Mendelssohn",
+   "surname": "Mendelssohn",
+   "album": "String Quartet No. 6 in F minor, Op. 80",
+   "catalogue": "Op. 80",
+   "key": "F minor",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._6_(Mendelssohn)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "String Quartet No. 6 in F minor, Op. 80: I. Allegro vivace assai",
+     "label": "I. Allegro vivace assai",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMendelssohn%20Quartet%20in%20F%20Minor%20Op%2080%2FString%20Quartet%20No.%206%20in%20F%20minor%2C%20Op.%2080%20-%20I.%20Allegro%20vivace%20assai.mp3",
+     "local": "media/Mendelssohn/String Quartet No. 6 in F minor, Op. 80/01 Allegro vivace assai.mp3",
+     "duration": 462
+    },
+    {
+     "n": 2,
+     "title": "String Quartet No. 6 in F minor, Op. 80: II. Allegro assai",
+     "label": "II. Allegro assai",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMendelssohn%20Quartet%20in%20F%20Minor%20Op%2080%2FString%20Quartet%20No.%206%20in%20F%20minor%2C%20Op.%2080%20-%20II.%20Allegro%20assai.mp3",
+     "local": "media/Mendelssohn/String Quartet No. 6 in F minor, Op. 80/02 Allegro assai.mp3",
+     "duration": 299
+    },
+    {
+     "n": 3,
+     "title": "String Quartet No. 6 in F minor, Op. 80: III. Adagio",
+     "label": "III. Adagio",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMendelssohn%20Quartet%20in%20F%20Minor%20Op%2080%2FString%20Quartet%20No.%206%20in%20F%20minor%2C%20Op.%2080%20-%20III.%20Adagio.mp3",
+     "local": "media/Mendelssohn/String Quartet No. 6 in F minor, Op. 80/03 Adagio.mp3",
+     "duration": 486
+    },
+    {
+     "n": 4,
+     "title": "String Quartet No. 6 in F minor, Op. 80: IV. Finale: Allegro molto",
+     "label": "IV. Finale: Allegro molto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMendelssohn%20Quartet%20in%20F%20Minor%20Op%2080%2FString%20Quartet%20No.%206%20in%20F%20minor%2C%20Op.%2080%20-%20IV.%20Fuga.mp3",
+     "local": "media/Mendelssohn/String Quartet No. 6 in F minor, Op. 80/04 Finale - Allegro molto.mp3",
+     "duration": 375
+    }
+   ]
+  },
+  {
+   "id": "w14",
+   "composer": "Wolfgang Amadeus Mozart",
+   "surname": "Mozart",
+   "album": "String Quartet No. 15 in D minor, K. 421",
+   "catalogue": "K. 421",
+   "key": "D minor",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._15_(Mozart)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "String Quartet No. 15 in D minor, K. 421: I. Allegro moderato",
+     "label": "I. Allegro moderato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20D%20Minor%20K421%2FString%20Quartet%20No.%2015%20In%20D%20Minor%2C%20K%20421%20-%20I.%20Allegro%20Moderato.mp3",
+     "local": "media/Mozart/String Quartet No. 15 in D minor, K. 421/01 Allegro moderato.mp3",
+     "duration": 461
+    },
+    {
+     "n": 2,
+     "title": "String Quartet No. 15 in D minor, K. 421: II. Andante",
+     "label": "II. Andante",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20D%20Minor%20K421%2FString%20Quartet%20No.%2015%20In%20D%20Minor%2C%20K%20421%20-%20II.%20Andante.mp3",
+     "local": "media/Mozart/String Quartet No. 15 in D minor, K. 421/02 Andante.mp3",
+     "duration": 315
+    },
+    {
+     "n": 3,
+     "title": "String Quartet No. 15 in D minor, K. 421: III. Menuetto: Allegretto",
+     "label": "III. Menuetto: Allegretto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20D%20Minor%20K421%2FString%20Quartet%20No.%2015%20In%20D%20Minor%2C%20K%20421%20-%20III.%20Minuetto.mp3",
+     "local": "media/Mozart/String Quartet No. 15 in D minor, K. 421/03 Menuetto - Allegretto.mp3",
+     "duration": 253
+    },
+    {
+     "n": 4,
+     "title": "String Quartet No. 15 in D minor, K. 421: IV. Allegretto ma non troppo – Più allegro",
+     "label": "IV. Allegretto ma non troppo – Più allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20D%20Minor%20K421%2FString%20Quartet%20No.%2015%20In%20D%20Minor%2C%20K%20421%20-%20IV.%20Allegro%20Ma%20Non%20Troppo.mp3",
+     "local": "media/Mozart/String Quartet No. 15 in D minor, K. 421/04 Allegretto ma non troppo – Più allegro.mp3",
+     "duration": 398
+    }
+   ]
+  },
+  {
+   "id": "w15",
+   "composer": "Wolfgang Amadeus Mozart",
+   "surname": "Mozart",
+   "album": "String Quartet No. 19 in C major, K. 465",
+   "catalogue": "K. 465",
+   "key": "C major",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._19_(Mozart)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "String Quartet No. 19 in C major, K. 465: I. Adagio – Allegro",
+     "label": "I. Adagio – Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20in%20C%20Major%20K%20465%20%2FAdagio%20Allegro%201st%20Mov.mp3",
+     "local": "media/Mozart/String Quartet No. 19 in C major, K. 465/01 Adagio – Allegro.mp3",
+     "duration": 513
+    },
+    {
+     "n": 2,
+     "title": "String Quartet No. 19 in C major, K. 465: II. Andante cantabile",
+     "label": "II. Andante cantabile",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20in%20C%20Major%20K%20465%20%2F2nd%20Mov%20Andante%20Cantabile.mp3",
+     "local": "media/Mozart/String Quartet No. 19 in C major, K. 465/02 Andante cantabile.mp3",
+     "duration": 461
+    },
+    {
+     "n": 3,
+     "title": "String Quartet No. 19 in C major, K. 465: III. Menuetto: Allegro",
+     "label": "III. Menuetto: Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20in%20C%20Major%20K%20465%20%2F3rd%20Mov%20Minuetto%20Allegretto.mp3",
+     "local": "media/Mozart/String Quartet No. 19 in C major, K. 465/03 Menuetto - Allegro.mp3",
+     "duration": 324
+    },
+    {
+     "n": 4,
+     "title": "String Quartet No. 19 in C major, K. 465: IV. Allegro molto",
+     "label": "IV. Allegro molto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FMozart%20Quartet%20in%20C%20Major%20K%20465%20%2F4th%20Mov%20Allegro%20Volto%20ok.mp3",
+     "local": "media/Mozart/String Quartet No. 19 in C major, K. 465/04 Allegro molto.mp3",
+     "duration": 351
+    }
+   ]
+  },
+  {
+   "id": "w16",
+   "composer": "Josef Suk",
+   "surname": "Suk",
+   "album": "Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a",
+   "catalogue": "Op. 35a",
+   "key": "",
+   "performers": "Musopen String Quartet",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://imslp.org/wiki/Meditation_on_the_Old_Czech_Chorale_'St._Wenceslas',_Op.35a_(Suk,_Josef)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a",
+     "label": "Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FString%20Quartets%2FSuk%20-Meditation%2FMeditation.mp3",
+     "local": "media/Suk/Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a/01 Meditation on the Old Czech Chorale 'St. Wenceslas'.mp3",
+     "duration": 405
+    }
+   ]
+  },
+  {
+   "id": "w17",
+   "composer": "Franz Schubert",
+   "surname": "Schubert",
+   "album": "Piano Sonata in E-flat major, D. 568",
+   "catalogue": "D. 568",
+   "key": "E-flat major",
+   "performers": "Paul Pitman",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_E-flat_major,_D_568_(Schubert)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Piano Sonata in E-flat major, D. 568: I. Allegro moderato",
+     "label": "I. Allegro moderato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20E%20Flat%20Major%2C%20D.%20568%20-%20I.%20Allegro%20moderato.mp3",
+     "local": "media/Schubert/Piano Sonata in E-flat major, D. 568/01 Allegro moderato.mp3",
+     "duration": 647
+    },
+    {
+     "n": 2,
+     "title": "Piano Sonata in E-flat major, D. 568: II. Andante molto",
+     "label": "II. Andante molto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20E%20Flat%20Major%2C%20D.%20568%20-%20II.%20Andante%20molto.mp3",
+     "local": "media/Schubert/Piano Sonata in E-flat major, D. 568/02 Andante molto.mp3",
+     "duration": 417
+    },
+    {
+     "n": 3,
+     "title": "Piano Sonata in E-flat major, D. 568: III. Menuetto: Allegretto – Trio",
+     "label": "III. Menuetto: Allegretto – Trio",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20E%20Flat%20Major%2C%20D.%20568%20-%20III.%20Menuetto%20Allegretto.mp3",
+     "local": "media/Schubert/Piano Sonata in E-flat major, D. 568/03 Menuetto - Allegretto – Trio.mp3",
+     "duration": 307
+    },
+    {
+     "n": 4,
+     "title": "Piano Sonata in E-flat major, D. 568: IV. Allegro moderato",
+     "label": "IV. Allegro moderato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20E%20Flat%20Major%2C%20D.%20568%20-%20IV.%20Allegro%20moderato.mp3",
+     "local": "media/Schubert/Piano Sonata in E-flat major, D. 568/04 Allegro moderato.mp3",
+     "duration": 500
+    }
+   ]
+  },
+  {
+   "id": "w18",
+   "composer": "Franz Schubert",
+   "surname": "Schubert",
+   "album": "Piano Sonata in A major, D. 664",
+   "catalogue": "D. 664",
+   "key": "A major",
+   "performers": "Paul Pitman",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_major,_D_664_(Schubert)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Piano Sonata in A major, D. 664: I. Allegro moderato",
+     "label": "I. Allegro moderato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20A%20Major%2C%20D.%20664%20-%20I.%20Allegro%20moderato.mp3",
+     "local": "media/Schubert/Piano Sonata in A major, D. 664/01 Allegro moderato.mp3",
+     "duration": 466
+    },
+    {
+     "n": 2,
+     "title": "Piano Sonata in A major, D. 664: II. Andante",
+     "label": "II. Andante",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20A%20Major%2C%20D.%20664%20-%20II.%20Andante.mp3",
+     "local": "media/Schubert/Piano Sonata in A major, D. 664/02 Andante.mp3",
+     "duration": 291
+    },
+    {
+     "n": 3,
+     "title": "Piano Sonata in A major, D. 664: III. Allegro",
+     "label": "III. Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20A%20Major%2C%20D.%20664%20-%20III.%20Allegro.mp3",
+     "local": "media/Schubert/Piano Sonata in A major, D. 664/03 Allegro.mp3",
+     "duration": 348
+    }
+   ]
+  },
+  {
+   "id": "w19",
+   "composer": "Franz Schubert",
+   "surname": "Schubert",
+   "album": "Piano Sonata in A minor, D. 784",
+   "catalogue": "D. 784",
+   "key": "A minor",
+   "performers": "Paul Pitman",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_minor,_D_784_(Schubert)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Piano Sonata in A minor, D. 784: I. Allegro giusto",
+     "label": "I. Allegro giusto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20784%20-%20I.%20Allegro%20giusto.mp3",
+     "local": "media/Schubert/Piano Sonata in A minor, D. 784/01 Allegro giusto.mp3",
+     "duration": 529
+    },
+    {
+     "n": 2,
+     "title": "Piano Sonata in A minor, D. 784: II. Andante",
+     "label": "II. Andante",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20784%20-%20II.%20Andante.mp3",
+     "local": "media/Schubert/Piano Sonata in A minor, D. 784/02 Andante.mp3",
+     "duration": 230
+    },
+    {
+     "n": 3,
+     "title": "Piano Sonata in A minor, D. 784: III. Allegro vivace",
+     "label": "III. Allegro vivace",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20784%20-%20III.%20Allegro%20vivace.mp3",
+     "local": "media/Schubert/Piano Sonata in A minor, D. 784/03 Allegro vivace.mp3",
+     "duration": 371
+    }
+   ]
+  },
+  {
+   "id": "w20",
+   "composer": "Franz Schubert",
+   "surname": "Schubert",
+   "album": "Piano Sonata in A minor, D. 845",
+   "catalogue": "D. 845",
+   "key": "A minor",
+   "performers": "Paul Pitman",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_minor,_D_845_(Schubert)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Piano Sonata in A minor, D. 845: I. Moderato",
+     "label": "I. Moderato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20845%20-%20I.%20Moderato.mp3",
+     "local": "media/Schubert/Piano Sonata in A minor, D. 845/01 Moderato.mp3",
+     "duration": 696
+    },
+    {
+     "n": 2,
+     "title": "Piano Sonata in A minor, D. 845: II. Andante poco mosso",
+     "label": "II. Andante poco mosso",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20845%20-%20II.%20Andante%20poco%20mosso.mp3",
+     "local": "media/Schubert/Piano Sonata in A minor, D. 845/02 Andante poco mosso.mp3",
+     "duration": 784
+    },
+    {
+     "n": 3,
+     "title": "Piano Sonata in A minor, D. 845: III. Scherzo: Allegro vivace – Trio: Un poco più lento",
+     "label": "III. Scherzo: Allegro vivace – Trio: Un poco più lento",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20845%20-%20III.%20Scherzo.%20Allegro%20vivace%20-%20Trio.%20Un%20poco%20piu%20lento.mp3",
+     "local": "media/Schubert/Piano Sonata in A minor, D. 845/03 Scherzo - Allegro vivace – Trio - Un poco più lento.mp3",
+     "duration": 476
+    },
+    {
+     "n": 4,
+     "title": "Piano Sonata in A minor, D. 845: IV. Rondo: Allegro vivace",
+     "label": "IV. Rondo: Allegro vivace",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20845%20-%20IV.%20Rondo.%20Allegro%20vivace.mp3",
+     "local": "media/Schubert/Piano Sonata in A minor, D. 845/04 Rondo - Allegro vivace.mp3",
+     "duration": 363
+    }
+   ]
+  },
+  {
+   "id": "w21",
+   "composer": "Franz Schubert",
+   "surname": "Schubert",
+   "album": "Piano Sonata in D major, D. 850",
+   "catalogue": "D. 850",
+   "key": "D major",
+   "performers": "Paul Pitman",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_D_major,_D_850_(Schubert)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Piano Sonata in D major, D. 850: I. Allegro vivace",
+     "label": "I. Allegro vivace",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20D%20Major%2C%20D.%20850%20-%20I.%20Allegro%20vivace.mp3",
+     "local": "media/Schubert/Piano Sonata in D major, D. 850/01 Allegro vivace.mp3",
+     "duration": 578
+    },
+    {
+     "n": 2,
+     "title": "Piano Sonata in D major, D. 850: II. Con moto",
+     "label": "II. Con moto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20D%20Major%2C%20D.%20850%20-%20II.%20Con%20moto.mp3",
+     "local": "media/Schubert/Piano Sonata in D major, D. 850/02 Con moto.mp3",
+     "duration": 726
+    },
+    {
+     "n": 3,
+     "title": "Piano Sonata in D major, D. 850: III. Scherzo: Allegro vivace – Trio",
+     "label": "III. Scherzo: Allegro vivace – Trio",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20D%20Major%2C%20D.%20850%20-%20III.%20Scherzo.%20Allegro%20vivace.mp3",
+     "local": "media/Schubert/Piano Sonata in D major, D. 850/03 Scherzo - Allegro vivace – Trio.mp3",
+     "duration": 629
+    },
+    {
+     "n": 4,
+     "title": "Piano Sonata in D major, D. 850: IV. Rondo: Allegro moderato",
+     "label": "IV. Rondo: Allegro moderato",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20D%20Major%2C%20D.%20850%20-%20V.%20Rondo.%20Allegro%20moderato.mp3",
+     "local": "media/Schubert/Piano Sonata in D major, D. 850/04 Rondo - Allegro moderato.mp3",
+     "duration": 556
+    }
+   ]
+  },
+  {
+   "id": "w22",
+   "composer": "Franz Schubert",
+   "surname": "Schubert",
+   "album": "Piano Sonata in C minor, D. 958",
+   "catalogue": "D. 958",
+   "key": "C minor",
+   "performers": "Paul Pitman",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_C_minor,_D_958_(Schubert)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Piano Sonata in C minor, D. 958: I. Allegro",
+     "label": "I. Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20C%20Minor%2C%20D.%20958%20-%20I.%20Allegro.mp3",
+     "local": "media/Schubert/Piano Sonata in C minor, D. 958/01 Allegro.mp3",
+     "duration": 711
+    },
+    {
+     "n": 2,
+     "title": "Piano Sonata in C minor, D. 958: II. Adagio",
+     "label": "II. Adagio",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20C%20Minor%2C%20D.%20958%20-%20II.%20Adagio.mp3",
+     "local": "media/Schubert/Piano Sonata in C minor, D. 958/02 Adagio.mp3",
+     "duration": 468
+    },
+    {
+     "n": 3,
+     "title": "Piano Sonata in C minor, D. 958: III. Menuetto: Allegro – Trio",
+     "label": "III. Menuetto: Allegro – Trio",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20C%20Minor%2C%20D.%20958%20-%20III.%20Menuetto%20Allegro.mp3",
+     "local": "media/Schubert/Piano Sonata in C minor, D. 958/03 Menuetto - Allegro – Trio.mp3",
+     "duration": 195
+    },
+    {
+     "n": 4,
+     "title": "Piano Sonata in C minor, D. 958: IV. Allegro",
+     "label": "IV. Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20C%20Minor%2C%20D.%20958%20-%20IV.%20Allegro.mp3",
+     "local": "media/Schubert/Piano Sonata in C minor, D. 958/04 Allegro.mp3",
+     "duration": 656
+    }
+   ]
+  },
+  {
+   "id": "w23",
+   "composer": "Franz Schubert",
+   "surname": "Schubert",
+   "album": "Piano Sonata in A major, D. 959",
+   "catalogue": "D. 959",
+   "key": "A major",
+   "performers": "Paul Pitman",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_major,_D_959_(Schubert)",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Piano Sonata in A major, D. 959: I. Allegro",
+     "label": "I. Allegro",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20959%20-%20I.%20Allegro.mp3",
+     "local": "media/Schubert/Piano Sonata in A major, D. 959/01 Allegro.mp3",
+     "duration": 690
+    },
+    {
+     "n": 2,
+     "title": "Piano Sonata in A major, D. 959: II. Andantino",
+     "label": "II. Andantino",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20959%20-%20II.%20Andantino.mp3",
+     "local": "media/Schubert/Piano Sonata in A major, D. 959/02 Andantino.mp3",
+     "duration": 546
+    },
+    {
+     "n": 3,
+     "title": "Piano Sonata in A major, D. 959: III. Scherzo: Allegro vivace – Trio: Un poco più lento",
+     "label": "III. Scherzo: Allegro vivace – Trio: Un poco più lento",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20959%20-%20III.%20Scherzo.%20Allegro%20vivace.mp3",
+     "local": "media/Schubert/Piano Sonata in A major, D. 959/03 Scherzo - Allegro vivace – Trio - Un poco più lento.mp3",
+     "duration": 326
+    },
+    {
+     "n": 4,
+     "title": "Piano Sonata in A major, D. 959: IV. Rondo: Allegretto – Presto",
+     "label": "IV. Rondo: Allegretto – Presto",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FSchubert%20-%20The%20Piano%20Sonatas%2FSonata%20in%20A%20Minor%2C%20D.%20959%20-%20IV.%20Rondo.%20Allegretto.mp3",
+     "local": "media/Schubert/Piano Sonata in A major, D. 959/04 Rondo - Allegretto – Presto.mp3",
+     "duration": 715
+    }
+   ]
+  },
+  {
+   "id": "w24",
+   "composer": "Johann Sebastian Bach",
+   "surname": "Bach",
+   "album": "Goldberg Variations in G major, BWV 988",
+   "catalogue": "BWV 988",
+   "key": "G major",
+   "performers": "Shelley Katz",
+   "licence": "CC0 1.0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "reference": "https://en.wikipedia.org/wiki/Goldberg_Variations",
+   "note": "",
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Goldberg Variations in G major, BWV 988: Aria",
+     "label": "Aria",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV%20988%20-%20Aria.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/01 Aria.mp3",
+     "duration": 292
+    },
+    {
+     "n": 2,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 1",
+     "label": "Variatio 1",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%201.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/02 Variatio 1.mp3",
+     "duration": 114
+    },
+    {
+     "n": 3,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 2",
+     "label": "Variatio 2",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%202.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/03 Variatio 2.mp3",
+     "duration": 88
+    },
+    {
+     "n": 4,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 3. Canone all'Unisono",
+     "label": "Variatio 3. Canone all'Unisono",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%203.%20Canon%20on%20the%20unison.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/04 Variatio 3. Canone all'Unisono.mp3",
+     "duration": 113
+    },
+    {
+     "n": 5,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 4",
+     "label": "Variatio 4",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%204.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/05 Variatio 4.mp3",
+     "duration": 54
+    },
+    {
+     "n": 6,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 5",
+     "label": "Variatio 5",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%205.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/06 Variatio 5.mp3",
+     "duration": 78
+    },
+    {
+     "n": 7,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 6. Canone alla Seconda",
+     "label": "Variatio 6. Canone alla Seconda",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%206.%20Canon%20on%20the%20second.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/07 Variatio 6. Canone alla Seconda.mp3",
+     "duration": 62
+    },
+    {
+     "n": 8,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 7. Al tempo di Giga",
+     "label": "Variatio 7. Al tempo di Giga",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%207.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/08 Variatio 7. Al tempo di Giga.mp3",
+     "duration": 175
+    },
+    {
+     "n": 9,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 8",
+     "label": "Variatio 8",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%208.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/09 Variatio 8.mp3",
+     "duration": 104
+    },
+    {
+     "n": 10,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 9. Canone alla Terza",
+     "label": "Variatio 9. Canone alla Terza",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%209.%20Canon%20on%20the%20third.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/10 Variatio 9. Canone alla Terza.mp3",
+     "duration": 100
+    },
+    {
+     "n": 11,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 10. Fughetta",
+     "label": "Variatio 10. Fughetta",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2010.%20Fughetta.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/11 Variatio 10. Fughetta.mp3",
+     "duration": 87
+    },
+    {
+     "n": 12,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 11",
+     "label": "Variatio 11",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2011.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/12 Variatio 11.mp3",
+     "duration": 95
+    },
+    {
+     "n": 13,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 12. Canone alla Quarta in moto contrario",
+     "label": "Variatio 12. Canone alla Quarta in moto contrario",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2012.%20Canon%20on%20the%20fourth.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/13 Variatio 12. Canone alla Quarta in moto contrario.mp3",
+     "duration": 153
+    },
+    {
+     "n": 14,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 13",
+     "label": "Variatio 13",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2013.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/14 Variatio 13.mp3",
+     "duration": 339
+    },
+    {
+     "n": 15,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 14",
+     "label": "Variatio 14",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2014.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/15 Variatio 14.mp3",
+     "duration": 122
+    },
+    {
+     "n": 16,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 15. Canone alla Quinta: Andante",
+     "label": "Variatio 15. Canone alla Quinta: Andante",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2015.%20Canon%20on%20the%20fifth.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/16 Variatio 15. Canone alla Quinta - Andante.mp3",
+     "duration": 287
+    },
+    {
+     "n": 17,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 16. Ouverture",
+     "label": "Variatio 16. Ouverture",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2016.%20Overture.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/17 Variatio 16. Ouverture.mp3",
+     "duration": 106
+    },
+    {
+     "n": 18,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 17",
+     "label": "Variatio 17",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2017.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/18 Variatio 17.mp3",
+     "duration": 95
+    },
+    {
+     "n": 19,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 18. Canone alla Sesta",
+     "label": "Variatio 18. Canone alla Sesta",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2018.%20Canon%20on%20the%20sixth.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/19 Variatio 18. Canone alla Sesta.mp3",
+     "duration": 89
+    },
+    {
+     "n": 20,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 19",
+     "label": "Variatio 19",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2019.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/20 Variatio 19.mp3",
+     "duration": 72
+    },
+    {
+     "n": 21,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 20",
+     "label": "Variatio 20",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2020.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/21 Variatio 20.mp3",
+     "duration": 107
+    },
+    {
+     "n": 22,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 21. Canone alla Settima",
+     "label": "Variatio 21. Canone alla Settima",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2021.%20Canon%20on%20the%20seventh.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/22 Variatio 21. Canone alla Settima.mp3",
+     "duration": 98
+    },
+    {
+     "n": 23,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 22. Alla breve",
+     "label": "Variatio 22. Alla breve",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2022.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/23 Variatio 22. Alla breve.mp3",
+     "duration": 137
+    },
+    {
+     "n": 24,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 23",
+     "label": "Variatio 23",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2023.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/24 Variatio 23.mp3",
+     "duration": 125
+    },
+    {
+     "n": 25,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 24. Canone all'Ottava",
+     "label": "Variatio 24. Canone all'Ottava",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2024.%20Canon%20on%20the%20octave.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/25 Variatio 24. Canone all'Ottava.mp3",
+     "duration": 165
+    },
+    {
+     "n": 26,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 25. Adagio",
+     "label": "Variatio 25. Adagio",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2025.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/26 Variatio 25. Adagio.mp3",
+     "duration": 411
+    },
+    {
+     "n": 27,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 26",
+     "label": "Variatio 26",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2026.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/27 Variatio 26.mp3",
+     "duration": 110
+    },
+    {
+     "n": 28,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 27. Canone alla Nona",
+     "label": "Variatio 27. Canone alla Nona",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2027.%20Canon%20on%20the%20ninth.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/28 Variatio 27. Canone alla Nona.mp3",
+     "duration": 94
+    },
+    {
+     "n": 29,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 28",
+     "label": "Variatio 28",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2028.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/29 Variatio 28.mp3",
+     "duration": 137
+    },
+    {
+     "n": 30,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 29",
+     "label": "Variatio 29",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2029.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/30 Variatio 29.mp3",
+     "duration": 119
+    },
+    {
+     "n": 31,
+     "title": "Goldberg Variations in G major, BWV 988: Variatio 30. Quodlibet",
+     "label": "Variatio 30. Quodlibet",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV.%20988%20-%20Variation%2030.%20Quodlibet.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/31 Variatio 30. Quodlibet.mp3",
+     "duration": 103
+    },
+    {
+     "n": 32,
+     "title": "Goldberg Variations in G major, BWV 988: Aria da capo",
+     "label": "Aria da capo",
+     "url": "https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/Musopen%20DVD%2FGoldberg%20Variations%2FGoldberg%20Variations%2C%20BWV%20988%20-%20Aria%20Da%20Capo.mp3",
+     "local": "media/Bach/Goldberg Variations in G major, BWV 988/32 Aria da capo.mp3",
+     "duration": 340
+    }
+   ]
+  }
+ ]
+}
