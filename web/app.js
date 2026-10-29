@@ -70,60 +70,130 @@ function visibleWorks() {
     (!state.favouritesOnly || state.favourites.has(w.id)) && (!q || matches(w, q)));
 }
 
+// Spine tones, one per composer, mixed from the palette (ground, step, ink, amber).
+const SPINES = ["spine-a", "spine-b", "spine-c", "spine-d", "spine-e", "spine-f"];
+const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"];
+const totalSecs = (w) => w.tracks.reduce((s, t) => s + (t.duration || 0), 0);
+
 function renderWorks() {
   const works = visibleWorks();
-  $("status").textContent = works.length ? ""
-    : state.favouritesOnly && !state.favourites.size ? "No favourites yet. Mark a work with ☆."
+  const n = works.length;
+  $("status").textContent = n ? ""
+    : state.favouritesOnly && !state.favourites.size ? "No favourites yet. Open a book and mark it with a ribbon."
     : "No works match.";
-  const searching = state.query.length > 1;
+  $("drawer-count").textContent = n === state.works.length ? `${n} books` : `${n} of ${state.works.length} books`;
 
-  // Group by composer, ordered by surname.
+  // One shelf per composer, ordered by surname; the colour stays with the composer.
+  const composers = [...new Set([...state.works].sort((a, b) => a.surname.localeCompare(b.surname)).map((w) => w.composer))];
   const groups = new Map();
   for (const w of [...works].sort((a, b) => a.surname.localeCompare(b.surname))) {
     if (!groups.has(w.composer)) groups.set(w.composer, []);
     groups.get(w.composer).push(w);
   }
+  // While searching, the first matching book opens if none of the matches is open.
+  const searching = state.query.length > 1;
+  const open = works.find((w) => w.id === state.open) || (searching ? works[0] : null);
+  const longest = Math.max(...state.works.map(totalSecs));
 
-  $("works").replaceChildren(...[...groups].map(([composer, list]) =>
-    el("section", { class: "composer-group" },
-      el("h3", { class: "composer-name" }, composer),
-      ...list.map((w) => renderWork(w, searching)))));
+  $("works").replaceChildren(...[...groups].map(([composer, list]) => {
+    const tone = SPINES[composers.indexOf(composer) % SPINES.length];
+    const openHere = list.includes(open) ? open : null;
+    return el("section", { class: "shelf", "aria-label": composer },
+      el("h3", { class: "shelf-label" }, composer),
+      el("div", { class: "shelf-row", role: "group", "aria-label": `${composer}: works` },
+        ...list.map((w) => renderSpine(w, tone, w === openHere, longest))),
+      ...(openHere ? [renderBook(openHere, tone)] : []));
+  }));
+  rovingSpines();
 }
 
-function renderWork(w, searching) {
-  const playingWork = state.current && state.current.work === w;
-  const open = state.open === w.id || (searching && matches(w, state.query.toLowerCase()));
+// Two short lines on the spine: "String Quartet / No. 6", "Meditation / St. Wenceslas".
+function spineTitle(work) {
+  const quoted = /^(\S+).*'(.+)'$/.exec(work);
+  if (quoted) return `${quoted[1]}\n${quoted[2]}`;
+  if (/ No\. \d+$/.test(work)) return work.replace(/ (No\. \d+)$/, "\n$1");
+  return work.includes(" ") && work.length > 12 ? work.replace(" ", "\n") : work;
+}
+
+function renderSpine(w, tone, open, longest) {
+  const playing = state.current && state.current.work === w;
   const fav = state.favourites.has(w.id);
-  const listId = "tracks-" + w.id;
-  return el("article", { class: "work" + (open ? " open" : "") + (playingWork ? " playing" : "") },
-    el("div", { class: "work-row" },
-      el("button", {
-        class: "work-toggle", "aria-expanded": String(open), "aria-controls": listId,
-        onclick: () => { state.open = state.open === w.id ? null : w.id; renderWorks(); },
-      },
-        el("span", { class: "work-title" }, w.album),
-        el("span", { class: "work-perf" }, `${w.performers} · `,
-          el("span", { class: "nowrap" }, w.tracks.length === 1 ? "1 movement" : w.tracks.length + " movements"))),
-      el("button", {
-        class: "fav", "aria-pressed": String(fav), "aria-label": `Favourite ${w.album}`, title: "Favourite",
-        onclick: () => toggleFavourite(w.id),
-      }, fav ? "★" : "☆")),
-    el("ol", { class: "tracks", id: listId },
+  // Thicker for more movements, taller for longer works.
+  const thick = 32 + 3.5 * Math.min(w.tracks.length, 8);
+  const tall = Math.round(148 + 56 * Math.sqrt(totalSecs(w) / longest));
+  return el("button", {
+    class: `spine ${tone}` + (open ? " out" : "") + (playing ? " playing" : "") + (fav ? " fav" : ""),
+    style: `--thick:${thick}px; --tall:${tall}px`,
+    "aria-expanded": String(open), "aria-controls": "book-" + w.id, "data-id": w.id,
+    "aria-label": `${w.album}, ${w.composer}${fav ? ", favourite" : ""}${playing ? ", playing" : ""}`,
+    onclick: () => { state.open = state.open === w.id ? null : w.id; renderWorks(); focusSpine(w.id); },
+  },
+    el("span", { class: "spine-title" }, spineTitle(w.work)),
+    el("span", { class: "spine-cat" }, (w.catalogue || w.key).split(",")[0]),
+    ...(fav ? [el("span", { class: "spine-ribbon", "aria-hidden": "true" })] : []));
+}
+
+function renderBook(w, tone) {
+  const playingWork = state.current && state.current.work === w;
+  const fav = state.favourites.has(w.id);
+  const close = () => { state.open = null; renderWorks(); focusSpine(w.id); };
+  return el("article", {
+    class: `book ${tone}`, id: "book-" + w.id, "aria-label": `${w.album}: contents`,
+    onkeydown: (e) => { if (e.key === "Escape") { e.stopPropagation(); close(); } },
+  },
+    el("header", { class: "book-head" },
+      el("p", { class: "book-composer" }, w.composer),
+      el("h4", { class: "book-title" }, w.album),
+      el("p", { class: "book-perf" }, w.performers)),
+    el("p", { class: "book-contents" }, "Contents"),
+    el("ol", { class: "tracks" },
       ...w.tracks.map((t, i) => {
         const playing = playingWork && state.current.index === i;
+        const n = w.tracks.length > 8 ? String(t.n) : ROMAN[i] || String(t.n);
+        // The label without its numeral, which the contents page sets on its own.
+        const title = t.label.replace(/^[IVX]+\.\s+/, "");
         return el("li", {}, el("button", {
           class: "track" + (playing ? " playing" : ""), onclick: () => play(w, i),
           "aria-current": playing ? "true" : "false",
         },
-          el("span", { class: "n" }, String(t.n)),
-          el("span", {}, t.label),
+          el("span", { class: "n" }, n),
+          el("span", { class: "t" }, title),
+          el("span", { class: "leader", "aria-hidden": "true" }),
           el("span", { class: "dur" }, t.duration ? fmt(t.duration) : "")));
-      }),
-      ...(w.note ? [el("li", { class: "note" }, w.note)] : []),
-      el("li", { class: "work-links" },
+      })),
+    ...(w.note ? [el("p", { class: "note" }, w.note)] : []),
+    el("footer", { class: "book-foot" },
+      el("button", {
+        class: "ribbon", "aria-pressed": String(fav), onclick: () => toggleFavourite(w.id),
+      }, fav ? "Remove ribbon" : "Mark with a ribbon"),
+      el("span", { class: "work-links" },
         el("a", { href: w.licence_url, target: "_blank", rel: "noopener" }, w.licence), " · ",
-        el("a", { href: w.reference, target: "_blank", rel: "noopener" }, "About this work"))));
+        el("a", { href: w.reference, target: "_blank", rel: "noopener" }, "About this work")),
+      el("button", { class: "book-close", onclick: close }, "Close")));
 }
+
+// Spines are one tab stop; arrow keys move along the shelves.
+function rovingSpines() {
+  const spines = [...document.querySelectorAll(".spine")];
+  const current = spines.find((s) => s.classList.contains("out"))
+    || spines.find((s) => s.classList.contains("playing")) || spines[0];
+  spines.forEach((s) => (s.tabIndex = s === current ? 0 : -1));
+}
+function focusSpine(id) {
+  const s = document.querySelector(`.spine[data-id="${id}"]`);
+  if (s) { document.querySelectorAll(".spine").forEach((x) => (x.tabIndex = -1)); s.tabIndex = 0; s.focus(); }
+}
+$("works").addEventListener("keydown", (e) => {
+  if (!e.target.classList.contains("spine")) return;
+  const spines = [...document.querySelectorAll(".spine")];
+  const i = spines.indexOf(e.target);
+  const to = { ArrowRight: i + 1, ArrowDown: i + 1, ArrowLeft: i - 1, ArrowUp: i - 1, Home: 0, End: spines.length - 1 }[e.key];
+  if (to === undefined) return;
+  e.preventDefault();
+  const s = spines[Math.max(0, Math.min(spines.length - 1, to))];
+  spines.forEach((x) => (x.tabIndex = -1));
+  s.tabIndex = 0; s.focus();
+});
 
 function toggleFavourite(id) {
   state.favourites.has(id) ? state.favourites.delete(id) : state.favourites.add(id);
@@ -255,7 +325,7 @@ $("fav-filter").addEventListener("click", () => {
 });
 
 document.addEventListener("keydown", (e) => {
-  if (e.target.matches("input[type=search]")) return;
+  if (e.target.matches("input[type=search]") || e.target.closest(".shelves")) return;
   if (e.code === "Space" && !e.target.matches("button, a")) { e.preventDefault(); togglePlay(); }
   else if (e.code === "ArrowRight" && !e.target.matches("input[type=range]")) audio.currentTime += config.seekStep;
   else if (e.code === "ArrowLeft" && !e.target.matches("input[type=range]")) audio.currentTime -= config.seekStep;

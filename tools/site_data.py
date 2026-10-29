@@ -6,7 +6,8 @@ If library_dir is given, track durations are read from the local files.
 import json, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from catalogue import DREAMS, ITEM_URL, LICENCE, LICENCE_URL, NOTES, album
+from catalogue import ITEM_URL, LICENCE, LICENCE_URL, MKEYS, NOTES, album
+from dreams import DREAMS
 from library import ROOT, listing, plan, source_url
 
 library = sys.argv[1] if len(sys.argv) > 1 else None
@@ -61,15 +62,47 @@ PORTRAIT_KEY = {"Dvořák": "dvorak"}
 
 
 def dream(w):
-    lines = DREAMS.get(album(w))
-    if not lines:
+    """Portrait and credit for the work's dream scenes; the dialogue goes to web/dreams.json."""
+    if album(w) not in DREAMS:
         return None
     key = PORTRAIT_KEY.get(w["surname"], w["surname"].lower())
     c = PORTRAITS[key]
     return dict(
         portrait=f"assets/portraits/{key}.jpg",
-        credit=f"Portrait: {c['artist']}{', ' + c['date'] if c['date'] else ''}. Public domain, via Wikimedia Commons.",
-        lines=[dict(who=l["who"], text=curly(l["text"])) for l in lines])
+        credit=f"Portrait: {c['artist']}{', ' + c['date'] if c['date'] else ''}. Public domain, via Wikimedia Commons.")
+
+
+def dream_material(a):
+    """The work's dream material (tools/dreams.py), for the player to assemble from."""
+    line = lambda l: dict(who=l["who"], text=curly(l["text"]))
+    d = DREAMS[a]
+    return dict(open=[line(l) for l in d["open"]], close=[line(l) for l in d["close"]],
+                qa=[dict(ask=curly(q["ask"]), answers=[line(x) for x in q["answers"]]) for q in d["qa"]])
+
+
+TEMPO_WORDS = ("Allegro Allegretto Adagio Andante Andantino Lento Largo Moderato Presto Prestissimo "
+               "Vivace Un Poco Più Meno Con Al Alla Molto Tempo").split()
+
+
+def tempi(heading):
+    """Tempo markings in a movement heading, in order: 'Scherzo: Allegro – Trio: Più lento' -> both."""
+    out = []
+    for seg in (heading or "").split(" – "):
+        seg = seg.split(": ")[-1].split(". ")[-1].strip()
+        if seg.split(" ")[0] in TEMPO_WORDS:
+            out.append(seg)
+    return out
+
+
+def movement_key(w, n, count):
+    """The movement's key, when known: listed in MKEYS, or the home key for outer movements and variation sets."""
+    known = MKEYS.get(album(w), {})
+    if n in known:
+        return known[n]
+    if w["key"] and (n in (1, count) or count > 6):
+        return w["key"]
+    return ""
+
 
 works = {}
 for t in tracks:
@@ -78,7 +111,7 @@ for t in tracks:
     if key not in works:
         works[key] = dict(
             id=f"w{len(works)+1}", composer=w["composer"], surname=w["surname"],
-            album=album(w), catalogue=w["cat"], key=w["key"], performers=w["perf"],
+            album=album(w), work=w["work"], catalogue=w["cat"], key=w["key"], performers=w["perf"],
             licence=LICENCE, licence_url=LICENCE_URL, reference=w["ref"],
             note=w.get("note", ""), dream=dream(w), tracks=[])
     entry = dict(n=t["n"], title=t["title"], label=t["label"] or album(w),
@@ -87,9 +120,18 @@ for t in tracks:
     if path and os.path.exists(path):
         entry["duration"] = round(MP3(path).info.length)
     entry["notes"] = track_notes(w, t, entry.get("duration"))
+    count = len(w["mov"])
+    entry["tempo"] = tempi(t["title"].split(": ", 1)[1] if ": " in t["title"] else "")
+    entry["key"] = movement_key(w, t["n"], count)
     works[key]["tracks"].append(entry)
 
 out = dict(source=ITEM_URL, works=list(works.values()))
 dest = os.path.join(ROOT, "web", "library.json")
 json.dump(out, open(dest, "w"), ensure_ascii=False, indent=1)
 print(f"wrote {dest}: {len(out['works'])} works, {len(tracks)} tracks")
+
+# Dream dialogue, loaded only when a dream begins.
+material = {w["id"]: dream_material(w["album"]) for w in out["works"] if w["dream"]}
+dest = os.path.join(ROOT, "web", "dreams.json")
+json.dump(material, open(dest, "w"), ensure_ascii=False, indent=1)
+print(f"wrote {dest}: dream material for {len(material)} works")

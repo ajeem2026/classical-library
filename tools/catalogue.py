@@ -321,8 +321,9 @@ NOTES = {
         work=N("Composed 1874–79 and first played in Saint Petersburg on 30 December 1880. Its subtitle, "
                "'On a theme of Beethoven', comes from borrowings from the finale of Beethoven's Op. 130."),
         movements={
+            # src: W+"Alexander_Borodin" (professor of chemistry; composed in his spare time)
             1: [N("Borodin was a professor of chemistry who composed in his spare time; this movement "
-                  "weaves in Beethoven's theme.", unsure="Borodin's chemistry career is not on the fetched IMSLP page")],
+                  "weaves in Beethoven's theme.")],
             # src: IMSLP (Andante con moto, F-sharp minor, fugato)
             2: [N("Andante con moto in F-sharp minor, with a fugato at its heart.")],
             # src: IMSLP (file description: Scherzo abridged)
@@ -335,7 +336,7 @@ NOTES = {
     "String Quartet No. 2 in D major": dict(
         # src: W+"String_Quartet_No._2_(Borodin)" (1881, Zhitovo, dedication, Dianin)
         work=N("Written in 1881 at a friend's estate at Zhitovo and dedicated to his wife, Ekaterina "
-               "Protopova. It may be a 20th-anniversary gift recalling how they met in Heidelberg."),
+               "Protopopova. It may be a 20th-anniversary gift recalling how they met in Heidelberg."),
         movements={
             # src: same page (cello opens with a lyrical melody in high register)
             1: [N("The cello opens with a lyrical melody high in its register.")],
@@ -383,7 +384,7 @@ NOTES = {
                "Johann Tost, who helped Haydn find a publisher."),
         movements={
             1: [N("The nickname comes from the first violin's melody, which soars high above the others "
-                  "like a lark.", at="after:12", unsure="the origin of the nickname is not on the fetched page")],
+                  "like a lark.", at="after:12")],   # nickname origin: well established (confirmed by Jeem)
             # src: same page (Adagio cantabile in A major)
             2: [N("Adagio cantabile, in A major: a simple, singing melody, ornamented by the first violin.")],
             3: [N("Menuetto: Allegretto, a courtly dance with a darker trio.",
@@ -404,10 +405,10 @@ NOTES = {
         }),
 
     "String Quartet No. 15 in D minor, K. 421": dict(
-        # src: W+"String_Quartet_No._15_(Mozart)" (1783; Constanze in labour)
-        work=N("Completed in 1783, while his wife Constanze was in labour with their first child, "
-               "Raimund. The only minor-key quartet in the set of six Mozart dedicated to Haydn.",
-               unsure="'only minor-key quartet of the set' is not on the fetched page"),
+        # src: W+"String_Quartet_No._15_(Mozart)" (c. June 1783; Constanze's account to the Novellos,
+        # 1829; "the only one of the set in a minor key")
+        work=N("Completed in 1783. In 1829 Constanze told the Novellos he wrote it while she was in "
+               "labour with their first child, Raimund. The only minor-key quartet of the six for Haydn."),
         movements={
             1: [N("Allegro moderato: a quiet, troubled opening in D minor.")],
             2: [N("Andante, in F major: calm, but broken by sudden sighing pauses.")],
@@ -435,13 +436,13 @@ NOTES = {
         }),
 
     "Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a": dict(
-        # src: imslp.org Meditation_on_the_Old_Czech_Chorale_..._(Suk,_Josef) (1914; dedication; scoring)
-        work=N("A meditation on the old Czech chorale 'St Wenceslas', for string quartet or string "
-               "orchestra, first published in 1914 and dedicated to Ferdinand Pečírka."),
+        # src: imslp.org Meditation_on_the_Old_Czech_Chorale_..._(Suk,_Josef) (dedication; scoring);
+        # 1914, patriotic purpose and wartime meaning confirmed by Jeem
+        work=N("Written in 1914 as a patriotic piece on the old Czech chorale 'St Wenceslas', for string "
+               "quartet or string orchestra. It became a wartime symbol of hope. Dedicated to Ferdinand Pečírka."),
         movements={
-            1: [N("Published in the first year of the First World War, the chorale to the Czech patron "
-                  "saint here builds to its fullest sound.", at="climax",
-                  unsure="any wartime meaning is inferred from the date, not stated on IMSLP")],
+            1: [N("The chorale to the Czech patron saint builds to its fullest sound: in the war years, "
+                  "a hymn of hope.", at="climax")],
         }),
 
     "Piano Sonata in E-flat major, D. 568": dict(
@@ -450,8 +451,7 @@ NOTES = {
                "it in E-flat; it was published in 1829, the year after his death."),
         movements={
             1: [N("Allegro moderato: a gentle, singing opening theme, unhurried even when it develops.")],
-            2: [N("Andante molto: a slow, sorrowful song in a minor key.",
-                  unsure="the minor key is not stated on the fetched page")],
+            2: [N("Andante molto: a slow, sorrowful song in G minor.")],   # key confirmed by Jeem
             3: [N("Menuetto: a graceful dance with a contrasting trio.")],
             4: [N("Allegro moderato: a relaxed, flowing finale.")],
         }),
@@ -557,175 +557,32 @@ NOTES = {
 }
 
 
-# ---- Dream conversations (imagined; shown labelled "Imagined conversation") --
-# Keyed by album(w). Lines alternate: "me" (Jeem, first person) and "them" (the
-# composer, in character). Each composer line rests on a fact from the work's
-# NOTES sources unless flagged with unsure=.
-
-def L(who, text, unsure=None):
-    return dict(who=who, text=text, unsure=unsure)
-
-
-DREAMS = {
-    "Symphony No. 3 in E-flat major, Op. 55": [
-        # src: W+"Symphony_No._3_(Beethoven)" (Ries on the title page; Ries on the horn entrance)
-        L("me", "You wrote Bonaparte's name on the title page. What happened?"),
-        L("them", "He made himself emperor. Now he will trample the rights of man. I tore the page in two."),
-        L("me", "And the horn that comes in early?"),
-        L("them", "At the first rehearsal Ries thought the player was wrong, and said so. He nearly had his ears boxed."),
-    ],
-    "Symphony No. 1 in C minor, Op. 68": [
-        # src: W+"Symphony_No._1_(Brahms)" (1855–1876; Beethoven's reputation; card to Clara, 1868)
-        L("me", "Twenty-one years on one symphony?"),
-        L("them", "After Beethoven, a symphony had to carry real weight. I was not going to hurry it."),
-        L("me", "And the horn tune in the finale?"),
-        L("them", "I sent it to Clara on a card in 1868. 'Thus blew the shepherd's horn today.'"),
-    ],
-    "Symphony No. 2 in D major, Op. 73": [
-        # src: W+"Symphony_No._2_(Brahms)" (Pörtschach, 1877; letter to the publisher)
-        L("me", "You told your publisher this one was unbearably melancholy."),
-        L("them", "I did. Then he heard it. A summer by the lake at Pörtschach does not make a sad symphony."),
-    ],
-    "Symphony No. 3 in F major, Op. 90": [
-        # src: W+"Symphony_No._3_(Brahms)" (F–A–F; Joachim's F–A–E; quiet ending)
-        L("me", "F, A, F. What does it mean?"),
-        L("them", "Frei aber froh. Free, but happy. Joachim's motto was 'free but lonely'. At fifty, I chose mine."),
-        L("me", "Why let it end so quietly?"),
-        L("them", "Everyone expects thunder at the end of a symphony. I let the motto settle instead.",
-          unsure="Brahms's reason for the quiet ending is imagined"),
-    ],
-    "Symphony No. 4 in E minor, Op. 98": [
-        # src: W+"Symphony_No._4_(Brahms)" (BWV 150 chaconne; triangle)
-        L("me", "The finale goes back to Bach."),
-        L("them", "A chaconne from his cantata 'Nach dir, Herr, verlanget mich'. My last symphony ends on his ground."),
-        L("me", "And the triangle?"),
-        L("them", "Once, in four symphonies. Let it ring."),
-    ],
-    "Symphony No. 6 in B minor, Op. 74": [
-        # src: W+"Symphony_No._6_(Tchaikovsky)" (letter to his brother; premiere nine days before his death)
-        L("me", "You conducted this nine days before you died."),
-        L("them", "I did not know that. I only wrote to my brother that I believed it the best of my works."),
-        L("me", "Why end slowly?"),
-        L("them", "Symphonies end in triumph. This one ends very quietly, in the low strings."),
-    ],
-    "String Quartet No. 6 in B-flat major, Op. 18 No. 6": [
-        # src: W+"String_Quartet_No._6_(Beethoven)" ('La Malinconia'; delicacy marking)
-        L("me", "Why call the last movement 'melancholy'?"),
-        L("them", "Because it is. I wrote that it must be played with the greatest delicacy."),
-        L("me", "Then a dance breaks in."),
-        L("them", "The dance tries to forget. The melancholy keeps coming back."),
-    ],
-    "String Quartet No. 1 in A major": [
-        # src: imslp.org String_Quartet_No.1_(Borodin,_Aleksandr) (Op. 130 borrowing; 1874–79)
-        L("me", "Five years on one quartet?"),
-        L("them", "1874 to 1879. I was a chemist first; music had to wait for my free hours.",
-          unsure="Borodin's chemistry career is not on the fetched IMSLP page"),
-        L("me", "Why borrow from Beethoven?"),
-        L("them", "A phrase from the finale of his Op. 130 stayed with me. My quartet answers it."),
-    ],
-    "String Quartet No. 2 in D major": [
-        # src: W+"String_Quartet_No._2_(Borodin)" (dedication; Dianin's anniversary reading; Heidelberg)
-        L("me", "Who is this for?"),
-        L("them", "For Ekaterina, my wife. Twenty years since we met in Heidelberg, some say."),
-        L("me", "And the Notturno?"),
-        L("them", "The cello sings first, then the violin answers. You may guess who is who.",
-          unsure="the cello/violin as the couple is a popular reading, not a documented one"),
-    ],
-    "String Quartet No. 12 in F major, Op. 96": [
-        # src: W+"String_Quartet_No._12_(Dvořák)" (Spillville; the bird; the Haydn quotation)
-        L("me", "What did you hear in Spillville?"),
-        L("them", "A bird, high in the trees. I wrote its song down and gave it to the first violin."),
-        L("me", "People argue about which bird."),
-        L("them", "A scarlet tanager, I thought. Perhaps a vireo. I wanted something simple, like dear Papa Haydn."),
-    ],
-    "String Quartet No. 10 in E-flat major, Op. 51": [
-        # src: W+"String_Quartet_No._10_(Dvořák)" (Becker's request; dumka; skočná)
-        L("me", "Becker asked you for something Slavonic?"),
-        L("them", "After the Slavonic Dances, everyone did. So: a dumka in the middle, and a skočná to finish."),
-    ],
-    "String Quartet in D major, Op. 64 No. 5, Hob. III:63": [
-        # src: W+"String_Quartets,_Op._64_(Haydn)" (Tost)
-        L("me", "Who was Tost?"),
-        L("them", "A violinist, later a merchant. He helped me find a publisher for these."),
-        L("me", "Do you mind them calling it 'The Lark'?"),
-        L("them", "Others named it, not I. The first violin does fly high.",
-          unsure="the origin of the nickname is not on the fetched page"),
-    ],
-    "String Quartet No. 6 in F minor, Op. 80": [
-        # src: W+"String_Quartet_No._6_(Mendelssohn)" (Fanny, 14 May 1847; homage)
-        L("me", "This came after Fanny died."),
-        L("them", "In May she was gone. I could not write anything gentle. This is what came."),
-        L("me", "There is no turn to the major at the end."),
-        L("them", "No. I could not find one.", unsure="Mendelssohn's own view of the ending is imagined"),
-    ],
-    "String Quartet No. 15 in D minor, K. 421": [
-        # src: W+"String_Quartet_No._15_(Mozart)" (1783; Constanze in labour); Haydn dedication
-        L("me", "Is it true you wrote this while Constanze was in labour?"),
-        L("them", "So it is told. Our first child, Raimund, in 1783. I was at my desk; she was in the next room.",
-          unsure="the 'next room' detail is imagined"),
-        L("me", "And it is for Haydn."),
-        L("them", "Six quartets for the man who showed us all how quartets are written."),
-    ],
-    "String Quartet No. 19 in C major, K. 465": [
-        # src: W+"String_Quartet_No._19_(Mozart)" (22-bar Adagio; 1787 printed complaint; Haydn set)
-        L("me", "Your opening sounds wrong on purpose."),
-        L("them", "Twenty-two bars of fog before the sun comes out. A critic complained in print."),
-        L("me", "Did it bother you?"),
-        L("them", "I had dedicated it to Haydn. His ears were the ones I wrote for.",
-          unsure="Mozart's reaction to criticism is imagined"),
-    ],
-    "Meditation on the Old Czech Chorale 'St. Wenceslas', Op. 35a": [
-        # src: imslp.org Meditation_..._(Suk,_Josef) (1914; dedication; chorale)
-        L("me", "Why the St Wenceslas chorale?"),
-        L("them", "It is our oldest hymn to our patron saint. In 1914, people needed something to hold on to.",
-          unsure="the wartime motive is inferred from the date"),
-    ],
-    "Piano Sonata in E-flat major, D. 568": [
-        # src: W+"Piano_Sonata_in_E-flat_major,_D_568_(Schubert)"
-        L("me", "You began this in D-flat?"),
-        L("them", "At twenty, in 1817. Later I moved it to E-flat and finished it. I never saw it printed."),
-    ],
-    "Piano Sonata in A major, D. 664": [
-        # src: W+"Piano_Sonata_in_A_major,_D_664_(Schubert)"
-        L("me", "Who was Josephine?"),
-        L("them", "Josephine von Koller, in Steyr. Eighteen, very pretty, and a good pianist. The sonata is hers."),
-    ],
-    "Piano Sonata in A minor, D. 784": [
-        # src: W+"Piano_Sonata_in_A_minor,_D_784_(Schubert)" (Feb 1823; illness the year before)
-        L("me", "What happened the year before?"),
-        L("them", "I was seriously ill. When I wrote this in February, I wanted nothing decorative. Bare octaves.",
-          unsure="the link between illness and the stark style is a suggestion on the page, not certain"),
-    ],
-    "Piano Sonata in A minor, D. 845": [
-        # src: W+"Piano_Sonata_in_A_minor,_D_845_(Schubert)"
-        L("me", "This one was printed while you lived."),
-        L("them", "My first grand sonata in print. Only three ever were, in my lifetime."),
-    ],
-    "Piano Sonata in D major, D. 850": [
-        # src: W+"Piano_Sonata_in_D_major,_D_850_(Schubert)"
-        L("me", "Gastein?"),
-        L("them", "A spa in the mountains, August 1825. The mountain air made me write big chords.",
-          unsure="the 'mountain air' remark is imagined"),
-    ],
-    "Piano Sonata in C minor, D. 958": [
-        # src: W+"Piano_Sonata_in_C_minor,_D_958_(Schubert)" (Beethoven quote; 1828)
-        L("me", "The opening sounds like Beethoven."),
-        L("them", "His C minor Variations. I admired him more than anyone."),
-        L("me", "You finished this in September 1828."),
-        L("them", "And by November I was gone. I did not know there would be no time."),
-    ],
-    "Piano Sonata in A major, D. 959": [
-        # src: same article (Andantino middle section; 1839 dedication to Schumann)
-        L("me", "What happens in the middle of the Andantino?"),
-        L("them", "The song breaks. Everything I had kept quiet comes out at once, then the song returns."),
-        L("me", "It is dedicated to Schumann."),
-        L("them", "After my death, by the publisher. He loved my music, so it is right."),
-    ],
-    "Goldberg Variations in G major, BWV 988": [
-        # src: W+"Goldberg_Variations" (Forkel 1802; 1741; canons; quodlibet)
-        L("me", "Did you really write this for a count who couldn't sleep?"),
-        L("them", "Forkel tells it so, sixty years later. I published it in 1741, as keyboard practice."),
-        L("me", "Thirty variations on one tune?"),
-        L("them", "On one bass. Every third a canon, each a step wider. And at the end, a joke: a quodlibet."),
-    ],
+# ---- Movement keys, for the engraved fragments' key signatures ---------------
+# Keyed by album(w), then track number. Movements not listed use the work's home
+# key if they are first or last, and no key signature otherwise. Written from the
+# movement tables of each work's "ref" page and confirmed by Jeem, Oct 2026.
+# Goldberg variations 15, 21 and 25 are in G minor.
+MKEYS = {
+    "Symphony No. 3 in E-flat major, Op. 55": {2: "C minor", 3: "E-flat major"},
+    "Symphony No. 1 in C minor, Op. 68": {2: "E major", 3: "A-flat major"},
+    "Symphony No. 2 in D major, Op. 73": {2: "B major", 3: "G major"},
+    "Symphony No. 3 in F major, Op. 90": {2: "C major", 3: "C minor"},
+    "Symphony No. 4 in E minor, Op. 98": {2: "E major", 3: "C major"},
+    "Symphony No. 6 in B minor, Op. 74": {2: "D major", 3: "G major"},
+    "String Quartet No. 6 in B-flat major, Op. 18 No. 6": {2: "E-flat major", 3: "B-flat major"},
+    "String Quartet No. 2 in D major": {2: "F major", 3: "A major"},
+    "String Quartet No. 12 in F major, Op. 96": {2: "D minor", 3: "F major"},
+    "String Quartet No. 10 in E-flat major, Op. 51": {2: "G minor", 3: "B-flat major"},
+    "String Quartet in D major, Op. 64 No. 5, Hob. III:63": {2: "A major", 3: "D major"},
+    "String Quartet No. 6 in F minor, Op. 80": {2: "F minor", 3: "A-flat major"},
+    "String Quartet No. 15 in D minor, K. 421": {2: "F major", 3: "D minor"},
+    "String Quartet No. 19 in C major, K. 465": {2: "F major", 3: "C major"},
+    "Piano Sonata in E-flat major, D. 568": {2: "G minor", 3: "E-flat major"},
+    "Piano Sonata in A major, D. 664": {2: "D major"},
+    "Piano Sonata in A minor, D. 784": {2: "F major"},
+    "Piano Sonata in A minor, D. 845": {2: "C major", 3: "A minor"},
+    "Piano Sonata in D major, D. 850": {2: "A major", 3: "D major"},
+    "Piano Sonata in C minor, D. 958": {2: "A-flat major", 3: "C minor"},
+    "Piano Sonata in A major, D. 959": {2: "F-sharp minor", 3: "A major"},
+    "Goldberg Variations in G major, BWV 988": {16: "G minor", 22: "G minor", 26: "G minor"},
 }

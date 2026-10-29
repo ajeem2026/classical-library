@@ -1,0 +1,4226 @@
+{
+ "w1": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Come in. Mind the ink. I’m writing a symphony for a great man. Possibly."
+   },
+   {
+    "who": "them",
+    "text": "Welcome to the Lobkowitz palace. The prince hired extra players. Even a third horn."
+   },
+   {
+    "who": "them",
+    "text": "Sit. Tonight Vienna hears it at the Theater an der Wien. They’ll complain it’s long."
+   },
+   {
+    "who": "them",
+    "text": "You’ve found me. Last year I thought of giving up. Now I’ve seized Fate by the throat."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The finale is starting. Long, yes. Stay anyway."
+   },
+   {
+    "who": "them",
+    "text": "Go. And don’t tell me about emperors."
+   },
+   {
+    "who": "them",
+    "text": "The horns are calling. That one is not early."
+   },
+   {
+    "who": "me",
+    "text": "He scowls, then laughs, and the funeral march carries him off."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "You wrote Bonaparte’s name on the title page. What happened?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "He made himself emperor. I tore the page in two."
+     },
+     {
+      "who": "them",
+      "text": "So he is no more than a common mortal! Now he’ll trample on everyone."
+     },
+     {
+      "who": "them",
+      "text": "Now it celebrates the memory of a great man. Which man, I no longer say."
+     }
+    ]
+   },
+   {
+    "ask": "Who is it dedicated to now?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Prince Lobkowitz. He pays for the rehearsals; he gets the dedication."
+     },
+     {
+      "who": "them",
+      "text": "Not to an emperor. Never to an emperor."
+     },
+     {
+      "who": "them",
+      "text": "A prince who loves music more than conquest. That will do."
+     }
+    ]
+   },
+   {
+    "ask": "And the horn that comes in early?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "At the first rehearsal Ries said the player couldn’t count. I haven’t forgiven him."
+     },
+     {
+      "who": "them",
+      "text": "Early? It’s exactly where I wrote it. The violins are late."
+     },
+     {
+      "who": "them",
+      "text": "A horn sees the theme coming before anyone else. Let it speak."
+     }
+    ]
+   },
+   {
+    "ask": "Why is it so long?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Twice as long as Haydn’s, they say. The subject needed room."
+     },
+     {
+      "who": "them",
+      "text": "A critic says it would improve immeasurably if it were shorter. So would he."
+     },
+     {
+      "who": "them",
+      "text": "The first movement alone is nearly a whole symphony. I had a lot to say."
+     }
+    ]
+   },
+   {
+    "ask": "How does it begin?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Two blows, then the cellos. Everything grows from that plain tune."
+     },
+     {
+      "who": "them",
+      "text": "No introduction. Two chords, like a door kicked open."
+     },
+     {
+      "who": "them",
+      "text": "A simple arpeggio. Simple things grow the furthest."
+     }
+    ]
+   },
+   {
+    "ask": "Why a funeral march?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A hero’s symphony needs a grave. The march is in C minor."
+     },
+     {
+      "who": "them",
+      "text": "Because heroes die, and everyone walks behind them."
+     },
+     {
+      "who": "them",
+      "text": "It keeps coming back, like grief does."
+     }
+    ]
+   },
+   {
+    "ask": "Three horns in the trio?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Three. No symphony has had three before. Now one does."
+     },
+     {
+      "who": "them",
+      "text": "The prince hired a third horn for the rehearsals. I made him earn it."
+     },
+     {
+      "who": "them",
+      "text": "Listen to them call to each other. Hunting horns, almost."
+     }
+    ]
+   },
+   {
+    "ask": "Where does the finale’s theme come from?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "From my ballet, The Creatures of Prometheus. The Titan who brought fire."
+     },
+     {
+      "who": "them",
+      "text": "I’ve used it before, in dances and piano variations. It wasn’t finished with me."
+     },
+     {
+      "who": "them",
+      "text": "A good bass line deserves more than one life."
+     }
+    ]
+   }
+  ]
+ },
+ "w2": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Come in, mind the sketches on the floor. Some of them are older than you’d think."
+   },
+   {
+    "who": "them",
+    "text": "You found me in Karlsruhe. Dessoff is about to begin, and my hands are cold."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. You’ve heard it, then? Twenty-one years, and I’m still not sure of it."
+   },
+   {
+    "who": "them",
+    "text": "Sit down. They are tuning the timpani, and I can’t bear to watch."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The horn is calling again. Go and listen. I’ll stay in the shadows."
+   },
+   {
+    "who": "them",
+    "text": "The finale is starting. I must go and worry somewhere quietly."
+   },
+   {
+    "who": "them",
+    "text": "Enough talk. The music says it better. Goodnight."
+   },
+   {
+    "who": "me",
+    "text": "His voice thins into the strings, and the room goes dark."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Why did this symphony take you twenty-one years?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A symphony after Beethoven can’t be dashed off. Twenty-one years, from first sketch to Karlsruhe."
+     },
+     {
+      "who": "them",
+      "text": "I write slowly, and I burn more than I keep."
+     },
+     {
+      "who": "them",
+      "text": "Sketches, doubts, more doubts. The finale only found its shape years later, around 1868."
+     }
+    ]
+   },
+   {
+    "ask": "Bülow called it Beethoven’s Tenth. Were you flattered?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Flattered, and cornered. Now every critic holds me up against him."
+     },
+     {
+      "who": "them",
+      "text": "Bülow said it in 1877. He means well. I wrote my First, not anybody’s Tenth."
+     },
+     {
+      "who": "them",
+      "text": "I’d rather they listened than counted."
+     }
+    ]
+   },
+   {
+    "ask": "The big tune in the finale sounds like the Ode to Joy.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Any ass can see that."
+     },
+     {
+      "who": "them",
+      "text": "Yes, yes, Beethoven’s Ninth. Everyone points it out, as if I hadn’t noticed."
+     },
+     {
+      "who": "them",
+      "text": "Of course it does. His bust watches me while I work. I’m not hiding anything."
+     }
+    ]
+   },
+   {
+    "ask": "Tell me about the horn call in the finale.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I sent it to Clara on a card in September 1868. ‘Thus blew the shepherd’s horn today!’"
+     },
+     {
+      "who": "them",
+      "text": "An alphorn tune, for Clara’s birthday. Eight years later it was in the symphony."
+     },
+     {
+      "who": "them",
+      "text": "It breaks through the dark like sunlight on a mountain. After that, the strings may sing."
+     }
+    ]
+   },
+   {
+    "ask": "Why does it open with that pounding timpani?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The timpani throb under everything, like a heartbeat you can’t ignore."
+     },
+     {
+      "who": "them",
+      "text": "I wrote the introduction last, after the Allegro. The house needed a gate."
+     },
+     {
+      "who": "them",
+      "text": "It is long, and in C minor. You know which other symphony that is."
+     }
+    ]
+   },
+   {
+    "ask": "Where was it first played?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Karlsruhe, on 4 November 1876. My friend Dessoff conducted."
+     },
+     {
+      "who": "them",
+      "text": "In Karlsruhe. Better to stumble in a small court town than in Vienna."
+     },
+     {
+      "who": "them",
+      "text": "Karlsruhe first. Simrock only got the score after three cities had heard it."
+     }
+    ]
+   },
+   {
+    "ask": "What is the slow movement saying?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "It’s in E major, a long way from C minor. Somewhere to breathe."
+     },
+     {
+      "who": "them",
+      "text": "Near the end the solo violin sings. Let it, and don’t talk over it."
+     },
+     {
+      "who": "them",
+      "text": "This is my second try. I replaced the first slow movement before it was published."
+     }
+    ]
+   },
+   {
+    "ask": "Did you ever think of giving up on it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Give up? I destroyed twenty quartets before I let one out. This one I kept."
+     },
+     {
+      "who": "them",
+      "text": "An early D minor symphony became my First Piano Concerto. Nothing is wasted."
+     },
+     {
+      "who": "them",
+      "text": "Every summer I doubted it. Every autumn I went back to it."
+     }
+    ]
+   }
+  ]
+ },
+ "w3": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Ah, you’ve found the lake. Pörtschach in summer. Sit, the light on the water is free."
+   },
+   {
+    "who": "them",
+    "text": "Welcome. I’m writing something cheerful, though I’ll tell my publisher otherwise."
+   },
+   {
+    "who": "them",
+    "text": "After twenty-one years on the First, this one came in a single summer. Don’t tell anyone."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. Richter has it on the stands at last. The orchestra was busy with Wagner."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The trombones are coming. I’ll leave before they arrive."
+   },
+   {
+    "who": "them",
+    "text": "The lake is going dark. Listen to the end. It’s louder than I let on."
+   },
+   {
+    "who": "them",
+    "text": "Go on. And never believe what I write in letters."
+   },
+   {
+    "who": "me",
+    "text": "The water takes his voice. Only the horns are left."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "You told your publisher it was so melancholy he couldn’t bear it. Really?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A joke. Listen to it. It’s a summer by a lake."
+     },
+     {
+      "who": "them",
+      "text": "My words: ‘so melancholy that you will not be able to bear it.’ I enjoyed writing them."
+     },
+     {
+      "who": "them",
+      "text": "He believed me for a week. Then he heard it."
+     }
+    ]
+   },
+   {
+    "ask": "Where did you write it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Pörtschach, on the Wörthersee, in the summer of 1877."
+     },
+     {
+      "who": "them",
+      "text": "In Carinthia, by a lake. It took one summer, not twenty-one years."
+     },
+     {
+      "who": "them",
+      "text": "At Pörtschach. The water, the hills, the light: they are all in there."
+     }
+    ]
+   },
+   {
+    "ask": "Is that your Lullaby in the first movement?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Its cousin. Violas and cellos sing it, and then I bend it out of shape."
+     },
+     {
+      "who": "them",
+      "text": "Only for a few bars. Then it grows up and goes its own way."
+     },
+     {
+      "who": "them",
+      "text": "You noticed. I never throw a good tune away."
+     }
+    ]
+   },
+   {
+    "ask": "Why trombones and tuba in such a sunny piece?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Even summer has a shadow. Perhaps that accounts for the timpani and trombones."
+     },
+     {
+      "who": "them",
+      "text": "I told Lachner I am a severely melancholic person. The trombones know it."
+     },
+     {
+      "who": "them",
+      "text": "So the ending can blaze. Wait for the last bars."
+     }
+    ]
+   },
+   {
+    "ask": "What happens in the slow movement?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "B major, and a long cello melody that wanders and won’t say where it’s going."
+     },
+     {
+      "who": "them",
+      "text": "This is where the summer clouds over. Don’t hurry it."
+     },
+     {
+      "who": "them",
+      "text": "It’s the serious part. People forget that when they call this my Pastoral."
+     }
+    ]
+   },
+   {
+    "ask": "Who played it first?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The Vienna Philharmonic under Richter, on 30 December 1877."
+     },
+     {
+      "who": "them",
+      "text": "Richter, in Vienna. It was postponed; the orchestra was busy learning Wagner’s Rheingold."
+     },
+     {
+      "who": "them",
+      "text": "Vienna, just before the new year. A good way to end one."
+     }
+    ]
+   },
+   {
+    "ask": "Is the third movement a dance?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A gentle one in G major, twice interrupted by something quicker made of the same tune."
+     },
+     {
+      "who": "them",
+      "text": "Yes. Then it trips into a Presto and comes back as if nothing happened."
+     },
+     {
+      "who": "them",
+      "text": "Think of a country dance, played by people in their good shoes."
+     }
+    ]
+   },
+   {
+    "ask": "Is it really like Beethoven’s Pastoral?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "People say so. I wrote what the lake gave me."
+     },
+     {
+      "who": "them",
+      "text": "Every symphony of mine is held against Beethoven. At least this time it’s the kind one."
+     },
+     {
+      "who": "them",
+      "text": "Cheerful, yes. But I told Lachner it is followed by a little essay about the great ‘Why’."
+     }
+    ]
+   }
+  ]
+ },
+ "w4": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome to Wiesbaden. Summer 1883. I’m fifty and, as you see, still free."
+   },
+   {
+    "who": "them",
+    "text": "F, A, F. You heard it already, didn’t you? Sit down."
+   },
+   {
+    "who": "them",
+    "text": "Richter is rehearsing in the Musikverein. Let’s talk before the Wagnerians arrive."
+   },
+   {
+    "who": "them",
+    "text": "Come in. Six years since my Second. I wasn’t idle, only careful."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "Listen: the motto again, quietly now. That’s how I want to leave."
+   },
+   {
+    "who": "them",
+    "text": "It ends softly. So do I. Goodnight."
+   },
+   {
+    "who": "them",
+    "text": "No applause, please. Just let the last chord settle."
+   },
+   {
+    "who": "me",
+    "text": "He hums F, A, F, and the room dissolves into the strings."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "What does F–A–F mean?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Frei aber froh. Free, but happy. At least, that’s what people say I meant."
+     },
+     {
+      "who": "them",
+      "text": "Joachim’s motto was F–A–E, free but lonely. Mine answers his."
+     },
+     {
+      "who": "them",
+      "text": "I speak through my music. Ask the notes, not me."
+     }
+    ]
+   },
+   {
+    "ask": "Did Richter like it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "He called it my Eroica. I let him."
+     },
+     {
+      "who": "them",
+      "text": "Richter conducted it in Vienna on 2 December 1883 and called it my Eroica."
+     },
+     {
+      "who": "them",
+      "text": "Very much. It went down better than my Second, Wagner crowd or no."
+     }
+    ]
+   },
+   {
+    "ask": "Was the premiere peaceful?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Wagner’s admirers tried to spoil it. The music won."
+     },
+     {
+      "who": "them",
+      "text": "Almost a duel, between my friends and Wagner’s. Over a symphony!"
+     },
+     {
+      "who": "them",
+      "text": "Noisy outside the score, quiet inside it. I prefer the inside."
+     }
+    ]
+   },
+   {
+    "ask": "That melody in the third movement...",
+    "answers": [
+     {
+      "who": "them",
+      "text": "C minor, in three-eight, and not a scherzo. Let it sing."
+     },
+     {
+      "who": "them",
+      "text": "Everyone hums that one. I never know whether to be pleased."
+     },
+     {
+      "who": "them",
+      "text": "Not fast. Moderate, and as tender as I dared."
+     }
+    ]
+   },
+   {
+    "ask": "Why does it end so quietly?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Everyone expects thunder at the end of a symphony. I let it fade instead."
+     },
+     {
+      "who": "them",
+      "text": "The storm in F minor burns out, and the motto settles into F major."
+     },
+     {
+      "who": "them",
+      "text": "I’m fifty. I know how to leave a room."
+     }
+    ]
+   },
+   {
+    "ask": "What did Hanslick write?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "That it was artistically the most nearly perfect of my symphonies. He is kind to me."
+     },
+     {
+      "who": "them",
+      "text": "‘Artistically the most nearly perfect.’ From a critic, I’ll take it."
+     },
+     {
+      "who": "them",
+      "text": "Praise, of course. Wagner’s people say he’d praise my laundry list."
+     }
+    ]
+   },
+   {
+    "ask": "Do I hear Schumann in the opening?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "His Rhenish Symphony, yes. A phrase I carry with me."
+     },
+     {
+      "who": "them",
+      "text": "Robert wrote ‘New Paths’ about me in 1853. His music never left me."
+     },
+     {
+      "who": "them",
+      "text": "And a little Wagner too, in one passage. Don’t tell anyone."
+     }
+    ]
+   },
+   {
+    "ask": "What is the Andante like?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "C major. A quiet clarinet tune that the whole orchestra passes round."
+     },
+     {
+      "who": "them",
+      "text": "Simple, like a hymn at evening. Don’t look for drama here."
+     },
+     {
+      "who": "them",
+      "text": "The clarinet begins alone. Then everyone wants a turn."
+     }
+    ]
+   }
+  ]
+ },
+ "w5": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome to Mürzzuschlag. Mountains, and a symphony that won’t leave me alone."
+   },
+   {
+    "who": "them",
+    "text": "You’ve come for the last one. Sit. Brüll and I are at the two pianos."
+   },
+   {
+    "who": "them",
+    "text": "Meiningen, October 1885. I’m conducting it myself tonight. Wish me luck."
+   },
+   {
+    "who": "them",
+    "text": "Come in. I began this in the Alps, a year after the Third."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The passacaglia is turning. Let it carry you down."
+   },
+   {
+    "who": "them",
+    "text": "My last symphony. Listen to it, then let me go."
+   },
+   {
+    "who": "them",
+    "text": "Bach would have finished it better. Goodnight."
+   },
+   {
+    "who": "me",
+    "text": "The bass line keeps repeating, and he walks away along it."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Why do the violins open with falling thirds?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Two notes at a time, sighing. A chain that keeps falling."
+     },
+     {
+      "who": "them",
+      "text": "Falling thirds. The whole movement hangs from them."
+     },
+     {
+      "who": "them",
+      "text": "Because it’s simple. A child could play the outline. The rest is work."
+     }
+    ]
+   },
+   {
+    "ask": "Where does the finale come from?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Bach’s cantata ‘Nach dir, Herr, verlanget mich’. I borrowed his chaconne theme."
+     },
+     {
+      "who": "them",
+      "text": "A passacaglia: one theme, again and again, and everything changes over it."
+     },
+     {
+      "who": "them",
+      "text": "From Bach. When in doubt, go back to Bach."
+     }
+    ]
+   },
+   {
+    "ask": "What did your friends say at the piano preview?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Hanslick turned pages and said he felt beaten by two incredibly intelligent people."
+     },
+     {
+      "who": "them",
+      "text": "Brüll and I played it on two pianos. Then a long silence."
+     },
+     {
+      "who": "them",
+      "text": "Hanslick felt he was being given a beating. I took it as a compliment."
+     }
+    ]
+   },
+   {
+    "ask": "Why a triangle?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Only in the third movement. One glint of metal in a serious symphony."
+     },
+     {
+      "who": "them",
+      "text": "It’s the nearest I come to a scherzo. Even I can be loud."
+     },
+     {
+      "who": "them",
+      "text": "Listen for it. I use it nowhere else in my symphonies."
+     }
+    ]
+   },
+   {
+    "ask": "What are the horns playing at the start of the slow movement?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Phrygian, the old church mode. Then the strings warm it into E major."
+     },
+     {
+      "who": "them",
+      "text": "Something old, from the church. I like old things that still work."
+     },
+     {
+      "who": "them",
+      "text": "Horns first, in an ancient mode. Like a ballad before anyone sings it."
+     }
+    ]
+   },
+   {
+    "ask": "Who played it first?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The Meiningen Court Orchestra, on 25 October 1885. I conducted."
+     },
+     {
+      "who": "them",
+      "text": "I conducted, in Meiningen. A small court with a fine orchestra."
+     },
+     {
+      "who": "them",
+      "text": "Meiningen. I stood in front of it myself, with my heart in my mouth."
+     }
+    ]
+   },
+   {
+    "ask": "Why end your last symphony so darkly?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The passacaglia goes where it must. I won’t force a happy ending on it."
+     },
+     {
+      "who": "them",
+      "text": "I knew it would be dark. I wrote it anyway."
+     },
+     {
+      "who": "them",
+      "text": "Did I know it was my last? I’m not telling you."
+     }
+    ]
+   },
+   {
+    "ask": "Do you still think about Beethoven?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "His bust watches me compose. I think of him every day."
+     },
+     {
+      "who": "them",
+      "text": "Less now. In this one I talked with Bach instead."
+     },
+     {
+      "who": "them",
+      "text": "Always. But by the Fourth, I’m no longer afraid of him."
+     }
+    ]
+   }
+  ]
+ },
+ "w6": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Come in, quietly. Klin is small, and so is my house. The symphony is not."
+   },
+   {
+    "who": "them",
+    "text": "Forgive me, I’m nervous. The orchestra didn’t seem to like it at rehearsal."
+   },
+   {
+    "who": "them",
+    "text": "Sit. The first movement came in under four days. After that, I couldn’t stop."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. Petersburg is cold, and tonight I conduct my own symphony. Pray for me."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The basses are going down. Let me go down with them, quietly."
+   },
+   {
+    "who": "them",
+    "text": "Don’t clap at the march. Wait for the end."
+   },
+   {
+    "who": "them",
+    "text": "Write to me, if you can. I am a great writer of letters."
+   },
+   {
+    "who": "me",
+    "text": "The last chord thins to nothing, and so does he."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Is it true you think this is your best work?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I wrote to Bob that it’s the best, and the most sincere, of all my creations."
+     },
+     {
+      "who": "them",
+      "text": "I love it as I have never loved any of my other musical offspring."
+     },
+     {
+      "who": "them",
+      "text": "Best? Tomorrow I may hate it. Tonight, yes, I love it."
+     }
+    ]
+   },
+   {
+    "ask": "Is there a secret programme?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Yes. A programme that will remain an enigma to everyone. Let them guess."
+     },
+     {
+      "who": "them",
+      "text": "Rimsky asked me at the premiere. I said there was one, and told him nothing."
+     },
+     {
+      "who": "them",
+      "text": "I thought of calling it the Programme Symphony. Then everyone would ask what the programme was."
+     }
+    ]
+   },
+   {
+    "ask": "Who gave it the name Pathétique?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Modest says he did, the day after the premiere. My brother likes a good story."
+     },
+     {
+      "who": "them",
+      "text": "In Russian it means passionate, emotional. Not pitiful. Remember that."
+     },
+     {
+      "who": "them",
+      "text": "My publisher kept the name. I’ve stopped arguing with publishers."
+     }
+    ]
+   },
+   {
+    "ask": "Why does the second movement limp?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Five beats to the bar. A waltz that can’t quite stand on both feet."
+     },
+     {
+      "who": "them",
+      "text": "Graceful, but never settling. Like a man dancing with a stone in his shoe."
+     },
+     {
+      "who": "them",
+      "text": "Count it: one-two, one-two-three. It almost waltzes."
+     }
+    ]
+   },
+   {
+    "ask": "The third movement sounds like a victory.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A scherzo that turns into a march and drives to a triumphant close."
+     },
+     {
+      "who": "them",
+      "text": "Enjoy it. What comes after is not a march."
+     },
+     {
+      "who": "them",
+      "text": "A triumph in the third movement is not the end of the story."
+     }
+    ]
+   },
+   {
+    "ask": "Why end slowly, and so quietly?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Symphonies end in triumph. Mine sinks into the low strings: Adagio lamentoso."
+     },
+     {
+      "who": "them",
+      "text": "Because that is how the story ends. I won’t say whose story."
+     },
+     {
+      "who": "them",
+      "text": "I wanted the last sound to be almost nothing."
+     }
+    ]
+   },
+   {
+    "ask": "Did you throw away another symphony before this one?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "One in E-flat. I found it unsatisfactory, and its first movement became a piano concerto."
+     },
+     {
+      "who": "them",
+      "text": "Yes. It was empty. This one came from somewhere deeper."
+     },
+     {
+      "who": "them",
+      "text": "I put the rest of it in a drawer and started again."
+     }
+    ]
+   },
+   {
+    "ask": "Were you frightened to conduct it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Always. For years I couldn’t face an orchestra. Conducting cured me, almost."
+     },
+     {
+      "who": "them",
+      "text": "The players were polite and unimpressed. I went home and worried."
+     },
+     {
+      "who": "them",
+      "text": "I was a clerk at the Ministry of Justice once. Orchestras frighten me more than judges."
+     }
+    ]
+   }
+  ]
+ },
+ "w7": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Yes? Speak up. Come in, I’m copying parts for Prince Lobkowitz."
+   },
+   {
+    "who": "them",
+    "text": "You’ve caught me between duels. Steibelt thinks he can play the piano. Sit."
+   },
+   {
+    "who": "them",
+    "text": "Welcome to Vienna. I came to learn counterpoint from Haydn. Now I write quartets."
+   },
+   {
+    "who": "them",
+    "text": "Six quartets. This is the last, and the strangest. Sit down."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The dance is coming back. Go, before the melancholy catches you."
+   },
+   {
+    "who": "them",
+    "text": "Enough. I have parts to copy and a prince to pay me."
+   },
+   {
+    "who": "them",
+    "text": "Delicately, I said. Delicately! Goodbye."
+   },
+   {
+    "who": "me",
+    "text": "He turns back to the desk, humming too loud, and the room goes quiet."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Why call the last movement ‘melancholy’?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Because it is. I wrote that it must be played with the greatest delicacy."
+     },
+     {
+      "who": "them",
+      "text": "La Malinconia. I put the word on the page so no one could pretend otherwise."
+     },
+     {
+      "who": "them",
+      "text": "Melancholy, then a dance that tries to forget. They collide. That’s the truth of it."
+     }
+    ]
+   },
+   {
+    "ask": "Who were these quartets for?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Prince Lobkowitz commissioned all six. He gets the dedication, and the bill."
+     },
+     {
+      "who": "them",
+      "text": "For Vienna, which thinks it knows quartets because of Haydn and Mozart."
+     },
+     {
+      "who": "them",
+      "text": "Published in 1801, all six at once, so no one could say the first was luck."
+     }
+    ]
+   },
+   {
+    "ask": "The scherzo keeps tripping me up.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Good. Accents where the beat isn’t. Let the players sweat."
+     },
+     {
+      "who": "them",
+      "text": "A tour de force of syncopation, they’ll say. I call it a joke on the foot-tappers."
+     },
+     {
+      "who": "them",
+      "text": "Count, if you like. You’ll lose."
+     }
+    ]
+   },
+   {
+    "ask": "Your hearing. Is it...?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Don’t. Since a quarrel with a singer, there’s a noise in my ears. Tell no one."
+     },
+     {
+      "who": "them",
+      "text": "Some days, worse. I write to my friends about it. Not to princes."
+     },
+     {
+      "who": "them",
+      "text": "The music is in here, not in the ears. Ask me something else."
+     }
+    ]
+   },
+   {
+    "ask": "Did Haydn teach you?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Counterpoint, when I first came to Vienna. I learned more than I admit."
+     },
+     {
+      "who": "them",
+      "text": "He taught me counterpoint. I taught myself the rest, mostly by arguing."
+     },
+     {
+      "who": "them",
+      "text": "A great man. But a quartet of mine must not sound like a quartet of his."
+     }
+    ]
+   },
+   {
+    "ask": "What happens in the first movement?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Allegro con brio. The violin says something, the cello answers back. Quickly."
+     },
+     {
+      "who": "them",
+      "text": "A conversation, tossed back and forth. Nobody waits politely."
+     },
+     {
+      "who": "them",
+      "text": "Bright and quick. Save your sighs for the finale."
+     }
+    ]
+   },
+   {
+    "ask": "And the Adagio?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "E-flat major, the quietest place in the quartet. Rest there."
+     },
+     {
+      "who": "them",
+      "text": "Gentle, yes. I can be gentle. Don’t spread it around."
+     },
+     {
+      "who": "them",
+      "text": "A song without words, for four people who can listen."
+     }
+    ]
+   },
+   {
+    "ask": "You play in the salons, they say. Do you win?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Wölfl, Steibelt, I’ve played them all. Improvising, I don’t lose."
+     },
+     {
+      "who": "them",
+      "text": "Steibelt played a showpiece. I turned his cello part upside down and improvised on it."
+     },
+     {
+      "who": "them",
+      "text": "The princes listen when I improvise. Even Lichnowsky stops talking."
+     }
+    ]
+   }
+  ]
+ },
+ "w8": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome to my laboratory. Mind the flasks. The quartet is on the piano, under my notes."
+   },
+   {
+    "who": "them",
+    "text": "Ah, a visitor. I’ve a lecture at nine, but sit. Music first, for once."
+   },
+   {
+    "who": "them",
+    "text": "Come in. Five years on one quartet. Chemists are patient people."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. I compose best when I’m ill. Today I’m quite ill."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "My lecture is in an hour. I’ll go and smell aldehydes."
+   },
+   {
+    "who": "them",
+    "text": "Tell Beethoven I meant it kindly, if you see him."
+   },
+   {
+    "who": "them",
+    "text": "The quartet is ending. Somewhere, a flask is boiling over."
+   },
+   {
+    "who": "me",
+    "text": "He hums the finale, and the laboratory blurs into the strings."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Why did this quartet take five years?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Chemistry first. Music had to wait for my free hours, or a good fever."
+     },
+     {
+      "who": "them",
+      "text": "Between lectures and experiments, a few bars a week."
+     },
+     {
+      "who": "them",
+      "text": "Balakirev scolds me for being slow. Balakirev scolds everyone."
+     }
+    ]
+   },
+   {
+    "ask": "Why borrow from Beethoven?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A phrase from the finale of his Op. 130 stayed with me. My quartet answers it."
+     },
+     {
+      "who": "them",
+      "text": "‘On a theme of Beethoven’, the title says. I wanted to be honest about it."
+     },
+     {
+      "who": "them",
+      "text": "Even a Russian may learn from a German. Especially a chemist."
+     }
+    ]
+   },
+   {
+    "ask": "You’re a professor of chemistry?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "At the Medical-Surgical Academy. Aldehydes are my speciality. Very fragrant."
+     },
+     {
+      "who": "them",
+      "text": "Science is my profession. Music is my joy. Joy gets the evenings."
+     },
+     {
+      "who": "them",
+      "text": "I also teach medicine to women. Someone has to begin."
+     }
+    ]
+   },
+   {
+    "ask": "What happens in the slow movement?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Andante con moto, in F-sharp minor, with a little fugue at its heart."
+     },
+     {
+      "who": "them",
+      "text": "A fugato: one voice begins, the others follow, like students into a lecture."
+     },
+     {
+      "who": "them",
+      "text": "It’s sad, but it keeps walking. Con moto."
+     }
+    ]
+   },
+   {
+    "ask": "Why is the scherzo so short here?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "This recording cuts it. Prestissimo is fast enough already."
+     },
+     {
+      "who": "them",
+      "text": "Prestissimo! Like a reaction too quick to watch."
+     },
+     {
+      "who": "them",
+      "text": "Blink and you’ve missed it. That’s the point of a scherzo."
+     }
+    ]
+   },
+   {
+    "ask": "Where was it first played?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In Saint Petersburg, on 30 December 1880. A good way to end a year."
+     },
+     {
+      "who": "them",
+      "text": "At home in Petersburg. My friends came, and some critics, unfortunately."
+     },
+     {
+      "who": "them",
+      "text": "Petersburg. I was nervous. Chemistry never makes me nervous."
+     }
+    ]
+   },
+   {
+    "ask": "Who were your parents?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "My father was a Georgian nobleman. On paper I was the son of his serf."
+     },
+     {
+      "who": "them",
+      "text": "I was registered as a serf’s son. Paper is not the truth."
+     },
+     {
+      "who": "them",
+      "text": "I grew up in Petersburg and have hardly left it, except for Heidelberg."
+     }
+    ]
+   },
+   {
+    "ask": "How does the finale go?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "An Andante first, then Allegro risoluto, and Beethoven’s phrase comes back."
+     },
+     {
+      "who": "them",
+      "text": "Resolutely. I wrote risoluto so no one would dawdle."
+     },
+     {
+      "who": "them",
+      "text": "It balances at the end, like a good equation."
+     }
+    ]
+   }
+  ]
+ },
+ "w9": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome to Zhitovo. A friend’s estate, a summer, and a quartet for my wife."
+   },
+   {
+    "who": "them",
+    "text": "Come in. Ekaterina is resting. Speak softly; this one is hers."
+   },
+   {
+    "who": "them",
+    "text": "Ah, you’ve come for the Notturno. Everyone does. Sit."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. Twenty years ago I met a pianist in Heidelberg. Guess the rest."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "Ekaterina is calling. I must go. Listen to the cello for me."
+   },
+   {
+    "who": "them",
+    "text": "The Notturno again? Everyone wants it again. Go on."
+   },
+   {
+    "who": "them",
+    "text": "Summer is ending at Zhitovo. Back to the laboratory."
+   },
+   {
+    "who": "me",
+    "text": "The cello’s melody hangs in the air after he has gone."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Who is this for?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "For Ekaterina, my wife. That’s all a dedication needs to say."
+     },
+     {
+      "who": "them",
+      "text": "Twenty years since we met in Heidelberg, some say. I’m not saying."
+     },
+     {
+      "who": "them",
+      "text": "She’s a pianist. I wrote it for strings, so she could simply listen."
+     }
+    ]
+   },
+   {
+    "ask": "How did you meet her?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In Heidelberg, while I was studying chemistry. She played; I listened."
+     },
+     {
+      "who": "them",
+      "text": "Heidelberg. We married in 1863, and I’ve been late for dinner ever since."
+     },
+     {
+      "who": "them",
+      "text": "That’s a story for her to tell. She tells it better."
+     }
+    ]
+   },
+   {
+    "ask": "Why does the cello begin?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Because it can sing high, like a tenor. Listen to it reach."
+     },
+     {
+      "who": "them",
+      "text": "The cello opens, high in its register. A man’s voice, trying hard."
+     },
+     {
+      "who": "them",
+      "text": "I play the cello myself, a little. So I gave it the best tune."
+     }
+    ]
+   },
+   {
+    "ask": "Tell me about the Notturno.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The cello sings the long melody, and then the first violin answers it."
+     },
+     {
+      "who": "them",
+      "text": "It’s the movement everyone remembers. I didn’t plan that."
+     },
+     {
+      "who": "them",
+      "text": "A night piece. Two voices, one melody. You may guess who is who."
+     }
+    ]
+   },
+   {
+    "ask": "What is the scherzo doing?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Being light and quick. A breath before the Notturno."
+     },
+     {
+      "who": "them",
+      "text": "Allegro, and over before you notice. Like a summer evening."
+     },
+     {
+      "who": "them",
+      "text": "Even a chemist can be frivolous for a few minutes."
+     }
+    ]
+   },
+   {
+    "ask": "Where did you write it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "At Zhitovo, a friend’s country estate, in the summer of 1881."
+     },
+     {
+      "who": "them",
+      "text": "In the country, away from the laboratory. My students think I’m working."
+     },
+     {
+      "who": "them",
+      "text": "Zhitovo. Fields, quiet, and no lectures. The music came quickly."
+     }
+    ]
+   },
+   {
+    "ask": "How does the finale start?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "With a slow question and an answer. Then off at a Vivace."
+     },
+     {
+      "who": "them",
+      "text": "Two instruments ask, two reply. Then everyone runs."
+     },
+     {
+      "who": "them",
+      "text": "Like talk at dinner before the vodka arrives."
+     }
+    ]
+   },
+   {
+    "ask": "Is it hard, being a composer and a chemist?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I compose in my spare time, or when I’m ill. I’m often ill."
+     },
+     {
+      "who": "them",
+      "text": "Science is my work. This is my rest. Some rest!"
+     },
+     {
+      "who": "them",
+      "text": "My students come first. Women studying medicine, in Petersburg. Imagine."
+     }
+    ]
+   }
+  ]
+ },
+ "w10": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome to Spillville. Czech voices, a Czech church, and Iowa all around. Sit."
+   },
+   {
+    "who": "them",
+    "text": "Come in. I’ve just walked back from watching the trains. I always watch the trains."
+   },
+   {
+    "who": "them",
+    "text": "A visitor from New York? No, no, I’m on holiday. Mostly."
+   },
+   {
+    "who": "them",
+    "text": "Good morning. The birds here sing differently. I’ve been writing them down."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The evening train is due. Excuse me, I must go and watch it."
+   },
+   {
+    "who": "them",
+    "text": "The bird is singing again. Go on, I’ll write it down."
+   },
+   {
+    "who": "them",
+    "text": "Back to New York soon. Let me have one more quiet day."
+   },
+   {
+    "who": "me",
+    "text": "The chugging rhythm carries him off down the line."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "What did you hear in Spillville?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A bird, high in the trees. I wrote its song down and gave it to the first violin."
+     },
+     {
+      "who": "them",
+      "text": "Czech spoken in Iowa. After New York, it was like coming home."
+     },
+     {
+      "who": "them",
+      "text": "Quiet. In New York there’s never quiet."
+     }
+    ]
+   },
+   {
+    "ask": "Which bird was it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A scarlet tanager, I thought. Others say a vireo. The bird didn’t say."
+     },
+     {
+      "who": "them",
+      "text": "A red one, very proud of its song. I stole it."
+     },
+     {
+      "who": "them",
+      "text": "Listen in the third movement, high in the first violin. That’s him."
+     }
+    ]
+   },
+   {
+    "ask": "Why does it sound so simple?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Dear Papa Haydn kept appearing before my eyes. So it turned out simple."
+     },
+     {
+      "who": "them",
+      "text": "I wanted it clear, like the air here. No knots."
+     },
+     {
+      "who": "them",
+      "text": "Five notes do a great deal of work. The pentatonic scale is very generous."
+     }
+    ]
+   },
+   {
+    "ask": "Who plays first?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The viola, over the violins’ shimmer. Nobody expects it, so everybody listens."
+     },
+     {
+      "who": "them",
+      "text": "I sat among the violas in a theatre orchestra for nine years. They deserve a tune."
+     },
+     {
+      "who": "them",
+      "text": "The quiet one in the middle. It has a lot to say."
+     }
+    ]
+   },
+   {
+    "ask": "Is the finale a train?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "You hear it too? A steady rhythm, chugging along. I love trains."
+     },
+     {
+      "who": "them",
+      "text": "As a boy I watched them build the station in our village. I never got over it."
+     },
+     {
+      "who": "them",
+      "text": "I won’t say it’s a train. I won’t say it isn’t."
+     }
+    ]
+   },
+   {
+    "ask": "Why are you in America?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Mrs Thurber asked me to direct her conservatory in New York. I said yes."
+     },
+     {
+      "who": "them",
+      "text": "To help Americans find their own music. I think they will."
+     },
+     {
+      "who": "them",
+      "text": "Money, partly. Fifteen thousand dollars a year, when they pay it."
+     }
+    ]
+   },
+   {
+    "ask": "What is the slow movement about?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Lento. A long melody for the first violin, then the cello takes it."
+     },
+     {
+      "who": "them",
+      "text": "Homesickness, maybe. I miss Bohemia, even in a Czech village."
+     },
+     {
+      "who": "them",
+      "text": "It aches. I let it."
+     }
+    ]
+   },
+   {
+    "ask": "Who helped you most?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Brahms. He sat on a prize jury and sent me to his publisher, Simrock."
+     },
+     {
+      "who": "them",
+      "text": "Simrock asked for Slavonic Dances, and suddenly the world knew my name."
+     },
+     {
+      "who": "them",
+      "text": "God, my father, and Brahms. In that order, most days."
+     }
+    ]
+   }
+  ]
+ },
+ "w11": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Ah, you’ve come because of the Slavonic Dances, like everyone. Sit, sit."
+   },
+   {
+    "who": "them",
+    "text": "Welcome to Prague. Becker wants something Slavonic. I can do Slavonic."
+   },
+   {
+    "who": "them",
+    "text": "Good day. Joachim’s quartet will play my music in Berlin. Berlin! Imagine."
+   },
+   {
+    "who": "them",
+    "text": "Come in. Mind the scores. Simrock wants everything at once now."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The skočná is starting. You’ll want to stand up."
+   },
+   {
+    "who": "them",
+    "text": "Tell Becker it’s finished. Slavonic enough, I hope."
+   },
+   {
+    "who": "them",
+    "text": "I must write to Simrock. He’s always waiting."
+   },
+   {
+    "who": "me",
+    "text": "The leaping dance fades into the noise of a Prague street."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Becker asked you for something Slavonic?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "After the Slavonic Dances, everyone did. So: a dumka in the middle, a skočná to finish."
+     },
+     {
+      "who": "them",
+      "text": "Jean Becker, of the Florentine Quartet. A polite request, with a clear order."
+     },
+     {
+      "who": "them",
+      "text": "Slavonic, he said. As if I could write anything else."
+     }
+    ]
+   },
+   {
+    "ask": "What is a dumka?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A lament that suddenly dances, and then remembers it was sad."
+     },
+     {
+      "who": "them",
+      "text": "Sorrow, then quick feet, then sorrow again. Very Slavonic."
+     },
+     {
+      "who": "them",
+      "text": "It gives the whole quartet its character. Becker got what he asked for."
+     }
+    ]
+   },
+   {
+    "ask": "And a skočná?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A Czech leaping dance. In the finale I dress it up, but you can still jump."
+     },
+     {
+      "who": "them",
+      "text": "A village dance. My father played for dancers, you know."
+     },
+     {
+      "who": "them",
+      "text": "Fast and leaping. Don’t sit too still."
+     }
+    ]
+   },
+   {
+    "ask": "Who played it first?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Joachim’s quartet, in Berlin. Germans playing Czech dances. Wonderful."
+     },
+     {
+      "who": "them",
+      "text": "Joachim himself. A great violinist, and Brahms’s friend."
+     },
+     {
+      "who": "them",
+      "text": "Berlin heard it first. Prague will forgive me."
+     }
+    ]
+   },
+   {
+    "ask": "How did Brahms help you?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "He judged a state prize and told Simrock to publish me. I owe him much."
+     },
+     {
+      "who": "them",
+      "text": "He said little and did a great deal. That’s Brahms."
+     },
+     {
+      "who": "them",
+      "text": "Simrock asked me for Slavonic Dances because Brahms said so."
+     }
+    ]
+   },
+   {
+    "ask": "Why does the first movement rock like that?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A relaxed lilt, a little dance in the walk. No hurry."
+     },
+     {
+      "who": "them",
+      "text": "Like a cradle, or a cart on a country road."
+     },
+     {
+      "who": "them",
+      "text": "Allegro ma non troppo. Not too fast. I mean it."
+     }
+    ]
+   },
+   {
+    "ask": "Tell me about the Romanza.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A warm song, for the evening. Nothing clever."
+     },
+     {
+      "who": "them",
+      "text": "Every Czech knows how to sing. The Romanza simply sings."
+     },
+     {
+      "who": "them",
+      "text": "After the dumka’s tears, something kind."
+     }
+    ]
+   },
+   {
+    "ask": "Did you always want to be a composer?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I grew up in an inn, among village musicians. Music was always in the house."
+     },
+     {
+      "who": "them",
+      "text": "I played viola in a theatre orchestra for years and composed at night."
+     },
+     {
+      "who": "them",
+      "text": "I was born in Nelahozeves, in 1841. Try saying it quickly."
+     }
+    ]
+   }
+  ]
+ },
+ "w12": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome to Eszterháza. Far from everything. That’s how I learned to be original."
+   },
+   {
+    "who": "them",
+    "text": "Ah, a guest! Sit. The Prince keeps me busy, but there’s always time for a quartet."
+   },
+   {
+    "who": "them",
+    "text": "Good day. Tost is here about the publisher again. Business, business."
+   },
+   {
+    "who": "them",
+    "text": "Come in, come in. They call me Papa. You may too."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The lark is climbing again. Go and listen."
+   },
+   {
+    "who": "them",
+    "text": "Excuse me. The Prince’s orchestra is waiting. Or it was."
+   },
+   {
+    "who": "them",
+    "text": "Goodbye, my friend. Write to me if you get to London."
+   },
+   {
+    "who": "me",
+    "text": "The first violin rises out of sight, and he is gone with it."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Do you mind them calling it ‘The Lark’?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Others named it, not I. But the first violin does fly high."
+     },
+     {
+      "who": "them",
+      "text": "A lark is a fine bird. Let them call it that; it sells copies."
+     },
+     {
+      "who": "them",
+      "text": "Listen to the violin climb over the others. Yes, a lark."
+     }
+    ]
+   },
+   {
+    "ask": "Who was Tost?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A violinist, later a merchant. He helped me find a publisher for these."
+     },
+     {
+      "who": "them",
+      "text": "Johann Tost. A good violinist, and a better businessman."
+     },
+     {
+      "who": "them",
+      "text": "To me they’re just six quartets. Others call them the Tost quartets."
+     }
+    ]
+   },
+   {
+    "ask": "How did you learn to write quartets?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Alone, at Eszterháza. Cut off from the world, I was forced to become original."
+     },
+     {
+      "who": "them",
+      "text": "By trying things on my own players. No one could stop me."
+     },
+     {
+      "who": "them",
+      "text": "Thirty years of practice. Ask me again in thirty more."
+     }
+    ]
+   },
+   {
+    "ask": "Do you know Mozart?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I told his father he’s the greatest composer I know, in person or by name."
+     },
+     {
+      "who": "them",
+      "text": "Wolfgang dedicated six quartets to me. I’m still blushing."
+     },
+     {
+      "who": "them",
+      "text": "We are brothers in the same lodge. Don’t ask what happens there."
+     }
+    ]
+   },
+   {
+    "ask": "What is the slow movement like?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Adagio cantabile, in A major. A simple song, and the violin decorates it."
+     },
+     {
+      "who": "them",
+      "text": "Cantabile means it sings. So let it sing, and don’t hurry."
+     },
+     {
+      "who": "them",
+      "text": "Simple things are the hardest. Anyone can be complicated."
+     }
+    ]
+   },
+   {
+    "ask": "And the finale?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Notes running and running, never stopping. A perpetual motion."
+     },
+     {
+      "who": "them",
+      "text": "In the middle the voices chase each other, like a little fugue."
+     },
+     {
+      "who": "them",
+      "text": "Fast. The players will hate me, then love me."
+     }
+    ]
+   },
+   {
+    "ask": "What will you do, now the Prince has died?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Prince Nikolaus is gone, and the new one sent the musicians home. I’m free."
+     },
+     {
+      "who": "them",
+      "text": "Travel! A man called Salomon wants me in London."
+     },
+     {
+      "who": "them",
+      "text": "They say the English pay well and clap loudly. We’ll see."
+     }
+    ]
+   },
+   {
+    "ask": "Where did you begin?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "As a choirboy at St Stephen’s in Vienna. Then dismissed, and scraping a living."
+     },
+     {
+      "who": "them",
+      "text": "In Rohrau, in 1732. A village with more geese than musicians."
+     },
+     {
+      "who": "them",
+      "text": "From nothing. Hard work and good luck, mostly hard work."
+     }
+    ]
+   }
+  ]
+ },
+ "w13": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Forgive the quiet. Since May, the house has been very quiet."
+   },
+   {
+    "who": "them",
+    "text": "Come in. I’ve been painting watercolours at Lucerne. My hands needed something gentle."
+   },
+   {
+    "who": "them",
+    "text": "Sit with me. I can’t speak about her yet, but the quartet can."
+   },
+   {
+    "who": "them",
+    "text": "Welcome. You’ve come at a hard time. Stay a little anyway."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "I’m tired. The strings can finish without me."
+   },
+   {
+    "who": "them",
+    "text": "Go gently. Tell no one I wept."
+   },
+   {
+    "who": "them",
+    "text": "The finale won’t rest. Neither will I. Goodnight."
+   },
+   {
+    "who": "me",
+    "text": "The shuddering strings fade, and he is only a shape at the window."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "This came after Fanny died.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "She died on 14 May. I couldn’t write anything gentle. This is what came."
+     },
+     {
+      "who": "them",
+      "text": "Fanny was the better musician of us two, some days. Now there’s only me."
+     },
+     {
+      "who": "them",
+      "text": "A homage to her. I have no other way to say it."
+     }
+    ]
+   },
+   {
+    "ask": "Why does it shake so at the start?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Tremolos, shuddering accents. Grief doesn’t let you sit still."
+     },
+     {
+      "who": "them",
+      "text": "I didn’t want it beautiful. I wanted it true."
+     },
+     {
+      "who": "them",
+      "text": "There’s no comfort in the first movement. Not yet."
+     }
+    ]
+   },
+   {
+    "ask": "The scherzo never relaxes.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "No. It goes round and round, syncopated, like a thought you can’t put down."
+     },
+     {
+      "who": "them",
+      "text": "Obsessive, yes. I couldn’t stop it, so I wrote it down."
+     },
+     {
+      "who": "them",
+      "text": "My scherzos used to be fairies and moonlight. Not this one."
+     }
+    ]
+   },
+   {
+    "ask": "Is there any consolation in it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The Adagio. One place to rest. Only one."
+     },
+     {
+      "who": "them",
+      "text": "In the slow movement I let myself remember her kindly."
+     },
+     {
+      "who": "them",
+      "text": "A little. Don’t expect it to last."
+     }
+    ]
+   },
+   {
+    "ask": "There is no turn to the major at the end.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "No. I couldn’t find one."
+     },
+     {
+      "who": "them",
+      "text": "Restless to the end. I won’t lie to her memory with a happy chord."
+     },
+     {
+      "who": "them",
+      "text": "F minor, start to finish. Some things don’t resolve."
+     }
+    ]
+   },
+   {
+    "ask": "What was Fanny like?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A composer and pianist, as gifted as anyone I knew."
+     },
+     {
+      "who": "them",
+      "text": "Fanny Hensel, after her marriage. To me, always just Fanny."
+     },
+     {
+      "who": "them",
+      "text": "I always wanted her to hear things first. Who will I play to now?"
+     }
+    ]
+   },
+   {
+    "ask": "You brought Bach back to life, they say.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The St Matthew Passion, in Berlin, in 1829. Its first time outside Leipzig since Bach died."
+     },
+     {
+      "who": "them",
+      "text": "I only conducted it. Bach did the rest."
+     },
+     {
+      "who": "them",
+      "text": "My grandfather Moses was a philosopher. I suppose I like bringing old things back."
+     }
+    ]
+   },
+   {
+    "ask": "Did you love Scotland?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The Hebrides gave me an overture, and Scotland a symphony. And rain."
+     },
+     {
+      "who": "them",
+      "text": "I drew and painted everywhere I went. Scotland too."
+     },
+     {
+      "who": "them",
+      "text": "Today I can’t think of Scotland. Ask me another year."
+     }
+    ]
+   }
+  ]
+ },
+ "w14": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Shh. Constanze is in the next room, and I’m writing in D minor. Sit, quietly."
+   },
+   {
+    "who": "them",
+    "text": "Welcome. A child is coming any hour. My hands wanted something to do."
+   },
+   {
+    "who": "them",
+    "text": "You’re here for the quartets for Haydn? This is the dark one."
+   },
+   {
+    "who": "them",
+    "text": "Come in! Excuse the noise. Everything in this house is happening at once."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "I’m needed in the next room. Forgive me!"
+   },
+   {
+    "who": "them",
+    "text": "Listen for the last chord. A little light, at the very end."
+   },
+   {
+    "who": "them",
+    "text": "A baby is crying somewhere. Goodbye, goodbye!"
+   },
+   {
+    "who": "me",
+    "text": "The D-minor shadows thin, and the last chord turns to light."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Is it true you wrote this while Constanze was in labour?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "So she told the Novellos, in 1829. Who am I to argue with my wife?"
+     },
+     {
+      "who": "them",
+      "text": "Our first child, Raimund. She was in the next room. I had a quartet to finish."
+     },
+     {
+      "who": "them",
+      "text": "Constanze tells it so, years later. She remembers it better than I do."
+     }
+    ]
+   },
+   {
+    "ask": "Are her cries really in the music?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "She said the rising figures were her cries. Perhaps they are."
+     },
+     {
+      "who": "them",
+      "text": "She says so. I say a composer listens to everything."
+     },
+     {
+      "who": "them",
+      "text": "Ask her. I’m not brave enough to contradict her."
+     }
+    ]
+   },
+   {
+    "ask": "Why D minor?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Five of the six are in major keys. One needed shadows."
+     },
+     {
+      "who": "them",
+      "text": "D minor is a serious key. Today was a serious day."
+     },
+     {
+      "who": "them",
+      "text": "Haydn would expect variety. I gave him a storm."
+     }
+    ]
+   },
+   {
+    "ask": "Who are these quartets for?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "For Haydn. He showed us all how quartets are written."
+     },
+     {
+      "who": "them",
+      "text": "Six for Haydn. This is the second, and the only one in a minor key."
+     },
+     {
+      "who": "them",
+      "text": "For Haydn, with love and some fear. He’ll notice everything."
+     }
+    ]
+   },
+   {
+    "ask": "The minuet is dark, but the trio...?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Light as anything. A wonderful foil, someone will say."
+     },
+     {
+      "who": "them",
+      "text": "After the shadows, a little dance in the major. One must breathe."
+     },
+     {
+      "who": "them",
+      "text": "Almost too light on its own. Next to the minuet, exactly right."
+     }
+    ]
+   },
+   {
+    "ask": "How does it end?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Variations, and then the last chord turns to D major. A Picardy third."
+     },
+     {
+      "who": "them",
+      "text": "In the minor, nearly. At the last moment, a little light."
+     },
+     {
+      "who": "them",
+      "text": "With a set of variations. I can never resist variations."
+     }
+    ]
+   },
+   {
+    "ask": "What happens in the Andante?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "F major, calm, and then sudden pauses, like sighs."
+     },
+     {
+      "who": "them",
+      "text": "It’s peaceful until it isn’t. Listen for the breaths."
+     },
+     {
+      "who": "them",
+      "text": "A lullaby, perhaps, for someone not yet born."
+     }
+    ]
+   },
+   {
+    "ask": "How does the first movement begin?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Quietly, troubled, in D minor. The cello knows something the others don’t."
+     },
+     {
+      "who": "them",
+      "text": "Softly, as if everyone in the house were listening."
+     },
+     {
+      "who": "them",
+      "text": "Allegro moderato. Not too fast; I was distracted."
+     }
+    ]
+   }
+  ]
+ },
+ "w15": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Ah, welcome! The ink’s still wet. Haydn is coming to hear these."
+   },
+   {
+    "who": "them",
+    "text": "Come in. You’ve heard the opening? Don’t worry, it gets better. Much better."
+   },
+   {
+    "who": "them",
+    "text": "The last of the six for Haydn. Sit, before I change something."
+   },
+   {
+    "who": "them",
+    "text": "Good evening! Let me finish this bar, then I’m all yours."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "Haydn’s at the door! Go, go, I must play him the opening."
+   },
+   {
+    "who": "them",
+    "text": "The finale’s running away with us. Goodbye!"
+   },
+   {
+    "who": "them",
+    "text": "Twenty-two bars of fog, and then the sun. Remember that."
+   },
+   {
+    "who": "me",
+    "text": "His laughter outruns the finale, and the room brightens and is gone."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Your opening sounds wrong on purpose.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Twenty-two bars of fog before the sun comes out."
+     },
+     {
+      "who": "them",
+      "text": "On purpose, yes. Quiet Cs in the cello, and the harmonies wander."
+     },
+     {
+      "who": "them",
+      "text": "Wrong? No. Strange. There’s a difference."
+     }
+    ]
+   },
+   {
+    "ask": "A critic complained in print.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In 1787, yes. Complaints mean people listened."
+     },
+     {
+      "who": "them",
+      "text": "Let him. I wrote it for Haydn’s ears, not his."
+     },
+     {
+      "who": "them",
+      "text": "Critics like everything in its place. I like surprises."
+     }
+    ]
+   },
+   {
+    "ask": "Then the Allegro arrives.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In clear C major, like opening the shutters."
+     },
+     {
+      "who": "them",
+      "text": "After the fog, sunlight. That’s the whole joke."
+     },
+     {
+      "who": "them",
+      "text": "You see? You needed the fog to enjoy the sun."
+     }
+    ]
+   },
+   {
+    "ask": "What did Haydn say about you?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "He told my father I’m the greatest composer he knows, in person or by name."
+     },
+     {
+      "who": "them",
+      "text": "Kind things, to my father. Father nearly smiled."
+     },
+     {
+      "who": "them",
+      "text": "That I have taste, and the deepest knowledge of composition. I may frame it."
+     }
+    ]
+   },
+   {
+    "ask": "Why dedicate six quartets to Haydn?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "He taught us all how quartets are written. These are my thanks."
+     },
+     {
+      "who": "them",
+      "text": "My six children, I call them in the dedication. I hand them to him."
+     },
+     {
+      "who": "them",
+      "text": "This is the last of the six. I finished it in January 1785."
+     }
+    ]
+   },
+   {
+    "ask": "What is the Andante like?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Cantabile, in F major. Singing and unhurried. After the fog, a song."
+     },
+     {
+      "who": "them",
+      "text": "Unhurried. I’m always in a hurry; the music needn’t be."
+     },
+     {
+      "who": "them",
+      "text": "Let the first violin sing, and the others hold their breath."
+     }
+    ]
+   },
+   {
+    "ask": "And the minuet?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A brisk minuet, and then the trio turns to C minor, just for a moment."
+     },
+     {
+      "who": "them",
+      "text": "A dance with a frown in the middle. That’s the trio."
+     },
+     {
+      "who": "them",
+      "text": "Even dances need a shadow, or they’re only exercise."
+     }
+    ]
+   },
+   {
+    "ask": "How does the finale feel?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Allegro molto. Quick-witted. The players had better be awake."
+     },
+     {
+      "who": "them",
+      "text": "Like a good supper: fast, and everyone talking at once."
+     },
+     {
+      "who": "them",
+      "text": "Fun. After the fog, I owe you some fun."
+     }
+    ]
+   }
+  ]
+ },
+ "w16": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome. It’s 1914, and Bohemia needs its old hymns. Sit and listen."
+   },
+   {
+    "who": "them",
+    "text": "Come in. I’m a quartet player first. This piece is for my own kind."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. Saint Wenceslas has watched over us for centuries."
+   },
+   {
+    "who": "them",
+    "text": "Ah, you found me. Quietly, please. This is a prayer, not a concert."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The hymn is ending. Let it end quietly; that’s how prayers end."
+   },
+   {
+    "who": "them",
+    "text": "Go home safely. These are hard years."
+   },
+   {
+    "who": "them",
+    "text": "Saint Wenceslas, look after this one too."
+   },
+   {
+    "who": "me",
+    "text": "The chorale fades, and I hear only my own breath, steadier."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Why the St Wenceslas chorale?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "It’s the old hymn to our patron saint. In 1914, we needed something to hold."
+     },
+     {
+      "who": "them",
+      "text": "Every Czech knows it by heart. That was the point."
+     },
+     {
+      "who": "them",
+      "text": "Wenceslas is our patron. I asked him, in music, to look after us."
+     }
+    ]
+   },
+   {
+    "ask": "Was it meant as a patriotic piece?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Yes. A Czech hymn, played as the war began. Everyone understood."
+     },
+     {
+      "who": "them",
+      "text": "It became a symbol of hope in the war. I only wrote the notes."
+     },
+     {
+      "who": "them",
+      "text": "Patriotic, quietly. No drums. Just strings and a hymn."
+     }
+    ]
+   },
+   {
+    "ask": "Who taught you?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Dvořák. I was one of his favourite pupils, they say."
+     },
+     {
+      "who": "them",
+      "text": "Dvořák taught me, and then I married his daughter Otilie."
+     },
+     {
+      "who": "them",
+      "text": "Master Dvořák. Everything I know, I learned in his classroom or at his table."
+     }
+    ]
+   },
+   {
+    "ask": "You lost them both, didn’t you?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Dvořák in 1904, and Otilie a year later. I wrote Asrael for them."
+     },
+     {
+      "who": "them",
+      "text": "Asrael is the angel of death. I gave him a whole symphony."
+     },
+     {
+      "who": "them",
+      "text": "Yes. Some of my music since has been for them, whatever its title."
+     }
+    ]
+   },
+   {
+    "ask": "Why for string quartet?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I play in a quartet. I know what four strings can carry."
+     },
+     {
+      "who": "them",
+      "text": "Quartet or string orchestra, either. A hymn should fit any church."
+     },
+     {
+      "who": "them",
+      "text": "Four players can be as loud as a crowd, if they mean it."
+     }
+    ]
+   },
+   {
+    "ask": "Who is it dedicated to?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "To Ferdinand Pečírka. A friend, and he knows why."
+     },
+     {
+      "who": "them",
+      "text": "Pečírka’s name is on the page. The music is for everyone."
+     },
+     {
+      "who": "them",
+      "text": "To a friend. Hymns are always for more than one person."
+     }
+    ]
+   },
+   {
+    "ask": "What happens at the climax?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The chorale rises to its fullest sound. Then it bows its head again."
+     },
+     {
+      "who": "them",
+      "text": "Everything I have, in four parts. Then quiet."
+     },
+     {
+      "who": "them",
+      "text": "It swells like a congregation finding its voice."
+     }
+    ]
+   },
+   {
+    "ask": "Do you still play in the quartet?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The Czech Quartet, yes, for most of my life. I’ll retire when my fingers ask."
+     },
+     {
+      "who": "them",
+      "text": "Every evening a different hall, the same four chairs."
+     },
+     {
+      "who": "them",
+      "text": "Yes. Composing is lonely. A quartet never is."
+     }
+    ]
+   }
+  ]
+ },
+ "w17": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Come in, come in. I’m twenty, and I’ve written too many songs today."
+   },
+   {
+    "who": "them",
+    "text": "A friend of Spaun’s? Sit. There’s wine, and a piano with most of its keys working."
+   },
+   {
+    "who": "them",
+    "text": "Welcome to Himmelpfortgrund. Heaven’s Gate, the name means. The rent is less heavenly."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. Father thinks I’m marking schoolwork. I’m not."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "My friends are calling from the street. I must go."
+   },
+   {
+    "who": "them",
+    "text": "Back to the schoolroom tomorrow. Let me have tonight."
+   },
+   {
+    "who": "them",
+    "text": "Play it gently. Everything I write wants to be sung."
+   },
+   {
+    "who": "me",
+    "text": "He smiles behind his spectacles and fades into the flowing finale."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "You began this in D-flat?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In June 1817. Later I moved it to E-flat and finished it."
+     },
+     {
+      "who": "them",
+      "text": "D-flat felt too soft. E-flat stands up straighter."
+     },
+     {
+      "who": "them",
+      "text": "I changed the key and kept the heart."
+     }
+    ]
+   },
+   {
+    "ask": "Did you see it published?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "No. They printed it the year after I died."
+     },
+     {
+      "who": "them",
+      "text": "No. Most of my sonatas waited in drawers."
+     },
+     {
+      "who": "them",
+      "text": "Not in my lifetime. Music is patient. I wasn’t given the time."
+     }
+    ]
+   },
+   {
+    "ask": "What is the slow movement?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Andante molto, in G minor. A sad little song, walking slowly."
+     },
+     {
+      "who": "them",
+      "text": "A song without a singer. I write songs all day; some escape into sonatas."
+     },
+     {
+      "who": "them",
+      "text": "Sorrowful, yes. I’m twenty. Twenty-year-olds are very sorrowful."
+     }
+    ]
+   },
+   {
+    "ask": "Who taught you?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Salieri taught me composition. Father the violin, and my brother the piano."
+     },
+     {
+      "who": "them",
+      "text": "At the Stadtkonvikt I heard Haydn, Mozart and Beethoven. That was my real school."
+     },
+     {
+      "who": "them",
+      "text": "Ignaz taught me piano until I overtook him. He forgave me, mostly."
+     }
+    ]
+   },
+   {
+    "ask": "Do you like teaching at your father’s school?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "No. Children and arithmetic. I’d rather write a song."
+     },
+     {
+      "who": "them",
+      "text": "Father wants a schoolmaster. I want an evening free."
+     },
+     {
+      "who": "them",
+      "text": "I teach in the mornings and write the rest of the time. Badly arranged."
+     }
+    ]
+   },
+   {
+    "ask": "How does the sonata open?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "With a gentle, singing theme. It never rushes, even when it develops."
+     },
+     {
+      "who": "them",
+      "text": "Allegro moderato. Moderate. I’m a moderate man, except at parties."
+     },
+     {
+      "who": "them",
+      "text": "Like a song with the words taken away."
+     }
+    ]
+   },
+   {
+    "ask": "What is the minuet like?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Graceful, with a contrasting trio. A dance for a Viennese evening."
+     },
+     {
+      "who": "them",
+      "text": "Light. My friends dance badly to it."
+     },
+     {
+      "who": "them",
+      "text": "A minuet for people who’d rather be waltzing."
+     }
+    ]
+   },
+   {
+    "ask": "And the finale?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Relaxed and flowing. No storms tonight."
+     },
+     {
+      "who": "them",
+      "text": "Allegro moderato again. I like to end where I began, more or less."
+     },
+     {
+      "who": "them",
+      "text": "It wanders home, the way I do after an evening with friends."
+     }
+    ]
+   }
+  ]
+ },
+ "w18": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome to Steyr! Mountains, fresh air, and very kind people."
+   },
+   {
+    "who": "them",
+    "text": "Come in. It’s summer, and I’m on holiday. Even my sonatas are smiling."
+   },
+   {
+    "who": "them",
+    "text": "Ah, you’ve met Josephine? Then you know why this sonata sings."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. Upper Austria agrees with me. Vienna can wait."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The holiday’s ending. I’ll miss these hills."
+   },
+   {
+    "who": "them",
+    "text": "Josephine is at the piano. I should go and turn pages."
+   },
+   {
+    "who": "them",
+    "text": "Back to Vienna. Back to work. Goodbye!"
+   },
+   {
+    "who": "me",
+    "text": "The finale skips away, and the summer light goes with it."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Who was Josephine?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Josephine von Koller, in Steyr. Eighteen, very pretty, and a good pianist."
+     },
+     {
+      "who": "them",
+      "text": "A good pianist. That’s the first thing, of course. The second too."
+     },
+     {
+      "who": "them",
+      "text": "A young pianist in Steyr. I wrote it for her hands."
+     }
+    ]
+   },
+   {
+    "ask": "When did you write it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In the summer of 1819, on holiday in Upper Austria."
+     },
+     {
+      "who": "them",
+      "text": "On a summer holiday. You can hear it, can’t you?"
+     },
+     {
+      "who": "them",
+      "text": "Between walks. Sonatas come easier with fresh air."
+     }
+    ]
+   },
+   {
+    "ask": "Why is the opening so lyrical?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "It’s a song, really. The melody sings itself; I just wrote it down."
+     },
+     {
+      "who": "them",
+      "text": "I write songs all the time. My piano music can’t help it."
+     },
+     {
+      "who": "them",
+      "text": "Allegro moderato. Unhurried. It’s summer."
+     }
+    ]
+   },
+   {
+    "ask": "What is the Andante like?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "D major, quiet and inward. Someone thinking aloud at dusk."
+     },
+     {
+      "who": "them",
+      "text": "Short. A sigh between two smiles."
+     },
+     {
+      "who": "them",
+      "text": "Andante. Walking pace. Holiday pace."
+     }
+    ]
+   },
+   {
+    "ask": "And the finale?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Light and dancing. Let your hands enjoy it."
+     },
+     {
+      "who": "them",
+      "text": "A dance for a summer evening. Nothing heavy."
+     },
+     {
+      "who": "them",
+      "text": "Quick fingers, light heart."
+     }
+    ]
+   },
+   {
+    "ask": "Who brings you to Upper Austria?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "My friend Vogl, the baritone. He sings my songs to anyone who’ll listen."
+     },
+     {
+      "who": "them",
+      "text": "Friends. I have the best friends. They feed me and find me pianos."
+     },
+     {
+      "who": "them",
+      "text": "Summer, and a reason to leave Vienna."
+     }
+    ]
+   },
+   {
+    "ask": "What do you think of Beethoven?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I admire him more than anyone. Meeting him is another matter."
+     },
+     {
+      "who": "them",
+      "text": "Beethoven? I’d sooner talk to a mountain. It’s less frightening."
+     },
+     {
+      "who": "them",
+      "text": "Not here. Here there’s only Josephine, and the hills."
+     }
+    ]
+   },
+   {
+    "ask": "Do you have many friends?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Spaun, Schober, Vogl. They push my music into every drawing room."
+     },
+     {
+      "who": "them",
+      "text": "Enough for a party every week. They call them Schubertiads. I’m embarrassed."
+     },
+     {
+      "who": "them",
+      "text": "More friends than money. A good bargain."
+     }
+    ]
+   }
+  ]
+ },
+ "w19": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Come in. Forgive the cold; I don’t go out much this winter."
+   },
+   {
+    "who": "them",
+    "text": "Welcome. I’m not well. The piano doesn’t mind."
+   },
+   {
+    "who": "them",
+    "text": "Sit. This one is not a song. Don’t expect me to smile."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. February in Vienna. Grey outside, grey in here."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "I’m tired. Go, and come back in the spring."
+   },
+   {
+    "who": "them",
+    "text": "The finale’s running. Let it run me out of the room."
+   },
+   {
+    "who": "them",
+    "text": "Thank you for sitting with me. Not many do, this winter."
+   },
+   {
+    "who": "me",
+    "text": "The bare octaves sound again in my head as he fades."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "What happened the year before?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I was seriously ill. Perhaps that’s why there’s nothing decorative here."
+     },
+     {
+      "who": "them",
+      "text": "Illness. Let’s leave it there."
+     },
+     {
+      "who": "them",
+      "text": "Something changed. The music stopped wanting to please."
+     }
+    ]
+   },
+   {
+    "ask": "Why bare octaves at the start?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Stark and spacious. I didn’t want decoration, only bones."
+     },
+     {
+      "who": "them",
+      "text": "Two hands saying the same thing. Sometimes that’s all there is."
+     },
+     {
+      "who": "them",
+      "text": "Allegro giusto. Strict time. No sighing allowed."
+     }
+    ]
+   },
+   {
+    "ask": "This isn’t the songful Schubert people know.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "No. My earlier sonatas sing. This one stares."
+     },
+     {
+      "who": "them",
+      "text": "I can’t write sweetly all the time. Not this winter."
+     },
+     {
+      "who": "them",
+      "text": "Even a songwriter has days without words."
+     }
+    ]
+   },
+   {
+    "ask": "What is the slow movement?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "F major, a hushed hymn, with murmuring underneath."
+     },
+     {
+      "who": "them",
+      "text": "Quiet, like someone praying without wanting to be heard."
+     },
+     {
+      "who": "them",
+      "text": "A short rest before the storm."
+     }
+    ]
+   },
+   {
+    "ask": "And the finale?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Fierce. It drives on and won’t stop for anyone."
+     },
+     {
+      "who": "them",
+      "text": "Allegro vivace. Anger, maybe. I don’t know."
+     },
+     {
+      "who": "them",
+      "text": "Run with it. I couldn’t hold it back."
+     }
+    ]
+   },
+   {
+    "ask": "When was it published?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In 1839, eleven years after I died."
+     },
+     {
+      "who": "them",
+      "text": "Long after me. Nobody was waiting for my sonatas."
+     },
+     {
+      "who": "them",
+      "text": "Not in my life. Perhaps it’s better heard later."
+     }
+    ]
+   },
+   {
+    "ask": "Who keeps you company now?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "My friends. Spaun and Schober still come, even when I’m poor company."
+     },
+     {
+      "who": "them",
+      "text": "Vogl sings my songs to people who’ve never heard of me."
+     },
+     {
+      "who": "them",
+      "text": "The piano. It’s patient with me."
+     }
+    ]
+   },
+   {
+    "ask": "Do you still hope?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Every morning. By evening I’ve written something, and that’s hope enough."
+     },
+     {
+      "who": "them",
+      "text": "Yes. Next year will be better. It usually isn’t, but I say it."
+     },
+     {
+      "who": "them",
+      "text": "Ask me after the finale."
+     }
+    ]
+   }
+  ]
+ },
+ "w20": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome! A publisher wants a grand sonata from me. A grand one!"
+   },
+   {
+    "who": "them",
+    "text": "Come in. It’s May, and for once things are going well."
+   },
+   {
+    "who": "them",
+    "text": "Sit. You’re about to hear my first grand sonata in print. My first!"
+   },
+   {
+    "who": "them",
+    "text": "Good day. Soon I’m off to Upper Austria for the summer. First, this."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The rondo won’t settle. Neither will I. Goodbye!"
+   },
+   {
+    "who": "them",
+    "text": "Go and buy a copy! It’s printed, you know."
+   },
+   {
+    "who": "them",
+    "text": "Summer’s coming. Wish me good weather."
+   },
+   {
+    "who": "me",
+    "text": "The questioning unison returns, and he slips away before the answer."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "This one was printed while you lived.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "My first grand sonata in print. Only three ever were, in my lifetime."
+     },
+     {
+      "who": "them",
+      "text": "‘Première Grande Sonate’, it says on the title page. Very grand."
+     },
+     {
+      "who": "them",
+      "text": "Printed! I held a copy. You have no idea."
+     }
+    ]
+   },
+   {
+    "ask": "How does it open?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Softly, with both hands in unison, asking a question."
+     },
+     {
+      "who": "them",
+      "text": "Moderato. A question first. The answers take the rest of the sonata."
+     },
+     {
+      "who": "them",
+      "text": "Quietly. Grand doesn’t have to mean loud."
+     }
+    ]
+   },
+   {
+    "ask": "What is in the slow movement?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Five variations on a simple theme of thirty-two bars."
+     },
+     {
+      "who": "them",
+      "text": "A plain tune, then five ways of looking at it."
+     },
+     {
+      "who": "them",
+      "text": "Variations. I like to turn a melody over in my hands."
+     }
+    ]
+   },
+   {
+    "ask": "The scherzo has a slower trio.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Un poco più lento. A little slower, a little sadder."
+     },
+     {
+      "who": "them",
+      "text": "Fast, then the trio takes a breath."
+     },
+     {
+      "who": "them",
+      "text": "Every busy house needs a quieter room."
+     }
+    ]
+   },
+   {
+    "ask": "How does it end?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A restless rondo. It keeps coming back, still unsettled."
+     },
+     {
+      "who": "them",
+      "text": "Allegro vivace, and no peace. A minor all the way."
+     },
+     {
+      "who": "them",
+      "text": "Restless. Like me before a journey."
+     }
+    ]
+   },
+   {
+    "ask": "When did you write it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In May 1825, before a summer in Upper Austria."
+     },
+     {
+      "who": "them",
+      "text": "In spring. Things were going well. That doesn’t happen often."
+     },
+     {
+      "who": "them",
+      "text": "Quickly, once I knew someone would print it."
+     }
+    ]
+   },
+   {
+    "ask": "Are you known in Vienna now?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The Gesellschaft der Musikfreunde made me a member. That’s something."
+     },
+     {
+      "who": "them",
+      "text": "My songs are known. My sonatas, less. This one may help."
+     },
+     {
+      "who": "them",
+      "text": "In some drawing rooms. Not yet in the concert halls."
+     }
+    ]
+   },
+   {
+    "ask": "Will you go to the mountains?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Upper Austria this summer. They’re very kind to me there."
+     },
+     {
+      "who": "them",
+      "text": "Yes. Gastein too, perhaps. I’ll take paper."
+     },
+     {
+      "who": "them",
+      "text": "Anywhere with a piano and a friend."
+     }
+    ]
+   }
+  ]
+ },
+ "w21": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome to Gastein! Mountains everywhere. Even the piano feels taller."
+   },
+   {
+    "who": "them",
+    "text": "Come in. It’s August, and I’m happier than I’ve been for years."
+   },
+   {
+    "who": "them",
+    "text": "You’ve climbed all this way? Sit, have some water. Spa water."
+   },
+   {
+    "who": "them",
+    "text": "Good day. They call this my Gasteiner. I call it my holiday."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The march is coming round again. Listen to the decorations."
+   },
+   {
+    "who": "them",
+    "text": "I’m off for a walk. Mountains don’t wait."
+   },
+   {
+    "who": "them",
+    "text": "Thank you for climbing up. Go down carefully."
+   },
+   {
+    "who": "me",
+    "text": "The toy march ticks on, and he is a small figure far up the path."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Gastein?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A spa in the mountains. I wrote this there, in August 1825."
+     },
+     {
+      "who": "them",
+      "text": "A spa town. People come to bathe. I came to write."
+     },
+     {
+      "who": "them",
+      "text": "Hence the nickname, the Gasteiner. I like being named for a place."
+     }
+    ]
+   },
+   {
+    "ask": "Why such big chords?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Allegro vivace. I wanted to fill the whole piano."
+     },
+     {
+      "who": "them",
+      "text": "The mountain air made me write big chords."
+     },
+     {
+      "who": "them",
+      "text": "Sometimes a man wants to be loud. Today is one of those days."
+     }
+    ]
+   },
+   {
+    "ask": "What is the slow movement like?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Con moto. A long walk, slow and steady, through the valley."
+     },
+     {
+      "who": "them",
+      "text": "Long, yes. I like long walks. My friends complain."
+     },
+     {
+      "who": "them",
+      "text": "With movement, it says. Not too slow. Keep walking."
+     }
+    ]
+   },
+   {
+    "ask": "The scherzo is so rhythmic.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Full of energy. You can’t sit still for it."
+     },
+     {
+      "who": "them",
+      "text": "Rhythm is the mountain stream. It doesn’t stop."
+     },
+     {
+      "who": "them",
+      "text": "Allegro vivace. Lively. I’m lively this summer."
+     }
+    ]
+   },
+   {
+    "ask": "The finale sounds like a toy march.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A playful march, decorated more finely each time it comes back."
+     },
+     {
+      "who": "them",
+      "text": "And then storms interrupt it. Mountain weather."
+     },
+     {
+      "who": "them",
+      "text": "A march for small soldiers. I was a child once too."
+     }
+    ]
+   },
+   {
+    "ask": "Are you well?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Better. The illness of the last years is quieter now."
+     },
+     {
+      "who": "them",
+      "text": "This summer, yes. Ask me in winter."
+     },
+     {
+      "who": "them",
+      "text": "Well enough to climb a hill and write a sonata."
+     }
+    ]
+   },
+   {
+    "ask": "Who’s with you?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Friends. I have good friends; they take me everywhere."
+     },
+     {
+      "who": "them",
+      "text": "Kind people in Upper Austria. They welcomed me like family."
+     },
+     {
+      "who": "them",
+      "text": "My music paper. The best companion; it never complains."
+     }
+    ]
+   },
+   {
+    "ask": "What do you think of Beethoven?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I admire him more than anyone alive. I hardly dare write sonatas."
+     },
+     {
+      "who": "them",
+      "text": "He makes sonatas into mountains. I make mine into valleys."
+     },
+     {
+      "who": "them",
+      "text": "Ask me something easier."
+     }
+    ]
+   }
+  ]
+ },
+ "w22": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Come in. Three sonatas this summer. This is the first, and the stormiest."
+   },
+   {
+    "who": "them",
+    "text": "Welcome. Beethoven has been gone a year. I carried a torch at his funeral."
+   },
+   {
+    "who": "them",
+    "text": "A visitor! I gave a concert of my own this spring. My only one."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. I’m tired, but the music isn’t."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The tarantella’s starting. Don’t try to keep up."
+   },
+   {
+    "who": "them",
+    "text": "Two more sonatas to finish. Excuse me."
+   },
+   {
+    "who": "them",
+    "text": "Tell Beethoven, if you see him, I tried."
+   },
+   {
+    "who": "me",
+    "text": "The gallop thins to silence, and his chair is empty."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "The opening sounds like Beethoven.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "His C minor Variations. I admire him more than anyone."
+     },
+     {
+      "who": "them",
+      "text": "Yes. I borrowed his theme to begin. A greeting to him."
+     },
+     {
+      "who": "them",
+      "text": "Every pianist knows those variations. I wanted them to hear him in me."
+     }
+    ]
+   },
+   {
+    "ask": "You finished this in September 1828.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "And by November I was gone. I didn’t know there’d be no time."
+     },
+     {
+      "who": "them",
+      "text": "Three sonatas in one summer. I was in a hurry, and didn’t know why."
+     },
+     {
+      "who": "them",
+      "text": "I was thirty-one. There was so much still to write."
+     }
+    ]
+   },
+   {
+    "ask": "What is the Adagio like?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A-flat major. Two ideas taking turns, five sections in all."
+     },
+     {
+      "who": "them",
+      "text": "One song, then another, then the first again. Patient."
+     },
+     {
+      "who": "them",
+      "text": "Slow, because some things shouldn’t be hurried."
+     }
+    ]
+   },
+   {
+    "ask": "Why a minuet instead of a scherzo?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A subdued minuet. I didn’t want to joke in this sonata."
+     },
+     {
+      "who": "them",
+      "text": "Old-fashioned, yes. Quiet, too."
+     },
+     {
+      "who": "them",
+      "text": "Haydn would approve. Beethoven would scowl."
+     }
+    ]
+   },
+   {
+    "ask": "The finale gallops.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A tarantella. Hand-crossings, leaps, no rest."
+     },
+     {
+      "who": "them",
+      "text": "Relentless. The pianist must survive it."
+     },
+     {
+      "who": "them",
+      "text": "It’s a dance you dance until you drop."
+     }
+    ]
+   },
+   {
+    "ask": "Tell me about your concert.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "My only public concert of my own music, on 26 March 1828. It went well!"
+     },
+     {
+      "who": "them",
+      "text": "Friends filled the hall. For one night, Vienna listened."
+     },
+     {
+      "who": "them",
+      "text": "A success. I wish Beethoven had been there."
+     }
+    ]
+   },
+   {
+    "ask": "You were at Beethoven’s funeral.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I carried a torch beside his coffin."
+     },
+     {
+      "who": "them",
+      "text": "Half of Vienna was there. I walked and said nothing."
+     },
+     {
+      "who": "them",
+      "text": "I’ve asked to be buried near him, when my time comes."
+     }
+    ]
+   },
+   {
+    "ask": "Are you afraid?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Of what? I have three sonatas to finish. There’s no time for fear."
+     },
+     {
+      "who": "them",
+      "text": "A little. The finale isn’t afraid; I wrote it that way."
+     },
+     {
+      "who": "them",
+      "text": "Ask me in November."
+     }
+    ]
+   }
+  ]
+ },
+ "w23": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome. The second of my three. Sit; this one sings."
+   },
+   {
+    "who": "them",
+    "text": "Come in. Autumn’s coming. I’m writing as fast as I can."
+   },
+   {
+    "who": "them",
+    "text": "You’ve heard the Andantino? Then you know what’s in me."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. A man called Schumann will love this one day. Strange to think."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The rondo’s tune again. Hum it on your way home."
+   },
+   {
+    "who": "them",
+    "text": "One more sonata to write. Good night."
+   },
+   {
+    "who": "them",
+    "text": "Thank Schumann for me, when you meet him."
+   },
+   {
+    "who": "me",
+    "text": "The singing theme returns once more, and he does not."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "What happens in the middle of the Andantino?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The song breaks. Everything I kept quiet comes out at once, then the song returns."
+     },
+     {
+      "who": "them",
+      "text": "Harsh modulations, fortissimo chords. It sounds improvised because it nearly was."
+     },
+     {
+      "who": "them",
+      "text": "A storm in a lullaby. Don’t ask me where it came from."
+     }
+    ]
+   },
+   {
+    "ask": "It’s dedicated to Schumann.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "After my death, by the publisher. He loved my music, so it’s right."
+     },
+     {
+      "who": "them",
+      "text": "Robert Schumann. A young man who fought for my music when I couldn’t."
+     },
+     {
+      "who": "them",
+      "text": "I never met him. He knew me better than some who did."
+     }
+    ]
+   },
+   {
+    "ask": "How does it open?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "With grand, full chords. Like a door thrown open."
+     },
+     {
+      "who": "them",
+      "text": "Allegro. Big. Then softer, as if surprised at itself."
+     },
+     {
+      "who": "them",
+      "text": "Grandly. I’m allowed to be grand sometimes."
+     }
+    ]
+   },
+   {
+    "ask": "What is the Andantino, before the storm?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "F-sharp minor, a quiet rocking song. Like a boat at night."
+     },
+     {
+      "who": "them",
+      "text": "Rocking, rocking. Then the storm."
+     },
+     {
+      "who": "them",
+      "text": "A song with no words, for someone very tired."
+     }
+    ]
+   },
+   {
+    "ask": "And the scherzo?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Quick and bright, with a gentler trio. A little laughter."
+     },
+     {
+      "who": "them",
+      "text": "Allegro vivace. After that storm, I owed you a joke."
+     },
+     {
+      "who": "them",
+      "text": "Light fingers. The pianist deserves a rest."
+     }
+    ]
+   },
+   {
+    "ask": "The finale’s tune keeps coming back.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A rondo. The broad, singing theme returns again and again."
+     },
+     {
+      "who": "them",
+      "text": "It’s a song I couldn’t let go of."
+     },
+     {
+      "who": "them",
+      "text": "I like my friends to come back. Tunes too."
+     }
+    ]
+   },
+   {
+    "ask": "When was it published?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In 1839, more than ten years after me."
+     },
+     {
+      "who": "them",
+      "text": "Too late for me to hold a copy."
+     },
+     {
+      "who": "them",
+      "text": "Long after. Music waits more patiently than men."
+     }
+    ]
+   },
+   {
+    "ask": "Do you know how little time you have?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "No. I only know there’s too much music and not enough candles."
+     },
+     {
+      "who": "them",
+      "text": "I don’t count days. I count bars."
+     },
+     {
+      "who": "them",
+      "text": "Don’t tell me. Let me finish the rondo."
+     }
+    ]
+   }
+  ]
+ },
+ "w24": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Welcome to Leipzig. Mind the choirboys on the stairs."
+   },
+   {
+    "who": "them",
+    "text": "Sit, quietly. Somewhere in this house a child is always practising."
+   },
+   {
+    "who": "them",
+    "text": "You’ve come about the Aria? Anna Magdalena has it in her book."
+   },
+   {
+    "who": "them",
+    "text": "Come in. Thirty variations, and you want to talk? Very well."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The Aria again. Nothing has changed, and everything has."
+   },
+   {
+    "who": "them",
+    "text": "Sleep well. If you can’t, Goldberg will play."
+   },
+   {
+    "who": "them",
+    "text": "The choir needs me. Go, and practise your counterpoint."
+   },
+   {
+    "who": "me",
+    "text": "The Aria returns, and the room settles back into its first shape."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Did you really write this for a count who couldn’t sleep?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Forkel tells it so, sixty years later. Historians doubt him. So may you."
+     },
+     {
+      "who": "them",
+      "text": "Count Kaiserling and his insomnia? A good story. I published it as keyboard practice."
+     },
+     {
+      "who": "them",
+      "text": "If it put anyone to sleep, Goldberg was playing it too slowly."
+     }
+    ]
+   },
+   {
+    "ask": "Thirty variations on one tune?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "On one bass. The melody may wander; the bass line holds everything."
+     },
+     {
+      "who": "them",
+      "text": "Not the tune. The ground under it. Listen to the bass."
+     },
+     {
+      "who": "them",
+      "text": "Thirty, and then the Aria again. A circle."
+     }
+    ]
+   },
+   {
+    "ask": "What about the canons?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Every third variation is a canon, each a step wider than the last."
+     },
+     {
+      "who": "them",
+      "text": "The first at the unison, then the second, then the third, and onwards."
+     },
+     {
+      "who": "them",
+      "text": "Counting keeps the mind honest. A canon is counting that sings."
+     }
+    ]
+   },
+   {
+    "ask": "Why a joke at the end?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A quodlibet: popular tunes woven together over the bass, where a canon should be."
+     },
+     {
+      "who": "them",
+      "text": "After so much learning, a little laughter. Even cantors laugh."
+     },
+     {
+      "who": "them",
+      "text": "Where you expect a canon at the tenth, you get songs from the street."
+     }
+    ]
+   },
+   {
+    "ask": "Wanda Landowska called one variation the black pearl.",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The slow one in G minor. I’m glad someone found it in the dark."
+     },
+     {
+      "who": "them",
+      "text": "A pearl? It’s a lament. Take it slowly."
+     },
+     {
+      "who": "them",
+      "text": "Whoever she is, I hope she plays it slowly."
+     }
+    ]
+   },
+   {
+    "ask": "How did you become cantor here?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Leipzig made me Thomaskantor. Four churches and a school to feed with music."
+     },
+     {
+      "who": "them",
+      "text": "The leading post in Protestant Germany, they say. The pay is less leading."
+     },
+     {
+      "who": "them",
+      "text": "Hard work, and a little stubbornness. A little more than a little."
+     }
+    ]
+   },
+   {
+    "ask": "Is it true you were once jailed?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In Weimar, almost a month. I pressed too stubbornly for my dismissal."
+     },
+     {
+      "who": "them",
+      "text": "The Duke didn’t want to let me go. I didn’t want to stay."
+     },
+     {
+      "who": "them",
+      "text": "A month to think. I thought mostly about leaving."
+     }
+    ]
+   },
+   {
+    "ask": "Did you really walk to Lübeck?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "To hear Buxtehude play. Hundreds of kilometres, and I stayed far too long."
+     },
+     {
+      "who": "them",
+      "text": "On foot, they say. My boots say so too."
+     },
+     {
+      "who": "them",
+      "text": "My employers were not pleased. Buxtehude was worth it."
+     }
+    ]
+   }
+  ]
+ }
+}
