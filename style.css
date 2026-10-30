@@ -132,32 +132,48 @@ a { color: inherit; }
 .amb-tempo { font-family: var(--font-display); font-style: italic; font-size: 16px; fill: var(--ink); }
 .amb-dyn { font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 16px; fill: var(--ink); }
 
-/* ---- Library: a card-catalogue drawer over shelves of books ---- */
+/* ---- Library: a card-catalogue drawer over one walnut bookcase ----
+   Wood, leather, cloth, brass and paper are mixed from the palette; grain and texture are SVG
+   noise, so nothing here is an image file. The lamp hangs to the upper left. */
 .library {
-  --spine-a: color-mix(in oklab, var(--accent) 34%, var(--ground));
-  --spine-b: color-mix(in oklab, var(--ink-2) 30%, var(--ground));
-  --spine-c: color-mix(in oklab, var(--ink) 80%, var(--ground));
-  --spine-d: color-mix(in oklab, var(--ink) 13%, var(--step));
-  --spine-e: color-mix(in oklab, var(--accent) 66%, var(--ground));
-  --spine-f: color-mix(in oklab, var(--ink-2) 55%, var(--ground));
+  --walnut: color-mix(in oklab, var(--accent) 25%, var(--ground));
+  --walnut-deep: color-mix(in oklab, var(--accent) 11%, var(--ground));
+  --walnut-lit: color-mix(in oklab, var(--accent) 36%, var(--ground));
+  --brass: color-mix(in oklab, var(--accent) 84%, var(--ink));
+  --brass-lo: color-mix(in oklab, var(--accent) 62%, var(--ground));
+  --gilt-hi: color-mix(in oklab, var(--accent) 48%, var(--ink));
+  --gilt-lo: color-mix(in oklab, var(--accent) 82%, var(--ground));
+  --paper: color-mix(in oklab, var(--ink) 84%, var(--accent));
+  --paper-ink: color-mix(in oklab, var(--ground) 94%, var(--accent));
+  --paper-ink-2: color-mix(in oklab, var(--ground) 66%, var(--paper));
+  --paper-amber: color-mix(in oklab, var(--accent) 44%, var(--ground));
+  --lamp: rgb(255 236 200 / 0.16);
+  /* Long grain running along a board, and across it for the uprights. */
+  --grain-h: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.0035 0.12' numOctaves='4' seed='3'/%3E%3CfeColorMatrix values='0 0 0 0 0.04 0 0 0 0 0.025 0 0 0 0 0.01 1.9 0 0 0 -0.66'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --grain-v: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='640'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.12 0.0035' numOctaves='4' seed='8'/%3E%3CfeColorMatrix values='0 0 0 0 0.04 0 0 0 0 0.025 0 0 0 0 0.01 1.9 0 0 0 -0.66'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --leather: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.06' numOctaves='3' seed='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2.2 0 0 0 -0.92'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --pebble: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='turbulence' baseFrequency='0.42' numOctaves='2' seed='5'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.6 0 0 0 -0.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --vellum-tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.025 0.05' numOctaves='3' seed='11'/%3E%3CfeColorMatrix values='0 0 0 0 0.35 0 0 0 0 0.24 0 0 0 0 0.1 1.3 0 0 0 -0.5'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --paper-tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='900'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.012' numOctaves='4' seed='4'/%3E%3CfeColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.34 0 0 0 0 0.12 1.1 0 0 0 -0.48'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --weave: repeating-linear-gradient(0deg, rgb(0 0 0 / 0.2) 0 1px, transparent 1px 2px),
+    repeating-linear-gradient(90deg, rgb(255 236 200 / 0.06) 0 1px, transparent 1px 2px);
+  --buckram: repeating-linear-gradient(0deg, rgb(0 0 0 / 0.24) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgb(255 236 200 / 0.07) 0 1px, transparent 1px 3px);
   background: var(--step); overflow-y: auto; padding: 0 var(--gutter) 32px;
 }
-.spine-a { --spine: var(--spine-a); --spine-ink: var(--ink); }
-.spine-b { --spine: var(--spine-b); --spine-ink: var(--ink); }
-.spine-c { --spine: var(--spine-c); --spine-ink: var(--ground); }
-.spine-d { --spine: var(--spine-d); --spine-ink: var(--ink); }
-.spine-e { --spine: var(--spine-e); --spine-ink: var(--ground); }
-.spine-f { --spine: var(--spine-f); --spine-ink: var(--ground); }
 
+/* The card-catalogue drawer, in the same walnut, with a brass card holder. */
 .drawer {
-  position: sticky; top: 0; z-index: 2; margin: 0 calc(-1 * var(--gutter));
-  padding: 16px var(--gutter) 30px; background: color-mix(in oklab, var(--ink) 7%, var(--step));
-  border-bottom: 1px solid var(--ground);
+  position: sticky; top: 0; z-index: 6; margin: 0 calc(-1 * var(--gutter));
+  padding: 14px var(--gutter) 16px;
+  background: linear-gradient(to bottom, var(--lamp), transparent 3px), var(--grain-h), var(--walnut);
+  box-shadow: inset 0 -2px 0 rgb(0 0 0 / 0.4), 0 6px 10px rgb(0 0 0 / 0.45);
 }
 .drawer-label {
   display: flex; justify-content: space-between; width: fit-content; min-width: 62%; margin: 0 auto 12px;
-  gap: 16px; padding: 3px 12px; border: 1px solid color-mix(in oklab, var(--accent) 70%, var(--step));
-  font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2);
+  gap: 16px; padding: 3px 12px; color: var(--paper-ink); background: var(--paper);
+  border: 2px solid var(--brass); box-shadow: 0 0 0 1px var(--brass-lo), 0 1px 3px rgb(0 0 0 / 0.6);
+  font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
 }
 #drawer-count { letter-spacing: 0.02em; text-transform: none; font-variant-numeric: tabular-nums; }
 .drawer-card {
@@ -169,85 +185,263 @@ a { color: inherit; }
   color: var(--ground); font: 400 17px/1 var(--font-display);
 }
 #search::placeholder { color: color-mix(in oklab, var(--ground) 55%, var(--ink)); }
-#search:focus-visible { outline-offset: -2px; outline-color: var(--ground); }
-.fav-filter { height: 36px; padding: 0 12px; border: 0; background: color-mix(in oklab, var(--ground) 10%, var(--ink)); color: var(--ground); }
+#search:focus-visible, .drawer-card button:focus-visible { outline-offset: -2px; outline-color: var(--ground); }
+.fav-filter, .sfx-toggle { flex: none; height: 36px; padding: 0 12px; border: 0; background: color-mix(in oklab, var(--ground) 10%, var(--ink)); color: var(--ground); }
 .fav-filter[aria-pressed="true"] { background: var(--ground); color: var(--accent); }
-.drawer-pull {
-  position: absolute; left: 50%; bottom: 10px; width: 56px; height: 9px; transform: translateX(-50%);
-  border: 1.5px solid var(--ink-2); border-top: 0; border-radius: 0 0 12px 12px;
-}
+.sfx-toggle { display: grid; place-items: center; width: 36px; padding: 0; }
+.sfx-toggle svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.sfx-toggle[aria-pressed="true"] .mute, .sfx-toggle[aria-pressed="false"] .waves { display: none; }
 .status { color: var(--ink-2); margin: 16px 0 0; }
 .status:empty { display: none; }
 
-.shelf { display: flex; flex-direction: column; margin-top: 30px; }
-.shelf-row {
-  order: 1; display: flex; align-items: flex-end; gap: 3px; padding: 14px 6px 0;
-  border-bottom: 7px solid var(--step-2); box-shadow: 0 1px 0 var(--ground);
+/* The case: cornice, uprights, a back panel in shadow, shelves, plinth. */
+.shelves {
+  position: relative; margin: 20px calc(-1 * var(--gutter)) 0; padding: 0 14px;
+  background:
+    linear-gradient(90deg, var(--lamp) 0 1px, transparent 4px calc(100% - 14px), rgb(0 0 0 / 0.5) calc(100% - 14px) calc(100% - 12px), transparent calc(100% - 12px) calc(100% - 2px), rgb(0 0 0 / 0.5)),
+    var(--grain-v), var(--walnut);
 }
-.shelf-label {
-  order: 2; margin: 8px 0 0; font: 400 15px/1.3 var(--font-display); color: var(--ink-2);
-  font-variant: small-caps; letter-spacing: 0.04em;
+.shelves::after {   /* the lamp: warm at the upper left, falling off to the lower right */
+  content: ""; position: absolute; inset: 0; z-index: 4; pointer-events: none;
+  background: radial-gradient(120% 45% at 0% 0%, rgb(217 164 65 / 0.09), transparent 70%),
+    linear-gradient(165deg, transparent 40%, rgb(0 0 0 / 0.3));
 }
-.spine {
-  position: relative; flex: 0 1 var(--thick); min-width: 30px; height: var(--tall);
-  display: flex; flex-direction: column; align-items: center; justify-content: space-between;
-  padding: 16px 0 12px; border: 0; background: var(--spine); color: var(--spine-ink);
-  transition: transform 0.35s ease;
+.case-top, .case-base { position: relative; z-index: 1; margin: 0 -6px; background: var(--grain-h), var(--walnut); }
+.case-top {
+  height: 26px;
+  background: linear-gradient(to bottom, var(--lamp) 0 1px, transparent 2px 9px, rgb(0 0 0 / 0.45) 9px 11px, rgb(255 236 200 / 0.09) 11px 12px, transparent 12px 23px, rgb(0 0 0 / 0.55) 23px),
+    var(--grain-h), var(--walnut);
 }
-/* Head- and tail-bands: two thin rules near each end. */
-.spine::before, .spine::after {
-  content: ""; position: absolute; left: 4px; right: 4px; height: 4px;
-  border-top: 1px solid currentColor; border-bottom: 1px solid currentColor; opacity: 0.32;
+.case-base {
+  height: 34px; margin: 0 -4px;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.5) 0 2px, rgb(255 236 200 / 0.08) 2px 3px, transparent 3px 26px, rgb(0 0 0 / 0.5) 26px),
+    var(--grain-h), var(--walnut-deep);
 }
-.spine::before { top: 6px; }
-.spine::after { bottom: 4px; }
-.spine:hover { transform: translateY(-4px); }
-.spine.out { transform: translateY(-12px); }
-.spine.playing::before { opacity: 1; border-color: var(--accent); border-width: 2px; }
-.spine-c.playing::before, .spine-e.playing::before { border-color: var(--ground); }
-.spine-title {
-  flex: 1 1 auto; min-height: 0; writing-mode: vertical-rl; overflow: hidden; text-overflow: ellipsis;
-  white-space: pre; font: 400 14px/1.1 var(--font-display); text-align: start;
+.shelf {
+  position: relative;
+  background:
+    linear-gradient(to bottom, rgb(0 0 0 / 0.72), rgb(0 0 0 / 0.3) 36px, transparent 80px),
+    linear-gradient(90deg, rgb(0 0 0 / 0.5), transparent 26px calc(100% - 30px), rgb(0 0 0 / 0.6)),
+    repeating-linear-gradient(90deg, transparent 0 71px, rgb(0 0 0 / 0.4) 71px 72px, rgb(255 236 200 / 0.03) 72px 73px, transparent 73px 108px),
+    var(--grain-v), var(--walnut-deep);
 }
-.spine-cat { flex: none; margin-top: 6px; writing-mode: vertical-rl; font-size: 10.5px; letter-spacing: 0.03em; opacity: 0.8; white-space: nowrap; }
-.spine-ribbon {
-  position: absolute; bottom: -16px; left: 50%; width: 7px; height: 22px; margin-left: -3.5px;
-  background: var(--accent); clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
+.shelf-books {
+  display: flex; align-items: flex-end; height: var(--clear, auto); padding: 0 6px;
+  background: linear-gradient(to top, color-mix(in oklab, var(--walnut) 80%, var(--ground)) 0 5px, transparent 5px);
+}
+.shelf-edge {
+  position: relative; z-index: 2; height: 20px;
+  background: linear-gradient(to bottom, var(--lamp) 0 1px, transparent 2px 17px, rgb(0 0 0 / 0.5)),
+    var(--grain-h), var(--walnut);
+  box-shadow: 0 7px 9px -3px rgb(0 0 0 / 0.6);
 }
 
-/* The book, opened on its contents page. */
-.book {
-  order: 3; margin-top: 14px; padding: 18px 18px 14px 22px; background: var(--step-2);
-  border-left: 6px solid var(--spine); transform-origin: left center;
-  animation: book-open 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+/* A composer's books between two bookends, the name on a brass plate below. */
+.group { position: relative; display: flex; align-items: flex-end; gap: 1px; height: 100%; margin-right: 7px; }
+.bookend {
+  flex: none; position: relative; z-index: 1; width: 8px; height: var(--bookend);
+  border-radius: 1px 1px 0 0;
+  background: linear-gradient(to bottom, rgb(255 236 200 / 0.3) 0 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in oklab, var(--accent) 62%, var(--ground)) 0 1.5px, color-mix(in oklab, var(--accent) 38%, var(--ground)) 1.5px 4px, color-mix(in oklab, var(--accent) 20%, var(--ground)) 4px 7px, var(--ground) 7px);
+  box-shadow: 3px 0 5px rgb(0 0 0 / 0.55), inset 0 0 0 0.5px rgb(0 0 0 / 0.6);
 }
-@keyframes book-open { from { transform: perspective(900px) rotateY(-62deg); opacity: 0; } }
-.book-composer { margin: 0; font-size: 13px; color: var(--ink-2); }
+.plate {
+  position: absolute; top: calc(100% + 3px); left: 50%; z-index: 3; transform: translateX(-50%);
+  padding: 0 11px; white-space: nowrap; border-radius: 1px;
+  font: 500 11px/14px var(--font-display); font-variant: small-caps; letter-spacing: 0.08em;
+  color: color-mix(in oklab, var(--accent) 22%, var(--ground)); text-shadow: 0 1px 0 rgb(255 240 205 / 0.5);
+  background: linear-gradient(to bottom, var(--gilt-hi), var(--brass) 40%, var(--brass-lo));
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.25), 0 1px 2px rgb(0 0 0 / 0.7);
+}
+.plate::before, .plate::after {   /* two screws */
+  content: ""; position: absolute; top: 5px; width: 4px; height: 4px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, var(--gilt-hi), var(--brass-lo) 70%); box-shadow: inset 0 0 0 0.5px rgb(0 0 0 / 0.5);
+}
+.plate::before { left: 3px; }
+.plate::after { right: 3px; }
+
+/* ---- A book: the spine faces out; sides and top only show when it tips or comes out ---- */
+.spine {
+  position: relative; flex: none; width: var(--thick); height: var(--tall); padding: 0; border: 0;
+  background: none; perspective: 360px; perspective-origin: var(--pox, 50%) -120px;
+  --curve-dir: 90deg;
+  --wear: radial-gradient(80% 5% at 50% 0, rgb(232 225 212 / 0.22), transparent), radial-gradient(80% 4% at 50% 100%, rgb(232 225 212 / 0.16), transparent);
+}
+.spine.flat {
+  width: var(--tall); height: var(--thick); --curve-dir: 180deg;
+  --wear: radial-gradient(4% 80% at 0 50%, rgb(232 225 212 / 0.22), transparent), radial-gradient(4% 80% at 100% 50%, rgb(232 225 212 / 0.16), transparent);
+}
+.spine.lean { margin-left: var(--lean); transform: rotate(-6deg); transform-origin: 0 100%; }
+.spine:focus-visible { outline: none; }
+.spine:focus-visible .front { outline: 2px solid var(--accent); outline-offset: 2px; }
+.book3d {
+  position: absolute; inset: 0; transform-style: preserve-3d; transform-origin: 50% 100%;
+  transition: transform 0.42s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.spine:hover:not(.out) .book3d { transform: rotateX(-7deg); transition-duration: 0.25s; }
+.spine.out { z-index: 3; }
+.spine.out .book3d { transform: translateZ(30px) translateY(-6px); }
+.face { position: absolute; display: block; }
+.front {
+  inset: 0; overflow: hidden; border-radius: 3px 3px 2px 2px / 4px 4px 2px 2px;
+  background:
+    linear-gradient(var(--curve-dir), rgb(0 0 0 / 0.5), rgb(255 236 200 / 0.14) 26%, rgb(255 236 200 / 0.05) 44%, rgb(0 0 0 / 0.1) 72%, rgb(0 0 0 / 0.58)),
+    var(--wear), var(--tex), var(--bind);
+  box-shadow: 4px 1px 6px rgb(0 0 0 / 0.6), inset 0 0 0 0.5px rgb(0 0 0 / 0.5);
+}
+.side, .top { visibility: hidden; }
+.side { top: 0; bottom: 0; width: 34px; background: linear-gradient(90deg, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.25)), var(--tex), var(--bind); }
+.side.r { right: 0; transform-origin: 100% 50%; transform: rotateY(-90deg); }
+.side.l { left: 0; transform-origin: 0 50%; transform: rotateY(90deg); }
+.top {
+  left: 0; right: 0; top: 0; height: 34px; transform-origin: 50% 0; transform: rotateX(-90deg);
+  background: linear-gradient(90deg, var(--bind) 0 2px, transparent 2px calc(100% - 2px), var(--bind) calc(100% - 2px)),
+    repeating-linear-gradient(90deg, rgb(0 0 0 / 0.12) 0 1px, transparent 1px 2px), var(--page-edge, var(--paper));
+}
+.flat .side, .flat .top { display: none; }
+.spine.out .side, .spine.out .top, .spine:hover .top { visibility: visible; }
+
+/* Raised bands across leather spines, gilt fillets on cloth. */
+.band {
+  position: absolute; left: 0; right: 0; height: 6px; border-radius: 3px / 2px;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.45), rgb(255 236 200 / 0.26) 32%, transparent 62%, rgb(0 0 0 / 0.5));
+  box-shadow: 0 -1.5px 0 -0.5px var(--gilt-lo), 0 1.5px 0 -0.5px var(--gilt-lo), 0 3px 3px rgb(0 0 0 / 0.35);
+}
+.band.h1 { top: 11px; } .band.h2 { top: 26px; } .band.t1 { bottom: 26px; } .band.t2 { bottom: 11px; }
+.flat .band { top: 0; bottom: 0; width: 6px; height: auto; border-radius: 2px / 3px;
+  background: linear-gradient(90deg, rgb(0 0 0 / 0.45), rgb(255 236 200 / 0.26) 32%, transparent 62%, rgb(0 0 0 / 0.5));
+  box-shadow: -1.5px 0 0 -0.5px var(--gilt-lo), 1.5px 0 0 -0.5px var(--gilt-lo), 3px 0 3px rgb(0 0 0 / 0.35); }
+.flat .band.h1 { left: 11px; } .flat .band.h2 { left: 26px; } .flat .band.t1 { left: auto; right: 26px; } .flat .band.t2 { left: auto; right: 11px; }
+.label {
+  position: absolute; top: 36px; bottom: 36px; left: 3px; right: 3px; display: grid; place-items: center; overflow: hidden;
+  background: var(--label, transparent); border-radius: 1px;
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--gilt-lo) 60%, transparent), 0 0 0 0.5px rgb(0 0 0 / 0.4);
+}
+.flat .label { top: 3px; bottom: 3px; left: 36px; right: 36px; }
+.gilt {
+  writing-mode: vertical-rl; white-space: pre; text-align: center; font: 500 13px/1.02 var(--font-display); letter-spacing: 0.02em;
+  background: linear-gradient(100deg, var(--gilt-lo), var(--gilt-hi) 42%, var(--brass) 64%, var(--gilt-lo));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 1px 0 rgb(0 0 0 / 0.65));
+}
+.flat .gilt { writing-mode: horizontal-tb; background-image: linear-gradient(180deg, var(--gilt-hi), var(--brass) 55%, var(--gilt-lo)); }
+
+/* Bindings. Leather (calf, morocco) has raised bands and a lettering-piece; cloth and buckram
+   carry gilt fillets and lettering straight on the cloth; vellum takes a dark lettering-piece. */
+.bind-calf { --bind: color-mix(in oklab, var(--accent) 40%, var(--ground)); --tex: var(--leather); --label: color-mix(in oklab, var(--accent) 15%, var(--ground)); }
+.bind-calf-light { --bind: color-mix(in oklab, var(--accent) 52%, var(--ground)); --tex: var(--leather); --label: color-mix(in oklab, var(--accent) 18%, var(--ground)); }
+.bind-morocco { --bind: color-mix(in oklab, var(--accent) 24%, var(--ground)); --tex: var(--pebble); --label: color-mix(in oklab, var(--accent) 7%, var(--ground)); }
+.bind-morocco-dark { --bind: color-mix(in oklab, var(--ink-2) 22%, var(--ground)); --tex: var(--pebble); --label: color-mix(in oklab, var(--accent) 12%, var(--ground)); }
+.bind-morocco-warm { --bind: color-mix(in oklab, var(--accent) 30%, var(--step-2)); --tex: var(--pebble); --label: color-mix(in oklab, var(--ink-2) 18%, var(--ground)); }
+.bind-vellum { --bind: color-mix(in oklab, var(--ink) 82%, var(--accent)); --tex: var(--vellum-tex); --label: color-mix(in oklab, var(--accent) 16%, var(--ground)); }
+.bind-vellum-warm { --bind: color-mix(in oklab, var(--ink) 70%, var(--accent)); --tex: var(--vellum-tex); --label: color-mix(in oklab, var(--ink-2) 16%, var(--ground)); }
+.bind-cloth { --bind: color-mix(in oklab, var(--ink-2) 40%, var(--ground)); --tex: var(--weave); }
+.bind-buckram { --bind: color-mix(in oklab, var(--ink-2) 27%, var(--ground)); --tex: var(--buckram); }
+.bind-buckram-warm { --bind: color-mix(in oklab, var(--accent) 31%, var(--ground)); --tex: var(--buckram); }
+.bind-cloth-gold { --bind: color-mix(in oklab, var(--accent) 56%, var(--ground)); --tex: var(--weave); --label: color-mix(in oklab, var(--accent) 13%, var(--ground)); }
+.bind-calf-dark { --bind: color-mix(in oklab, var(--accent) 28%, var(--step-2)); --tex: var(--leather); --label: color-mix(in oklab, var(--accent) 9%, var(--ground)); }
+.bind-cloth-pale { --bind: color-mix(in oklab, var(--ink-2) 62%, var(--ground)); --tex: var(--weave); --label: color-mix(in oklab, var(--accent) 10%, var(--ground)); }
+:is(.bind-cloth, .bind-buckram, .bind-buckram-warm, .bind-cloth-gold, .bind-cloth-pale) .band {
+  height: 3px; border-radius: 0; background: none; box-shadow: none;
+  border-top: 1px solid var(--gilt-lo); border-bottom: 1px solid var(--gilt-lo); opacity: 0.85;
+}
+:is(.bind-cloth, .bind-buckram, .bind-buckram-warm, .bind-cloth-gold, .bind-cloth-pale).flat .band { width: 3px; height: auto; border: 0; border-left: 1px solid var(--gilt-lo); border-right: 1px solid var(--gilt-lo); }
+:is(.bind-cloth, .bind-buckram, .bind-buckram-warm) .label { box-shadow: none; }
+/* Cloth has no raised bands, so its fillets sit nearer the ends and the lettering has more room. */
+:is(.bind-cloth, .bind-buckram, .bind-buckram-warm, .bind-cloth-gold, .bind-cloth-pale):not(.flat) .band.h1 { top: 7px; }
+:is(.bind-cloth, .bind-buckram, .bind-buckram-warm, .bind-cloth-gold, .bind-cloth-pale):not(.flat) .band.h2 { top: 13px; }
+:is(.bind-cloth, .bind-buckram, .bind-buckram-warm, .bind-cloth-gold, .bind-cloth-pale):not(.flat) .band.t1 { bottom: 13px; }
+:is(.bind-cloth, .bind-buckram, .bind-buckram-warm, .bind-cloth-gold, .bind-cloth-pale):not(.flat) .band.t2 { bottom: 7px; }
+:is(.bind-cloth, .bind-buckram, .bind-buckram-warm, .bind-cloth-gold, .bind-cloth-pale):not(.flat) .label { top: 21px; bottom: 21px; }
+:is(.bind-vellum, .bind-vellum-warm) .band { box-shadow: 0 2px 2px rgb(60 40 10 / 0.3); background: linear-gradient(to bottom, rgb(60 40 10 / 0.3), rgb(255 255 255 / 0.2) 40%, rgb(60 40 10 / 0.35)); }
+:is(.bind-vellum, .bind-vellum-warm).flat .band { box-shadow: 2px 0 2px rgb(60 40 10 / 0.3); }
+:is(.bind-calf, .bind-calf-light, .bind-calf-dark, .bind-morocco, .bind-morocco-dark, .bind-morocco-warm) { --page-edge: linear-gradient(90deg, var(--gilt-lo), var(--gilt-hi), var(--gilt-lo)); }
+
+/* Playing: a faint lamp on the spine and a ribbon bookmark at its head. Favourite: the amber ribbon. */
+.spine.playing .front::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(130% 55% at 30% 30%, rgb(217 164 65 / 0.26), transparent 72%);
+}
+.spine.playing .front { box-shadow: 4px 1px 6px rgb(0 0 0 / 0.6), 0 0 16px rgb(217 164 65 / 0.14), inset 0 0 0 0.5px rgb(0 0 0 / 0.5); }
+.marker {
+  position: absolute; top: -17px; left: calc(50% - 6px); z-index: 2; width: 7px; height: 24px;
+  transform: rotate(-9deg); transform-origin: 50% 100%;
+  background: linear-gradient(90deg, rgb(0 0 0 / 0.3), rgb(255 236 200 / 0.3) 45%, rgb(0 0 0 / 0.3)), color-mix(in oklab, var(--accent) 76%, var(--ground));
+  clip-path: polygon(0 0, 50% 22%, 100% 0, 100% 100%, 0 100%);
+}
+.flat .marker { top: calc(50% - 3px); left: auto; right: -13px; width: 19px; height: 6px; transform: none;
+  clip-path: polygon(0 0, 100% 0, 78% 50%, 100% 100%, 0 100%); }
+.spine-ribbon {
+  position: absolute; bottom: -17px; left: 26%; z-index: 4; width: 7px; height: 23px;
+  background: linear-gradient(90deg, rgb(0 0 0 / 0.2), rgb(255 236 200 / 0.3) 45%, rgb(0 0 0 / 0.2)), var(--accent);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
+}
+.flat .spine-ribbon { left: 22px; }
+
+/* ---- The open book: the contents page on aged paper, in its binding ---- */
+.book {
+  position: absolute; z-index: 5; left: 10px; right: 10px; padding: 8px 9px 9px 15px;
+  border-radius: 3px 5px 5px 3px; perspective: 1600px;
+  background: linear-gradient(90deg, rgb(0 0 0 / 0.55), transparent 15px), var(--tex), var(--bind);
+  box-shadow: 0 22px 34px rgb(0 0 0 / 0.65), 0 3px 6px rgb(0 0 0 / 0.5), inset 0 0 0 1px rgb(0 0 0 / 0.35);
+  transform-origin: 0 50%; animation: book-open 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+@keyframes book-open { from { transform: perspective(1000px) rotateY(-70deg); opacity: 0; } }
+.page {
+  position: relative; padding: 18px 20px 14px 26px; color: var(--paper-ink);
+  background:
+    linear-gradient(90deg, rgb(70 45 10 / 0.32), rgb(70 45 10 / 0.08) 18px, transparent 34px),
+    radial-gradient(5px 4px at 82% 12%, rgb(150 100 40 / 0.18), transparent),
+    radial-gradient(7px 6px at 12% 88%, rgb(150 100 40 / 0.14), transparent),
+    radial-gradient(4px 4px at 64% 71%, rgb(150 100 40 / 0.12), transparent),
+    var(--paper-tex), var(--paper);
+  box-shadow: inset 0 0 26px rgb(120 80 25 / 0.28);
+}
+.page :focus-visible { outline-color: var(--paper-ink); }
+.flyleaf {
+  position: absolute; top: 8px; bottom: 9px; left: 15px; right: 9px; z-index: 2; pointer-events: none;
+  background: linear-gradient(90deg, rgb(70 45 10 / 0.25), transparent 30px), var(--paper-tex), color-mix(in oklab, var(--paper) 90%, var(--ground));
+  transform-origin: 0 50%; backface-visibility: hidden; animation: leaf-turn 0.7s ease-in-out 0.2s both;
+}
+@keyframes leaf-turn { to { transform: rotateY(-180deg); } }
+.page-mark {
+  position: absolute; top: 0; left: 22px; z-index: 1; width: 10px; height: 0;
+  background: linear-gradient(90deg, rgb(0 0 0 / 0.28), rgb(255 236 200 / 0.28) 45%, rgb(0 0 0 / 0.28)), color-mix(in oklab, var(--accent) 64%, var(--ground));
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 7px), 0 100%);
+}
+.book-composer { margin: 0; font-size: 13px; color: var(--paper-ink-2); }
 .book-title { margin: 2px 0 2px; font: 400 21px/1.2 var(--font-display); text-wrap: balance; }
-.book-perf { margin: 0; font-size: 13px; color: var(--ink-2); }
+.book-perf { margin: 0; font-size: 13px; color: var(--paper-ink-2); }
 .book-contents {
   margin: 16px 0 6px; font: 400 14px/1 var(--font-display); font-variant: small-caps;
-  letter-spacing: 0.12em; color: var(--ink-2); text-align: center;
+  letter-spacing: 0.14em; color: var(--paper-ink-2); text-align: center;
 }
+.book-contents::before, .book-contents::after { content: "—"; margin: 0 0.6em; letter-spacing: 0; }
 .tracks { list-style: none; margin: 0 -8px; padding: 0; }
 .track {
   display: grid; grid-template-columns: 30px minmax(0, auto) minmax(12px, 1fr) auto; align-items: baseline;
-  gap: 6px; width: 100%; padding: 6px 8px; border: 0; background: none; text-align: left;
-  font: 400 16px/1.3 var(--font-display);
+  gap: 6px; width: 100%; padding: 5px 8px; border: 0; background: none; text-align: left;
+  font: 400 16px/1.3 var(--font-display); color: var(--paper-ink);
 }
-.track:hover { background: var(--step); }
-.track .n { color: var(--ink-2); font-size: 14px; font-variant-numeric: oldstyle-nums; }
-.track .leader { border-bottom: 1px dotted var(--ink-2); opacity: 0.6; transform: translateY(-3px); }
-.track .dur { color: var(--ink-2); font: 13px var(--font-ui); font-variant-numeric: tabular-nums; }
-.track.playing, .track.playing .n, .track.playing .dur { color: var(--accent); }
-.note { margin: 8px 0 0; font-size: 13px; color: var(--ink-2); font-style: italic; }
-.book-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 14px; font-size: 13px; color: var(--ink-2); }
-.ribbon, .book-close { height: 30px; padding: 0 10px; border: 0; background: var(--step); color: var(--ink); font-size: 13px; }
-.ribbon[aria-pressed="true"] { color: var(--accent); }
+.track:hover { background: rgb(70 45 10 / 0.08); }
+.track .n { color: var(--paper-ink-2); font-size: 14px; font-variant-numeric: oldstyle-nums; }
+.track .leader { border-bottom: 1px dotted var(--paper-ink-2); opacity: 0.7; transform: translateY(-3px); }
+.track .dur { color: var(--paper-ink-2); font: 13px var(--font-ui); font-variant-numeric: tabular-nums; }
+.track.playing, .track.playing .n, .track.playing .dur { color: var(--paper-amber); }
+.track.playing .t { font-weight: 500; }
+.note { margin: 8px 0 0; font-size: 13px; color: var(--paper-ink-2); font-style: italic; }
+.track .tp { display: block; font: 12.5px/1.3 var(--font-ui); color: var(--paper-ink-2); }
+.book-credit { margin: 10px 0 0; font-size: 12.5px; line-height: 1.45; color: var(--paper-ink-2); }
+.book-credit a { color: var(--paper-ink); }
+.book-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 14px; padding-top: 10px; border-top: 1px solid rgb(70 45 10 / 0.2); font-size: 13px; color: var(--paper-ink-2); }
+.book-foot a { color: var(--paper-ink); }
+.ribbon, .book-close { height: 30px; padding: 0 10px; border: 1px solid color-mix(in oklab, var(--paper-ink-2) 60%, transparent); background: none; color: var(--paper-ink); font-size: 13px; }
+.ribbon:hover, .book-close:hover { background: rgb(70 45 10 / 0.08); }
+.ribbon[aria-pressed="true"] { color: var(--paper-amber); border-color: var(--paper-amber); }
 .book-close { margin-left: auto; }
 .work-links { flex: 1 1 auto; }
 
-.credit { margin-top: 40px; font-size: 13px; color: var(--ink-2); }
+.credit { margin-top: 28px; font-size: 13px; color: var(--ink-2); }
 
 /* ---- Player ---- */
 .player {
@@ -293,23 +487,19 @@ input[type="range"] { accent-color: var(--accent); }
   .app.dreaming .caption { display: none; }
   .dream { position: static; transform: none; margin: 0 var(--gutter); flex-wrap: wrap; }
   .bubble-text { font-size: 16px; max-width: 62vw; }
-  /* Books lie flat in a pile, spines facing out. */
-  .shelf-row { flex-direction: column; align-items: flex-start; gap: 2px; padding: 0 0 2px; overflow: visible; }
-  .spine {
-    width: min(100%, calc(var(--tall) * 1.6)); height: calc(var(--thick) + 4px); flex-direction: row;
-    padding: 0 12px 0 14px; gap: 12px;
-  }
-  .spine:nth-child(even) { margin-left: 10px; }
-  .spine::before, .spine::after { top: 4px; bottom: 4px; left: auto; right: auto; width: 4px; height: auto;
-    border: 0; border-left: 1px solid currentColor; border-right: 1px solid currentColor; }
-  .spine::before { left: 5px; }
-  .spine::after { right: 5px; }
-  .spine-title, .spine-cat { writing-mode: horizontal-tb; max-height: none; }
-  .spine-title { min-width: 0; }
-  .spine:hover { transform: translateX(4px); }
-  .spine.out { transform: translateX(14px); }
-  .spine-ribbon { bottom: auto; left: auto; right: -16px; top: 50%; width: 22px; height: 7px; margin: -3.5px 0 0;
+  /* Books lie flat in piles, one composer to a shelf, spines facing out in the same bindings. */
+  .shelf-books { height: auto; padding: 20px 12px 0; }
+  .group.pile { flex-direction: column; align-items: flex-start; gap: 2px; width: 100%; margin: 0; }
+  .pile .bookend { display: none; }
+  .pile .spine.flat { width: min(100%, calc(var(--tall) * 1.6)); height: calc(var(--thick) + 4px); }
+  .pile .spine:nth-child(odd) { margin-left: 10px; }
+  .pile .spine:hover:not(.out) .book3d { transform: translateX(4px); }
+  .pile .spine.out .book3d { transform: translateX(14px); }
+  .pile .spine-ribbon { bottom: auto; top: 50%; left: auto; right: -15px; width: 20px; height: 7px; margin-top: -3.5px;
     clip-path: polygon(0 0, 100% 0, 78% 50%, 100% 100%, 0 100%); }
+  .pile .marker { right: auto; left: -13px; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 22% 50%); }
+  .book { left: 6px; right: 6px; }
+  .page { padding: 16px 14px 12px 20px; }
   .player {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; height: var(--player-h);
     grid-template-columns: 1fr auto; gap: 6px 12px; padding: 10px var(--gutter);
@@ -323,6 +513,8 @@ input[type="range"] { accent-color: var(--accent); }
 @media (prefers-reduced-motion: reduce) {
   .bubble, .bubble.shown, .bubble.gone { transform: none; animation: none; filter: none; }
   .bubble-text, .bubble.gone .bubble-text { filter: none; }
-  .book { animation: none; }
-  .spine, .spine:hover { transition: none; }
+  .book, .flyleaf { animation: none; }
+  .flyleaf { display: none; }
+  .book3d { transition: none; }
+  .spine:hover:not(.out) .book3d, .pile .spine:hover:not(.out) .book3d { transform: none; }
 }

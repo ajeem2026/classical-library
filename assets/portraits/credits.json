@@ -75,5 +75,19 @@
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg",
   "file": "Tchaikovsky_by_Reutlinger_(cropped).jpg"
+ },
+ "chopin": {
+  "artist": "Louis-Auguste Bisson",
+  "date": "1849",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_photo.jpeg",
+  "file": "Frederic_Chopin_photo.jpeg"
+ },
+ "debussy": {
+  "artist": "Nadar",
+  "date": "c. 1908",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_ca_1908,_foto_av_F%C3%A9lix_Nadar.jpg",
+  "file": "Claude_Debussy_ca_1908,_foto_av_Félix_Nadar.jpg"
  }
 }

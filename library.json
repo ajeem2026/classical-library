@@ -10,8 +10,8 @@
  ],
  "loud_step": 10,
  "loud_db": {
-  "quiet_below": -30.5,
-  "loud_from": -25.8
+  "quiet_below": -30.6,
+  "loud_from": -25.9
  },
  "works": [
   {
@@ -25,6 +25,8 @@
    "performers": "Czech National Symphony Orchestra",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)",
    "note": "",
    "dream": {
@@ -111,7 +113,7 @@
      "pace": [
       4
      ],
-     "loud": "qqqqqlmqmqqqlmqlmmqqqqqmqqqqqqlmqml"
+     "loud": "qqqqqlmqmqqqlmqlmmqqqmqmqqqqqqlmqml"
     },
     {
      "n": 4,
@@ -149,6 +151,8 @@
    "performers": "Czech National Symphony Orchestra",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._1_(Brahms)",
    "note": "",
    "dream": {
@@ -186,7 +190,7 @@
       4,
       4
      ],
-     "loud": "llllqqqqqqqllqqqqqmmmlmlllqqqqmqqqqqmllllqqqqqlllllmqqqqqmlllllllmlqqqqqqqqqqlllllqmqqmqlqq"
+     "loud": "llllqqqqmqqllqqqqqmmmlmlllqqqqmqqqqqmllllqqqqqlllllmqqqqqmlllllllmlqqqqqqqqqqlllllqmqqmqlqq"
     },
     {
      "n": 2,
@@ -269,7 +273,7 @@
       4,
       4
      ],
-     "loud": "mqqqqlqqqlmmlmmmmmllmqqmllqqmmmmmlllllmmmmqllmqlllmllmmlmllllmmllllllllmlllmqqmmmmlllmlllmllllllllllll"
+     "loud": "mqqqqlqqqlmmlmmmmmllmqqlllqqmmmmmlllllmmmmqllmqlllmllmmlmllllmmllllllllmlllmqqmmmmlllmlllmllllllllllll"
     }
    ]
   },
@@ -284,6 +288,8 @@
    "performers": "Czech National Symphony Orchestra",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._2_(Brahms)",
    "note": "",
    "dream": {
@@ -323,7 +329,7 @@
      "pace": [
       4
      ],
-     "loud": "qmmqqqqqqmllmqqmmmmmmllllllllmmmqmmmmlllllllllmlmmmllllmmmmqmmqqmmmmmmlllllllllmmmqlmmllmmmlllqqqmqq"
+     "loud": "qmmqqqqqqmllmqqmmmmmmllllllllmmmqmmmmlllllllllmlmmlllllmmmmqmmqqmmmmmmlllllllllmmmmlmmllmmmlllqqqmqq"
     },
     {
      "n": 2,
@@ -346,7 +352,7 @@
      "pace": [
       1
      ],
-     "loud": "lmmqlmllqqmlmmllmqqmmlqlllllmmlqmmlqlmqllmqllllllmqmmqqq"
+     "loud": "lmmqlmllqqmlmmllmqqmmlqlllllmmlqmmlqlmmllmqllllllmqmmqqq"
     },
     {
      "n": 3,
@@ -393,7 +399,7 @@
      "pace": [
       4
      ],
-     "loud": "qmqlllllmmmlllllqmlmqmqmlllqqqmmqqqmllllllllmmllllllllllllq"
+     "loud": "qmqlllllmmmlllllqmlmqmqmlllqqqmmmqqmllllllllmmllllllllllllq"
     }
    ]
   },
@@ -408,6 +414,8 @@
    "performers": "Czech National Symphony Orchestra",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._3_(Brahms)",
    "note": "",
    "dream": {
@@ -441,7 +449,7 @@
      "pace": [
       4
      ],
-     "loud": "lllmlmqqqqqqqqqmlllllmlmqqmmqqmmllllqqqqqqqqlqllllllllqqqmlqq"
+     "loud": "lllmlmmqqqqqqqqmlllllmlmqqmlqqmmllllqqqqqqqqlqllllllllqqqmlqq"
     },
     {
      "n": 2,
@@ -464,7 +472,7 @@
      "pace": [
       2
      ],
-     "loud": "qqqqqqqqqmllqqqqqqqqqqqqmmmqmllmmqqmqqqqqmlmqqqqqqqqq"
+     "loud": "qqqqqqqqqmllqqqqqqqqqqqqmmmqmllmmmqmqqqqqmlmqqqqqqqqq"
     },
     {
      "n": 3,
@@ -511,7 +519,7 @@
      "pace": [
       4
      ],
-     "loud": "qqqqmmlllmmlllllllqqqqqqlllllllllmmllllllqqqmmmqqqmqlqmqqmq"
+     "loud": "qqqqmmlllmmlllllllqqqqqqlllllllllmmllllllqqqmmmqqqlqlqmqqmq"
     }
    ]
   },
@@ -526,6 +534,8 @@
    "performers": "Czech National Symphony Orchestra",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)",
    "note": "",
    "dream": {
@@ -559,7 +569,7 @@
      "pace": [
       4
      ],
-     "loud": "qmmmllllllllllmlmmmllllmqmmmllllqmmlllmmmqqmmllmllllllllmlmmmmllllllllllllll"
+     "loud": "qmlmllllllllllmlmmmllllmqmmmllllqmllllmmmqqmmllmllllllllmlmmmmllllllllllllll"
     },
     {
      "n": 2,
@@ -649,6 +659,8 @@
    "performers": "Czech National Symphony Orchestra",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)",
    "note": "",
    "dream": {
@@ -690,7 +702,7 @@
       1,
       4
      ],
-     "loud": "qqqqqqqqqqqqqqqqqqqqmlmqqqqqqqqqqqqqqmmqqqlmmmqqqqqqqqmmmmmllqmlmqqqmllmlllmllllllqqqmmmlmqqqqqqqqqqqqqqqq"
+     "loud": "qqqqqqqqqqqqqqqqqqqqmlmqqqqqqqqqqqqqqmmqqqlmlmqqqqqqqqmmmmmllqmlmqqqmllmlllmllllllqqqmmmlmqqqqqqqqqqqqqqqq"
     },
     {
      "n": 2,
@@ -776,6 +788,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._6_(Beethoven)",
    "note": "",
    "dream": {
@@ -809,7 +823,7 @@
      "pace": [
       4
      ],
-     "loud": "mmmlmmmmllmmmlmqmqqmmllmqlmmq"
+     "loud": "mmmlmmmmllmmmlmqmqqmmllmqllmq"
     },
     {
      "n": 2,
@@ -895,6 +909,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://imslp.org/wiki/String_Quartet_No.1_(Borodin,_Aleksandr)",
    "note": "Scherzo abridged in this recording, per IMSLP",
    "dream": {
@@ -930,7 +946,7 @@
       3,
       4
      ],
-     "loud": "mllqlllllmlqmmmlllmmmlmllllllmqqqllmlllmlllllllllmmllllllllqlmmmmlmmmmmlllllqqlmllmllmlmq"
+     "loud": "mllqlllllmlqmmmlllmmmlmllllllmqqqllmlllmlllllllllmmllllllllqlmmmmlmmmlmlllllqmlmllmllmlmq"
     },
     {
      "n": 2,
@@ -953,7 +969,7 @@
      "pace": [
       2
      ],
-     "loud": "qqmlllmllmmlllmlllmqmlllmmllllmmmqqlmmmmmlllllmlmmmq"
+     "loud": "mqmlllmllmmlllmlllmqmllllmllllmmmqqlmmmmmlllllmlmmmq"
     },
     {
      "n": 3,
@@ -1001,7 +1017,7 @@
       2,
       4
      ],
-     "loud": "qqqqqmmqqmqmmlllmmlllllmllllllmlllmmlllqllllllllmllllq"
+     "loud": "qqqqqmmqqmqmmlllmmllllllllllllllllmmlllqllllllllmllllq"
     }
    ]
   },
@@ -1016,6 +1032,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._2_(Borodin)",
    "note": "",
    "dream": {
@@ -1072,7 +1090,7 @@
      "pace": [
       4
      ],
-     "loud": "mllmllllllmlmllmmlmmlmmlllllmlllmq"
+     "loud": "mlllllllllmlmllmmlmmlmmlllllllllmq"
     },
     {
      "n": 3,
@@ -1135,6 +1153,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._12_(Dvo%C5%99%C3%A1k)",
    "note": "",
    "dream": {
@@ -1168,7 +1188,7 @@
      "pace": [
       4
      ],
-     "loud": "qmlmmmmmlqqqqllmqmlmmmqllqlmqqmmlllqmmlmqmmlmqlq"
+     "loud": "qmlmmmmmlqqqqllmqmlmmmqllqllqqmmlllqmmlmqmmlmqlq"
     },
     {
      "n": 2,
@@ -1191,7 +1211,7 @@
      "pace": [
       0
      ],
-     "loud": "qqqmqqqmqqmmmqmmmmlqmmqqmmqqqmmqqllmqqqqqqqqmqqq"
+     "loud": "qqqmqqqmqqmmmqmmmmlqmmmqmmqqqmmqqllmqqqqqqqqmqqq"
     },
     {
      "n": 3,
@@ -1215,7 +1235,7 @@
      "pace": [
       4
      ],
-     "loud": "mqmmqqmqmmqlmmqmlqlqmqlmq"
+     "loud": "mqmmqqlqmmmlmmqmlqlqmqlmq"
     },
     {
      "n": 4,
@@ -1238,7 +1258,7 @@
      "pace": [
       4
      ],
-     "loud": "qmqmmmmmmlmlqmqmmqmmmmmqlmqmmmlllllq"
+     "loud": "qmqmmmmmmlmlqmqmmqmmmmmqlmmmmmlllllq"
     }
    ]
   },
@@ -1253,6 +1273,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._10_(Dvo%C5%99%C3%A1k)",
    "note": "",
    "dream": {
@@ -1311,7 +1333,7 @@
       2,
       4
      ],
-     "loud": "qmmmlqmmlqlmlmmlqmlmmllmllmlmmqmmlmmmlmllmmlmqq"
+     "loud": "qmmmlqmmlqlmlmmlmmlmmllmllmlmmqmmlmmmlmllmmlmqq"
     },
     {
      "n": 3,
@@ -1372,6 +1394,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/String_Quartets,_Op._64_(Haydn)",
    "note": "",
    "dream": {
@@ -1428,7 +1452,7 @@
      "pace": [
       1
      ],
-     "loud": "mqqqmqmqqqmqqmmmmqqqqmmmmqqqqq"
+     "loud": "mqqqmqmqqqmqqlmmmqqqqmmmmqqqqq"
     },
     {
      "n": 3,
@@ -1451,7 +1475,7 @@
      "pace": [
       3
      ],
-     "loud": "mmmmqmmmqmqqqmmqmmmqmmq"
+     "loud": "mmmmqmmmqmqqqmmmmmmqmmq"
     },
     {
      "n": 4,
@@ -1489,6 +1513,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._6_(Mendelssohn)",
    "note": "",
    "dream": {
@@ -1522,7 +1548,7 @@
      "pace": [
       4
      ],
-     "loud": "mlllmllllllllmmlllmlllllllllllllllmmmmmlllllllq"
+     "loud": "mlllmllllllllmmlllmlllllllllllllllmmmlmlllllllq"
     },
     {
      "n": 2,
@@ -1591,7 +1617,7 @@
      "pace": [
       4
      ],
-     "loud": "lllmllllmmllmlllmmmmmlllllmlmlllllllll"
+     "loud": "lllmllllmmllmlllmmlmmlllllmlmlllllllll"
     }
    ]
   },
@@ -1606,6 +1632,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._15_(Mozart)",
    "note": "",
    "dream": {
@@ -1686,7 +1714,7 @@
      "pace": [
       3
      ],
-     "loud": "mmmmmmmmmmqqqqqqqqqmqmmqml"
+     "loud": "mmmmmmmmmmqqqmqqqqqmqmmqml"
     },
     {
      "n": 4,
@@ -1727,6 +1755,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/String_Quartet_No._19_(Mozart)",
    "note": "",
    "dream": {
@@ -1768,7 +1798,7 @@
       1,
       4
      ],
-     "loud": "qlmmmmllmmmqmlmlmmllmlllllmlllllllqmlmmmlmlllmlmllqq"
+     "loud": "qlmlmmllmmmqmlmlmlllllllllmlllllllmmlmmmlmlllmlmllqq"
     },
     {
      "n": 2,
@@ -1791,7 +1821,7 @@
      "pace": [
       2
      ],
-     "loud": "mmmlmmmlmqmlqlmmlmmmmllmqmlmmqqmmqmllmlmmmlmmqq"
+     "loud": "mmmlmmmllqmlqlmmlmmmmllmqmlmmqqmmqmllmlmmmlmmqq"
     },
     {
      "n": 3,
@@ -1815,7 +1845,7 @@
      "pace": [
       4
      ],
-     "loud": "qmqmmmmlmlmmmmmmmmlllmmlqlmlmlmmq"
+     "loud": "qmqmmmmlmlmmmmmmmmlllmllqlmlmlmmq"
     },
     {
      "n": 4,
@@ -1838,7 +1868,7 @@
      "pace": [
       4
      ],
-     "loud": "mmmlqllmllmmmllmqmlmlmllqlllmmqmllmq"
+     "loud": "mmmlqllmllmmmllmqmlmlmllmlllmmqlllmq"
     }
    ]
   },
@@ -1853,6 +1883,8 @@
    "performers": "Musopen String Quartet",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://imslp.org/wiki/Meditation_on_the_Old_Czech_Chorale_'St._Wenceslas',_Op.35a_(Suk,_Josef)",
    "note": "",
    "dream": {
@@ -1883,7 +1915,7 @@
      "tempo": [],
      "key": "",
      "pace": [],
-     "loud": "qqmqmlmqqmmmlllmmqmmmqqmlmlllllllllmmmqqq"
+     "loud": "qqmqmlmqqmmmlllmmqmmmqqllmlllllllllmmmqqq"
     }
    ]
   },
@@ -1898,6 +1930,8 @@
    "performers": "Paul Pitman",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_E-flat_major,_D_568_(Schubert)",
    "note": "",
    "dream": {
@@ -1931,7 +1965,7 @@
      "pace": [
       4
      ],
-     "loud": "qqqqqlmmmmmlmlmllmmqqqqmlmmmmmlmlmllmmqlmmlmllqmqqqmmmmllllmmmmqq"
+     "loud": "qqqqqlmmmmmlmllllmmqqqqmlmmmmmlmlmllmmqlmllmllqmqqqmmmmllllmmmmqq"
     },
     {
      "n": 2,
@@ -2000,7 +2034,7 @@
      "pace": [
       4
      ],
-     "loud": "qqmmmllmmqmmmmmmmmqmmmqmmlllmqmmmllmllmqmlmmmmmmmq"
+     "loud": "qqmmmllmmqmmmmmmmmmmmmqmmlllmqmmmllmllmqmlmmmmmmmq"
     }
    ]
   },
@@ -2015,6 +2049,8 @@
    "performers": "Paul Pitman",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_major,_D_664_(Schubert)",
    "note": "",
    "dream": {
@@ -2109,6 +2145,8 @@
    "performers": "Paul Pitman",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_minor,_D_784_(Schubert)",
    "note": "",
    "dream": {
@@ -2142,7 +2180,7 @@
      "pace": [
       4
      ],
-     "loud": "qmmlllllmlmmlmlllmqllllllllllqmmllllllmmlllllmqmllmqq"
+     "loud": "qmmlllllmllmlmlllmqllllllllllqmmllllllmmlllllmqmllmqq"
     },
     {
      "n": 2,
@@ -2203,6 +2241,8 @@
    "performers": "Paul Pitman",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_minor,_D_845_(Schubert)",
    "note": "",
    "dream": {
@@ -2259,7 +2299,7 @@
      "pace": [
       2
      ],
-     "loud": "qqqqqqqqqqqqmqmmmmqmqmmmmmmmmmmqmmqlllqqmllqmqmmmmmmmmmlmqmqmqmmlmqmlmmqqqmqqqq"
+     "loud": "qqqqqqqqqqqqmqmmmmqmqmmmmmmmmmmqmmqlllqqmllqmqmlmmmmmmmlmqmqmqmmlmqmlmmqqqmqqqq"
     },
     {
      "n": 3,
@@ -2322,6 +2362,8 @@
    "performers": "Paul Pitman",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_D_major,_D_850_(Schubert)",
    "note": "",
    "dream": {
@@ -2355,7 +2397,7 @@
      "pace": [
       4
      ],
-     "loud": "qmlllmqlmmmmmmllmlmlmqllmmmmmllllmllllmmlmmlmqmlmmllmllllq"
+     "loud": "qllllmqlmmmmmmllmlmlmqllmmmmmllllmllllmmlmmlmqllmmllmllllq"
     },
     {
      "n": 2,
@@ -2378,7 +2420,7 @@
      "pace": [
       2
      ],
-     "loud": "qqqqqqqqqqmqqqqqqqmllqqqqqllmqqqqqqqmmmmqqqqqqqqqqmllqqqmlllqqqlmmqqqqqqq"
+     "loud": "qqqqqqqmqqmqqqqqqqmllqqqqqllmqqqqqqqmmmmqqqqqqqqqqmllqqqmlllqqqlmmqqqqqqq"
     },
     {
      "n": 3,
@@ -2401,7 +2443,7 @@
      "pace": [
       4
      ],
-     "loud": "qmmmmlmmlmlmmmlmmmmmlmlqmmqmmqllqqqmqllqqqmqqqlqlmlmmmlmlmlqqqq"
+     "loud": "qmmmmlmmlmlmlmlmmmmmlmlqmmqmmqllqqqmqllqqqmqqqlqlmlmmmlmlmlqqqq"
     },
     {
      "n": 4,
@@ -2424,7 +2466,7 @@
      "pace": [
       4
      ],
-     "loud": "qqqqqqqmmmmlmlmqmqqqqqqqmmqmmlmmllmqmmmmqqqmqqmmqqmqqqqq"
+     "loud": "qqqqqqqmmmmlmlmqmqqqqqqqmmqmmlmmllmqmmmmqqqmqqmmqqmmqqqq"
     }
    ]
   },
@@ -2439,6 +2481,8 @@
    "performers": "Paul Pitman",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_C_minor,_D_958_(Schubert)",
    "note": "",
    "dream": {
@@ -2472,7 +2516,7 @@
      "pace": [
       4
      ],
-     "loud": "qlllmmlqmmmmmlllmmqllllmmmmmmmmmllmmmmlllmmmlmmmlllllqmmmmmmllmmqqmlmqq"
+     "loud": "qlllmmlmmmmmmlllmmqllllmmmmmmmmmllmmmmlllmmmlmmmlllllqmmmmmmllmmqqmlmqq"
     },
     {
      "n": 2,
@@ -2541,7 +2585,7 @@
      "pace": [
       4
      ],
-     "loud": "qmmllmmmllmmmllllllmmmqmmmmmmmlllllllmqmmmmllmlmlllllmmmmqqmmlllmq"
+     "loud": "qmmllmmmllmmmllllllmmmqmmmmmmmlllllllmqmmmmllmlmlllllmmmmmmmmlllmq"
     }
    ]
   },
@@ -2556,6 +2600,8 @@
    "performers": "Paul Pitman",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_in_A_major,_D_959_(Schubert)",
    "note": "",
    "dream": {
@@ -2683,6 +2729,8 @@
    "performers": "Shelley Katz",
    "licence": "CC0 1.0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/MusopenKickstarterRecordings",
+   "credit": "",
    "reference": "https://en.wikipedia.org/wiki/Goldberg_Variations",
    "note": "",
    "dream": {
@@ -2712,7 +2760,7 @@
      "tempo": [],
      "key": "G major",
      "pace": [],
-     "loud": "qqqqqqqqqqmqmqqqqqqqqqmqmqmmqq"
+     "loud": "qqqqqqqqqqmqmqqqqmqqqqmqmmmmqq"
     },
     {
      "n": 2,
@@ -2770,7 +2818,7 @@
      "tempo": [],
      "key": "G major",
      "pace": [],
-     "loud": "mlmmmq"
+     "loud": "mllmmq"
     },
     {
      "n": 6,
@@ -2796,7 +2844,7 @@
      "tempo": [],
      "key": "G major",
      "pace": [],
-     "loud": "qmmmmmq"
+     "loud": "qlmmmmq"
     },
     {
      "n": 8,
@@ -2826,7 +2874,7 @@
      "tempo": [],
      "key": "G major",
      "pace": [],
-     "loud": "mlmmlmmllml"
+     "loud": "mlmmlmmllll"
     },
     {
      "n": 10,
@@ -2940,7 +2988,7 @@
      "tempo": [],
      "key": "G major",
      "pace": [],
-     "loud": "lmlllmmmllq"
+     "loud": "lmlllmmlllq"
     },
     {
      "n": 18,
@@ -3005,7 +3053,7 @@
      "tempo": [],
      "key": "G minor",
      "pace": [],
-     "loud": "qmmmqmmlmm"
+     "loud": "qmmmqmllmm"
     },
     {
      "n": 23,
@@ -3162,6 +3210,342 @@
      "key": "G major",
      "pace": [],
      "loud": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   ]
+  },
+  {
+   "id": "w25",
+   "composer": "Ludwig van Beethoven",
+   "surname": "Beethoven",
+   "album": "Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2",
+   "work": "Piano Sonata No. 14 'Moonlight'",
+   "catalogue": "Op. 27 No. 2",
+   "key": "C-sharp minor",
+   "performers": "Paul Pitman",
+   "licence": "Public domain",
+   "licence_url": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg",
+   "source": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg",
+   "credit": "Paul Pitman for Musopen, released to the public domain; via Wikimedia Commons.",
+   "reference": "https://en.wikipedia.org/wiki/Piano_Sonata_No._14_(Beethoven)",
+   "note": "",
+   "dream": {
+    "portrait": "assets/portraits/beethoven.jpg",
+    "credit": "Portrait: Joseph Karl Stieler, 1820. Public domain, via Wikimedia Commons."
+   },
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2: I. Adagio sostenuto",
+     "label": "I. Adagio sostenuto",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg.mp3",
+     "local": "media/Beethoven/Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2/01 Adagio sostenuto.mp3",
+     "duration": 336,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Completed in 1801 and dedicated to his pupil Countess Julie ‘Giulietta’ Guicciardi. Beethoven titled it Sonata quasi una fantasia; ‘Moonlight’ came later, from the poet Ludwig Rellstab’s imagery.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Beethoven asked for the whole movement to be played ‘with the utmost delicacy and without dampers’. It never rises above piano.",
+       "kind": "movement"
+      },
+      {
+       "at": 184,
+       "text": "Czerny heard ‘a mournful ghostly voice’ from the distance. Beethoven, tired of this movement’s popularity, told him: ‘Surely I’ve written better things’.",
+       "kind": "movement",
+       "check": true
+      }
+     ],
+     "tempo": [
+      "Adagio sostenuto"
+     ],
+     "key": "C-sharp minor",
+     "pace": [
+      1
+     ],
+     "loud": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    },
+    {
+     "n": 2,
+     "title": "Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2: II. Allegretto",
+     "label": "II. Allegretto",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Moonlight_Sonata_Allegretto.ogg/Moonlight_Sonata_Allegretto.ogg.mp3",
+     "local": "media/Beethoven/Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2/02 Allegretto.mp3",
+     "duration": 132,
+     "notes": [
+      {
+       "at": 6,
+       "text": "A minuet in D-flat major, the shortest movement. Liszt is said to have called it ‘a flower between two abysses’.",
+       "kind": "movement"
+      }
+     ],
+     "tempo": [
+      "Allegretto"
+     ],
+     "key": "D-flat major",
+     "pace": [
+      3
+     ],
+     "loud": "qmmqmqqqqqqmqq"
+    },
+    {
+     "n": 3,
+     "title": "Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2: III. Presto agitato",
+     "label": "III. Presto agitato",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/Moonlight_Sonata_Presto.ogg/Moonlight_Sonata_Presto.ogg.mp3",
+     "local": "media/Beethoven/Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2/03 Presto agitato.mp3",
+     "duration": 494,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Presto agitato: the stormy finale, the weightiest of the three. Beethoven held the fast music back until the end.",
+       "kind": "movement"
+      },
+      {
+       "at": 120,
+       "text": "Charles Rosen: ‘Even today, two hundred years later, its ferocity is astonishing.’",
+       "kind": "movement"
+      }
+     ],
+     "tempo": [
+      "Presto agitato"
+     ],
+     "key": "C-sharp minor",
+     "pace": [
+      5
+     ],
+     "loud": "qlmlmlmlmlmmmlmmlmlmlmmlmmlmmqlmmlllmmmmlmlllqqmqq"
+    }
+   ]
+  },
+  {
+   "id": "w26",
+   "composer": "Claude Debussy",
+   "surname": "Debussy",
+   "album": "Suite bergamasque: Clair de lune in D-flat major, L. 75",
+   "work": "Suite bergamasque: Clair de lune",
+   "catalogue": "L. 75",
+   "key": "D-flat major",
+   "performers": "Laurens Goedhart",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg",
+   "credit": "“Clair de lune” played by Laurens Goedhart (2011), CC BY 3.0, via Wikimedia Commons; converted to MP3.",
+   "reference": "https://en.wikipedia.org/wiki/Suite_bergamasque",
+   "note": "",
+   "dream": {
+    "portrait": "assets/portraits/debussy.jpg",
+    "credit": "Portrait: Nadar, c. 1908. Public domain, via Wikimedia Commons."
+   },
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Suite bergamasque: Clair de lune in D-flat major, L. 75: Andante très expressif",
+     "label": "Andante très expressif",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg.mp3",
+     "local": "media/Debussy/Suite bergamasque - Clair de lune in D-flat major, L. 75/01 Andante très expressif.mp3",
+     "duration": 304,
+     "notes": [
+      {
+       "at": 4,
+       "text": "The third of four pieces in Debussy’s Suite bergamasque, begun around 1890 and revised before publication in 1905. It was first called ‘Promenade sentimentale’.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Its title is that of a poem by Paul Verlaine. Marked andante très expressif, in D-flat major, nine quavers to the bar.",
+       "kind": "movement"
+      },
+      {
+       "at": 182,
+       "text": "Disney planned it for Fantasia (1940) but cut it for length. Its heron footage became ‘Blue Bayou’ in Make Mine Music.",
+       "kind": "movement",
+       "check": true
+      }
+     ],
+     "tempo": [
+      "Andante très expressif"
+     ],
+     "key": "D-flat major",
+     "pace": [
+      2
+     ],
+     "loud": "qqqqqqmmlqmmqqqmmlqqqqqqmqqqqqq"
+    }
+   ]
+  },
+  {
+   "id": "w27",
+   "composer": "Frédéric Chopin",
+   "surname": "Chopin",
+   "album": "Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1",
+   "work": "Nocturnes",
+   "catalogue": "Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1",
+   "key": "",
+   "performers": "Olga Gurevich, Frank Levy, Xuan He, Luke Faulkner",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/details/musopen-chopin-complete-works-flac",
+   "credit": "Musopen’s “Set Chopin Free” recordings (2013), CC0, via the Internet Archive.",
+   "reference": "https://en.wikipedia.org/wiki/Nocturnes_(Chopin)",
+   "note": "",
+   "dream": {
+    "portrait": "assets/portraits/chopin.jpg",
+    "credit": "Portrait: Louis-Auguste Bisson, 1849. Public domain, via Wikimedia Commons."
+   },
+   "tracks": [
+    {
+     "n": 1,
+     "title": "Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1: Op. 9 No. 1 in B-flat minor: Larghetto",
+     "label": "Op. 9 No. 1 in B-flat minor: Larghetto",
+     "url": "https://archive.org/download/musopen-chopin-complete-works-flac/Nocturne%20in%20B%20flat%20minor%2C%20Op.%209%20no.%201.mp3",
+     "local": "media/Chopin/Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1/01 Op. 9 No. 1 in B-flat minor - Larghetto.mp3",
+     "performer": "Olga Gurevich",
+     "duration": 337,
+     "notes": [
+      {
+       "at": 4,
+       "text": "Chopin wrote 21 nocturnes, taking the form from the Irish composer John Field. Op. 9, dedicated to Marie Pleyel, was his first published set.",
+       "kind": "work"
+      },
+      {
+       "at": 40,
+       "text": "Olga Gurevich plays. The left hand rolls steady arpeggios while the right hand floats free, in runs of seven, eleven, even twenty-two notes.",
+       "kind": "movement"
+      },
+      {
+       "at": 242,
+       "text": "Before the return, the melody floats over seventeen bars of D-flat major chords. The close turns to major.",
+       "kind": "movement",
+       "check": true
+      }
+     ],
+     "tempo": [],
+     "key": "B-flat minor",
+     "pace": [],
+     "loud": "qmmqmmlmmqqmmmlqmmqllmqmqqqqllqmqq"
+    },
+    {
+     "n": 2,
+     "title": "Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1: Op. 9 No. 2 in E-flat major: Andante",
+     "label": "Op. 9 No. 2 in E-flat major: Andante",
+     "url": "https://archive.org/download/musopen-chopin-complete-works-flac/Nocturne%20in%20E%20flat%20major%2C%20Op.%209%20no.%202.mp3",
+     "local": "media/Chopin/Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1/02 Op. 9 No. 2 in E-flat major - Andante.mp3",
+     "performer": "Frank Levy",
+     "duration": 271,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Frank Levy plays the nocturne often called Chopin’s most famous piece, written when he was about twenty. Each return of the melody is more ornamented.",
+       "kind": "movement"
+      },
+      {
+       "at": 211,
+       "text": "Near the end, a passage marked senza tempo: ‘without tempo’.",
+       "kind": "movement",
+       "check": true
+      }
+     ],
+     "tempo": [
+      "Andante"
+     ],
+     "key": "E-flat major",
+     "pace": [
+      2
+     ],
+     "loud": "qmqmmqmmmlmmqmllmmqqqllqqqqq"
+    },
+    {
+     "n": 3,
+     "title": "Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1: Op. 9 No. 3 in B major: Allegretto",
+     "label": "Op. 9 No. 3 in B major: Allegretto",
+     "url": "https://archive.org/download/musopen-chopin-complete-works-flac/Nocturne%20in%20B%20major%2C%20Op.%209%20no.%203.mp3",
+     "local": "media/Chopin/Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1/03 Op. 9 No. 3 in B major - Allegretto.mp3",
+     "performer": "Xuan He",
+     "duration": 418,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Xuan He plays. Allegretto: a chromatic theme with a nostalgic energy, full of coloratura ornaments.",
+       "kind": "movement"
+      },
+      {
+       "at": 190,
+       "text": "The agitato in B minor: melody and counter-melody in the right hand over running left-hand arpeggios.",
+       "kind": "movement",
+       "check": true
+      }
+     ],
+     "tempo": [
+      "Allegretto"
+     ],
+     "key": "B major",
+     "pace": [
+      3
+     ],
+     "loud": "qqmmmqqqmmqqqlmmqmqlmmmllmlmmlmqqqmmmmqqqq"
+    },
+    {
+     "n": 4,
+     "title": "Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1: Op. 27 No. 2 in D-flat major: Lento sostenuto",
+     "label": "Op. 27 No. 2 in D-flat major: Lento sostenuto",
+     "url": "https://archive.org/download/musopen-chopin-complete-works-flac/Nocturne%20in%20D%20flat%20major%2C%20Op.%2027%20no.%202.mp3",
+     "local": "media/Chopin/Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1/04 Op. 27 No. 2 in D-flat major - Lento sostenuto.mp3",
+     "performer": "Frank Levy",
+     "duration": 378,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Frank Levy plays. Composed in 1836 and dedicated to Countess d’Appony: two strophes in ever more elaborate variations, often with a second voice under the melody.",
+       "kind": "movement"
+      },
+      {
+       "at": 317,
+       "text": "The cadence near the end: ‘one of the most glorious moments in Chopin’s entire output’, wrote Blair Johnston.",
+       "kind": "movement",
+       "check": true
+      }
+     ],
+     "tempo": [
+      "Lento sostenuto"
+     ],
+     "key": "D-flat major",
+     "pace": [
+      0
+     ],
+     "loud": "mmqmmlllllmqmmmllllllmmmqlllmmmqmqqqqq"
+    },
+    {
+     "n": 5,
+     "title": "Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1: Op. 48 No. 1 in C minor: Lento",
+     "label": "Op. 48 No. 1 in C minor: Lento",
+     "url": "https://archive.org/download/musopen-chopin-complete-works-flac/Nocturne%20in%20C%20minor%2C%20Op.%2048%20no.%201.mp3",
+     "local": "media/Chopin/Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1/05 Op. 48 No. 1 in C minor - Lento.mp3",
+     "performer": "Luke Faulkner",
+     "duration": 379,
+     "notes": [
+      {
+       "at": 6,
+       "text": "Luke Faulkner plays. Written in 1841: James Huneker called it ‘the noblest nocturne of them all’.",
+       "kind": "movement"
+      },
+      {
+       "at": 126,
+       "text": "The middle begins as a chorale in C major, then breaks into doppio movimento agitato, with thundering octaves.",
+       "kind": "movement",
+       "check": true
+      }
+     ],
+     "tempo": [
+      "Lento"
+     ],
+     "key": "C minor",
+     "pace": [
+      0
+     ],
+     "loud": "qqqqqqqqqmmqqqqqmqqmllllllllllllllmqqq"
     }
    ]
   }
