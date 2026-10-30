@@ -1,6 +1,6 @@
 # Classical Library
 
-Starter set built from Musopen's public-domain Kickstarter recordings on the Internet Archive.
+Built from Musopen's public-domain Kickstarter recordings on the Internet Archive, plus three works from other openly licensed sources (listed below).
 
 - **Source item:** [MusopenKickstarterRecordings](https://archive.org/details/MusopenKickstarterRecordings) (uploaded by Musopen, `aaron@musopen.org`, 2012)
 - **Licence:** [CC0 1.0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/) on the item's `licenseurl`. No attribution is legally required; it is given here as a courtesy.
@@ -33,8 +33,17 @@ Starter set built from Musopen's public-domain Kickstarter recordings on the Int
 | Franz Schubert | Piano Sonata in C minor | D. 958 | Paul Pitman | 4 | [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) | [item](https://archive.org/details/MusopenKickstarterRecordings) · [zip listing](https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/), folder `Schubert - The Piano Sonatas` | [ref](https://en.wikipedia.org/wiki/Piano_Sonata_in_C_minor,_D_958_(Schubert)) |
 | Franz Schubert | Piano Sonata in A major | D. 959 | Paul Pitman | 4 | [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) | [item](https://archive.org/details/MusopenKickstarterRecordings) · [zip listing](https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/), folder `Schubert - The Piano Sonatas` | [ref](https://en.wikipedia.org/wiki/Piano_Sonata_in_A_major,_D_959_(Schubert)) |
 | Johann Sebastian Bach | Goldberg Variations in G major | BWV 988 | Shelley Katz | 32 | [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) | [item](https://archive.org/details/MusopenKickstarterRecordings) · [zip listing](https://archive.org/download/MusopenKickstarterRecordings/Musopen%20DVD.zip/), folder `Goldberg Variations` | [ref](https://en.wikipedia.org/wiki/Goldberg_Variations) |
+| Ludwig van Beethoven | Piano Sonata No. 14 'Moonlight' in C-sharp minor | Op. 27 No. 2 | Paul Pitman | 3 | [Public domain](https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg) | [source](https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg) | [ref](https://en.wikipedia.org/wiki/Piano_Sonata_No._14_(Beethoven)) |
+| Claude Debussy | Suite bergamasque: Clair de lune in D-flat major | L. 75 | Laurens Goedhart | 1 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | [source](https://commons.wikimedia.org/wiki/File:Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg) | [ref](https://en.wikipedia.org/wiki/Suite_bergamasque) |
+| Frédéric Chopin | Nocturnes | Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1 | Olga Gurevich, Frank Levy, Xuan He, Luke Faulkner | 5 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [source](https://archive.org/details/musopen-chopin-complete-works-flac) | [ref](https://en.wikipedia.org/wiki/Nocturnes_(Chopin)) |
 
-**24 works, 119 tracks.** All files are 320 kbps MP3.
+**27 works, 128 tracks.** The Musopen zip's files are 320 kbps MP3; the Chopin nocturnes are archive.org's VBR MP3s of Musopen's FLACs; the Moonlight Sonata and Clair de lune were converted to VBR MP3 (LAME -V0) from the Ogg Vorbis files on Wikimedia Commons.
+
+## Recordings from other sources
+
+- **Ludwig van Beethoven, Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2:** Paul Pitman for Musopen, released to the public domain; via Wikimedia Commons. Licence: [Public domain](https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg).
+- **Claude Debussy, Suite bergamasque: Clair de lune in D-flat major, L. 75:** “Clair de lune” played by Laurens Goedhart (2011), CC BY 3.0, via Wikimedia Commons; converted to MP3. Licence: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+- **Frédéric Chopin, Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1:** Musopen’s “Set Chopin Free” recordings (2013), CC0, via the Internet Archive. Licence: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ## Notes on the source
 
@@ -66,6 +75,8 @@ The dream scenes use these public-domain portraits from Wikimedia Commons, cropp
 | Beethoven | Joseph Karl Stieler, 1820 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg) |
 | Borodin | Unknown, 1865 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Borodin.jpg) |
 | Brahms | C. Brasch, Berlin, 1889 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:JohannesBrahms_(cropped).jpg) |
+| Chopin | Louis-Auguste Bisson, 1849 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Frederic_Chopin_photo.jpeg) |
+| Debussy | Nadar, c. 1908 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Claude_Debussy_ca_1908,_foto_av_F%C3%A9lix_Nadar.jpg) |
 | Dvořák | Unknown author, 1882 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Dvorak.jpg) |
 | Haydn | Thomas Hardy, 1791 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Joseph_Haydn.jpg) |
 | Mendelssohn | Eduard Magnus, 1833 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg) |

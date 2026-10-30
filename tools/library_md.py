@@ -8,7 +8,8 @@ from library import ZIP_BASE
 out = [
     "# Classical Library",
     "",
-    "Starter set built from Musopen's public-domain Kickstarter recordings on the Internet Archive.",
+    "Built from Musopen's public-domain Kickstarter recordings on the Internet Archive, plus three works from"
+    " other openly licensed sources (listed below).",
     "",
     f"- **Source item:** [{ITEM}]({ITEM_URL}) (uploaded by Musopen, `aaron@musopen.org`, 2012)",
     f"- **Licence:** [{LICENCE} Public Domain Dedication]({LICENCE_URL}) on the item's `licenseurl`."
@@ -22,13 +23,24 @@ out = [
 for w in WORKS:
     work = w["work"] + (f" in {w['key']}" if w["key"] else "")
     note = f" ({w['note']})" if w.get("note") else ""
+    if "files" in w:
+        lic, source = f"[{w['licence']}]({w['licence_url']})", f"[source]({w['source']})"
+    else:
+        lic = f"[{LICENCE}]({LICENCE_URL})"
+        source = f"[item]({ITEM_URL}) · [zip listing]({ZIP_BASE}), folder `{w['src'].strip()}`"
     out.append(f"| {w['composer']} | {work}{note} | {w['cat'] or '—'} | {w['perf']} | "
-               f"{len(w['mov'])} | [{LICENCE}]({LICENCE_URL}) | [item]({ITEM_URL}) · "
-               f"[zip listing]({ZIP_BASE}), folder `{w['src'].strip()}` | [ref]({w['ref']}) |")
+               f"{len(w['mov'])} | {lic} | {source} | [ref]({w['ref']}) |")
 
 out += [
     "",
-    f"**{len(WORKS)} works, {sum(len(w['mov']) for w in WORKS)} tracks.** All files are 320 kbps MP3.",
+    f"**{len(WORKS)} works, {sum(len(w['mov']) for w in WORKS)} tracks.** The Musopen zip's files are 320 kbps MP3;"
+    " the Chopin nocturnes are archive.org's VBR MP3s of Musopen's FLACs; the Moonlight Sonata and Clair de lune"
+    " were converted to VBR MP3 (LAME -V0) from the Ogg Vorbis files on Wikimedia Commons.",
+    "",
+    "## Recordings from other sources",
+    "",
+    *[f"- **{w['composer']}, {album(w)}:** {w['credit']} Licence: [{w['licence']}]({w['licence_url']})."
+      for w in WORKS if "files" in w],
     "",
     "## Notes on the source",
     "",

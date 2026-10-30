@@ -29,7 +29,7 @@ Dream lines are in `data/dreams_to_check.md`.
 - **String Quartet in D major, Op. 64 No. 5, Hob. III:63**, IV. Finale: Vivace: the fugal middle is not described on the fetched page.  
   “Finale: a perpetual motion of rapid notes, with a fugal passage in the middle.”
 
-## Timings to check by ear (19)
+## Timings to check by ear (26)
 
 Each was placed from the recording's loudness or a fraction of its length.
 
@@ -71,3 +71,17 @@ Each was placed from the recording's loudness or a fraction of its length.
   “The chorale to the Czech patron saint builds to its fullest sound: in the war years, a hymn of hope.”
 - **Piano Sonata in A major, D. 959**, II. Andantino, at **4:31**:  
   “The middle section erupts: improvisatory, with harsh modulations, peaking in fortissimo chords.”
+- **Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2**, I. Adagio sostenuto, at **3:04**:  
+  “Czerny heard ‘a mournful ghostly voice’ from the distance. Beethoven, tired of this movement’s popularity, told him: ‘Surely I’ve written better things’.”
+- **Suite bergamasque: Clair de lune in D-flat major, L. 75**, Andante très expressif, at **3:02**:  
+  “Disney planned it for Fantasia (1940) but cut it for length. Its heron footage became ‘Blue Bayou’ in Make Mine Music.”
+- **Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1**, Op. 9 No. 1 in B-flat minor: Larghetto, at **4:02**:  
+  “Before the return, the melody floats over seventeen bars of D-flat major chords. The close turns to major.”
+- **Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1**, Op. 9 No. 2 in E-flat major: Andante, at **3:31**:  
+  “Near the end, a passage marked senza tempo: ‘without tempo’.”
+- **Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1**, Op. 9 No. 3 in B major: Allegretto, at **3:10**:  
+  “The agitato in B minor: melody and counter-melody in the right hand over running left-hand arpeggios.”
+- **Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1**, Op. 27 No. 2 in D-flat major: Lento sostenuto, at **5:17**:  
+  “The cadence near the end: ‘one of the most glorious moments in Chopin’s entire output’, wrote Blair Johnston.”
+- **Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1**, Op. 48 No. 1 in C minor: Lento, at **2:06**:  
+  “The middle begins as a chorale in C major, then breaks into doppio movimento agitato, with thundering octaves.”

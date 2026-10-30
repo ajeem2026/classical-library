@@ -150,6 +150,78 @@ WORKS = [
          ref="https://en.wikipedia.org/wiki/Goldberg_Variations"),
 ]
 
+# ---- Recordings from outside the Musopen zip ---------------------------------
+# Each names its own licence, source and files. A file is streamed from `url`; the local
+# copy is fetched from `get` (converted to MP3 if it is not one). `perf` on a file names
+# that track's performer when the work has several. Licences checked Oct 2026:
+#
+# Moonlight: Paul Pitman for Musopen. Commons: "Recording: {{PD-author}}" with Wikimedia
+#   VRT permission ticket 2008012110017088 (Musopen's release), on all three files.
+# Clair de lune: Laurens Goedhart, 2011. Commons: "recording={{cc-by-3.0}}"; the permission
+#   is an archived copy of his SoundCloud page ("licensed under a Creative Commons License",
+#   linking CC BY 3.0). CC BY: credit him, link the licence, say we converted it to MP3.
+# Nocturnes: Musopen's "Set Chopin Free" Kickstarter (2013), released as public domain.
+#   archive.org item licenseurl CC0 1.0 (a 2026 re-upload of Musopen's set, publisher
+#   Musopen); Commons tags the same performances {{PD-author|Musopen}}, citing Musopen's
+#   Kickstarter post 1193714. Performers from each file's tags, matching Commons.
+COMMONS = "https://commons.wikimedia.org/wiki/File:"
+UPLOAD = "https://upload.wikimedia.org/wikipedia/commons/"
+
+
+def commons(path, name):
+    """Stream from Commons' MP3 transcode (plays everywhere, sends CORS); keep the original."""
+    return dict(url=f"{UPLOAD}transcoded/{path}/{name}/{name}.mp3", get=f"{UPLOAD}{path}/{name}",
+                page=COMMONS + name)
+
+
+MOONLIGHT_I = "Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg"
+CLAIR = "Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg"
+CHOPIN_ITEM = "musopen-chopin-complete-works-flac"
+CHOPIN_DL = f"https://archive.org/download/{CHOPIN_ITEM}/"
+
+
+def chopin(name, perf):
+    url = CHOPIN_DL + name.replace(" ", "%20").replace(",", "%2C")
+    return dict(url=url, get=url, perf=perf, page=f"https://archive.org/details/{CHOPIN_ITEM}")
+
+
+WORKS += [
+    dict(composer="Ludwig van Beethoven", surname="Beethoven",
+         work="Piano Sonata No. 14 'Moonlight'", key="C-sharp minor", cat="Op. 27 No. 2",
+         perf="Paul Pitman", mov=["Adagio sostenuto", "Allegretto", "Presto agitato"],
+         files=[commons("4/48", MOONLIGHT_I), commons("f/f5", "Moonlight_Sonata_Allegretto.ogg"),
+                commons("1/1d", "Moonlight_Sonata_Presto.ogg")],
+         licence="Public domain", licence_url=COMMONS + MOONLIGHT_I,
+         source=COMMONS + MOONLIGHT_I,
+         credit="Paul Pitman for Musopen, released to the public domain; via Wikimedia Commons.",
+         ref="https://en.wikipedia.org/wiki/Piano_Sonata_No._14_(Beethoven)"),
+    dict(composer="Claude Debussy", surname="Debussy",
+         work="Suite bergamasque: Clair de lune", key="D-flat major", cat="L. 75",
+         perf="Laurens Goedhart", mov=["Andante très expressif"], numbered=False,
+         files=[commons("b/be", CLAIR)],
+         licence="CC BY 3.0", licence_url="https://creativecommons.org/licenses/by/3.0/",
+         source=COMMONS + CLAIR,
+         credit="“Clair de lune” played by Laurens Goedhart (2011), CC BY 3.0, via Wikimedia Commons; "
+                "converted to MP3.",
+         ref="https://en.wikipedia.org/wiki/Suite_bergamasque"),
+    dict(composer="Frédéric Chopin", surname="Chopin",
+         work="Nocturnes", key="", cat="Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1",
+         perf="Olga Gurevich, Frank Levy, Xuan He, Luke Faulkner", numbered=False,
+         # src for the markings: IMSLP (Op. 9) and the Op. 27 and Op. 48 Wikipedia pages
+         mov=["Op. 9 No. 1 in B-flat minor: Larghetto", "Op. 9 No. 2 in E-flat major: Andante",
+              "Op. 9 No. 3 in B major: Allegretto", "Op. 27 No. 2 in D-flat major: Lento sostenuto",
+              "Op. 48 No. 1 in C minor: Lento"],
+         files=[chopin("Nocturne in B flat minor, Op. 9 no. 1.mp3", "Olga Gurevich"),
+                chopin("Nocturne in E flat major, Op. 9 no. 2.mp3", "Frank Levy"),
+                chopin("Nocturne in B major, Op. 9 no. 3.mp3", "Xuan He"),
+                chopin("Nocturne in D flat major, Op. 27 no. 2.mp3", "Frank Levy"),
+                chopin("Nocturne in C minor, Op. 48 no. 1.mp3", "Luke Faulkner")],
+         licence="CC0 1.0", licence_url="https://creativecommons.org/publicdomain/zero/1.0/",
+         source=f"https://archive.org/details/{CHOPIN_ITEM}",
+         credit="Musopen’s “Set Chopin Free” recordings (2013), CC0, via the Internet Archive.",
+         ref="https://en.wikipedia.org/wiki/Nocturnes_(Chopin)"),
+]
+
 
 def album(w):
     s = w["work"]
@@ -554,6 +626,77 @@ NOTES = {
                    "the bass.")],
             32: [N("The Aria returns unchanged, but it sounds different after everything in between.")],
         }),
+
+    # ---- From other sources (see the licence notes above WORKS += [...]) --------
+    "Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2": dict(
+        # src: W+"Piano_Sonata_No._14_(Beethoven)" (1801; dedication 1802; Rellstab; quasi una fantasia)
+        work=N("Completed in 1801 and dedicated to his pupil Countess Julie 'Giulietta' Guicciardi. "
+               "Beethoven titled it Sonata quasi una fantasia; 'Moonlight' came later, from the poet "
+               "Ludwig Rellstab's imagery."),
+        movements={
+            # src: same page (I.; the pedal direction; pp throughout, never above p)
+            1: [N("Beethoven asked for the whole movement to be played 'with the utmost delicacy and "
+                  "without dampers'. It never rises above piano."),
+                # src: same page (Czerny's description; "Surely I've written better things")
+                N("Czerny heard 'a mournful ghostly voice' from the distance. Beethoven, tired of this "
+                  "movement's popularity, told him: 'Surely I've written better things'.", at="frac:0.55")],
+            # src: same page (II. minuet, D-flat major, shortest; Liszt "is said to have")
+            2: [N("A minuet in D-flat major, the shortest movement. Liszt is said to have called it 'a "
+                  "flower between two abysses'.")],
+            # src: same page (III. the weightiest movement, placed last; Rosen)
+            3: [N("Presto agitato: the stormy finale, the weightiest of the three. Beethoven held the "
+                  "fast music back until the end."),
+                # (fixed time: the movement is loud throughout, so there is no single climax)
+                N("Charles Rosen: 'Even today, two hundred years later, its ferocity is astonishing.'",
+                  at="after:120")],
+        }),
+
+    "Suite bergamasque: Clair de lune in D-flat major, L. 75": dict(
+        # src: W+"Suite_bergamasque" (begun c. 1890, revised for 1905; Promenade sentimentale; Verlaine)
+        work=N("The third of four pieces in Debussy's Suite bergamasque, begun around 1890 and revised "
+               "before publication in 1905. It was first called 'Promenade sentimentale'."),
+        movements={
+            # src: same page (title from Verlaine's poem; andante très expressif; 9/8)
+            1: [N("Its title is that of a poem by Paul Verlaine. Marked andante très expressif, in "
+                  "D-flat major, nine quavers to the bar."),
+                # src: same page (Fantasia: cut for runtime; footage reused for "Blue Bayou")
+                N("Disney planned it for Fantasia (1940) but cut it for length. Its heron footage became "
+                  "'Blue Bayou' in Make Mine Music.", at="frac:0.6")],
+        }),
+
+    "Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1": dict(
+        # src: W+"Nocturnes_(Chopin)" (21 nocturnes; Field), W+"Nocturnes,_Op._9_(Chopin)" (first set; Pleyel)
+        work=N("Chopin wrote 21 nocturnes, taking the form from the Irish composer John Field. Op. 9, "
+               "dedicated to Marie Pleyel, was his first published set."),
+        movements={
+            # src: W+"Nocturnes,_Op._9_(Chopin)" (No. 1: free right hand; groups of 7, 11, 20, 22)
+            1: [N("Olga Gurevich plays. The left hand rolls steady arpeggios while the right hand floats "
+                  "free, in runs of seven, eleven, even twenty-two notes."),
+                # src: same page (melody over 17 bars of D-flat major chords; Picardy third)
+                N("Before the return, the melody floats over seventeen bars of D-flat major chords. The "
+                  "close turns to major.", at="frac:0.72")],
+            # src: same page (No. 2: often called his most famous piece; about twenty; ornamented returns)
+            2: [N("Frank Levy plays the nocturne often called Chopin's most famous piece, written when he "
+                  "was about twenty. Each return of the melody is more ornamented."),
+                # src: same page (penultimate bar: senza tempo)
+                N("Near the end, a passage marked senza tempo: 'without tempo'.", at="end")],
+            # src: same page (No. 3: Allegretto, chromatic; Agitato in B minor)
+            3: [N("Xuan He plays. Allegretto: a chromatic theme with a nostalgic energy, full of "
+                  "coloratura ornaments."),
+                N("The agitato in B minor: melody and counter-melody in the right hand over running "
+                  "left-hand arpeggios.", at="surge")],
+            # src: W+"Nocturnes,_Op._27_(Chopin)" (1836; Countess d'Appony; two strophes; second voice)
+            4: [N("Frank Levy plays. Composed in 1836 and dedicated to Countess d'Appony: two strophes in "
+                  "ever more elaborate variations, often with a second voice under the melody."),
+                # src: same page (Blair Johnston on the main cadence near the end)
+                N("The cadence near the end: 'one of the most glorious moments in Chopin's entire output', "
+                  "wrote Blair Johnston.", at="end")],
+            # src: W+"Nocturnes,_Op._48_(Chopin)" (1841; lento; chorale; doppio movimento; Huneker)
+            5: [N("Luke Faulkner plays. Written in 1841: James Huneker called it 'the noblest nocturne of "
+                  "them all'."),
+                N("The middle begins as a chorale in C major, then breaks into doppio movimento agitato, "
+                  "with thundering octaves.", at="surge")],
+        }),
 }
 
 
@@ -585,4 +728,8 @@ MKEYS = {
     "Piano Sonata in C minor, D. 958": {2: "A-flat major", 3: "C minor"},
     "Piano Sonata in A major, D. 959": {2: "F-sharp minor", 3: "A major"},
     "Goldberg Variations in G major, BWV 988": {16: "G minor", 22: "G minor", 26: "G minor"},
+    # Keys given by Jeem; the nocturnes' keys also match their titles (Wikipedia, IMSLP).
+    "Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2": {2: "D-flat major"},
+    "Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1": {
+        1: "B-flat minor", 2: "E-flat major", 3: "B major", 4: "D-flat major", 5: "C minor"},
 }

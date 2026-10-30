@@ -10,7 +10,7 @@ Every line is under 25 words. A source comment marks each line that states a
 fact; lines with none voice feeling or imagery, not fact. unsure= marks a claim
 the source did not confirm (listed in data/dreams_to_check.md).
 
-Brahms was written first to set the voice; the other twenty works follow it.
+Brahms was written first to set the voice; the other works follow it.
 """
 
 
@@ -1593,5 +1593,231 @@ DREAMS = {
             L("Sleep well. If you can't, Goldberg will play."),
             L("The choir needs me. Go, and practise your counterpoint."),
             me("The Aria returns, and the room settles back into its first shape."),
+        ]),
+
+    # ---- Beethoven, Moonlight ------------------------------------------------------
+    "Piano Sonata No. 14 'Moonlight' in C-sharp minor, Op. 27 No. 2": dict(
+        # src: W+"Piano_Sonata_No._14_(Beethoven)" and its NOTES unless noted (fetched Oct 2026);
+        # LvB = W+"Ludwig_van_Beethoven"
+        open=[
+            L("Come in, quietly. The candles are low and the piano is still warm."),
+            # dedicated in 1802 to his pupil Countess Julie "Giulietta" Guicciardi
+            L("Welcome. I'm copying out a sonata for my pupil, the young Countess Guicciardi."),
+            # LvB: hearing loss from 1798, with severe tinnitus
+            L("Speak up a little, will you? My ears have been ringing for some time."),
+            # LvB: reputation as an improviser in the salons of the Viennese nobility
+            L("Sit. Vienna knows me for improvising. Tonight I'll play something already written down."),
+        ],
+        qa=[
+            Q("Did you call it the Moonlight Sonata?",
+              # the nickname came from Rellstab's imagery, not from Beethoven
+              L("Never. I wrote 'Sonata quasi una fantasia'. The moonlight belongs to a poet."),
+              # Rellstab's story Theodor, 1824: a lake in moon-shimmer
+              L("A poet called Rellstab saw moonlight on a lake in it, in 1824. A pretty picture."),
+              # critics called the title misleading, the movement almost a funeral march
+              L("Moonlight? Some hear a funeral march. Let them argue.")),
+            Q("Why 'quasi una fantasia'?",
+              # end-weighted: the fast music held off until the third movement
+              L("Because it breaks the usual order. The fast music waits until the end."),
+              # the companion Op. 27 No. 1 has the same title
+              L("Its twin, the other sonata of Op. 27, has the same title. Both wander."),
+              # Grove: "sonata in the manner of a fantasy", suggestive of improvisation
+              L("A sonata that sounds as if I'm making it up as I go.")),
+            Q("Who was Giulietta?",
+              # dedicatee, his pupil
+              L("My pupil, Countess Julie Guicciardi. The sonata carries her name."),
+              L("A pupil. Leave it there."),
+              L("Someone I taught, and thought about more than I should have.",
+                unsure="his feelings for Guicciardi are not in the fetched sources")),
+            Q("How should the first movement be played?",
+              # "Si deve suonare tutto questo pezzo delicatissimamente e senza sordino"
+              L("With the utmost delicacy, and without dampers. I wrote it at the top."),
+              # played pianissimo; the loudest it gets is piano
+              L("Softly. It never rises above piano. If you play it loud, you've misread me."),
+              # a modern piano sustains much longer than the pianos of Beethoven's time
+              L("On my piano the pedal can stay down. Yours rings far longer, so be careful.")),
+            Q("Everyone wants the first movement. Does that annoy you?",
+              # remark to Czerny: "Surely I've written better things"
+              L("Surely I've written better things. I told Czerny so."),
+              # very popular in his day, to the point of exasperating him
+              L("It was popular even in my day. Popularity is a strange reward."),
+              L("They stop listening after the first page. The storm is at the end.")),
+            Q("What is the middle movement?",
+              # Allegretto: a minuet in D-flat major, the shortest movement
+              L("A little minuet in D-flat major. The shortest of the three."),
+              # Liszt is said to have called it "a flower between two abysses"
+              L("Liszt is said to call it a flower between two abysses. Rather good, for Liszt."),
+              L("A breath between the night and the storm.")),
+            Q("Why is the finale so violent?",
+              # the weightiest movement, placed last
+              L("Because the weight belongs at the end. Here the storm comes last."),
+              # mostly marked piano; sforzandos and a few fortissimos make the power
+              L("Most of it is marked piano. The sforzandos do the shouting."),
+              # Rosen: "its ferocity is astonishing"
+              L("Two hundred years on, someone will still call its ferocity astonishing. Good.")),
+            Q("Were you already losing your hearing?",
+              # LvB: told Neate it began in 1798; severe tinnitus
+              L("It began a few years before this, with a ringing that never stops."),
+              # LvB: letters to Wegeler and Amenda describing the symptoms
+              L("I've written to Wegeler and Amenda about it. Few others know."),
+              # LvB: on his doctor's advice, Heiligenstadt from April 1802
+              L("My doctor wants me in Heiligenstadt next spring. I don't know yet what I'll write there.")),
+        ],
+        close=[
+            L("The candle's nearly out. Let the triplets carry you home."),
+            L("The Presto is coming. Hold on to something."),
+            L("Go now. And play it softly, whatever they tell you."),
+            me("The triplets keep turning, and his voice sinks under them."),
+        ]),
+
+    # ---- Debussy, Clair de lune ----------------------------------------------------
+    "Suite bergamasque: Clair de lune in D-flat major, L. 75": dict(
+        # src: W+"Suite_bergamasque" and its NOTES unless noted (fetched Oct 2026);
+        # CD = W+"Claude_Debussy"
+        open=[
+            # begun around 1890
+            L("Come in. It's 1890, or near it. I'm writing pieces I won't let anyone print for years."),
+            # revised just before the 1905 publication
+            L("Welcome. My publisher wants my old suite back. I'm correcting it, and wincing."),
+            L("Shh. Listen to the arpeggios first. We can talk when the moon comes up."),
+            L("Good evening. Sit by the window. The light there is better than the lamp."),
+        ],
+        qa=[
+            Q("Where does the title come from?",
+              # from Verlaine's poem "Clair de lune"
+              L("From Verlaine's poem. His moonlight is sad and beautiful, like this."),
+              # originally entitled "Promenade sentimentale", also a Verlaine title
+              L("I first called it 'Promenade sentimentale'. Also Verlaine. Moonlight was better."),
+              # Verlaine's poem refers to bergamasks in its opening stanza
+              L("Verlaine's poem mentions bergamasques. So the whole suite took the name.")),
+            Q("Why did you wait so long to publish it?",
+              # unwilling: early pieces not in his mature style
+              L("They were young pieces, not in my later style. I didn't want them seen."),
+              # in 1905 he accepted a publisher's offer, given his fame
+              L("A publisher thought my name would sell them by 1905. He was right, irritatingly."),
+              # not known how much was written in 1890 and how much in 1905
+              L("Nobody knows how much I rewrote. I prefer it that way.")),
+            Q("Are you an Impressionist?",
+              # CD: said anyone using the term was an imbecile
+              L("Anyone who uses that word is an imbecile. I've said so."),
+              # CD: the Conservatoire's assessors first applied it, disapprovingly, to Printemps
+              L("The Conservatoire used it as an insult first, about my Printemps."),
+              L("I write music. Leave the brushstrokes to the painters.")),
+            Q("What do you think of Chopin?",
+              # CD: "the greatest of them all, for through the piano he discovered everything"
+              L("The greatest of them all. Through the piano he discovered everything."),
+              # CD: from 1914 supervised the editing of Durand's Chopin edition
+              L("One day I'll edit his music for Durand. I owe him respectful gratitude."),
+              # CD: he took lessons from Antoinette Mauté de Fleurville
+              L("My first real teacher, Madame Mauté, said she'd been his pupil.",
+                unsure="Mauté's claim to have studied with Chopin is not in the fetched source")),
+            Q("How did you start playing?",
+              # CD: first lessons at seven in Cannes, with Jean Cerutti, paid by his aunt
+              L("In Cannes, at seven, with an Italian called Cerutti. My aunt paid."),
+              # CD: admitted to the Conservatoire at ten
+              L("The Conservatoire took me at ten. I was going to be a pianist."),
+              # CD: studied piano first, then found his vocation in composition
+              L("Then I found I'd rather invent the music than practise it.")),
+            Q("How should it be played?",
+              # marked andante très expressif, in 9/8
+              L("Andante, très expressif. Slowly, but never heavy."),
+              # D-flat major
+              L("In D-flat major, mostly on the black keys. Let it float."),
+              L("As if you were remembering it, not reading it.")),
+            Q("Did you know it would become so famous?",
+              L("Famous? It was a small piece in a suite I nearly hid."),
+              # planned for Fantasia (1940), cut for running time
+              L("Disney nearly put it in Fantasia, with herons. They ran out of time."),
+              L("I'd have chosen something later. Nobody asks the composer.")),
+            Q("Does it belong with the other movements?",
+              # Prélude, Menuet, Clair de lune, Passepied
+              L("It sits between a Menuet and a Passepied. Old dances, and then this."),
+              # the Passepied was first composed as a Pavane
+              L("Even the Passepied changed its name. It was a Pavane once."),
+              L("Play the whole suite once. Then you may play this alone forever.")),
+        ],
+        close=[
+            L("The moon is behind the clouds again. Goodnight."),
+            L("Listen to the last chords. They're the part I like best."),
+            L("Go quietly. Verlaine would have walked you home."),
+            me("The arpeggios dissolve, and the window goes dark."),
+        ]),
+
+    # ---- Chopin, Nocturnes ---------------------------------------------------------
+    "Nocturnes, Op. 9 Nos. 1–3, Op. 27 No. 2, Op. 48 No. 1": dict(
+        # src: W+"Nocturnes_(Chopin)", W+"Nocturnes,_Op._9_(Chopin)", W+"Nocturnes,_Op._27_(Chopin)",
+        # W+"Nocturnes,_Op._48_(Chopin)" and the NOTES unless noted (fetched Oct 2026);
+        # FC = W+"Frédéric_Chopin"
+        open=[
+            # FC: preferred playing in his own apartment for small groups of friends
+            L("Come in, but only you. I play best for a few friends, in my own rooms."),
+            # FC: he meant to go to Italy; unrest sent him to Paris
+            L("Welcome to Paris. I meant to go to Italy, you know."),
+            # FC: an annual concert at the Salle Pleyel, which seated three hundred
+            L("Sit near the piano. The Salle Pleyel holds three hundred. This room holds us."),
+            L("Shh. The lamp is low. Nocturnes don't like bright rooms."),
+        ],
+        qa=[
+            Q("Did you invent the nocturne?",
+              # the form was developed by the Irish composer John Field
+              L("No, John Field did. I only took it further."),
+              # Field is said to have called him a "sickroom talent"
+              L("Field heard mine and called me a sickroom talent. I still admire him."),
+              # FC: more structured and deeper than Field's; agitated middle sections
+              L("His were lovely songs. I gave mine storms in the middle.")),
+            Q("Why do the nocturnes sound like singing?",
+              # Liszt insisted they were influenced by Bellini's bel canto arias
+              L("Liszt says I learned it from Bellini's arias. He isn't wrong."),
+              # FC: Friederike Müller: "does not know how to join two notes together"
+              L("The worst thing a pupil can do is not know how to join two notes together."),
+              # song-like right-hand melody over left-hand broken chords
+              L("The right hand sings. The left hand breathes for it.")),
+            Q("Who was Op. 9 for?",
+              # dedicated to Madame Marie Pleyel; his first published set
+              L("Madame Marie Pleyel. It's my first set of nocturnes in print."),
+              L("A Pleyel, like my pianos. Paris is a small town.",
+                unsure="Marie Pleyel's link to the Pleyel piano firm is not in the fetched sources"),
+              L("Three nocturnes, three moods. She may choose her favourite.")),
+            Q("Is the E-flat nocturne your favourite?",
+              # often regarded as his most famous piece; written at about twenty
+              L("Everyone else's favourite. I wrote it at about twenty."),
+              # the melody returns three times, more ornamented each time
+              L("The melody comes back three times, dressed more richly each time."),
+              # senza tempo in the penultimate bar
+              L("Wait for the bar near the end marked senza tempo. Then I let go of time.")),
+            Q("How much rubato should I use?",
+              L("The left hand keeps time. The right hand may borrow, then pay back.",
+                unsure="the borrow-and-repay image is not in the fetched sources"),
+              # FC: Müller: he hated lingering, dragging and misplaced rubato; strict rhythm
+              L("I hate dragging and misplaced rubato. Rhythm first."),
+              L("Steal a little time, never the whole bar.")),
+            Q("Op. 27 No. 2 has two voices singing together. Who are they?",
+              # Huneker: "a song of the sweet summer of two souls"
+              L("A critic will call it a song of two souls. I give no names."),
+              # FC: he never named an instrumental work beyond genre and number (bar the Funeral March)
+              L("I don't name my pieces. Genre and number; the rest is yours."),
+              # Johnston on the main cadence near the end
+              L("Wait for the cadence near the end. That's where they meet.")),
+            Q("The C minor nocturne is so heavy. What happened?",
+              # Op. 48 written in 1841; FC: summers at Nohant with Sand, 1839–1846
+              L("It's 1841, and the summers at Nohant are long. Let the music say the rest.",
+                unsure="that Op. 48 was written at Nohant is not confirmed"),
+              # middle section a chorale in C major, then doppio movimento agitato
+              L("A chorale in the middle, in C major. Then it breaks into double speed."),
+              # Huneker: "the noblest nocturne of them all"; Niecks and Willeby thought it overrated
+              L("Someone will call it the noblest of them all. Others will say it's overrated.")),
+            Q("Do you miss Poland?",
+              # FC: left Warsaw less than a month before the November 1830 Uprising
+              L("I left Warsaw less than a month before the uprising. I think of it every day."),
+              # FC: his sister Ludwika took his heart to Warsaw
+              L("My sister will carry my heart back to Warsaw. The rest of me stays in Paris."),
+              # FC: born in Żelazowa Wola, west of Warsaw
+              L("I was born in Żelazowa Wola, west of Warsaw. The nights there were quiet like this.")),
+        ],
+        close=[
+            L("The candle is guttering. One more nocturne, then sleep."),
+            L("Don't applaud. Just stay a moment in the quiet."),
+            L("Go home softly. The night is a better title than any I could give."),
+            me("The last chord hangs in the air, and he is gone before it fades."),
         ]),
 }

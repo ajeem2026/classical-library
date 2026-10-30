@@ -13,7 +13,7 @@ plan:             ## dry run: show how staged files would be titled
 	$(PY) -I tools/retag.py $(STAGING) $(LIBRARY)
 
 download:         ## fetch every catalogue track not yet staged
-	$(PY) -I tools/download.py $(STAGING)
+	$(PY) -I tools/download.py $(STAGING) $(LIBRARY)
 
 tag:              ## retag staged files and move them into the library
 	$(PY) -I tools/retag.py $(STAGING) $(LIBRARY) --apply

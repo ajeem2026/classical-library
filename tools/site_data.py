@@ -8,7 +8,7 @@ import json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from catalogue import ITEM_URL, LICENCE, LICENCE_URL, MKEYS, NOTES, album
 from dreams import DREAMS
-from library import ROOT, listing, plan, source_url
+from library import ROOT, listing, plan
 
 library = sys.argv[1] if len(sys.argv) > 1 else None
 if library:
@@ -139,10 +139,13 @@ for t in tracks:
         works[key] = dict(
             id=f"w{len(works)+1}", composer=w["composer"], surname=w["surname"],
             album=album(w), work=w["work"], catalogue=w["cat"], key=w["key"], performers=w["perf"],
-            licence=LICENCE, licence_url=LICENCE_URL, reference=w["ref"],
+            licence=w.get("licence", LICENCE), licence_url=w.get("licence_url", LICENCE_URL),
+            source=w.get("source", ITEM_URL), credit=w.get("credit", ""), reference=w["ref"],
             note=w.get("note", ""), dream=dream(w), tracks=[])
     entry = dict(n=t["n"], title=t["title"], label=t["label"] or album(w),
-                 url=source_url(t["src"]), local="media/" + t["dest"].replace(os.sep, "/"))
+                 url=t["url"], local="media/" + t["dest"].replace(os.sep, "/"))
+    if t["perf"] != w["perf"]:
+        entry["performer"] = t["perf"]
     path = os.path.join(library, t["dest"]) if library else None
     if path and os.path.exists(path):
         entry["duration"] = round(MP3(path).info.length)

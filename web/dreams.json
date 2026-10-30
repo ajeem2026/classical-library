@@ -4222,5 +4222,533 @@
     ]
    }
   ]
+ },
+ "w25": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Come in, quietly. The candles are low and the piano is still warm."
+   },
+   {
+    "who": "them",
+    "text": "Welcome. I’m copying out a sonata for my pupil, the young Countess Guicciardi."
+   },
+   {
+    "who": "them",
+    "text": "Speak up a little, will you? My ears have been ringing for some time."
+   },
+   {
+    "who": "them",
+    "text": "Sit. Vienna knows me for improvising. Tonight I’ll play something already written down."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The candle’s nearly out. Let the triplets carry you home."
+   },
+   {
+    "who": "them",
+    "text": "The Presto is coming. Hold on to something."
+   },
+   {
+    "who": "them",
+    "text": "Go now. And play it softly, whatever they tell you."
+   },
+   {
+    "who": "me",
+    "text": "The triplets keep turning, and his voice sinks under them."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Did you call it the Moonlight Sonata?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Never. I wrote ‘Sonata quasi una fantasia’. The moonlight belongs to a poet."
+     },
+     {
+      "who": "them",
+      "text": "A poet called Rellstab saw moonlight on a lake in it, in 1824. A pretty picture."
+     },
+     {
+      "who": "them",
+      "text": "Moonlight? Some hear a funeral march. Let them argue."
+     }
+    ]
+   },
+   {
+    "ask": "Why ‘quasi una fantasia’?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Because it breaks the usual order. The fast music waits until the end."
+     },
+     {
+      "who": "them",
+      "text": "Its twin, the other sonata of Op. 27, has the same title. Both wander."
+     },
+     {
+      "who": "them",
+      "text": "A sonata that sounds as if I’m making it up as I go."
+     }
+    ]
+   },
+   {
+    "ask": "Who was Giulietta?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "My pupil, Countess Julie Guicciardi. The sonata carries her name."
+     },
+     {
+      "who": "them",
+      "text": "A pupil. Leave it there."
+     },
+     {
+      "who": "them",
+      "text": "Someone I taught, and thought about more than I should have."
+     }
+    ]
+   },
+   {
+    "ask": "How should the first movement be played?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "With the utmost delicacy, and without dampers. I wrote it at the top."
+     },
+     {
+      "who": "them",
+      "text": "Softly. It never rises above piano. If you play it loud, you’ve misread me."
+     },
+     {
+      "who": "them",
+      "text": "On my piano the pedal can stay down. Yours rings far longer, so be careful."
+     }
+    ]
+   },
+   {
+    "ask": "Everyone wants the first movement. Does that annoy you?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Surely I’ve written better things. I told Czerny so."
+     },
+     {
+      "who": "them",
+      "text": "It was popular even in my day. Popularity is a strange reward."
+     },
+     {
+      "who": "them",
+      "text": "They stop listening after the first page. The storm is at the end."
+     }
+    ]
+   },
+   {
+    "ask": "What is the middle movement?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A little minuet in D-flat major. The shortest of the three."
+     },
+     {
+      "who": "them",
+      "text": "Liszt is said to call it a flower between two abysses. Rather good, for Liszt."
+     },
+     {
+      "who": "them",
+      "text": "A breath between the night and the storm."
+     }
+    ]
+   },
+   {
+    "ask": "Why is the finale so violent?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Because the weight belongs at the end. Here the storm comes last."
+     },
+     {
+      "who": "them",
+      "text": "Most of it is marked piano. The sforzandos do the shouting."
+     },
+     {
+      "who": "them",
+      "text": "Two hundred years on, someone will still call its ferocity astonishing. Good."
+     }
+    ]
+   },
+   {
+    "ask": "Were you already losing your hearing?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "It began a few years before this, with a ringing that never stops."
+     },
+     {
+      "who": "them",
+      "text": "I’ve written to Wegeler and Amenda about it. Few others know."
+     },
+     {
+      "who": "them",
+      "text": "My doctor wants me in Heiligenstadt next spring. I don’t know yet what I’ll write there."
+     }
+    ]
+   }
+  ]
+ },
+ "w26": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Come in. It’s 1890, or near it. I’m writing pieces I won’t let anyone print for years."
+   },
+   {
+    "who": "them",
+    "text": "Welcome. My publisher wants my old suite back. I’m correcting it, and wincing."
+   },
+   {
+    "who": "them",
+    "text": "Shh. Listen to the arpeggios first. We can talk when the moon comes up."
+   },
+   {
+    "who": "them",
+    "text": "Good evening. Sit by the window. The light there is better than the lamp."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The moon is behind the clouds again. Goodnight."
+   },
+   {
+    "who": "them",
+    "text": "Listen to the last chords. They’re the part I like best."
+   },
+   {
+    "who": "them",
+    "text": "Go quietly. Verlaine would have walked you home."
+   },
+   {
+    "who": "me",
+    "text": "The arpeggios dissolve, and the window goes dark."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Where does the title come from?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "From Verlaine’s poem. His moonlight is sad and beautiful, like this."
+     },
+     {
+      "who": "them",
+      "text": "I first called it ‘Promenade sentimentale’. Also Verlaine. Moonlight was better."
+     },
+     {
+      "who": "them",
+      "text": "Verlaine’s poem mentions bergamasques. So the whole suite took the name."
+     }
+    ]
+   },
+   {
+    "ask": "Why did you wait so long to publish it?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "They were young pieces, not in my later style. I didn’t want them seen."
+     },
+     {
+      "who": "them",
+      "text": "A publisher thought my name would sell them by 1905. He was right, irritatingly."
+     },
+     {
+      "who": "them",
+      "text": "Nobody knows how much I rewrote. I prefer it that way."
+     }
+    ]
+   },
+   {
+    "ask": "Are you an Impressionist?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Anyone who uses that word is an imbecile. I’ve said so."
+     },
+     {
+      "who": "them",
+      "text": "The Conservatoire used it as an insult first, about my Printemps."
+     },
+     {
+      "who": "them",
+      "text": "I write music. Leave the brushstrokes to the painters."
+     }
+    ]
+   },
+   {
+    "ask": "What do you think of Chopin?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The greatest of them all. Through the piano he discovered everything."
+     },
+     {
+      "who": "them",
+      "text": "One day I’ll edit his music for Durand. I owe him respectful gratitude."
+     },
+     {
+      "who": "them",
+      "text": "My first real teacher, Madame Mauté, said she’d been his pupil."
+     }
+    ]
+   },
+   {
+    "ask": "How did you start playing?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "In Cannes, at seven, with an Italian called Cerutti. My aunt paid."
+     },
+     {
+      "who": "them",
+      "text": "The Conservatoire took me at ten. I was going to be a pianist."
+     },
+     {
+      "who": "them",
+      "text": "Then I found I’d rather invent the music than practise it."
+     }
+    ]
+   },
+   {
+    "ask": "How should it be played?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Andante, très expressif. Slowly, but never heavy."
+     },
+     {
+      "who": "them",
+      "text": "In D-flat major, mostly on the black keys. Let it float."
+     },
+     {
+      "who": "them",
+      "text": "As if you were remembering it, not reading it."
+     }
+    ]
+   },
+   {
+    "ask": "Did you know it would become so famous?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Famous? It was a small piece in a suite I nearly hid."
+     },
+     {
+      "who": "them",
+      "text": "Disney nearly put it in Fantasia, with herons. They ran out of time."
+     },
+     {
+      "who": "them",
+      "text": "I’d have chosen something later. Nobody asks the composer."
+     }
+    ]
+   },
+   {
+    "ask": "Does it belong with the other movements?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "It sits between a Menuet and a Passepied. Old dances, and then this."
+     },
+     {
+      "who": "them",
+      "text": "Even the Passepied changed its name. It was a Pavane once."
+     },
+     {
+      "who": "them",
+      "text": "Play the whole suite once. Then you may play this alone forever."
+     }
+    ]
+   }
+  ]
+ },
+ "w27": {
+  "open": [
+   {
+    "who": "them",
+    "text": "Come in, but only you. I play best for a few friends, in my own rooms."
+   },
+   {
+    "who": "them",
+    "text": "Welcome to Paris. I meant to go to Italy, you know."
+   },
+   {
+    "who": "them",
+    "text": "Sit near the piano. The Salle Pleyel holds three hundred. This room holds us."
+   },
+   {
+    "who": "them",
+    "text": "Shh. The lamp is low. Nocturnes don’t like bright rooms."
+   }
+  ],
+  "close": [
+   {
+    "who": "them",
+    "text": "The candle is guttering. One more nocturne, then sleep."
+   },
+   {
+    "who": "them",
+    "text": "Don’t applaud. Just stay a moment in the quiet."
+   },
+   {
+    "who": "them",
+    "text": "Go home softly. The night is a better title than any I could give."
+   },
+   {
+    "who": "me",
+    "text": "The last chord hangs in the air, and he is gone before it fades."
+   }
+  ],
+  "qa": [
+   {
+    "ask": "Did you invent the nocturne?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "No, John Field did. I only took it further."
+     },
+     {
+      "who": "them",
+      "text": "Field heard mine and called me a sickroom talent. I still admire him."
+     },
+     {
+      "who": "them",
+      "text": "His were lovely songs. I gave mine storms in the middle."
+     }
+    ]
+   },
+   {
+    "ask": "Why do the nocturnes sound like singing?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Liszt says I learned it from Bellini’s arias. He isn’t wrong."
+     },
+     {
+      "who": "them",
+      "text": "The worst thing a pupil can do is not know how to join two notes together."
+     },
+     {
+      "who": "them",
+      "text": "The right hand sings. The left hand breathes for it."
+     }
+    ]
+   },
+   {
+    "ask": "Who was Op. 9 for?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Madame Marie Pleyel. It’s my first set of nocturnes in print."
+     },
+     {
+      "who": "them",
+      "text": "A Pleyel, like my pianos. Paris is a small town."
+     },
+     {
+      "who": "them",
+      "text": "Three nocturnes, three moods. She may choose her favourite."
+     }
+    ]
+   },
+   {
+    "ask": "Is the E-flat nocturne your favourite?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "Everyone else’s favourite. I wrote it at about twenty."
+     },
+     {
+      "who": "them",
+      "text": "The melody comes back three times, dressed more richly each time."
+     },
+     {
+      "who": "them",
+      "text": "Wait for the bar near the end marked senza tempo. Then I let go of time."
+     }
+    ]
+   },
+   {
+    "ask": "How much rubato should I use?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "The left hand keeps time. The right hand may borrow, then pay back."
+     },
+     {
+      "who": "them",
+      "text": "I hate dragging and misplaced rubato. Rhythm first."
+     },
+     {
+      "who": "them",
+      "text": "Steal a little time, never the whole bar."
+     }
+    ]
+   },
+   {
+    "ask": "Op. 27 No. 2 has two voices singing together. Who are they?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "A critic will call it a song of two souls. I give no names."
+     },
+     {
+      "who": "them",
+      "text": "I don’t name my pieces. Genre and number; the rest is yours."
+     },
+     {
+      "who": "them",
+      "text": "Wait for the cadence near the end. That’s where they meet."
+     }
+    ]
+   },
+   {
+    "ask": "The C minor nocturne is so heavy. What happened?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "It’s 1841, and the summers at Nohant are long. Let the music say the rest."
+     },
+     {
+      "who": "them",
+      "text": "A chorale in the middle, in C major. Then it breaks into double speed."
+     },
+     {
+      "who": "them",
+      "text": "Someone will call it the noblest of them all. Others will say it’s overrated."
+     }
+    ]
+   },
+   {
+    "ask": "Do you miss Poland?",
+    "answers": [
+     {
+      "who": "them",
+      "text": "I left Warsaw less than a month before the uprising. I think of it every day."
+     },
+     {
+      "who": "them",
+      "text": "My sister will carry my heart back to Warsaw. The rest of me stays in Paris."
+     },
+     {
+      "who": "them",
+      "text": "I was born in Żelazowa Wola, west of Warsaw. The nights there were quiet like this."
+     }
+    ]
+   }
+  ]
  }
 }

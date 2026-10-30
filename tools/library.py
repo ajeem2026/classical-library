@@ -1,7 +1,8 @@
-"""Shared track plan: maps Musopen source files to verified titles and library paths.
+"""Shared track plan: maps source files to verified titles and library paths.
 
 Every source path is relative to the "Musopen DVD/" folder inside the zip, e.g.
 "Brahms - Symphony No 3/Symphony No. 3 in F Major, Op. 90 - II. Andante.mp3".
+Works with their own "files" (catalogue.py) are staged under extra/ instead.
 """
 import json, os, re, urllib.parse
 
@@ -15,12 +16,22 @@ SKIP = ["(take 2)"]  # Brahms 2/III exists in two takes; keep take 1
 
 
 def listing():
-    """Source paths and sizes from the archive.org zip listing snapshot."""
+    """Source paths and sizes from the archive.org zip listing snapshot, plus the staging
+    paths of works that name their own files (sizes unknown until fetched)."""
     out = {}
     for name, size in json.load(open(LISTING)):
         if name.startswith("Musopen DVD/"):
             out[name[len("Musopen DVD/"):]] = size
+    for w in WORKS:
+        for n, f in enumerate(w.get("files", []), 1):
+            out[extra_src(w, n, f)] = None
     return out
+
+
+def extra_src(w, n, f):
+    """Where a work's own file is staged: extra/<album>/<nn>.<original extension>."""
+    ext = os.path.splitext(urllib.parse.unquote(f["get"]))[1]
+    return f"extra/{safe(album(w))}/{n:02d}{ext}"
 
 
 def source_url(rel):
@@ -49,14 +60,17 @@ def order_key(w, name):
 
 def plan(sources):
     """Return (tracks, problems) for an iterable of source paths."""
-    sources = [s for s in sources if s.endswith(".mp3")
+    sources = [s for s in sources if (s.endswith(".mp3") or s.startswith("extra/"))
                and not os.path.basename(s).startswith("._") and not any(k in s for k in SKIP)]
     tracks, problems = [], []
     for w in WORKS:
-        files = [s for s in sources if os.path.dirname(s) == w["src"]]
-        if "match" in w:
-            files = [s for s in files if w["match"] in os.path.basename(s)]
-        files.sort(key=lambda s: order_key(w, os.path.basename(s)))
+        if "files" in w:
+            files = [s for n, f in enumerate(w["files"], 1) if (s := extra_src(w, n, f)) in sources]
+        else:
+            files = [s for s in sources if os.path.dirname(s) == w["src"]]
+            if "match" in w:
+                files = [s for s in files if w["match"] in os.path.basename(s)]
+            files.sort(key=lambda s: order_key(w, os.path.basename(s)))
         if len(files) != len(w["mov"]):
             problems.append(f"{album(w)}: {len(files)} files for {len(w['mov'])} movements")
             continue
@@ -68,7 +82,10 @@ def plan(sources):
                 label, fname = f"{ROMAN[n-1]}. {mov}", f"{n:02d} {safe(mov)}.mp3"
             else:
                 label, fname = mov, f"{n:02d} {safe(mov)}.mp3"
+            own = w["files"][n - 1] if "files" in w else {}
             tracks.append(dict(w=w, n=n, total=len(w["mov"]), src=src, label=label,
                                title=f"{alb}: {label}" if label else alb,
-                               dest=os.path.join(w["surname"], safe(alb), fname)))
+                               dest=os.path.join(w["surname"], safe(alb), fname),
+                               url=own.get("url") or source_url(src), get=own.get("get") or source_url(src),
+                               perf=own.get("perf", w["perf"]), page=own.get("page")))
     return tracks, problems
